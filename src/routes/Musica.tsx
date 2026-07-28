@@ -1,21 +1,23 @@
 import { useNavigate } from 'react-router-dom';
-import { Card, Label, Chip } from '../components/ui';
+import { Card, Label } from '../components/ui';
 import { MUSIC } from '../data/content';
+import { useT } from '../i18n';
 
 export function Musica() {
   const nav = useNavigate();
+  const t = useT();
   return (
     <main className="screen">
       <header className="appbar app-chrome">
         <div>
-          <button className="chip" onClick={() => nav('/')}>← Oggi</button>
-          <h1 className="t-screen" style={{ marginTop: 8 }}>Musica</h1>
+          <button className="chip" onClick={() => nav('/')}>← {t.tabToday}</button>
+          <h1 className="t-screen" style={{ marginTop: 8 }}>{t.music}</h1>
         </div>
       </header>
 
       <div className="stack">
         <Card>
-          <Label>Per la pratica</Label>
+          <Label>{t.forPractice}</Label>
           <div style={{ height: 'var(--s2)' }} />
           {MUSIC.map((m) => (
             <a
@@ -36,14 +38,14 @@ export function Musica() {
         </Card>
 
         <Card>
-          <Label>I tuoi link</Label>
+          <Label>{t.yourLinks}</Label>
           <p className="empty" style={{ padding: 'var(--s4) 0 0' }}>
-            Qui potrai salvare le tue playlist. Arriva con M8.
+            {t.yourLinksSoon}
           </p>
         </Card>
 
         <p className="t-second" style={{ textAlign: 'center', color: 'var(--dim)' }}>
-          Solo collegamenti esterni: nessuna musica è contenuta nell’app. <Chip>scelta di design</Chip>
+          {t.musicNote}
         </p>
       </div>
     </main>

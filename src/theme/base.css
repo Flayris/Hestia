@@ -18,10 +18,14 @@ body {
   color: var(--ink);
 
   background:
-    radial-gradient(340px 300px at 82% 4%, rgba(255, 236, 180, 0.70), transparent 62%),
+    radial-gradient(340px 300px at 82% 4%, var(--glow), transparent 62%),
     linear-gradient(180deg, var(--sky) 0%, var(--marble1) 38%, var(--marble2) 100%);
   background-attachment: fixed;
 }
+
+/* Di giorno il sole; di notte lo stesso punto di luce, freddo e più tenue. */
+:root { --glow: rgba(255, 236, 180, 0.70); }
+:root[data-theme='dark'] { --glow: rgba(180, 205, 235, 0.16); }
 
 /* La chrome dell'app non è selezionabile; il testo dei contenuti sì. */
 .app-chrome {
@@ -54,11 +58,13 @@ a { color: var(--gold-ink); }
 
 .t-clock {
   font-family: var(--font-serif);
-  font-size: 34px;
+  font-size: 22px;
   font-weight: 500;
   line-height: 1.1;
   font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
   color: var(--ink2);
+  text-align: center;
 }
 
 .t-screen {

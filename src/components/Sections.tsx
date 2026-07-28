@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { Label } from './ui';
+import { useT } from '../i18n';
 
 /* Blocchi ricorrenti delle schede — SPEC.md §3.3 */
 
@@ -29,8 +30,10 @@ export function ListBlock({ title, items }: { title: string; items: string[] }) 
 }
 
 /** Invocazione o formula rituale: citazione rientrata, in serif. */
-export function Invocation({ text, title = 'Invocazione' }: { text?: string; title?: string }) {
+export function Invocation({ text, title }: { text?: string; title?: string }) {
+  const t = useT();
   if (!text) return null;
+  title = title ?? t.invocation;
   return (
     <Block title={title}>
       <blockquote className="invocation">{text}</blockquote>
@@ -39,10 +42,11 @@ export function Invocation({ text, title = 'Invocazione' }: { text?: string; tit
 }
 
 export function Source({ url }: { url?: string }) {
+  const t = useT();
   if (!url) return null;
   return (
     <a className="source-link" href={url} target="_blank" rel="noreferrer">
-      Fonte: Theoi ↗
+      {t.source}
     </a>
   );
 }

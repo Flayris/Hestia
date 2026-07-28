@@ -17,11 +17,14 @@ import './theme/base.css';
 import './theme/components.css';
 
 import { App } from './App';
+import { SettingsProvider } from './settings';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <HashRouter>
-      <App />
-    </HashRouter>
+    <SettingsProvider>
+      <HashRouter>
+        <App />
+      </HashRouter>
+    </SettingsProvider>
   </StrictMode>,
 );

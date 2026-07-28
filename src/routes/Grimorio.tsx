@@ -5,21 +5,22 @@ import { BottomSheet } from '../components/BottomSheet';
 import { Block, TextBlock, ListBlock, Invocation, Source } from '../components/Sections';
 import {
   CATEGORIES, RITES, CONCEPTS, FESTIVALS, MONTHS,
-  byId, nameOf, categoryOf, deitiesOf,
+  byId, nameOf, deitiesOf,
 } from '../data/content';
 import type { CategoryKey, Festival, Rite, Concept } from '../types';
 import { useMyGods } from '../store';
+import { useT } from '../i18n';
 
 type Tab = 'dei' | 'riti' | 'feste' | 'altro';
 
-const TABS = [
-  { value: 'dei' as const, label: 'Dèi' },
-  { value: 'riti' as const, label: 'Riti' },
-  { value: 'feste' as const, label: 'Feste' },
-  { value: 'altro' as const, label: 'Altro' },
-];
-
 export function Grimorio() {
+  const t = useT();
+  const TABS = [
+    { value: 'dei' as const, label: t.tabGods },
+    { value: 'riti' as const, label: t.tabRites },
+    { value: 'feste' as const, label: t.tabFestivals },
+    { value: 'altro' as const, label: t.tabOther },
+  ];
   const [tab, setTab] = useState<Tab>('dei');
   const [cat, setCat] = useState<CategoryKey | null>(null);
   const [deityId, setDeityId] = useState<string | null>(null);
@@ -41,7 +42,7 @@ export function Grimorio() {
   return (
     <main className="screen">
       <header className="appbar app-chrome">
-        <h1 className="t-screen">Grimorio</h1>
+        <h1 className="t-screen">{t.grimoire}</h1>
       </header>
 
       <div className="stack">
@@ -66,14 +67,15 @@ export function Grimorio() {
 /* --------------------------------- dèi --------------------------------- */
 
 function CategoryGrid({ onPick }: { onPick: (k: CategoryKey) => void }) {
+  const t = useT();
   return (
     <div className="cat-grid">
       {CATEGORIES.map((c) => (
         <button key={c.key} className="cat-tile" onClick={() => onPick(c.key)}>
           <span className="cat-tile__sym">{c.sym}</span>
-          <span className="cat-tile__label">{c.label}</span>
-          <span className="cat-tile__desc">{c.desc}</span>
-          <span className="cat-tile__count">{c.count} voci</span>
+          <span className="cat-tile__label">{t.cat[c.key][0]}</span>
+          <span className="cat-tile__desc">{t.cat[c.key][1]}</span>
+          <span className="cat-tile__count">{t.entries(c.count)}</span>
         </button>
       ))}
     </div>
@@ -83,12 +85,12 @@ function CategoryGrid({ onPick }: { onPick: (k: CategoryKey) => void }) {
 function DeityList({ cat, onBack, onOpen }: {
   cat: CategoryKey; onBack: () => void; onOpen: (id: string) => void;
 }) {
-  const c = categoryOf(cat);
+  const t = useT();
   return (
     <>
-      <button className="chip" onClick={onBack} style={{ alignSelf: 'flex-start' }}>← categorie</button>
+      <button className="chip" onClick={onBack} style={{ alignSelf: 'flex-start' }}>{t.backToCategories}</button>
       <Card>
-        <Label>{c.label}</Label>
+        <Label>{t.cat[cat][0]}</Label>
         <div style={{ height: 'var(--s2)' }} />
         {deitiesOf(cat).map((d) => (
           <button key={d.id} className="row-item" onClick={() => onOpen(d.id)}>
@@ -109,6 +111,7 @@ function DeityList({ cat, onBack, onOpen }: {
 
 function DeitySheet({ id, onClose }: { id: string | null; onClose: () => void }) {
   const { has, toggle } = useMyGods();
+  const t = useT();
   const d = id ? byId(id) : undefined;
 
   return (
@@ -127,7 +130,7 @@ function DeitySheet({ id, onClose }: { id: string | null; onClose: () => void })
               className="star"
               onClick={() => toggle(d.id)}
               aria-pressed={has(d.id)}
-              aria-label={has(d.id) ? `Togli ${d.n} dai tuoi dèi` : `Aggiungi ${d.n} ai tuoi dèi`}
+              aria-label={has(d.id) ? t.removeFromYours(d.n) : t.addToYours(d.n)}
             >
               {has(d.id) ? '★' : '☆'}
             </button>
@@ -135,18 +138,18 @@ function DeitySheet({ id, onClose }: { id: string | null; onClose: () => void })
 
           <p className="t-prose">{d.intro}</p>
 
-          <ListBlock title="Domini" items={d.dom} />
-          <ListBlock title="Simboli e attributi" items={d.sim} />
-          <ListBlock title="Offerte" items={d.off} />
+          <ListBlock title={t.domains} items={d.dom} />
+          <ListBlock title={t.symbols} items={d.sim} />
+          <ListBlock title={t.offerings} items={d.off} />
 
           <hr className="divider" />
 
-          <TextBlock title="Nell'antichità" text={d.allora} />
-          <TextBlock title="Oggi puoi" text={d.adesso} />
+          <TextBlock title={t.backThen} text={d.allora} />
+          <TextBlock title={t.nowYouCan} text={d.adesso} />
           <Invocation text={d.inno} />
 
           <div className="wrap" style={{ marginTop: 'var(--s2)' }}>
-            {d.cats.map((k) => <span key={k} className="chip">{categoryOf(k).label}</span>)}
+            {d.cats.map((k) => <span key={k} className="chip">{t.cat[k][0]}</span>)}
           </div>
           <Source url={d.src} />
         </div>
@@ -176,6 +179,7 @@ function RiteList({ items, onOpen }: {
 }
 
 function RiteSheet({ item, onClose }: { item: Rite | Concept | null; onClose: () => void }) {
+  const t = useT();
   const inno = item && 'inno' in item ? item.inno : undefined;
   return (
     <BottomSheet open={!!item} onClose={onClose} title={item?.n}>
@@ -184,9 +188,9 @@ function RiteSheet({ item, onClose }: { item: Rite | Concept | null; onClose: ()
           <p className="t-label" style={{ marginTop: -8 }}>{item.sub}</p>
           <p className="t-prose">{item.cos}</p>
           <hr className="divider" />
-          <TextBlock title="Nell'antichità" text={item.allora} />
-          <TextBlock title="Oggi puoi" text={item.adesso} />
-          <Invocation text={inno} title="Formula da pronunciare" />
+          <TextBlock title={t.backThen} text={item.allora} />
+          <TextBlock title={t.nowYouCan} text={item.adesso} />
+          <Invocation text={inno} title={t.formula} />
         </div>
       )}
     </BottomSheet>
@@ -196,13 +200,14 @@ function RiteSheet({ item, onClose }: { item: Rite | Concept | null; onClose: ()
 /* --------------------------------- feste -------------------------------- */
 
 function FestivalList({ onOpen }: { onOpen: (month: string, f: Festival) => void }) {
+  const t = useT();
   return (
     <div className="stack">
       {MONTHS.map((month, i) => (
         <Card key={month}>
           <div className="month-title">
             <span className="month-title__n">{month}</span>
-            <span className="month-title__i">mese {i + 1}</span>
+            <span className="month-title__i">{t.monthN(i + 1)}</span>
           </div>
           {(FESTIVALS[month] ?? []).map((f) => (
             <button key={f.n} className="row-item" onClick={() => onOpen(month, f)}>
@@ -225,6 +230,7 @@ function FestivalSheet({ data, onClose, onDeity }: {
   onClose: () => void;
   onDeity: (id: string) => void;
 }) {
+  const t = useT();
   return (
     <BottomSheet open={!!data} onClose={onClose} title={data?.f.n}>
       {data && (
@@ -232,10 +238,10 @@ function FestivalSheet({ data, onClose, onDeity }: {
           <p className="t-label" style={{ marginTop: -8 }}>{data.month} {data.f.d}</p>
           <p className="t-prose">{data.f.cos}</p>
           <hr className="divider" />
-          <TextBlock title="Nell'antichità" text={data.f.allora} />
-          <TextBlock title="Oggi puoi" text={data.f.adesso} />
+          <TextBlock title={t.backThen} text={data.f.allora} />
+          <TextBlock title={t.nowYouCan} text={data.f.adesso} />
           {data.f.gods.length > 0 && (
-            <Block title="Dèi onorati">
+            <Block title={t.honouredGods}>
               <div className="wrap" style={{ marginTop: 'var(--s2)' }}>
                 {data.f.gods.map((id) => (
                   <button key={id} className="chip" onClick={() => { onClose(); onDeity(id); }}>

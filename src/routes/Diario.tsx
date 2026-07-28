@@ -2,12 +2,14 @@ import { useState } from 'react';
 import { Card, Label, Button } from '../components/ui';
 import { dataEllenica, dayToDate } from '../lib/calendar';
 import { useDiary } from '../store';
+import { useT } from '../i18n';
 
 const MOODS = ['🙏', '🌿', '☀️', '🌙', '🔥', '💧'];
 
 export function Diario() {
   const today = dataEllenica();
   const { entries, add, remove } = useDiary();
+  const t = useT();
   const [text, setText] = useState('');
   const [mood, setMood] = useState<number | null>(null);
 
@@ -28,12 +30,12 @@ export function Diario() {
   return (
     <main className="screen">
       <header className="appbar app-chrome">
-        <h1 className="t-screen">Diario</h1>
+        <h1 className="t-screen">{t.diary}</h1>
       </header>
 
       <div className="stack">
         <Card>
-          <Label>Oggi · {hellenicLabel}</Label>
+          <Label>{t.diaryToday} · {hellenicLabel}</Label>
 
           <div className="mood" style={{ margin: 'var(--s3) 0' }}>
             {MOODS.map((m, i) => (
@@ -41,7 +43,7 @@ export function Diario() {
                 key={m}
                 className="mood__btn"
                 aria-pressed={mood === i}
-                aria-label={`Umore ${i + 1}`}
+                aria-label={t.mood(i + 1)}
                 onClick={() => setMood(mood === i ? null : i)}
               >
                 {m}
@@ -52,19 +54,19 @@ export function Diario() {
           <textarea
             className="field"
             rows={4}
-            placeholder="Cosa senti oggi…"
+            placeholder={t.diaryPlaceholder}
             value={text}
             onChange={(e) => setText(e.target.value)}
           />
 
           <div style={{ marginTop: 'var(--s3)', display: 'flex', justifyContent: 'flex-end' }}>
-            <Button onClick={save}>Salva</Button>
+            <Button onClick={save}>{t.save}</Button>
           </div>
         </Card>
 
         {entries.length === 0 ? (
           <Card><p className="empty" style={{ padding: 0 }}>
-            Nessuna voce ancora. Col tempo potrai rileggere cosa sentivi all’ultima Noumenía.
+            {t.diaryEmpty}
           </p></Card>
         ) : (
           entries.map((e) => (
@@ -73,7 +75,7 @@ export function Diario() {
                 <Label>{e.hellenicDate}</Label>
                 <button
                   onClick={() => remove(e.id)}
-                  aria-label="Elimina voce"
+                  aria-label={t.deleteEntry}
                   style={{ color: 'var(--dim)', fontSize: 18, padding: '4px 8px' }}
                 >
                   ×

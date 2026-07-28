@@ -1,18 +1,20 @@
 import { NavLink } from 'react-router-dom';
+import { useT } from '../i18n';
 
 /* Barra inferiore a 4 voci — SPEC.md §3. Musica e "I tuoi dèi" stanno nella Home. */
 
 const TABS = [
-  { to: '/',           label: 'Oggi',       icon: IconSun },
-  { to: '/calendario', label: 'Calendario', icon: IconMoon },
-  { to: '/grimorio',   label: 'Grimorio',   icon: IconBook },
-  { to: '/diario',     label: 'Diario',     icon: IconFeather },
+  { to: '/',           key: 'tabToday',    icon: IconSun },
+  { to: '/calendario', key: 'tabCalendar', icon: IconMoon },
+  { to: '/grimorio',   key: 'tabGrimoire', icon: IconBook },
+  { to: '/diario',     key: 'tabDiary',    icon: IconFeather },
 ] as const;
 
 export function TabBar() {
+  const t = useT();
   return (
     <nav className="tabbar app-chrome">
-      {TABS.map(({ to, label, icon: Icon }) => (
+      {TABS.map(({ to, key, icon: Icon }) => (
         <NavLink
           key={to}
           to={to}
@@ -22,7 +24,7 @@ export function TabBar() {
           {({ isActive }) => (
             <>
               <Icon filled={isActive} />
-              <span className="tab__label">{label}</span>
+              <span className="tab__label">{t[key]}</span>
             </>
           )}
         </NavLink>

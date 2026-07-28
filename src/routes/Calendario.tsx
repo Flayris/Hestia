@@ -9,12 +9,14 @@ import {
 } from '../lib/calendar';
 import { sacredDay, festivalOn, nameOf } from '../data/content';
 import { useMyGods } from '../store';
-
-const WEEKDAYS = ['L', 'M', 'M', 'G', 'V', 'S', 'D'];
+import { useSettings } from '../settings';
+import { useT } from '../i18n';
 
 export function Calendario() {
   const nav = useNavigate();
   const { ids: myGods } = useMyGods();
+  const t = useT();
+  const { settings } = useSettings();
   const oggi = dataEllenica();
 
   const [mese, setMese] = useState<HellenicMonth>(oggi.month);
@@ -32,35 +34,35 @@ export function Calendario() {
     <main className="screen">
       <header className="appbar app-chrome">
         <div className="cal-header">
-          <p className="t-label">Calendario ateniese</p>
+          <p className="t-label">{t.atticCalendar}</p>
 
           <div className="cal-nav">
             <button
               className="cal-nav__btn"
               onClick={() => setMese(shiftMonth(mese, -1))}
-              aria-label="Mese precedente"
+              aria-label={t.prevMonth}
             >‹</button>
 
             <div className="cal-nav__title">
               <h1 className="t-screen">{mese.name}</h1>
-              <p className="t-second">{etichettaAnno(mese)}</p>
+              <p className="t-second">{etichettaAnno(mese, settings.lang)}</p>
             </div>
 
             <button
               className="cal-nav__btn"
               onClick={() => setMese(shiftMonth(mese, +1))}
-              aria-label="Mese successivo"
+              aria-label={t.nextMonth}
             >›</button>
           </div>
 
           {!eMeseCorrente && (
             <button className="chip" onClick={() => setMese(oggi.month)}>
-              ↩ torna a oggi
+              {t.backToToday}
             </button>
           )}
           {mese.intercalary && (
             <p className="t-second" style={{ marginTop: 'var(--s2)', color: 'var(--terra)' }}>
-              Mese intercalare: quest’anno ellenico ha 13 lunazioni.
+              {t.intercalary}
             </p>
           )}
         </div>
@@ -69,7 +71,7 @@ export function Calendario() {
       <div className="stack">
         <Card>
           <div className="cal-head">
-            {WEEKDAYS.map((d, i) => <span key={i}>{d}</span>)}
+            {t.weekdays.map((d, i) => <span key={i}>{d}</span>)}
           </div>
 
           <div className="cal-grid">
@@ -101,15 +103,14 @@ export function Calendario() {
           </div>
 
           <div className="cal-legend">
-            <span><i className="dot dot--olive" /> rito o dedica</span>
-            <span><i className="dot dot--gold" /> festa</span>
-            <span><i className="ring" /> un tuo dio</span>
+            <span><i className="dot dot--olive" /> {t.legendRite}</span>
+            <span><i className="dot dot--gold" /> {t.legendFestival}</span>
+            <span><i className="ring" /> {t.legendYours}</span>
           </div>
         </Card>
 
         <p className="t-second" style={{ textAlign: 'center', color: 'var(--dim)' }}>
-          Il mese inizia con la Noumenía (luna nuova) e finisce col Deîpnon (luna scura);
-          date calcolate sul fuso attuale.
+          {t.calendarNote}
         </p>
       </div>
 
@@ -121,29 +122,29 @@ export function Calendario() {
         {sel != null && (
           <div className="stack">
             <p className="t-second" style={{ marginTop: -8 }}>
-              {gregorianoEsteso(mese.start + sel - 1)}
+              {gregorianoEsteso(mese.start + sel - 1, settings.lang)}
             </p>
 
-            {sel === 1 && <p className="t-body"><strong>Noumenía</strong> — la luna nuova apre il mese.</p>}
-            {sel === mese.length && <p className="t-body"><strong>Deîpnon</strong> — luna scura, l’ultimo giorno del mese.</p>}
+            {sel === 1 && <p className="t-body"><strong>Noumenía</strong> — {t.noumeniaDesc}</p>}
+            {sel === mese.length && <p className="t-body"><strong>Deîpnon</strong> — {t.deipnonDesc}</p>}
 
             {selSacred && <p className="t-body">{selSacred.note}</p>}
 
             {selFestival && (
               <div>
-                <Label>Festa</Label>
+                <Label>{t.festival}</Label>
                 <h3 className="t-section" style={{ marginTop: 4 }}>{selFestival.n}</h3>
                 <p className="t-prose" style={{ marginTop: 'var(--s2)' }}>{selFestival.cos}</p>
                 <div style={{ height: 'var(--s3)' }} />
-                <TextBlock title="Nell'antichità" text={selFestival.allora} />
+                <TextBlock title={t.backThen} text={selFestival.allora} />
                 <div style={{ height: 'var(--s3)' }} />
-                <TextBlock title="Oggi puoi" text={selFestival.adesso} />
+                <TextBlock title={t.nowYouCan} text={selFestival.adesso} />
               </div>
             )}
 
             {selGods.length > 0 && (
               <div>
-                <Label>Dèi del giorno</Label>
+                <Label>{t.godsOfDay}</Label>
                 <div className="wrap" style={{ marginTop: 'var(--s3)' }}>
                   {selGods.map((id) => (
                     <OrbItem key={id} name={nameOf(id)} onClick={() => nav(`/grimorio?dio=${id}`)} />
@@ -153,7 +154,7 @@ export function Calendario() {
             )}
 
             {!selSacred && !selFestival && (
-              <p className="empty">Giorno ordinario del mese.</p>
+              <p className="empty">{t.ordinaryDay}</p>
             )}
           </div>
         )}

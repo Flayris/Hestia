@@ -6,19 +6,22 @@
 const R = 42;
 const C = 50;
 
-export function phaseName(p: number): string {
+/** Indice della fase, da usare con `t.phases` (SPEC.md §5.2). */
+export function phaseIndex(p: number): number {
   const x = ((p % 1) + 1) % 1;
-  if (x < 0.02 || x > 0.98) return 'Luna nuova';
-  if (x < 0.23) return 'Crescente';
-  if (x < 0.27) return 'Primo quarto';
-  if (x < 0.48) return 'Gibbosa crescente';
-  if (x < 0.52) return 'Luna piena';
-  if (x < 0.73) return 'Gibbosa calante';
-  if (x < 0.77) return 'Ultimo quarto';
-  return 'Calante';
+  if (x < 0.02 || x > 0.98) return 0;
+  if (x < 0.23) return 1;
+  if (x < 0.27) return 2;
+  if (x < 0.48) return 3;
+  if (x < 0.52) return 4;
+  if (x < 0.73) return 5;
+  if (x < 0.77) return 6;
+  return 7;
 }
 
-export function MoonWidget({ phase, size = 96 }: { phase: number; size?: number }) {
+export function MoonWidget({ phase, size = 96, label }: {
+  phase: number; size?: number; label?: string;
+}) {
   const p = ((phase % 1) + 1) % 1;
   const lit = (1 - Math.cos(2 * Math.PI * p)) / 2;   // frazione illuminata
   const rx = R * Math.abs(Math.cos(2 * Math.PI * p)); // semiasse del terminatore
@@ -37,7 +40,7 @@ export function MoonWidget({ phase, size = 96 }: { phase: number; size?: number 
       height={size}
       viewBox="0 0 100 100"
       role="img"
-      aria-label={phaseName(p)}
+      aria-label={label}
     >
       <defs>
         <radialGradient id="moon-lit" cx="38%" cy="32%">
@@ -47,8 +50,8 @@ export function MoonWidget({ phase, size = 96 }: { phase: number; size?: number 
         </radialGradient>
       </defs>
 
-      {/* disco in ombra — abbastanza scuro da distinguersi dal marmo del fondo */}
-      <circle cx={C} cy={C} r={R} fill="#b9ad8e" />
+      {/* disco in ombra — il token cambia col tema, per staccare sempre dal fondo */}
+      <circle cx={C} cy={C} r={R} fill="var(--moon-shadow)" />
 
       {/* porzione illuminata — specchiata quando la luna è calante */}
       <path

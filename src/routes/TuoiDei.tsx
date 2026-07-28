@@ -1,22 +1,24 @@
 import { useNavigate } from 'react-router-dom';
 import { Card, Label, Orb } from '../components/ui';
 import { CATEGORIES, deitiesOf } from '../data/content';
+import { useT } from '../i18n';
 import { useMyGods } from '../store';
 
 export function TuoiDei() {
   const nav = useNavigate();
   const { ids, has, toggle } = useMyGods();
+  const t = useT();
 
   return (
     <main className="screen">
       <header className="appbar app-chrome">
         <div>
-          <button className="chip" onClick={() => nav('/')}>← Oggi</button>
-          <h1 className="t-screen" style={{ marginTop: 8 }}>I tuoi dèi</h1>
+          <button className="chip" onClick={() => nav('/')}>← {t.tabToday}</button>
+          <h1 className="t-screen" style={{ marginTop: 8 }}>{t.yourGods}</h1>
           <p className="t-second">
             {ids.length === 0
-              ? 'Nessuno scelto: i selezionati si evidenziano nel calendario.'
-              : `${ids.length} scelti`}
+              ? t.noneChosen
+              : t.chosen(ids.length)}
           </p>
         </div>
       </header>
@@ -26,7 +28,7 @@ export function TuoiDei() {
           const list = deitiesOf(c.key);
           return (
             <Card key={c.key}>
-              <Label>{c.sym} {c.label}</Label>
+              <Label>{c.sym} {t.cat[c.key][0]}</Label>
               <div style={{ height: 'var(--s2)' }} />
               {list.map((d) => (
                 <button key={d.id} className="row-item" onClick={() => toggle(d.id)}>

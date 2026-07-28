@@ -1,6 +1,8 @@
 import type { AppNotification } from '../types';
 import { festivalsOfMonth, MONTHLY_DAYS, nameOf } from '../data/content';
 import { dataEllenica, shiftMonth, type HellenicMonth } from './calendar';
+import { dict } from '../i18n';
+import type { Lang } from '../settings';
 
 /**
  * Centro notifiche — SPEC.md §6.
@@ -15,16 +17,19 @@ import { dataEllenica, shiftMonth, type HellenicMonth } from './calendar';
  */
 const ORIZZONTE = 7;   // giorni
 
-export function relativeDay(n: number): string {
-  if (n === 0) return 'oggi';
-  if (n === 1) return 'domani';
-  if (n === 2) return 'dopodomani';
-  return `fra ${n} giorni`;
+export function relativeDay(n: number, lang: Lang = 'it'): string {
+  const t = dict(lang);
+  if (n === 0) return t.today;
+  if (n === 1) return t.tomorrow;
+  if (n === 2) return t.dayAfter;
+  return t.inDays(n);
 }
 
 const names = (ids: string[]) => ids.map(nameOf).join(', ');
 
-export function upcoming(myGods: string[], now: Date = new Date()): AppNotification[] {
+export function upcoming(myGods: string[], now: Date = new Date(), lang: Lang = 'it'): AppNotification[] {
+  const t = dict(lang);
+  const rel = (n: number) => relativeDay(n, lang);
   const oggi = dataEllenica(now);
   const out: AppNotification[] = [];
 
@@ -39,7 +44,7 @@ export function upcoming(myGods: string[], now: Date = new Date()): AppNotificat
         id: `festival-${m.start}-${f.d}`,
         type: 'festival',
         title: f.n,
-        subtitle: `${relativeDay(away)} · ${names(f.gods)}`,
+        subtitle: `${rel(away)} · ${names(f.gods)}`,
         daysAway: away,
       });
     }
@@ -58,12 +63,12 @@ export function upcoming(myGods: string[], now: Date = new Date()): AppNotificat
         type: isDeipnon ? 'deipnon' : isNoumenia ? 'noumenia' : mine ? 'myGod' : 'monthlyDay',
         title: isDeipnon ? 'Deîpnon' : isNoumenia ? 'Noumenía' : names(d.gods),
         subtitle: isDeipnon
-          ? `${relativeDay(away)} · la Cena di Ecate chiude il mese`
+          ? `${rel(away)} · ${t.deipnonSub}`
           : isNoumenia
-            ? `${relativeDay(away)} · il mese si apre con ${names(d.gods)}`
+            ? `${rel(away)} · ${t.noumeniaSub(names(d.gods))}`
             : mine
-              ? `${relativeDay(away)} · è il giorno di uno dei tuoi dèi`
-              : `${relativeDay(away)} · giorno sacro`,
+              ? `${rel(away)} · ${t.yourGodDay}`
+              : `${rel(away)} · ${t.sacredDay}`,
         daysAway: away,
       });
     }
