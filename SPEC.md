@@ -281,9 +281,17 @@ Segmented control a 4 voci: **Dèi · Riti · Feste · Altro**.
 I totali sommano a 69 perché alcune voci stanno in più categorie (Ade = Olimpi + Ctonii,
 Poseidone = Olimpi + Marini): i record distinti sono **67**.
 
-**Scheda del dio** — nome, nome greco, epiteto; Domini; **Simboli**; **Offerte**; **Allora**;
-**Oggi puoi**; **Invocazione** (se presente); categoria; link **"Fonte: Theoi"**. In alto a
-destra una stella ☆/★ per aggiungere o togliere dai "tuoi dèi".
+**Scheda del dio** — nome, nome greco, epiteto; **introduzione narrativa**; Domini;
+**Simboli**; **Offerte**; **Allora**; **Oggi puoi**; **Invocazione** (se presente);
+categoria; link **"Fonte: Theoi"**. In alto a destra una stella ☆/★ per aggiungere o
+togliere dai "tuoi dèi".
+
+L'introduzione è un paragrafo disteso: va in cima alla scheda, in corpo 16px con interlinea
+1.6, prima delle liste. È la parte che dà il tono al Grimorio — non comprimerla in un
+riassunto.
+
+**Nota sulle invocazioni:** presenti solo per i 14 Dèi Olimpi. Per le altre 53 schede il
+blocco Invocazione semplicemente non compare, senza segnaposto né spazio vuoto.
 
 **Riti** — khérnips (acqua lustrale), spondḗ (libagione), offerta quotidiana mattino/sera,
 la triade lunare (Deîpnon–Noumenía–Agathòs Daímōn), Estia prima e ultima. Tutti con
@@ -340,12 +348,13 @@ interface Deity {
   gk: string;          // nome greco ("Ἀπόλλων")
   ep: string;          // epiteto/ruolo breve
   cats: CategoryKey[]; // una o più categorie
-  dom: string;         // domini, una frase
+  intro: string;       // introduzione narrativa che racconta la figura (~1 paragrafo)
+  dom: string[];       // domini e ambiti
   sim: string[];       // simboli e attributi
   off: string[];       // offerte coerenti con la pratica antica
-  allora: string;      // pratica o mito antico, 2 frasi
-  adesso: string;      // adattamento moderno concreto, 2 frasi
-  inno?: string;       // invocazione breve
+  allora: string;      // "Nell'antichità" — pratica o mito antico
+  adesso: string;      // "Come onorarlo/la oggi" — adattamento moderno concreto
+  inno?: string;       // invocazione breve — presente solo per i 14 Olimpi
   src?: string;        // URL della fonte (Theoi)
 }
 
@@ -531,9 +540,12 @@ Regole non negoziabili:
 4. La struttura deve permettere di **aggiungere voci** (altri eroi ed eroine, ninfe
    specifiche, epiteti) mantenendo lo schema `Deity` e queste stesse regole.
 
-> **Stato attuale:** `gods.json` (i 67 record già compilati) e il prototipo HTML — che
-> conteneva anche i testi di feste, riti e concetti — non sono al momento reperibili.
-> Vedi `PLAN.md` §6.
+> **Stato attuale: i contenuti del Grimorio ci sono tutti.**
+> `_input/Hestia - Grimorio completo_1.md` contiene, già scritti e verificati sulle fonti:
+> 67 schede di dèi ed eroi (tutte con link Theoi), 5 riti, 24 feste sui 12 mesi, 4 concetti
+> e gli 8 giorni sacri mensili. Da convertire nei JSON di `src/data/` secondo il §4.
+> Resta da procurare solo il PDF *Hekatombaion*, che serve al calendario (M4), non al
+> Grimorio.
 
 ---
 

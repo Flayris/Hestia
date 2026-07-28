@@ -201,14 +201,16 @@ Lighthouse PWA, splash screen iOS, condivisione di una scheda.
 
 | # | Questione | Impatto | Cosa serve |
 |---|---|---|---|
-| 1 | **`gods.json` mancante** | Blocca M5. È il contenuto principale dell'app: 67 schede con Simboli, Offerte, Allora, Oggi puoi, Invocazione, fonte. | Recuperare il file (email, cloud, altro PC). In alternativa va ricompilato da Theoi secondo §9 — giorni di lavoro, non ore. |
-| 2 | **Prototipo HTML mancante** | Perdiamo l'implementazione di riferimento del motore calendario **e** i testi già scritti di feste, riti e concetti (§8.2/8.3/8.4). Il motore si riscrive da Meeus; i testi no. | Stesso discorso del punto 1. |
+| ~~1~~ | ~~Contenuti del Grimorio mancanti~~ | — | ✅ **Risolto.** `_input/Hestia - Grimorio completo_1.md` contiene tutto: 67 dèi con fonte, 5 riti, 24 feste, 4 concetti, 8 giorni sacri. Resta da convertire in JSON. |
+| 2 | **Prototipo HTML mancante** | Perdiamo solo l'implementazione di riferimento del motore calendario; i testi sono salvi. Il motore si riscrive da Meeus (M1). | Nessuna azione: impatto assorbito. |
 | 3 | **Account Netlify** | Blocca M0. | Registrazione gratuita e autorizzazione al repo. |
-| 4 | **PDF *Hekatombaion*** | La spec chiede di verificare con quel PDF date attiche ed epiteti mensili. | Scaricabile dall'URL in §9 quando arriviamo a M4. |
+| 4 | **PDF *Hekatombaion*** | Serve a verificare date attiche ed epiteti mensili. | Scaricabile dall'URL in `SPEC.md` §7 quando arriviamo a M4. |
 | 5 | **Regola della Noumenía** | Le ricostruzioni moderne divergono (giorno della congiunzione vs +1 di prima visibilità). | Default +1 come da spec, ma reso configurabile in M9. |
+| 6 | **Invocazioni parziali** | Presenti solo per i 14 Olimpi; 53 schede ne sono prive. Campo opzionale, non blocca. | Se le si vuole, vanno tratte da Perseus (Inni Orfici e Omerici). Decisione rimandata. |
 
-**Ordine consigliato dei prossimi passi:** M0 e M1 non dipendono da nulla di quanto sopra
-tranne l'account Netlify. Si può partire subito da lì mentre cerchiamo gli allegati.
+**Ordine consigliato dei prossimi passi:** l'unico vero sbloccante rimasto è l'account
+Netlify per M0. M1 (motore calendario) non dipende da nulla. Il Grimorio (M5) ora ha tutti
+i contenuti che gli servono.
 
 ---
 
