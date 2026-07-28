@@ -19,7 +19,7 @@ const it = {
   deityTheme: 'Tema divino',
   defaultTheme: 'Oro di casa (predefinito)',
   yourName: 'Il tuo nome',
-  namePlaceholder: 'come vuoi essere salutata',
+  namePlaceholder: 'scegli il tuo nickname',
   close: 'Chiudi',
 
   // home
@@ -118,7 +118,7 @@ const en: Dict = {
   deityTheme: 'Divine theme',
   defaultTheme: 'Household gold (default)',
   yourName: 'Your name',
-  namePlaceholder: 'how you’d like to be greeted',
+  namePlaceholder: 'choose your nickname',
   close: 'Close',
 
   moonPhase: 'Moon phase',
