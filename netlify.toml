@@ -1,9 +1,0 @@
-# Questo sito NON serve l'app — quella sta su GitHub Pages.
-# Qui vivono solo le funzioni che consegnano le notifiche.
-[build]
-  publish = "netlify/public"
-  command = "echo nessuna build: solo funzioni"
-
-[functions]
-  directory = "netlify/functions"
-  node_bundler = "esbuild"

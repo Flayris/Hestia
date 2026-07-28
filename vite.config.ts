@@ -9,11 +9,7 @@ export default defineConfig(({ command }) => ({
   plugins: [
     react(),
     VitePWA({
-      strategies: 'injectManifest',
-      srcDir: 'src',
-      filename: 'sw.ts',
       registerType: 'autoUpdate',
-      injectManifest: { globPatterns: ['**/*.{js,css,html,woff2,svg,png,webmanifest}'] },
       includeAssets: ['icons/*.svg', 'icons/*.png'],
       manifest: {
         name: 'Hestía',

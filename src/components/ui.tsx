@@ -100,12 +100,11 @@ export function SegmentedControl<T extends string>({
 }
 
 export function Toggle({
-  checked, onChange, label, disabled,
+  checked, onChange, label,
 }: {
   checked: boolean;
   onChange: (v: boolean) => void;
   label: string;
-  disabled?: boolean;
 }) {
   return (
     <button
@@ -113,8 +112,6 @@ export function Toggle({
       aria-checked={checked}
       aria-label={label}
       className="toggle"
-      disabled={disabled}
-      style={disabled ? { opacity: 0.45 } : undefined}
       onClick={() => onChange(!checked)}
     >
       <span className="toggle__knob" />
