@@ -1,0 +1,24 @@
+# Dipendenze
+node_modules/
+venv/
+.venv/
+__pycache__/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Ambiente
+.env
+.env.local
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
+npm-debug.log*
