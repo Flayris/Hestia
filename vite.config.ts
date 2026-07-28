@@ -2,7 +2,10 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+  // In produzione il sito vive su flayris.github.io/Hestia/, quindi tutti gli
+  // asset vanno prefissati. In sviluppo resta la radice.
+  base: command === 'build' ? '/Hestia/' : '/',
   plugins: [
     react(),
     VitePWA({
@@ -26,4 +29,4 @@ export default defineConfig({
       },
     }),
   ],
-});
+}));
