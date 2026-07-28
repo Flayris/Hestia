@@ -128,9 +128,15 @@ riusabile tale e quale in caso di migrazione a Expo.
 
 ## 5. Milestone
 
-**Stato al 28 luglio 2026:** M0 ✅ (online su GitHub Pages) · M1 ✅ (motore + 17 test)
-· M2 ✅ · M3 ✅ · M4 ✅ · M5 ✅ (67 dèi, 24 feste, 5 riti, 4 concetti).
-Restano M6 (diario su IndexedDB e backup), M7 (`.ics`, opzionale), M8 (musica), M9.
+**Stato:** M0–M6 ✅ · M8 ✅ · M9 in gran parte fatta.
+
+**M7 (export `.ics`) è stata cancellata**, non rimandata: serviva a portare le date
+sacre fuori dall’app, ma il calendario ateniese vive dentro Hestía ed è più
+ricco di quanto un evento di calendario possa essere. Duplicarlo altrove
+aggiungeva manutenzione senza aggiungere niente.
+
+Oltre al piano originale: interfaccia e contenuti bilingui IT/EN, tema scuro,
+e 14 temi divini (uno per Olimpo, chiaro e scuro).
 
 
 ### M0 — Fondamenta e deploy *(mezza giornata)*

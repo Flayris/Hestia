@@ -1,63 +1,74 @@
 import { useCallback, useEffect, useState } from 'react';
+import {
+  tutteLeVoci, salvaVoce, eliminaVoce, leggiPref, scriviPref, migraDaLocalStorage,
+  type DiaryEntry,
+} from './db';
+
+export type { DiaryEntry };
 
 /**
- * Persistenza provvisoria su localStorage.
- * In M6 passa a IndexedDB (SPEC.md §8) mantenendo la stessa interfaccia.
+ * Dati dell'utente su IndexedDB (SPEC.md §8).
+ * La migrazione da localStorage avviene una volta sola, al primo avvio.
  */
 
-function read<T>(key: string, fallback: T): T {
-  try {
-    const raw = localStorage.getItem(key);
-    return raw ? (JSON.parse(raw) as T) : fallback;
-  } catch {
-    return fallback;
-  }
-}
+let migrazione: Promise<void> | null = null;
+const pronta = () => (migrazione ??= migraDaLocalStorage());
 
-function usePersisted<T>(key: string, initial: T) {
-  const [value, setValue] = useState<T>(() => read(key, initial));
+/** Preferenza persistita, con lettura asincrona all'avvio. */
+function usePref<T>(chiave: string, iniziale: T) {
+  const [valore, setValore] = useState<T>(iniziale);
+
   useEffect(() => {
-    try { localStorage.setItem(key, JSON.stringify(value)); } catch { /* quota piena */ }
-  }, [key, value]);
-  return [value, setValue] as const;
+    let vivo = true;
+    pronta().then(() => leggiPref<T>(chiave, iniziale)).then((v) => { if (vivo) setValore(v); });
+    return () => { vivo = false; };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [chiave]);
+
+  const aggiorna = useCallback((f: (v: T) => T) => {
+    setValore((cur) => {
+      const nuovo = f(cur);
+      void scriviPref(chiave, nuovo);
+      return nuovo;
+    });
+  }, [chiave]);
+
+  return [valore, aggiorna] as const;
 }
 
 export function useMyGods() {
-  const [ids, setIds] = usePersisted<string[]>('hestia.myGods', []);
+  const [ids, aggiorna] = usePref<string[]>('myGods', []);
   const has = useCallback((id: string) => ids.includes(id), [ids]);
   const toggle = useCallback(
-    (id: string) => setIds((cur) => (cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id])),
-    [setIds],
+    (id: string) => aggiorna((cur) => (cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id])),
+    [aggiorna],
   );
   return { ids, has, toggle };
 }
 
 export function useDismissed() {
-  const [ids, setIds] = usePersisted<string[]>('hestia.dismissed', []);
-  const dismiss = useCallback((id: string) => setIds((cur) => [...cur, id]), [setIds]);
-  const reset = useCallback(() => setIds([]), [setIds]);
+  const [ids, aggiorna] = usePref<string[]>('dismissed', []);
+  const dismiss = useCallback((id: string) => aggiorna((cur) => [...cur, id]), [aggiorna]);
+  const reset = useCallback(() => aggiorna(() => []), [aggiorna]);
   return { ids, dismiss, reset };
 }
 
-export interface DiaryEntry {
-  id: string;
-  hellenicDate: string;
-  gregorian: string;
-  text: string;
-  mood: number | null;
-  ts: number;
-}
-
 export function useDiary() {
-  const [entries, setEntries] = usePersisted<DiaryEntry[]>('hestia.diary', []);
-  const add = useCallback(
-    (e: Omit<DiaryEntry, 'id' | 'ts'>) =>
-      setEntries((cur) => [{ ...e, id: crypto.randomUUID(), ts: Date.now() }, ...cur]),
-    [setEntries],
-  );
-  const remove = useCallback(
-    (id: string) => setEntries((cur) => cur.filter((e) => e.id !== id)),
-    [setEntries],
-  );
-  return { entries, add, remove };
+  const [entries, setEntries] = useState<DiaryEntry[]>([]);
+
+  const ricarica = useCallback(async () => setEntries(await tutteLeVoci()), []);
+
+  useEffect(() => { pronta().then(ricarica); }, [ricarica]);
+
+  const add = useCallback(async (e: Omit<DiaryEntry, 'id' | 'ts'>) => {
+    await salvaVoce({ ...e, id: crypto.randomUUID(), ts: Date.now() });
+    await ricarica();
+  }, [ricarica]);
+
+  const remove = useCallback(async (id: string) => {
+    await eliminaVoce(id);
+    await ricarica();
+  }, [ricarica]);
+
+  return { entries, add, remove, ricarica };
 }

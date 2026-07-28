@@ -445,7 +445,7 @@ Afrodite è la dea dell'amore, della bellezza e del desiderio, nata secondo il r
 Afrodite era onorata sotto aspetti diversi: come Urania rappresentava l'amore celeste ed elevato, come Pandemos la concordia e l'affetto che uniscono la comunità cittadina. Il quarto giorno di ogni mese le era caro, e i suoi santuari più celebri sorgevano a Cipro, a Citera e a Corinto.
 
 **Come onorarla oggi**
-Invocala per l'amore, l'autostima, le relazioni e la bellezza in ogni sua forma. Offrile fiori freschi, un profumo o dell'acqua profumata, e accompagna il rito con un gesto concreto di cura verso te stessa, perché anche questa è devozione.
+Invocala per l'amore, l'autostima, le relazioni e la bellezza in ogni sua forma. Offrile fiori freschi, un profumo o dell'acqua profumata, e accompagna il rito con un gesto concreto di cura verso di te, perché anche questa è devozione.
 
 **Invocazione**
 > Afrodite dal dolce sorriso, portami amore, armonia e grazia.

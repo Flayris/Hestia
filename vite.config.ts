@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => ({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icons/*.svg'],
+      includeAssets: ['icons/*.svg', 'icons/*.png'],
       manifest: {
         name: 'Hestía',
         short_name: 'Hestía',
@@ -22,9 +22,12 @@ export default defineConfig(({ command }) => ({
         background_color: '#f5eede',
         theme_color: '#cfe0ec',
         lang: 'it',
+        // I PNG per primi: iOS ignora del tutto le icone SVG del manifest.
         icons: [
+          { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+          { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+          { src: 'icons/maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
           { src: 'icons/icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any' },
-          { src: 'icons/icon-maskable.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'maskable' },
         ],
       },
     }),

@@ -88,6 +88,13 @@ const it = {
   diary: 'Diario', diaryToday: 'Oggi',
   diaryPlaceholder: 'Cosa senti oggi…',
   save: 'Salva', deleteEntry: 'Elimina voce',
+  backup: 'Salvataggio',
+  backupSave: '↓ Esporta il diario',
+  backupRestore: '↑ Ripristina da file',
+  backupDone: (n: number) => `Esportate ${n} voci.`,
+  backupNote: 'Su iPhone il sistema può cancellare i dati dei siti: tieni una copia.',
+  restoreDone: (a: number, g: number) =>
+    g ? `Aggiunte ${a} voci, ${g} erano già presenti.` : `Aggiunte ${a} voci.`,
   diaryEmpty: 'Nessuna voce ancora. Col tempo potrai rileggere cosa sentivi all’ultima Noumenía.',
   mood: (n: number) => `Umore ${n}`,
 
@@ -178,6 +185,13 @@ const en: Dict = {
   diary: 'Diary', diaryToday: 'Today',
   diaryPlaceholder: 'What do you feel today…',
   save: 'Save', deleteEntry: 'Delete entry',
+  backup: 'Backup',
+  backupSave: '↓ Export diary',
+  backupRestore: '↑ Restore from file',
+  backupDone: (n: number) => `Exported ${n} entries.`,
+  backupNote: 'On iPhone the system can clear a site’s data: keep a copy.',
+  restoreDone: (a: number, g: number) =>
+    g ? `Added ${a} entries, ${g} were already there.` : `Added ${a} entries.`,
   diaryEmpty: 'No entries yet. In time you’ll be able to reread what you felt at the last Noumenía.',
   mood: (n: number) => `Mood ${n}`,
 

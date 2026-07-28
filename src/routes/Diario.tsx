@@ -3,21 +3,22 @@ import { Card, Label, Button } from '../components/ui';
 import { dataEllenica, dayToDate } from '../lib/calendar';
 import { useDiary } from '../store';
 import { useT } from '../i18n';
+import { Backup } from '../components/Backup';
 
 const MOODS = ['🙏', '🌿', '☀️', '🌙', '🔥', '💧'];
 
 export function Diario() {
   const today = dataEllenica();
-  const { entries, add, remove } = useDiary();
+  const { entries, add, remove, ricarica } = useDiary();
   const t = useT();
   const [text, setText] = useState('');
   const [mood, setMood] = useState<number | null>(null);
 
   const hellenicLabel = `${today.month.name} ${today.day}`;
 
-  const save = () => {
+  const save = async () => {
     if (!text.trim()) return;
-    add({
+    await add({
       hellenicDate: hellenicLabel,
       gregorian: dayToDate(today.civil).toISOString().slice(0, 10),
       text: text.trim(),
@@ -89,6 +90,14 @@ export function Diario() {
             </Card>
           ))
         )}
+
+        <Card>
+          <Label>{t.backup}</Label>
+          <p className="t-second" style={{ margin: 'var(--s2) 0 var(--s3)', color: 'var(--dim)' }}>
+            {t.backupNote}
+          </p>
+          <Backup onImported={ricarica} />
+        </Card>
       </div>
     </main>
   );
