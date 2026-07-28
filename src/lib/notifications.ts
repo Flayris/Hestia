@@ -1,5 +1,5 @@
 import type { AppNotification } from '../types';
-import { festivalsOfMonth, MONTHLY_DAYS, nameOf } from '../data/content';
+import { content } from '../data/content';
 import { dataEllenica, shiftMonth, type HellenicMonth } from './calendar';
 import { dict } from '../i18n';
 import type { Lang } from '../settings';
@@ -25,10 +25,10 @@ export function relativeDay(n: number, lang: Lang = 'it'): string {
   return t.inDays(n);
 }
 
-const names = (ids: string[]) => ids.map(nameOf).join(', ');
-
 export function upcoming(myGods: string[], now: Date = new Date(), lang: Lang = 'it'): AppNotification[] {
   const t = dict(lang);
+  const { festivalsOfMonth, MONTHLY_DAYS, nameOf } = content(lang);
+  const names = (ids: string[]) => ids.map(nameOf).join(", ");
   const rel = (n: number) => relativeDay(n, lang);
   const oggi = dataEllenica(now);
   const out: AppNotification[] = [];

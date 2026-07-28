@@ -1,0 +1,47 @@
+[
+  {
+    "id": "khernips",
+    "n": "Khérnips",
+    "sub": "Purifying yourself before the rite",
+    "cos": "This is the rite of purification by which you prepare to approach the sacred. It serves to separate ordinary space and time from ritual ones, washing away the miasma (ritual impurity) before praying or offering: it is almost always the first gesture of any ceremony.",
+    "allora": "Hands and face were purified with water into which a flame or a quenched brand had been dipped, to separate the sacred from the everyday.",
+    "adesso": "Fill a bowl with clean water. Light a match or a bay leaf and put it out in the water. Wet your hands and face: you are now in a ritual state.",
+    "inno": "May I be pure, to stand before the gods."
+  },
+  {
+    "id": "sponde",
+    "n": "Spondḗ",
+    "sub": "Offering wine or other liquids",
+    "cos": "This is the offering of a liquid poured in honour of a divinity, the commonest and most everyday ritual gesture. It serves to share with the god what you drink, expressing respect and reciprocity (kharis); it can be a complete rite in itself or accompany any other offering.",
+    "allora": "A portion of wine (or honey, water, milk) was poured from the cup in honour of the god, before drinking.",
+    "adesso": "Pour a little wine or water into a cup or onto the ground, saying the name of the god. The first is always Hestia’s, and the last as well.",
+    "inno": "To you, [name of the god], this libation, with gratitude."
+  },
+  {
+    "id": "offerta-quotidiana",
+    "n": "Offerta quotidiana",
+    "sub": "The everyday practice",
+    "cos": "This is the devotional practice of every day, morning and evening. It serves to keep the relationship with the household gods alive and constant in the ordinary rhythm of life, with no need for great ceremonies: a few sincere gestures are enough.",
+    "allora": "Every house had domestic altars; incense, cakes and libations were offered morning and evening.",
+    "adesso": "In the morning greet Hestia and the rising Helios; in the evening close with Hestia. Incense, a candle, a few sincere words are enough.",
+    "inno": "Gods of my house, be honoured today and always."
+  },
+  {
+    "id": "la-triade-lunare",
+    "n": "La triade lunare",
+    "sub": "Deipnon · Noumenia · Agathos Daimon",
+    "cos": "These are the three hinge days that mark the passage from one lunar month to the next. They serve to close the old cycle, open the new one and give thanks, giving the practice a clear and recognisable monthly structure.",
+    "allora": "The turning of the month: at the Deipnon (dark moon) Hekate’s supper and the cleaning; at the Noumenia (new moon) the greeting to the household gods; the day after, Agathos Daimon.",
+    "adesso": "Three hinge days of every lunar month: close (Hekate), open (Noumenia), give thanks (Good Spirit).",
+    "inno": "The old month closes, the new one opens: may it be blessed."
+  },
+  {
+    "id": "estia-prima-e-ultima",
+    "n": "Estia prima e ultima",
+    "sub": "The principle of the hearth",
+    "cos": "This is the principle that governs the order of every rite: Hestia always receives the very first and the very last offering. It serves to \"frame\" every sacred act within the hearth, the heart of the house and of the practice, so that everything begins and ends with her.",
+    "allora": "In every rite Hestia received the very first and the very last offering, as the heart and the frame of the sacred.",
+    "adesso": "Always begin and end with Hestia: light her flame at the start, greet her at the end.",
+    "inno": "Hestia, beginning and end of every offering."
+  }
+]

@@ -5,7 +5,7 @@ import { MoonWidget, phaseIndex } from '../components/MoonWidget';
 import { SettingsSheet, SettingsButton } from '../components/SettingsSheet';
 import { dataEllenica, moonPhase, gregorianoEsteso, etichettaAnno } from '../lib/calendar';
 import { upcoming } from '../lib/notifications';
-import { sacredDay, festivalOn, nameOf } from '../data/content';
+import { useContent } from '../data/content';
 import { useMyGods, useDismissed } from '../store';
 import { useSettings } from '../settings';
 import { useT } from '../i18n';
@@ -26,6 +26,7 @@ export function Oggi() {
   const { settings } = useSettings();
   const { ids: myGods } = useMyGods();
   const { ids: dismissed, dismiss } = useDismissed();
+  const { sacredDay, festivalOn, nameOf } = useContent();
   const [impostazioni, setImpostazioni] = useState(false);
 
   const today = dataEllenica(now);

@@ -7,7 +7,7 @@ import {
   dataEllenica, shiftMonth, weekday, gregorianoBreve, gregorianoEsteso, etichettaAnno,
   type HellenicMonth,
 } from '../lib/calendar';
-import { sacredDay, festivalOn, nameOf } from '../data/content';
+import { useContent } from '../data/content';
 import { useMyGods } from '../store';
 import { useSettings } from '../settings';
 import { useT } from '../i18n';
@@ -17,6 +17,7 @@ export function Calendario() {
   const { ids: myGods } = useMyGods();
   const t = useT();
   const { settings } = useSettings();
+  const { sacredDay, festivalOn, nameOf } = useContent();
   const oggi = dataEllenica();
 
   const [mese, setMese] = useState<HellenicMonth>(oggi.month);

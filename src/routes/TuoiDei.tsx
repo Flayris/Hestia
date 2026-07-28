@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Card, Label, Orb } from '../components/ui';
-import { CATEGORIES, deitiesOf } from '../data/content';
+import { useContent } from '../data/content';
 import { useT } from '../i18n';
 import { useMyGods } from '../store';
 
@@ -8,6 +8,7 @@ export function TuoiDei() {
   const nav = useNavigate();
   const { ids, has, toggle } = useMyGods();
   const t = useT();
+  const { CATEGORIES, deitiesOf } = useContent();
 
   return (
     <main className="screen">

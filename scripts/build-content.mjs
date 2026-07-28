@@ -7,7 +7,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 
 const SRC = '_input/Hestia - Grimorio completo_1.md';
-const OUT = 'src/data';
+const OUT = 'src/data/it';
 
 const CATS = {
   '1.1': 'olimpi', '1.2': 'ctonii', '1.3': 'marini', '1.4': 'titani',

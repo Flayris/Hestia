@@ -3,10 +3,7 @@ import { useSearchParams } from 'react-router-dom';
 import { Card, Label, Orb, SegmentedControl } from '../components/ui';
 import { BottomSheet } from '../components/BottomSheet';
 import { Block, TextBlock, ListBlock, Invocation, Source } from '../components/Sections';
-import {
-  CATEGORIES, RITES, CONCEPTS, FESTIVALS, MONTHS,
-  byId, nameOf, deitiesOf,
-} from '../data/content';
+import { useContent, MONTHS } from '../data/content';
 import type { CategoryKey, Festival, Rite, Concept } from '../types';
 import { useMyGods } from '../store';
 import { useT } from '../i18n';
@@ -15,6 +12,7 @@ type Tab = 'dei' | 'riti' | 'feste' | 'altro';
 
 export function Grimorio() {
   const t = useT();
+  const { RITES, CONCEPTS, byId } = useContent();
   const TABS = [
     { value: 'dei' as const, label: t.tabGods },
     { value: 'riti' as const, label: t.tabRites },
@@ -68,6 +66,7 @@ export function Grimorio() {
 
 function CategoryGrid({ onPick }: { onPick: (k: CategoryKey) => void }) {
   const t = useT();
+  const { CATEGORIES } = useContent();
   return (
     <div className="cat-grid">
       {CATEGORIES.map((c) => (
@@ -86,6 +85,7 @@ function DeityList({ cat, onBack, onOpen }: {
   cat: CategoryKey; onBack: () => void; onOpen: (id: string) => void;
 }) {
   const t = useT();
+  const { deitiesOf } = useContent();
   return (
     <>
       <button className="chip" onClick={onBack} style={{ alignSelf: 'flex-start' }}>{t.backToCategories}</button>
@@ -112,6 +112,7 @@ function DeityList({ cat, onBack, onOpen }: {
 function DeitySheet({ id, onClose }: { id: string | null; onClose: () => void }) {
   const { has, toggle } = useMyGods();
   const t = useT();
+  const { byId } = useContent();
   const d = id ? byId(id) : undefined;
 
   return (
@@ -201,6 +202,7 @@ function RiteSheet({ item, onClose }: { item: Rite | Concept | null; onClose: ()
 
 function FestivalList({ onOpen }: { onOpen: (month: string, f: Festival) => void }) {
   const t = useT();
+  const { FESTIVALS, nameOf } = useContent();
   return (
     <div className="stack">
       {MONTHS.map((month, i) => (
@@ -231,6 +233,7 @@ function FestivalSheet({ data, onClose, onDeity }: {
   onDeity: (id: string) => void;
 }) {
   const t = useT();
+  const { nameOf } = useContent();
   return (
     <BottomSheet open={!!data} onClose={onClose} title={data?.f.n}>
       {data && (

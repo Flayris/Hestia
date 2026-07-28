@@ -1,0 +1,272 @@
+{
+  "Hekatombaiṓn": [
+    {
+      "d": 12,
+      "n": "Krónia",
+      "gods": [
+        "crono",
+        "zeus"
+      ],
+      "cos": "A harvest festival in honour of Kronos and of the golden age. It served to give thanks for abundance by suspending social hierarchies for a day, in a spirit of shared joy.",
+      "allora": "Festival of Kronos and of the harvest: masters and servants feasted together, setting hierarchies aside.",
+      "adesso": "A meal of thanksgiving for abundance, shared in simplicity and equality."
+    },
+    {
+      "d": 28,
+      "n": "Panathḗnaia",
+      "gods": [
+        "atena"
+      ],
+      "cos": "The most important civic festival of Athens, in honour of Athena, patroness of the city. It served to strengthen the identity and unity of the community with a procession, games and the offering of the peplos.",
+      "allora": "The great festival of Athena, patroness of the city: procession, games and the offering of the woven peplos.",
+      "adesso": "Dedicate to Athena a piece of work done with care, olive oil, and a moment of study or creativity."
+    }
+  ],
+  "Metageitniṓn": [
+    {
+      "d": 7,
+      "n": "Metageítnia",
+      "gods": [
+        "apollo"
+      ],
+      "cos": "A festival of Apollo connected with the \"change of neighbourhood\" and with the bonds between communities. It served to renew good neighbourly relations and the sense of belonging.",
+      "allora": "The festival of the \"change of neighbourhood\", connected with Apollo and the bonds between communities.",
+      "adesso": "A gesture of good neighbourliness or reconciliation, offered to Apollo."
+    }
+  ],
+  "Boēdromiṓn": [
+    {
+      "d": 15,
+      "n": "Misteri Eleusini",
+      "gods": [
+        "demetra",
+        "persefone"
+      ],
+      "cos": "The most famous initiatory mysteries of Greece, for Demeter and Persephone. They served to offer the initiates hope and serenity in the face of death, through a secret and transformative experience.",
+      "allora": "The great Mysteries of Demeter and Persephone (about the 15th–21st): initiation and the hope of rebirth beyond death.",
+      "adesso": "A time of reflection on the cycles of loss and return; offer grain and a candle."
+    },
+    {
+      "d": 27,
+      "n": "Boēdrómia",
+      "gods": [
+        "apollo"
+      ],
+      "cos": "A festival of Apollo \"who comes running to help\" (Boedromios). It served to invoke his aid, originally in battle, and to thank him for his protection.",
+      "allora": "Festival of Apollo Boedromios, \"he who comes running to help\".",
+      "adesso": "Invoke Apollo as a help in difficult moments."
+    }
+  ],
+  "Pyanepsiṓn": [
+    {
+      "d": 7,
+      "n": "Pyanópsia",
+      "gods": [
+        "apollo"
+      ],
+      "cos": "An autumn festival of Apollo with an offering of boiled pulses and of the decorated branch, the eiresione. It served to give thanks for the harvest and to win prosperity for the year.",
+      "allora": "Offering of boiled pulses and of the eiresione (a decorated olive branch) to Apollo.",
+      "adesso": "Cook a dish of pulses as an offering of gratitude; hang a small branch at your entrance."
+    },
+    {
+      "d": 11,
+      "n": "Thesmophória",
+      "gods": [
+        "demetra"
+      ],
+      "cos": "A festival reserved for women in honour of Demeter Thesmophoros. It served to win the fertility of the earth and of the community through secret women’s rites.",
+      "allora": "The women’s festival for Demeter Thesmophoros (11th–13th): fertility and sacred law.",
+      "adesso": "Honour the cycles of life and the community; offer seeds and fruit."
+    }
+  ],
+  "Maimaktēriṓn": [
+    {
+      "d": 20,
+      "n": "Pompaía",
+      "gods": [
+        "zeus"
+      ],
+      "cos": "A rite of purification to Zeus Meilichios, \"the Gentle\", on the threshold of winter. It served to drive off evil and to appease the storms of the coming cold season.",
+      "allora": "A rite of purification to Zeus Meilichios, \"the Gentle\", against the storms of winter.",
+      "adesso": "A rite of cleansing and inner peace before the dark season."
+    }
+  ],
+  "Poseideṓn": [
+    {
+      "d": 8,
+      "n": "Poseídea",
+      "gods": [
+        "poseidone"
+      ],
+      "cos": "A festival of Poseidon in the heart of winter. It served to honour him as lord of the sea, of the waters and of the earth, and to ask his favour.",
+      "allora": "Festival of Poseidon in the heart of winter, for the sea and the land.",
+      "adesso": "Offer water and barley to Poseidon, asking for steadiness."
+    },
+    {
+      "d": 26,
+      "n": "Halôa",
+      "gods": [
+        "demetra",
+        "dioniso"
+      ],
+      "cos": "A festival of Demeter and Dionysus connected with the vine and the fruits of winter. It served to celebrate fruitfulness and the gifts of the earth even in the cold season.",
+      "allora": "Festival of Demeter and Dionysus connected with the vine and the fruits of winter.",
+      "adesso": "Share wine and fruit in gratitude for what nourishes you."
+    }
+  ],
+  "Gamēliṓn": [
+    {
+      "d": 12,
+      "n": "Lḗnaia",
+      "gods": [
+        "dioniso"
+      ],
+      "cos": "A winter festival of Dionysus with wine and theatrical performances. It served to celebrate the god of ecstasy and the arts of the stage in the depth of winter.",
+      "allora": "Winter festival of Dionysus with theatre and wine.",
+      "adesso": "An evening of art, storytelling or music dedicated to Dionysus."
+    },
+    {
+      "d": 27,
+      "n": "Theogámia",
+      "gods": [
+        "era",
+        "zeus"
+      ],
+      "cos": "The celebration of the sacred wedding (Hieros Gamos) of Zeus and Hera. It served to honour marriage, family bonds and their divine protection.",
+      "allora": "The sacred wedding of Zeus and Hera, protectors of marriage.",
+      "adesso": "Honour the bonds of love and commitment; offer flowers to Hera."
+    }
+  ],
+  "Anthestēriṓn": [
+    {
+      "d": 11,
+      "n": "Anthestḗria",
+      "gods": [
+        "dioniso"
+      ],
+      "cos": "A three-day festival of the new wine and, at the same time, of the memory of the dead. It served to celebrate the coming of spring by opening the jars and to make room, for a while, for the souls of the departed.",
+      "allora": "Festival of the new wine (11th–13th): the jars were opened, amid joy and remembrance of the dead.",
+      "adesso": "Taste something \"new\", drink a toast to Dionysus and remember those who are gone."
+    },
+    {
+      "d": 23,
+      "n": "Diásia",
+      "gods": [
+        "zeus"
+      ],
+      "cos": "The greatest Attic festival of Zeus Meilichios. It served for the purification and reconciliation of the whole community, with propitiatory offerings.",
+      "allora": "The greatest Attic festival of Zeus Meilichios: offerings and reconciliation.",
+      "adesso": "A rite of peace: let go of a grudge, offer incense to Zeus the Gentle."
+    }
+  ],
+  "Elaphēboliṓn": [
+    {
+      "d": 6,
+      "n": "Elaphēbólia",
+      "gods": [
+        "artemide"
+      ],
+      "cos": "A festival of Artemis, at which cakes in the shape of a deer were offered. It served to honour the goddess of the hunt and of wild nature.",
+      "allora": "Festival of Artemis with deer-shaped cakes.",
+      "adesso": "Offer Artemis a cake and a thought for wild nature."
+    },
+    {
+      "d": 10,
+      "n": "Grandi Dionísie",
+      "gods": [
+        "dioniso"
+      ],
+      "cos": "The great civic festival of the theatre, in honour of Dionysus (the City Dionysia). It served to celebrate the god by staging the tragedies and comedies that were born of his cult.",
+      "allora": "The City Dionysia (10th–16th): the great festival of the theatre.",
+      "adesso": "Watch or create something theatrical or artistic in honour of Dionysus."
+    }
+  ],
+  "Mounichiṓn": [
+    {
+      "d": 6,
+      "n": "Delphínia",
+      "gods": [
+        "apollo",
+        "artemide"
+      ],
+      "cos": "A rite to Apollo and Artemis for a calm voyage by sea (the Delphinia). It served to win safety for those who sailed.",
+      "allora": "A rite to Apollo and Artemis for a calm voyage by sea.",
+      "adesso": "Ask Apollo and Artemis for protection on your journeys."
+    },
+    {
+      "d": 16,
+      "n": "Mounychía",
+      "gods": [
+        "artemide"
+      ],
+      "cos": "A festival of Artemis Munichia, with moon-cakes (amphiphontes) lit by small flames. It served to honour the goddess in her lunar aspect.",
+      "allora": "Festival of Artemis Munichia with lit moon-cakes.",
+      "adesso": "Light a small cake or candle to the moon for Artemis."
+    }
+  ],
+  "Thargēliṓn": [
+    {
+      "d": 6,
+      "n": "Thargḗlia (Artemide)",
+      "gods": [
+        "artemide"
+      ],
+      "cos": "The first day of the Thargelia: the birth of Artemis and the purification of the city. It served to free the community from evils and to open the season in purity.",
+      "allora": "First day of the Thargelia: the birth of Artemis, the purification of the city.",
+      "adesso": "A rite of personal purification and gratitude to Artemis."
+    },
+    {
+      "d": 7,
+      "n": "Thargḗlia (Apollo)",
+      "gods": [
+        "apollo"
+      ],
+      "cos": "The second day of the Thargelia: the birth of Apollo, with the offering of the first fruits (thargelos). It served to give thanks and purify at the beginning of the harvest season.",
+      "allora": "The birth of Apollo: the offering of the first fruits and purification.",
+      "adesso": "Offer the first fruits of the season to Apollo; clean your altar."
+    },
+    {
+      "d": 25,
+      "n": "Plyntḗria",
+      "gods": [
+        "atena"
+      ],
+      "cos": "The festival at which the ancient statue of Athena was washed and reclothed (the Plynteria). It served to renew and re-purify the sacred, in a time of quiet recollection.",
+      "allora": "The statue of Athena was washed and reclothed: a renewal of the sacred.",
+      "adesso": "Clean and tidy your sacred space as a renewal dedicated to Athena."
+    }
+  ],
+  "Skirophoriṓn": [
+    {
+      "d": 3,
+      "n": "Arrhēphória",
+      "gods": [
+        "atena"
+      ],
+      "cos": "The secret night rite of the girls in the service of Athena (the Arrhephoria). It served for the protection and fruitfulness of the city.",
+      "allora": "The night rite of the girls in the service of Athena.",
+      "adesso": "A small secret, selfless service dedicated to Athena."
+    },
+    {
+      "d": 12,
+      "n": "Skíra",
+      "gods": [
+        "atena",
+        "demetra"
+      ],
+      "cos": "The festival at the end of the year, celebrated beneath a great sacred parasol, for Athena and Demeter. It served to close the Hellenic year and to win its return before the new Hekatombaion.",
+      "allora": "The end-of-year festival beneath a great sacred parasol.",
+      "adesso": "Close the Hellenic year with gratitude, before the new Hekatombaion."
+    },
+    {
+      "d": 14,
+      "n": "Dipoliéia",
+      "gods": [
+        "zeus"
+      ],
+      "cos": "An ancient and solemn rite to Zeus Polieus on the Acropolis (with the Bouphonia). It served to honour Zeus as keeper of the city and of its community.",
+      "allora": "An archaic rite to Zeus Polieus on the Acropolis.",
+      "adesso": "Offer incense to Zeus, keeper of the community."
+    }
+  ]
+}

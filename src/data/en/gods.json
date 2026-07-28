@@ -1,0 +1,2035 @@
+[
+  {
+    "id": "estia",
+    "n": "Hestia",
+    "gk": "Ἑστία",
+    "ep": "of the Hearth",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Hestia is the gentlest and most revered of the Olympian gods, the first born of Kronos and Rhea and therefore, by a symmetry of myth, also the last to be given back to the light. A virgin by choice, she refused marriage to Poseidon and to Apollo and asked Zeus for the privilege of remaining untouched and of sitting at the centre of the house, keeper of the flame. She performs no feats and lives through no adventures: her greatness is steadiness, the fire that never goes out and that holds family and city together. Every household hearth and every public Prytaneion was her living temple, and from that fire distant colonies were kindled like branches of a single stock. For this she received the first and the last libation of every rite: before her no god, after her no prayer.",
+    "dom": [
+      "Hearth and sacred fire",
+      "Home and family",
+      "Community and civic life"
+    ],
+    "sim": [
+      "Hearth",
+      "Flame",
+      "Circle"
+    ],
+    "off": [
+      "The first and last libation of every rite",
+      "Oil",
+      "Sweet wine",
+      "Incense"
+    ],
+    "allora": "Hestia received the first and the last portion of every sacrifice, according to the formula \"from Hestia one begins\". In the Prytaneion of every city burned a public fire that was never allowed to die, the heart of the community: when a colony was founded, an ember was carried from it, so that the new city remained bound to the mother country by the same hearth.",
+    "adesso": "Light a dedicated candle at the beginning of every practice and greet her again at the end, granting her the first and the last place. Keep your sacred corner tidy and clean: that is her hearth, and its order is already a form of devotion.",
+    "inno": "Hestia, keeper of the sacred hearth of gods and of mortals, to you the first and the last offering.",
+    "src": "https://www.theoi.com/Ouranios/Hestia.html"
+  },
+  {
+    "id": "zeus",
+    "n": "Zeus",
+    "gk": "Ζεύς",
+    "ep": "King of the gods",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Zeus is the lord of the sky and the guarantor of cosmic order, the last son of Kronos, taken by Rhea from his father’s hunger and hidden on Crete until he was strong enough to free his siblings and overthrow the Titans. From that victory he inherited the thunderbolt, forged by the Cyclopes, and sovereignty over the divine and human worlds. Yet he is not power alone: he is the god of justice (Dike sits beside him), of oaths, of hospitality and of the protection of the home. Under his many epithets — Xenios who watches over the stranger, Herkeios who guards the enclosure, Ktesios who fills the storeroom — the Greek felt him present at every threshold and in every pact. Feared for the thunder, he was invoked above all as the one who holds together the unwritten laws of living side by side.",
+    "dom": [
+      "Sky, thunder and order",
+      "Justice and oaths",
+      "Hospitality and protection of the home"
+    ],
+    "sim": [
+      "Thunderbolt",
+      "Eagle",
+      "Oak",
+      "Sceptre"
+    ],
+    "off": [
+      "Incense",
+      "Wine",
+      "Barley cakes",
+      "For Zeus Ktesios: a jar with water, oil and fruit"
+    ],
+    "allora": "As Ktesios he protected the storeroom, kept in a sacred jar (the kadiskos) filled with water, oil and fruit; as Herkeios he presided over the enclosure and the courtyard of the house, with an altar at its centre; as Xenios he watched over guest and stranger, making hospitality a sacred duty whose violation offended him directly.",
+    "adesso": "Place a small jar in your pantry in honour of Zeus Ktesios, renewing it from time to time, as a sign of and a request for the prosperity of the house. Invoke him for justice, for protection, and at the moments of great decisions, when firmness and measure are needed.",
+    "inno": "Zeus most high and glorious, lord of the sky and keeper of the house, watch over us.",
+    "src": "https://www.theoi.com/Olympios/Zeus.html"
+  },
+  {
+    "id": "era",
+    "n": "Hera",
+    "gk": "Ἥρα",
+    "ep": "Queen",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Hera is the queen of Olympus, sister and wife of Zeus, goddess of marriage and sovereign beside the sovereign. Her majesty is that of the marriage bond and of a woman’s dignity: she presides over weddings, over faithfulness, and over the seasons of a woman’s life, from girlhood to motherhood. Myth often portrays her as jealous and implacable towards Zeus’s lovers and their offspring — from Heracles to Io — but that jealousy is the reverse side of her highest function: the guardianship of the marital order and of what is lawful. Each year, so the story goes, she became a virgin again by bathing in the spring of Kanathos, renewing her own wedding. Argos, Samos and Mycenae worshipped her as their great protectress, in temples among the oldest in Greece.",
+    "dom": [
+      "Marriage and faithfulness",
+      "Women and family",
+      "Sovereignty"
+    ],
+    "sim": [
+      "Peacock",
+      "Diadem",
+      "Pomegranate",
+      "Lily"
+    ],
+    "off": [
+      "Pomegranate",
+      "Lilies",
+      "Incense",
+      "Wine"
+    ],
+    "allora": "Hera was the protectress of the passages of a woman’s life, invoked with distinct epithets for the maiden (Parthenos), the wife (Teleia) and the widow (Chera). The Theogamia, or Hieros Gamos, celebrated her sacred wedding to Zeus, while in great sanctuaries such as the Heraion of Argos and of Samos festivals and processions were held in her honour.",
+    "adesso": "Invoke her for unions and commitments, for the pacts that ask for loyalty, for dignity and self-respect, and for the protection of the family. Offer her fresh flowers — lilies above all — as a sign of respect towards her majesty.",
+    "inno": "Hera of the golden throne, queen of the gods, bless the bonds and the household.",
+    "src": "https://www.theoi.com/Olympios/Hera.html"
+  },
+  {
+    "id": "poseidone",
+    "n": "Poseidon",
+    "gk": "Ποσειδῶν",
+    "ep": "Lord of the sea",
+    "cats": [
+      "olimpi",
+      "marini"
+    ],
+    "intro": "Poseidon is the mighty lord of the sea, brother of Zeus and of Hades, to whom the waters fell by lot when the three divided the world. He wields the trident with which he raises storms, splits rocks and shakes the earth: for this he is called Enosichthon, \"the earth-shaker\", cause of earthquakes as well as of waves. His temper is impetuous, capable of long angers — such as the one against Odysseus — but he is also the giver of the horse and patron of horsemen. He contended with Athena for the possession of Athens by making a spring gush from the rock of the Acropolis. Sailors and voyagers appeased him before every crossing, knowing that calm and shipwreck alike depended on his will.",
+    "dom": [
+      "Sea and waters",
+      "Earthquakes and storms",
+      "Horses"
+    ],
+    "sim": [
+      "Trident",
+      "Horse",
+      "Dolphin",
+      "Bull"
+    ],
+    "off": [
+      "Sea water",
+      "Wine",
+      "Barley",
+      "Cakes"
+    ],
+    "allora": "Poseidon was appeased with offerings and libations before every sea voyage, gifts being cast among the waves to secure a quiet passage. The Poseidea honoured him in the month dedicated to him, and the eighth day of every month was sacred to him; great games in his honour were held at the Isthmus of Corinth.",
+    "adesso": "Offer him something before a journey, especially by sea, or when the \"waters\" of your life turn rough and unpredictable. Pour water or wine asking for steadiness and safe passage through storms, whether inner or outer.",
+    "inno": "Poseidon, shaker of the earth, lord of the waters, grant calm and safe passage.",
+    "src": "https://www.theoi.com/Olympios/Poseidon.html"
+  },
+  {
+    "id": "ade",
+    "n": "Hades",
+    "gk": "Ἅιδης",
+    "ep": "Lord of the Underworld",
+    "cats": [
+      "olimpi",
+      "ctonii"
+    ],
+    "intro": "Hades is the silent lord of the realm of the dead, elder brother of Zeus, to whom the world below fell by lot. His name means \"the Unseen\", and indeed he owns a helm that makes its wearer invisible; but the Greeks preferred to call him Plouton, \"the Rich One\", because from the earth come metals, harvests and every wealth. He is not an evil god: he is just and unbending, keeper of an order from which no one can escape. Myth binds him forever to Persephone, whom he carried off and made his queen, giving rise through her seasonal return to the cycle of the seasons. Feared and honoured with caution, he was the god one turned to for mourning, for memory, and for deep transformations.",
+    "dom": [
+      "The underworld and the dead",
+      "Ancestors and memory",
+      "Wealth beneath the earth and transformation"
+    ],
+    "sim": [
+      "Helm of invisibility",
+      "Cornucopia",
+      "Cypress",
+      "Narcissus"
+    ],
+    "off": [
+      "Libations poured onto the ground (honey, water, wine)",
+      "Narcissus",
+      "Cypress",
+      "Offerings that are not tasted"
+    ],
+    "allora": "Hades was honoured with chthonic rites, distinct from the Olympian ones: offerings were directed downwards, poured onto the ground or into pits, often at night, and the victims were dark in colour. His name was spoken with caution, and he was usually called by propitiatory names such as Plouton, \"the Rich One\", so as not to draw his attention.",
+    "adesso": "Honour him in times of mourning, in remembering ancestors and those who are gone, and at the great passages that ask you to let something go. Pour a libation onto the ground — honey, water or wine — with respect and without tasting it, for it is entirely his.",
+    "inno": "Hades, who receive every life in its time, be gentle with those we remember.",
+    "src": "https://www.theoi.com/Khthonios/Haides.html"
+  },
+  {
+    "id": "apollo",
+    "n": "Apollo",
+    "gk": "Ἀπόλλων",
+    "ep": "Phoibos, the Shining One",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Apollo is the shining god of light, music and prophecy, son of Zeus and Leto and twin brother of Artemis, born on the floating island of Delos. He is the most Greek of the gods: he embodies measure, harmony and knowledge of what is to come. At Delphi, after killing the serpent Python, he founded his oracle, the most authoritative of the ancient world, where the Pythia pronounced his responses. With the lyre he gives music; with the silver bow he strikes from afar, bringing plague or healing, for he is at once the god who sends and the god who cures. Radiant and unpredictable, he presides over prophecy, purification, youth and poetic inspiration: his \"know thyself\", carved at Delphi, sums up the Greek ideal of clarity.",
+    "dom": [
+      "Light, music and prophecy",
+      "Healing and purification",
+      "Youth and inspiration"
+    ],
+    "sim": [
+      "Lyre",
+      "Bow",
+      "Laurel",
+      "Swan"
+    ],
+    "off": [
+      "Laurel",
+      "Incense",
+      "Honey",
+      "Cakes",
+      "Oil"
+    ],
+    "allora": "As Agyieus he protected doorways and streets, represented by a conical pillar set before the houses. He was said to have been born on the seventh day of Thargelion, and the seventh of every month was sacred to him; at Delphi and Delos great festivals, oracles and choral songs celebrated his radiant presence.",
+    "adesso": "Invoke him for inspiration, for the healing of body and spirit, and for clarity in difficult choices. Place a laurel leaf at the entrance of your home and offer him music — played, or listened to with full attention — as a gift he welcomes.",
+    "inno": "Apollo of the silver bow, light that heals and inspires, illuminate my path.",
+    "src": "https://www.theoi.com/Olympios/Apollon.html"
+  },
+  {
+    "id": "artemide",
+    "n": "Artemis",
+    "gk": "Ἄρτεμις",
+    "ep": "Lady of the wild",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Artemis is the virgin huntress, mistress of the wild lands, of animals and of the moon, daughter of Zeus and Leto and twin sister of Apollo. Born first, according to the story she helped her mother give birth to her brother, and so became the protectress of women in labour while remaining herself untouched and free. She roams the woods with her bow and her following of nymphs, defending the purity of unspoiled places: woe to those who offend her, like Actaeon, turned into a stag and torn apart by his own hounds for having seen her bathing. She is an ambivalent and powerful goddess, who watches over the young of every kind yet can also strike with sudden arrows. To her girls entrusted themselves before marriage and women at the moment of childbirth, in life’s most delicate passages.",
+    "dom": [
+      "Hunting and wild nature",
+      "Moon and animals",
+      "Protection of girls and of women in labour"
+    ],
+    "sim": [
+      "Bow",
+      "Doe",
+      "Crescent moon",
+      "Cypress"
+    ],
+    "off": [
+      "Moon-shaped cakes (amphiphontes)",
+      "Fruit",
+      "Wild herbs",
+      "Incense"
+    ],
+    "allora": "Artemis was the protectress of the passages of female life and of the growth of the young: at Brauron little girls, the \"bears\" of Artemis, served her before entering adulthood. She was said to have been born on the sixth day of Thargelion, and the sixth of every month was sacred to her; at Ephesus her great temple was one of the wonders of the world.",
+    "adesso": "Invoke her for independence, inner strength and the bond with wild nature. Dedicate to her a walk among trees or by moonlight, and offer her fruit or gathered herbs, acknowledging her lordship over untouched places.",
+    "inno": "Artemis the huntress, lady of the moon and of the woods, guard those who walk alone.",
+    "src": "https://www.theoi.com/Olympios/Artemis.html"
+  },
+  {
+    "id": "dioniso",
+    "n": "Dionysus",
+    "gk": "Διόνυσος",
+    "ep": "Lyaios, the Liberator",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Dionysus is the god of wine, ecstasy and transformation, son of Zeus and of the mortal Semele, the only Olympian born of a human mother. Snatched from the womb of his thunderstruck mother and sewn into Zeus’s thigh until he came to term, he carries in myth the mark of the double birth and of rebirth. He is the god who loosens — Lyaios, the Liberator — who with wine slackens the chains of reason and opens the doors of ecstasy, but who is also terror to those who refuse him, as the end of Pentheus shows. His train of Maenads and satyrs roams the mountains in sacred intoxication; his is the energy of the vine that dies in winter and is reborn in spring. God of theatre and of the festive community, he teaches that shared joy is itself a sacred way.",
+    "dom": [
+      "Wine and ecstasy",
+      "Theatre and liberation",
+      "Rebirth and vegetation"
+    ],
+    "sim": [
+      "Vine",
+      "Ivy",
+      "Thyrsus",
+      "Panther",
+      "Mask"
+    ],
+    "off": [
+      "Wine",
+      "Grapes",
+      "Ivy",
+      "Figs"
+    ],
+    "allora": "The Anthesteria celebrated the opening of the new wine and the return of the souls; the Lenaia and the Great Dionysia joined processions, wine and theatrical performances, for from the choral lyric in his honour tragic and comic theatre were born. He was the god who dies and is reborn like the vine, and his festivals renewed the community’s bond with the cycles of life.",
+    "adesso": "Invoke him for joy, for release from rigidity and for artistic expression. Share a cup of wine — or of grape juice — with someone, remembering that the first libation is his, and let his energy loosen a knot that binds you.",
+    "inno": "Dionysus who loosen every knot, gift of joy and of rebirth, be with us.",
+    "src": "https://www.theoi.com/Olympios/Dionysos.html"
+  },
+  {
+    "id": "ermes",
+    "n": "Hermes",
+    "gk": "Ἑρμῆς",
+    "ep": "Messenger",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Hermes is the messenger of the gods and the most versatile of the Olympians, son of Zeus and the nymph Maia, born in a cave of Arcadia. On his very first day of life, according to the Homeric hymn, he invented the lyre from a tortoise shell and stole Apollo’s cattle, showing from the start his cunning, inventive nature and his love of crossed boundaries. With winged sandals and the caduceus he passes every threshold: between gods and mortals, between waking and dream, between the living and the dead, whom he escorts to the beyond as Psychopompos. He is patron of travellers, merchants, orators and thieves alike, god of sudden luck and of effective speech. Wherever there are roads, exchanges and encounters, there is his presence.",
+    "dom": [
+      "Travel, boundaries and communication",
+      "Trade and luck",
+      "Guide of souls"
+    ],
+    "sim": [
+      "Caduceus",
+      "Winged sandals",
+      "Rooster",
+      "Tortoise"
+    ],
+    "off": [
+      "Incense",
+      "Honey",
+      "Cakes",
+      "Coins for luck"
+    ],
+    "allora": "The herms, stone pillars topped with the god’s face, marked doorways, roads and crossroads as a sign of his protecting presence, and a chance find along the way was called a hermaion, \"a gift of Hermes\". The fourth day of every month was sacred to him, and as god of the marketplace he watched over the honesty of exchanges.",
+    "adesso": "Invoke him before a journey, an interview or the sending of an important message, when the right word and open roads are needed. Offer him a little honey or leave a coin as a token, asking for good fortune in meetings and in transitions.",
+    "inno": "Hermes of the swift feet, guide of wayfarers and of words, open the roads before me.",
+    "src": "https://www.theoi.com/Olympios/Hermes.html"
+  },
+  {
+    "id": "demetra",
+    "n": "Demeter",
+    "gk": "Δημήτηρ",
+    "ep": "Mother of the grain",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Demeter is the great Mother of grain and agriculture, she who taught humankind to till the earth and to feed on bread. Sister of Zeus, her most famous myth is her grief for her daughter Persephone, carried off by Hades into the underworld: in her desperate search she abandoned her gifts, and the earth grew barren until her daughter’s return was granted. But because Persephone had tasted the seeds of the pomegranate, she had to spend part of the year below — and so the seasons were born, the winter of mourning and the spring of return. On her journey Demeter halted at Eleusis, where she founded the Mysteries that promised the faithful a hope beyond death. She is the goddess of nourishment and of cycles, who teaches how from what seems lost life can be reborn.",
+    "dom": [
+      "Grain, agriculture and harvest",
+      "Motherhood and the cycles of life",
+      "Mysteries"
+    ],
+    "sim": [
+      "Ears of wheat",
+      "Poppy",
+      "Torch",
+      "Pig"
+    ],
+    "off": [
+      "Wheat",
+      "Barley",
+      "Bread",
+      "Fruit",
+      "Honey"
+    ],
+    "allora": "The Eleusinian Mysteries, the most famous and most secret of ancient Greece, bound her myth with Persephone to the hope of a better lot after death, and those initiated kept silence about them for the whole of their lives. The Thesmophoria, festivals reserved for women, celebrated the fertility of the earth and the cycle of the seasons.",
+    "adesso": "Invoke her for nourishment, for the natural cycles of life, and in times of mourning and rebirth, when something ends in order to return in another form. Offer her bread and seeds, and honour with awareness both what is ending and what promises to come back.",
+    "inno": "Demeter who nourish the earth and the heart, bless the harvest and those who await a return.",
+    "src": "https://www.theoi.com/Olympios/Demeter.html"
+  },
+  {
+    "id": "atena",
+    "n": "Athena",
+    "gk": "Ἀθηνᾶ",
+    "ep": "Lady of wisdom",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Athena is the goddess of wisdom, strategy and craft, born in prodigious fashion from the head of Zeus, already grown and armed, after her father had swallowed her mother Metis. A virgin like Artemis, she embodies nonetheless another form of power: that of applied intelligence, of war waged with measure and justice — unlike the blind fury of Ares — and of the ingenuity that creates. She gave humankind the olive tree, winning thereby the contest with Poseidon for the patronage of Athens, the city that bears her name. She protects craftsmen, weavers, and level-headed heroes such as Odysseus, whom she guides by counsel rather than by force. With the owl, the olive and the aegis, she is at once the lucid mind of strategy and the skilled hand at the loom.",
+    "dom": [
+      "Wisdom and strategy",
+      "Craft and weaving",
+      "Justice and defence"
+    ],
+    "sim": [
+      "Owl",
+      "Olive tree",
+      "Aegis",
+      "Helmet",
+      "Spear"
+    ],
+    "off": [
+      "Olive oil",
+      "Cakes",
+      "Incense",
+      "Wool and yarn"
+    ],
+    "allora": "Athena was the patroness of Athens, celebrated at the great Panathenaia, when to her ancient statue was offered a peplos woven and embroidered by the women of the city and carried in solemn procession up the Acropolis, as far as the Parthenon. The third day of every month was sacred to her, and with Hephaestus she was honoured as the protectress of craftsmen.",
+    "adesso": "Invoke her for study, for work, for wise decisions and for creative projects that call for method and ingenuity. Pour a thread of olive oil on the altar, or dedicate to her the first gesture of a work made with the hands and the mind.",
+    "inno": "Athena of the bright eyes, give me wisdom in acting and measure in judging.",
+    "src": "https://www.theoi.com/Olympios/Athena.html"
+  },
+  {
+    "id": "ares",
+    "n": "Ares",
+    "gk": "Ἄρης",
+    "ep": "Lord of war",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Ares is the god of war in its rawest and most impetuous form, son of Zeus and Hera, the embodiment of the fury of battle and of courage that knows no hesitation. Where Athena stands for strategy and the just war, Ares is the ardour of combat itself, raw force, the tumult of blood and iron. The Greeks regarded him with fear and ambivalence: necessary for the defence of the city and its borders, yet dangerous when his fury broke loose without measure. Myth binds him to Aphrodite in a famous love, as if to suggest that passion and conflict are kindred forces. Honoured more openly in lands such as Thrace and at Sparta, he remained nonetheless the god from whom one asked boldness at the moment of danger.",
+    "dom": [
+      "Courage and strength",
+      "Defence and discipline",
+      "Boundaries"
+    ],
+    "sim": [
+      "Spear",
+      "Helmet",
+      "Dog",
+      "Boar"
+    ],
+    "off": [
+      "Incense",
+      "Wine"
+    ],
+    "allora": "Ares was feared and at the same time invoked for victory and for the defence of borders, especially among warlike peoples such as the Thracians and the Spartans, who made him a patron of military valour. His was a raw force to be channelled by discipline, and men turned to him before the clash to obtain boldness and steadiness.",
+    "adesso": "Invoke him for courage, to defend your personal boundaries, and to face what frightens you without giving way. Ask him for the discipline that turns impulse into useful strength, keeping you steady in the face of trials.",
+    "inno": "Ares of the steady heart, grant me courage and firmness in defending what is right.",
+    "src": "https://www.theoi.com/Olympios/Ares.html"
+  },
+  {
+    "id": "afrodite",
+    "n": "Aphrodite",
+    "gk": "Ἀφροδίτη",
+    "ep": "Lady of love",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Aphrodite is the goddess of love, beauty and desire, born according to the oldest account from the foam of the sea near Cyprus, rising already radiant from the waves. She is a cosmic force before she is a personal divinity: the power that attracts and joins, that drives beings towards one another and keeps the world in harmony. No one, mortal or immortal, escapes her enchantment, and whoever neglects her — like Hippolytus — pays the price. Her magic girdle instils irresistible desire; her beauty unleashed the Trojan War. But Aphrodite is not passion alone: as Ourania she presides over the highest and most spiritual love, as Pandemos over the affection that holds a community together. Roses, myrtle and doves are dear to her, and with them the grace that makes life lovable.",
+    "dom": [
+      "Love and beauty",
+      "Desire and pleasure",
+      "Harmony and the sea"
+    ],
+    "sim": [
+      "Dove",
+      "Rose",
+      "Myrtle",
+      "Shell",
+      "Apple"
+    ],
+    "off": [
+      "Roses",
+      "Myrtle",
+      "Honey",
+      "Incense",
+      "Scented water"
+    ],
+    "allora": "Aphrodite was honoured under different aspects: as Ourania she stood for celestial and elevated love, as Pandemos for the concord and affection that bind the community of the city. The fourth day of every month was dear to her, and her most famous sanctuaries stood at Cyprus, Kythera and Corinth.",
+    "adesso": "Invoke her for love, self-worth, relationships and beauty in every form. Offer her fresh flowers, a perfume or scented water, and accompany the rite with a concrete act of care towards yourself, for this too is devotion.",
+    "inno": "Aphrodite of the sweet smile, bring me love, harmony and grace.",
+    "src": "https://www.theoi.com/Olympios/Aphrodite.html"
+  },
+  {
+    "id": "efesto",
+    "n": "Hephaestus",
+    "gk": "Ἥφαιστος",
+    "ep": "Divine smith",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Hephaestus is the god of fire and of the forge, the divine artificer who fashions the most marvellous works of Olympus. Son of Hera — who according to some conceived him alone — he was born lame, and for this he was hurled down from the sky; yet it is precisely his imperfection that makes him, among the shining gods, the most human and the most industrious. From his anvil come the thunderbolts of Zeus, the arms of Achilles, the thrones and palaces of the gods, and even golden automata that assist him at his work. Husband of Aphrodite, he joins craft to beauty in symbol. He is the god who transforms raw matter with the patience of fire and the labour of the hands, patron of all who create and repair, and who draw lasting works out of difficulty.",
+    "dom": [
+      "Fire and the forge",
+      "Metalwork and craft",
+      "Invention and perseverance"
+    ],
+    "sim": [
+      "Anvil",
+      "Hammer",
+      "Tongs",
+      "Fire"
+    ],
+    "off": [
+      "Incense",
+      "Oil",
+      "Wine"
+    ],
+    "allora": "Hephaestus was the god of creative fire and of manual work, especially venerated at Athens and on Lemnos, the island where he was said to have fallen. Together with Athena he was patron of craftsmen and smiths, celebrated at the Chalkeia, the festival of metalworkers, and at the Hephaisteia with torch races.",
+    "adesso": "Invoke him for handcraft, for projects to be built and things to be mended, and for every undertaking that requires patience and skill. Ask him for the perseverance that turns limits and difficulties into solid, well-made work.",
+    "inno": "Hephaestus the untiring, master of fire and of ingenuity, bless the work of my hands.",
+    "src": "https://www.theoi.com/Olympios/Hephaistos.html"
+  },
+  {
+    "id": "persefone",
+    "n": "Persephone",
+    "gk": "Περσεφόνη",
+    "ep": "Queen of the Underworld",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "Persephone is the maiden who became a queen, the goddess in whom the sweetness of spring and the dark majesty of the realm of the dead live side by side. Daughter of Demeter, while gathering flowers in a meadow she was carried off by Hades, who split the earth open and dragged her into his kingdom of shadow. Her mother’s grief put out the world, until Zeus imposed a pact: but the maiden had already tasted the seeds of the pomegranate, and whoever eats the food of the dead remains bound to it. So Persephone divides her time between light and darkness, and in her going and returning the very cycle of the seasons breathes. As Kore, the Maiden, she was the luminous heart of the Eleusinian Mysteries, which promised their initiates a more serene lot in the beyond. Terrible and motherly at once, she reigns over the souls without ever losing the scent of the meadows from which she was torn.",
+    "dom": [
+      "Lady and queen of the dead",
+      "Goddess of the grain that sprouts and is reborn",
+      "Keeper of the cycle of the seasons",
+      "Mediator between the world below and the spring"
+    ],
+    "sim": [
+      "The ear of wheat",
+      "The torch",
+      "The pomegranate",
+      "The narcissus"
+    ],
+    "off": [
+      "Pomegranate seeds and ears of wheat",
+      "Libations of honey and milk poured onto the ground",
+      "Spring flowers and torches lit in night rites"
+    ],
+    "allora": "Daughter of Demeter, she was carried off by Hades and, having eaten the seeds of the pomegranate, had to spend part of every year in the underworld, marking thereby the alternation of the seasons. As Kore she stood at the centre of the Eleusinian Mysteries, celebrated each autumn at Eleusis, which promised the initiates hope beyond death. Her name was spoken with reverent awe, and to her as to the other chthonic powers libations were poured directly onto the ground.",
+    "adesso": "Honour her at the turning of the seasons, offering pomegranate and grain and lighting a torch in her name. She is venerated as guide of the dead and goddess of renewal, with libations of honey and milk poured onto the earth at sunset. A small altar with an ear of wheat and a pomegranate can accompany the memory of loved ones lost and the resolve of an inner rebirth.",
+    "src": "https://www.theoi.com/Khthonios/Persephone.html"
+  },
+  {
+    "id": "ecate",
+    "n": "Hekate",
+    "gk": "Ἑκάτη",
+    "ep": "Lady of the crossroads and of magic",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "Hekate is the goddess who stands on thresholds, where the roads divide and the visible borders on the unseen. A Titaness of ancient lineage, she was honoured by Zeus with a rare privilege: power over sky, earth and sea together. She walks in the night holding two torches, opening with her keys the doors between the worlds, followed by her black hounds. It was she who alone heard the cry of Persephone as she was carried off, and who accompanied Demeter with her flame in the search, later becoming the companion of the queen of the underworld. Mistress of witchcraft, of ghosts and of passages, she is not a goddess to be blindly feared, but a power that protects those who respect boundaries and choices. At the new moon, at silent crossroads, her name is still whispered.",
+    "dom": [
+      "Witchcraft and night magic",
+      "Ghosts and wandering souls",
+      "Crossroads and thresholds",
+      "Passages and choices"
+    ],
+    "sim": [
+      "The twin torches",
+      "The keys",
+      "The daggers",
+      "The black hounds"
+    ],
+    "off": [
+      "The \"Deipna of Hekate\": food left at crossroads at the new moon",
+      "Eggs, fish and bread",
+      "Garlic; offerings left behind and never carried back into the house"
+    ],
+    "allora": "A Titaness honoured by Zeus with dominion over sky, earth and sea, she led the way with her torches and presided over magic, ghosts and passages. At every new moon the \"deipna\" were laid out for her, meals left at the crossroads to appease her and the wandering souls, offerings that were never to be brought home. She was venerated on the thresholds of dwellings, where her triple images guarded the entrance.",
+    "adesso": "Honour her at the new moon by leaving a plate of food at a crossroads or on your threshold, without turning back or taking it up again. Light two candles and ask her for protection in passages and in difficult choices. A key laid on the altar can recall her gift of opening roads in times of uncertainty.",
+    "src": "https://www.theoi.com/Khthonios/Hekate.html"
+  },
+  {
+    "id": "thanatos",
+    "n": "Thanatos",
+    "gk": "Θάνατος",
+    "ep": "Death made gentle",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "Thanatos is the gentle face of death, the daimon of silent wings who comes to put out a life when its hour has come. Son of Night and twin of Sleep, he embodies neither violence nor cruelty: to him belongs the soft and natural end, distinct from the bloody death that belongs to the gore-stained Keres. Yet even he can be deceived, as when cunning Sisyphus chained him and no mortal could die any longer, until the gods set him free. With his brother Hypnos he appeared on the field of Troy to lift the body of Sarpedon gently and carry it to his own land. Tradition pictures him as a winged youth in dark robes, holding a downturned torch: the flame of life quietly bending. He is the inevitable companion of the passage, but not a hostile one.",
+    "dom": [
+      "Daimon of gentle and natural death",
+      "Guide of souls at the end of life",
+      "Opposite of the violent death of the Keres",
+      "Twin of Sleep"
+    ],
+    "sim": [
+      "The wings",
+      "The sword",
+      "The downturned torch",
+      "The dark robes"
+    ],
+    "off": [
+      "Libations poured onto the ground",
+      "Cut flowers",
+      "Silent rites in memory of the dead"
+    ],
+    "allora": "Son of Nyx and twin of Hypnos, he stood for the gentle and inescapable death, set against the violent death of the Keres. He was chained by cunning Sisyphus, who for a time prevented mortals from dying, and with his brother he appeared at Troy to carry away the body of Sarpedon. He rarely had temples of his own, but his figure recurred in funerary art as a consoling image of the final rest.",
+    "adesso": "Remember him in times of mourning, lighting a candle and pouring a libation onto the ground to accept serenely the natural end of life. He is honoured as the gentle companion of the passage, by laying cut flowers in memory of those who have left us. A moment of silence in his presence helps one make peace with death as part of the order of things.",
+    "src": "https://www.theoi.com/Daimon/Thanatos.html"
+  },
+  {
+    "id": "hypnos",
+    "n": "Hypnos",
+    "gk": "Ὕπνος",
+    "ep": "Sleep",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "Hypnos is the god who descends upon the world each evening to lay his touch on the weary. Son of Night and twin of Thanatos, he grants rest to mortals and immortals without distinction, and he is so powerful that even Zeus, the king of the gods, can fall beneath his veil. It was Hera who sought him out to persuade him to lull her divine husband, and Hypnos hesitated, mindful of the wrath that had once nearly undone him. Tradition paints him as a winged youth dwelling in a silent cave, without sun and crossed by the waters of oblivion, where he brushes the exhausted with a branch or pours over them the liquid of Lethe. Placid where his brother is inescapable, he is the mildest of the night powers, a friend to mortals and a balm for their troubles.",
+    "dom": [
+      "Daimon of sleep and rest",
+      "Giver of quiet to mortals and immortals",
+      "Lord of drowsiness and oblivion",
+      "Twin of Death made gentle"
+    ],
+    "sim": [
+      "The wings",
+      "The poppy",
+      "The horn of sleep",
+      "The branch of Lethe"
+    ],
+    "off": [
+      "Poppies and sleep-bringing herbs",
+      "Libations of water or milk before rest",
+      "Evening prayers for a quiet sleep"
+    ],
+    "allora": "Son of Nyx and twin of Thanatos, he could put even Zeus to sleep, as when Hera persuaded him to lull the king of the gods during the Trojan War. He was imagined as a winged youth who touches the weary with a branch or pours over them the liquid of oblivion. He was invoked with evening prayers, and his serene figure sometimes adorned places of rest.",
+    "adesso": "Invoke him in the evening with a short prayer and a libation of water or milk, asking for rest and quiet dreams. Poppy seeds set near the bed recall his kindly presence. A simple rite before sleeping, in silence and half-light, makes him a gentle companion of your nights.",
+    "src": "https://www.theoi.com/Daimon/Hypnos.html"
+  },
+  {
+    "id": "erinni",
+    "n": "The Erinyes",
+    "gk": "Ἐρινύες",
+    "ep": "Goddesses of vengeance",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "The Erinyes are the ancient keepers of blood justice, born from the drops that fell upon the earth when Ouranos was mutilated: from the most archaic of wrongs arose the avengers of wrong. Alecto, Tisiphone and Megaera pursue without respite those who shed the blood of their own kin and those who betray the bond of an oath, hunting the guilty with whips and torches, serpents twined in their hair. It was Orestes, slayer of his mother, who came to know their relentless chase, until at Athens a divine tribunal appeased them. From that day they were venerated as the Eumenides, the \"Kindly Ones\", powers no longer of terror alone but of balance and of order regained. Terrible and yet necessary, they embody the deep law by which no guilt is left unanswered.",
+    "dom": [
+      "Punishment of perjury",
+      "Vengeance for crimes of blood",
+      "Guardianship of family bonds",
+      "Chthonic powers of balance"
+    ],
+    "sim": [
+      "The serpents in the hair",
+      "The whips",
+      "The torches",
+      "The black wings"
+    ],
+    "off": [
+      "Libations of water, honey and milk (without wine)",
+      "Narcissus and sacred flowers",
+      "Night rites to appease them as the \"Eumenides\""
+    ],
+    "allora": "Born from the blood of Ouranos, Alecto, Tisiphone and Megaera pursued murderers and those who violated the bonds of blood, as happened to Orestes after the matricide. At Athens, at the close of his trial, they were appeased and venerated as the Eumenides, the \"Kindly Ones\", with a sanctuary at the foot of the Areopagus. To them were offered libations without wine, according to the rite reserved for chthonic powers.",
+    "adesso": "Honour them as the Eumenides, keepers of justice and of oaths, with libations of honey, milk and water poured onto the ground, without wine. Recognise them as the force that restores balance, asking for integrity and consistency rather than revenge. A bunch of narcissus on the altar invites them in their kindly form, favourable to those who seek uprightness.",
+    "src": "https://www.theoi.com/Khthonios/Erinyes.html"
+  },
+  {
+    "id": "caronte",
+    "n": "Charon",
+    "gk": "Χάρων",
+    "ep": "Ferryman of the dead",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "Charon is the old, grim-faced boatman who waits for every soul on the bank of the infernal rivers. With his dark cloak and steady oar he pushes his boat across the Acheron, carrying the shades towards the beyond. But he does not ferry just anyone: only those who have received proper burial may come aboard, while the unburied wander a hundred years upon the shore, turned back and without peace. For this the living placed a coin, the obol, under the tongue of the dead, the toll owed to the stern ferryman. A silent and unbending figure, Charon is not cruel but implacable in his office: he is the guarantor of a passage no one is allowed to evade. His image, dark and solemn, runs through the whole Greek imagination of death.",
+    "dom": [
+      "Daimon who ferries the souls",
+      "Keeper of the infernal rivers",
+      "Guarantor of the rightful passage",
+      "Collector of the toll of the dead"
+    ],
+    "sim": [
+      "The boat",
+      "The oar",
+      "The dark cloak",
+      "The obol"
+    ],
+    "off": [
+      "The obol (a coin) for the dead",
+      "Libations poured onto the ground",
+      "Candles lit in memory of the dead"
+    ],
+    "allora": "An old, grim-faced boatman, he ferried the shades across the Acheron, but received only those who had been properly buried, turning the unburied away. To pay the toll, the obol was placed under the tongue of the dead during the funeral rites. His figure, feared and respected, became the emblem of the impassable border between the living and the dead.",
+    "adesso": "Remember him in funeral and commemorative rites, symbolically laying down a coin for the dead and lighting a lamp on their memory. He is honoured as the guarantor of the rightful passage, with a libation poured onto the ground. The gesture of the obol, even merely symbolic, is an ancient and dignified way of accompanying those who have gone.",
+    "src": "https://www.theoi.com/Khthonios/Kharon.html"
+  },
+  {
+    "id": "anfitrite",
+    "n": "Amphitrite",
+    "gk": "Ἀμφιτρίτη",
+    "ep": "Queen of the sea",
+    "cats": [
+      "marini"
+    ],
+    "intro": "Amphitrite is the queen of the waters, the wife of Poseidon who shares with him the throne of the deep. A Nereid by birth, daughter of old Nereus, she once danced among her sisters upon the waves, until the god of the sea fell in love with her. Fleeing out of modesty as far as the bounds of Ocean, she was found again by a dolphin who gently persuaded her to the marriage: in gratitude, Poseidon set that dolphin among the stars. Having become queen, Amphitrite is the sounding voice of the wave, the power that stirs and calms the open sea and governs its creatures. From her and Poseidon was born Triton, the herald with the feet of a fish. She is portrayed crowned with crab claws, a net in her hair, borne along by dolphins and hippocamps. In the temples of her husband, her name resounded beside his own.",
+    "dom": [
+      "The open sea",
+      "The creatures of the sea",
+      "The royalty of the waters",
+      "Wife and queen beside Poseidon"
+    ],
+    "sim": [
+      "Crab claws upon the head",
+      "A net in the hair",
+      "Dolphins",
+      "Hippocamps"
+    ],
+    "off": [
+      "Sea water",
+      "Sea salt",
+      "Shells",
+      "A libation of wine upon the wave"
+    ],
+    "allora": "A Nereid who became queen of the sea when a dolphin persuaded her to marry Poseidon, she is the sounding voice of the wave and the mother of Triton. Honoured together with her husband in his temples, she shared his majesty as lady of the waters. Her image often adorned mosaics and works of the sea, crowned and surrounded by the marine train.",
+    "adesso": "Honour her at the shore by pouring sea water or offering shells, invoking her as lady of the waters together with her husband Poseidon. She is favourable for the protection of those who face the sea and for harmony in married life. A pinch of sea salt and a libation of wine given to the wave renew her ancient homage.",
+    "src": "https://www.theoi.com/Pontios/Amphitrite.html"
+  },
+  {
+    "id": "nereo",
+    "n": "Nereus",
+    "gk": "Νηρεύς",
+    "ep": "The Old Man of the Sea",
+    "cats": [
+      "marini"
+    ],
+    "intro": "Nereus is the oldest and wisest of the sea gods, the \"Old Man of the Sea\" who embodies the calm of the fish-filled waters and a truth that knows no deceit. Son of Pontos and Gaia, he precedes Poseidon in the dominion of the sea, and he is famous among the gods for his sincerity: he never lies, and he knows the future. With the Oceanid Doris he fathered the fifty Nereids, the splendid nymphs who people the waves. Like other sea powers he possesses the gift of changing shape, slipping away from anyone who would constrain him: so he tried to do with Heracles, who however held him fast through every transformation until the old god revealed the way to the garden of the Hesperides. With dripping beard and fish tail, sceptre in hand, Nereus is the venerable image of the sea’s wisdom, kindly towards those who seek him with respect.",
+    "dom": [
+      "The calm, fish-filled sea",
+      "Prophecy",
+      "Truth and sincerity",
+      "Father of the Nereids"
+    ],
+    "sim": [
+      "Fish tail",
+      "Sceptre",
+      "Dripping beard",
+      "Shape-shifting"
+    ],
+    "off": [
+      "Sea water",
+      "The first fruits of the catch",
+      "Salt",
+      "A libation of wine"
+    ],
+    "allora": "An ancient sea god, son of Pontos and Gaia, renowned for his truthfulness and his prophetic gift, he fathered the fifty Nereids with Doris. Heracles compelled him, holding him fast through every metamorphosis, to reveal the way to the garden of the Hesperides. As a primordial divinity of the sea he preceded Poseidon and was venerated as wise and kindly.",
+    "adesso": "Invoke him for truth and wisdom by offering sea water and the first fruits of the catch at the shore. He is an ideal power for those seeking honest answers or sure guidance in moments of doubt. A libation of wine poured upon the wave, with a pinch of salt, accompanies the request for his clear wisdom.",
+    "src": "https://www.theoi.com/Pontios/Nereus.html"
+  },
+  {
+    "id": "tritone",
+    "n": "Triton",
+    "gk": "Τρίτων",
+    "ep": "Herald of the sea",
+    "cats": [
+      "marini"
+    ],
+    "intro": "Triton is the herald of the waves, the son of Poseidon and Amphitrite who announces with his conch the will of the sea. Half man and half fish, he dwells with his parents in a golden palace in the depths, and when he brings his conch trumpet to his lips the waves obey: his sound can swell a storm or settle it into calm. It was he who came to the aid of the Argonauts, lost on the shallows of Libya, showing them the way to the open sea and offering a clod of earth as a pledge. Vigorous and mighty, he sometimes wields his father’s trident, and his muscular figure with its scaly tail peoples the Greek imagination of the waters. Around him, in the depictions, throng crowds of small tritons. He is the sounding, powerful voice of the sea speaking to mortals.",
+    "dom": [
+      "The waves and the swell",
+      "The tides",
+      "The signal and announcement of the waters",
+      "Herald of Poseidon"
+    ],
+    "sim": [
+      "Conch trumpet",
+      "Fish tail",
+      "Trident",
+      "The body of a triton"
+    ],
+    "off": [
+      "Sea water",
+      "Shells",
+      "A libation of wine upon the wave",
+      "Sea salt"
+    ],
+    "allora": "Son of Poseidon and Amphitrite, he dwelt in a golden palace in the depths and with the sound of his conch calmed or stirred the waves. He helped the Argonauts by pointing out their course towards the open sea, after they had run aground on the coasts of Libya. His hybrid figure became an emblem of the marine train and adorned fountains and works connected with water.",
+    "adesso": "Honour him on the coast by blowing into a shell to announce your prayer and offering sea water. He is invoked to calm troubled waters and to obtain a good voyage by sea. A libation of wine given to the wave, accompanied by the call of the conch, awakens his kindly presence.",
+    "src": "https://www.theoi.com/Pontios/Triton.html"
+  },
+  {
+    "id": "nereidi",
+    "n": "The Nereids",
+    "gk": "Νηρηΐδες",
+    "ep": "The fifty nymphs of the sea",
+    "cats": [
+      "marini"
+    ],
+    "intro": "The Nereids are the fifty daughters of wise Nereus and the Oceanid Doris, gentle and luminous spirits of the kindly sea waters. They dance upon the waves by moonlight, riding dolphins and hippocamps, crowned with seaweed and pearls, and their beauty is that of the sea itself when it shines serene. Among them stand out Tethys, who became a queen, and Thetis, mother of the hero Achilles, and also Galatea, loved by the Cyclops Polyphemus. They are not fearsome powers but rescuers: they hasten to the aid of sailors in danger, calm the waters, guide lost ships to safety. Along the coasts small sanctuaries rose for them, where those who trusted themselves to the sea left offerings before departing. Friends of mortals and sisters of the sea, they embody its mildest and most generous grace.",
+    "dom": [
+      "The kindly waters of the sea",
+      "Rescue of those who sail",
+      "The beauty and grace of the sea",
+      "The nymphs of Poseidon’s train"
+    ],
+    "sim": [
+      "Hippocamps",
+      "Dolphins",
+      "Crowns of seaweed and pearls",
+      "Shells"
+    ],
+    "off": [
+      "Sea water",
+      "Shells and pearls",
+      "Flowers cast among the waves",
+      "Scented oil"
+    ],
+    "allora": "The fifty daughters of Nereus and Doris, among them Tethys, Thetis and Galatea, danced upon the waves and rescued sailors in danger. They were honoured along the coasts with small sanctuaries and received offerings from those about to face the sea. Their image adorned vases and works of the sea, as the graceful train of the waters.",
+    "adesso": "Honour them at the shore by casting flowers among the waves and offering shells, asking protection for those who sail and for those you love. They are powers favourable to beauty, to kindness and to safety at sea. A little scented oil poured upon the water, with words of gratitude, calls up their kindly presence.",
+    "src": "https://www.theoi.com/Pontios/Nereides.html"
+  },
+  {
+    "id": "teti",
+    "n": "Tethys",
+    "gk": "Τηθύς",
+    "ep": "Mother of the waters",
+    "cats": [
+      "marini"
+    ],
+    "intro": "Tethys is the Titaness from whom all the fresh waters of the world flow, the mother who feeds the rivers and the springs. Wife of her brother Okeanos, the immense current that encircles the earth, she bore with him the three thousand rivers and the three thousand Oceanids, the nymphs of springs and watercourses: from her descends every vein that nourishes the soil. A cosmic power of the beginnings, she presides over the feeding of the waters, over their perennial flow from the depths towards the surface. Tradition also grants her a motherly role among the gods: it was she who raised Hera in her house at the bounds of the world, while Zeus fought against the Titans. Venerable and ancient, Tethys is the first spring, the moist womb from which gushes the life that quenches the earth. In her, fresh water is honoured as gift and as origin.",
+    "dom": [
+      "Fresh springs and fountains",
+      "Rivers and watercourses",
+      "The perennial feeding of the waters",
+      "Mother of the Oceanids"
+    ],
+    "sim": [
+      "Wings upon the brow",
+      "Fish tail",
+      "The sceptre of the waters",
+      "A spring"
+    ],
+    "off": [
+      "Spring water",
+      "Milk",
+      "A libation at a spring"
+    ],
+    "allora": "A Titaness, wife of Okeanos, she bore the rivers of the world and the three thousand Oceanids, presiding over the feeding of all the waters. According to myth she raised Hera during the Titanomachy and remained a primordial cosmic power. Though without a widespread cult, her figure recurred in cosmogonies and in marine mosaics beside Okeanos.",
+    "adesso": "Honour her at rivers and springs by offering pure water and milk, acknowledging her as the origin of every watercourse. She suits rites of purification and gestures of gratitude towards the fresh water that quenches and makes fertile. A libation poured at the spring, with words of thanks, renews the homage to the Mother of the waters.",
+    "src": "https://www.theoi.com/Titan/TitanisTethys.html"
+  },
+  {
+    "id": "tetide",
+    "n": "Thetis",
+    "gk": "Θέτις",
+    "ep": "Nereid, mother of Achilles",
+    "cats": [
+      "marini"
+    ],
+    "intro": "Thetis is the most illustrious of the Nereids, the silver-footed sea nymph whose destiny is woven together with that of heroes and of gods. Kindly and powerful, she offered refuge in the depths of the sea to Hephaestus when he fell from Olympus and to Dionysus when he was persecuted; and it was she who saved Zeus himself, when the other gods wished to bind him, by calling the hundred-handed Briareus to his aid. Hers was a great destiny: it was said she would bear a son stronger than his father, and for this the gods gave her in marriage to the mortal Peleus. From that wedding, celebrated by all Olympus, was born Achilles, greatest of heroes, whom she tried in vain to make invulnerable. Like her father Nereus she possesses the gift of changing shape and of foreseeing the future. A grieving mother and an impassioned protectress, Thetis joins the grace of the sea to an unquenchable love for her son.",
+    "dom": [
+      "The protecting sea",
+      "Metamorphosis",
+      "Prophecy",
+      "A mother’s protection"
+    ],
+    "sim": [
+      "Silver feet",
+      "Waves",
+      "Shape-shifting",
+      "Dolphins"
+    ],
+    "off": [
+      "Sea water",
+      "Sea salt",
+      "Scented oil",
+      "A libation of wine"
+    ],
+    "allora": "Leader of the Nereids, she gave refuge to Hephaestus and Dionysus and saved Zeus by calling Briareus to his aid; wife of the mortal Peleus, she bore Achilles. She received cult at Sparta and in Messenia, where she was venerated with particular devotion. Her figure runs through epic and tragedy as a heroic mother and a kindly power of the sea.",
+    "adesso": "Honour her as a motherly protectress and lady of the sea, with sea water and scented oil offered at the shore. She is invoked to protect those dear to you and to find the strength to adapt to life’s changes. A libation of wine poured upon the wave accompanies the request for her watchful, protecting love.",
+    "src": "https://www.theoi.com/Pontios/NereisThetis.html"
+  },
+  {
+    "id": "crono",
+    "n": "Kronos",
+    "gk": "Κρόνος",
+    "ep": "King of the Titans, lord of time",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Kronos is the youngest and boldest of the Titans, firstborn son of Ouranos, the Sky, and Gaia, the Earth. At the urging of his mother, oppressed by the children her husband kept imprisoned, he took up the adamantine sickle and castrated Ouranos, wresting from him the dominion of the cosmos. So he reigned over the golden age, a happy time in which mortals lived without toil or old age and the earth gave its fruits freely. But a prophecy weighed upon him: a son would dethrone him as he had dethroned his father, and for this he devoured his own children as soon as they were born. It was Rhea who deceived him, saving Zeus, who in the end unseated and confined him. In the Greek imagination Kronos remains an ambiguous and mighty figure: lord of the time that begets and consumes all things, but also a king nostalgic for an age of lost innocence.",
+    "dom": [
+      "The golden age and primordial plenty",
+      "Cyclical time and its passing",
+      "Agriculture, sowing and harvest"
+    ],
+    "sim": [
+      "Sickle (harpe)",
+      "Ears of wheat",
+      "Serpent",
+      "Hourglass"
+    ],
+    "off": [
+      "Wheat and barley cakes",
+      "Honey",
+      "Sweet wine",
+      "The fruits of the harvest"
+    ],
+    "allora": "Son of Ouranos and Gaia, he castrated his father and reigned in the golden age, then devoured his children until he was unseated by Zeus. At Athens he was celebrated with the Kronia, a joyful harvest festival in which, in memory of the ancient golden age, masters and slaves feasted together, abolishing every hierarchy for a day. His name was often bound to the rites of reaping and to the close of the agricultural cycles.",
+    "adesso": "Honour Kronos at the end of the harvest or at times of great transition, offering bread and fruit in thanks for the cycles of time that renew all things. A small altar with a sickle and a few ears of wheat can help you reflect on accepting the passing of the years and on letting go of what is complete.",
+    "src": "https://www.theoi.com/Titan/TitanKronos.html"
+  },
+  {
+    "id": "rea",
+    "n": "Rhea",
+    "gk": "Ῥέα",
+    "ep": "Mother of the gods",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Rhea is the great Titaness, wife and sister of Kronos, mother of the first Olympian divinities: Hestia, Demeter, Hera, Hades, Poseidon and Zeus. She watched in grief as her children were devoured one by one by her husband, tormented by the fear of the prophecy. When she was near to giving birth to Zeus, she turned to her parents Ouranos and Gaia and fled in secret to Crete, where she bore the child in a cave of Mount Ida; to Kronos she handed instead a stone wrapped in swaddling clothes, which he swallowed believing it the newborn. So Rhea preserved the future king of the gods and made possible the overthrow of the Titans’ order. In the Greek imagination she is the Great Mother above all others, the embodiment of the earth’s fertility and of the ceaseless flow of life, her cult closely interwoven with that of Phrygian Kybele.",
+    "dom": [
+      "Motherhood and begetting",
+      "The fertility of the earth",
+      "The flow and renewal of life"
+    ],
+    "sim": [
+      "Drum (tympanon)",
+      "Lions",
+      "Turreted crown",
+      "Chariot drawn by lions"
+    ],
+    "off": [
+      "Milk",
+      "Honey",
+      "Incense",
+      "Wheat cakes"
+    ],
+    "allora": "Wife of Kronos, she saved the newborn Zeus by hiding him on Crete and handing her husband a swaddled stone in place of her son. Venerated as the Great Mother, her cult merged with that of Kybele, celebrated with drums, cymbals and ecstatic dances led by her priests among the mountains. Her festivals rang with wild music, an echo of the generative power of the earth.",
+    "adesso": "Invoke her as protectress of mothers and of new life, offering her milk and honey as tokens of nourishment. Beating a drum or another percussion rhythmically during prayer helps to call up her motherly energy and to feel rooted in the deep breathing of the earth.",
+    "src": "https://www.theoi.com/Titan/TitanisRhea.html"
+  },
+  {
+    "id": "helios",
+    "n": "Helios",
+    "gk": "Ἥλιος",
+    "ep": "The all-seeing Sun",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Helios is the Titan who each day drives the chariot of the Sun across the vault of heaven, rising in the east from the waters of Ocean and setting in the west. Crowned with shining rays, wrapped in a purple robe, he holds the reins of four flaming horses that course tirelessly through the sky. From on high he sees and hears everything that happens among gods and mortals: for this he was invoked as the unfailing witness of oaths, and it was he who revealed to Demeter the abduction of Persephone and to Hephaestus the betrayal of Aphrodite. His son was the unhappy Phaethon, who perished in trying to drive his father’s chariot. In the Greek imagination Helios is the luminous eye of the world, guarantor of truth and justice, and his cult shone above all at Rhodes, the island sacred to him.",
+    "dom": [
+      "The sun and the light of day",
+      "Sight and watchfulness",
+      "Sacred oaths and testimony"
+    ],
+    "sim": [
+      "Radiant crown",
+      "Four-horse solar chariot",
+      "Purple robe",
+      "White horses"
+    ],
+    "off": [
+      "Honey",
+      "Incense at dawn",
+      "Cockerels",
+      "Votive figures of horses"
+    ],
+    "allora": "Each day he crossed the sky on his flaming chariot, seeing and hearing everything, and for this he was called as a witness in solemn oaths. His cult flourished at Rhodes, the island consecrated to him, where the famous Colossus was raised in his honour, one of the seven wonders of the ancient world. Prayers were dedicated to him at dawn, turning towards the east as he appeared.",
+    "adesso": "Honour him at sunrise, turning east with honey, incense and a word of gratitude for the light that renews the world. He is the ideal witness before whom to pronounce vows, promises and important commitments, calling him to guarantee your sincerity.",
+    "src": "https://www.theoi.com/Titan/Helios.html"
+  },
+  {
+    "id": "selene",
+    "n": "Selene",
+    "gk": "Σελήνη",
+    "ep": "The shining Moon",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Selene is the goddess who embodies the Moon, sister of Helios the Sun and of Eos the Dawn. Each night, after her brother has completed his journey, she rises and drives the lunar chariot across the dark sky, her head circled by a crescent and herself wrapped in a nocturnal veil. Her most famous myth binds her to the beautiful shepherd Endymion, with whom she fell hopelessly in love: she obtained for him an eternal, unchanging sleep, so as to gaze on him and visit him forever in his everlasting youth. Her gentle light marks out the months and orders the cycles of mortal time. In the Greek imagination Selene is the lady of night, of sleep and of the hidden rhythms of life, often associated with Artemis and with mysterious Hekate in the triple lunar figure.",
+    "dom": [
+      "The moon and its light",
+      "The monthly cycles and the calendar",
+      "Sleep and the night"
+    ],
+    "sim": [
+      "Crescent upon the head",
+      "Chariot drawn by oxen",
+      "Torch",
+      "Nocturnal veil"
+    ],
+    "off": [
+      "Milk",
+      "Torches or candles",
+      "Night libations of water",
+      "Moon cakes"
+    ],
+    "allora": "Sister of Helios, she drove the lunar chariot through the night sky and loved the shepherd Endymion, plunged into an eternal sleep at her wish. She was honoured as goddess of the moon with libations and rites performed under her light, and her course marked out every month of the Greek calendar, binding her figure to the very rhythm of human time.",
+    "adesso": "Celebrate her at the full moon and the new moon, lighting candles and offering milk under the lunar glow. She is a goddess favourable to rites of rest and to the care of dreams, and her light can help you mark out and observe your own cycles, inner and bodily.",
+    "src": "https://www.theoi.com/Titan/Selene.html"
+  },
+  {
+    "id": "eos",
+    "n": "Eos",
+    "gk": "Ἠώς",
+    "ep": "Dawn of the rosy fingers",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Eos is the goddess of Dawn, sister of Helios and Selene, who each morning goes before the Sun and opens the gates of the sky. Rising from the currents of Ocean with her rosy fingers, she scatters the darkness and spreads the dew upon the earth, announcing the new day to mortals. Winged and luminous, she is an ardent, passionate goddess: many were her loves with mortal youths, the most famous of them Tithonus, a Trojan prince. For him she asked Zeus for the gift of immortality, but forgot to ask for eternal youth, so that her beloved aged without end until he shrank to a mere voice, changed according to some into a cicada. In the Greek imagination Eos is the luminous threshold between night and day, the perpetual image of renewal and of beginning again.",
+    "dom": [
+      "Dawn and the first light",
+      "Daily renewal",
+      "Beginnings and new starts"
+    ],
+    "sim": [
+      "Rosy fingers",
+      "Wings",
+      "Pitcher of dew",
+      "The chariot of dawn"
+    ],
+    "off": [
+      "Fresh water at dawn",
+      "Dew",
+      "Newly picked flowers",
+      "Morning incense"
+    ],
+    "allora": "Every morning Eos rose from Ocean to open the gates of the sky for Helios, bringing light to mortals and sprinkling the earth with dew. She loved the Trojan Tithonus, for whom she asked immortality but forgot eternal youth, so that he aged without ever being able to die. The poets sang of her with the immortal Homeric epithet \"of the rosy fingers\".",
+    "adesso": "Honour her as soon as you wake, greeting the first light of morning with a little fresh water and a word of gratitude for the new day that is opening. She is the ideal goddess to invoke for new beginnings and good resolutions, entrusting to her whatever you wish to see born and flourish.",
+    "src": "https://www.theoi.com/Titan/Eos.html"
+  },
+  {
+    "id": "prometeo",
+    "n": "Prometheus",
+    "gk": "Προμηθεύς",
+    "ep": "The forethinker, benefactor of humankind",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Prometheus, whose name means \"he who thinks beforehand\", is the Titan of the sharpest wit, friend and benefactor of the human race. According to tradition he shaped human beings out of clay and loved them as his own creatures, so much so that he rebelled against the gods in their defence. At Sikyon he tricked Zeus in the division of the sacrifices, and when the king of the gods denied fire to mortals, Prometheus stole it, hiding it in a fennel stalk, and gave it to humankind, teaching it thereby the arts and progress. For this daring Zeus had him chained to a crag of the Caucasus, where an eagle devoured his liver each day, which grew back by night, in an endless torment until Heracles freed him. In the Greek imagination Prometheus is the eternal symbol of rebellious intelligence, of civilisation and of compassion for the weak.",
+    "dom": [
+      "Fire and its winning",
+      "Ingenuity and cunning",
+      "Craft and human progress"
+    ],
+    "sim": [
+      "Torch with the stolen fire",
+      "The shaper’s clay",
+      "Eagle",
+      "The chains of the Caucasus"
+    ],
+    "off": [
+      "A lit flame or candle",
+      "Incense",
+      "Bread",
+      "Wine"
+    ],
+    "allora": "He shaped humankind from clay and stole fire from the gods to give it to mortals, suffering for this the eternal torment of the eagle on the Caucasus. At Athens he was honoured together with Hephaestus as patron of craftsmen and of the workers of fire, and in his honour the lampadedromia was run, the sacred torch race in which the participants passed a lit flame from hand to hand without letting it go out.",
+    "adesso": "Honour him by lighting a flame or a candle as a symbol of knowledge and human ingenuity, dedicating to him your creative and intellectual work. He is the ideal patron of those who study, invent, teach, or fight in defence of the oppressed and the weak.",
+    "src": "https://www.theoi.com/Titan/TitanPrometheus.html"
+  },
+  {
+    "id": "atlante",
+    "n": "Atlas",
+    "gk": "Ἄτλας",
+    "ep": "He who holds up the sky",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Atlas is the mighty Titan condemned to hold the vault of heaven upon his shoulders at the western bounds of the world. Having sided with the Titans in the war against the Olympian gods, the Titanomachy, he was punished by Zeus with this immense and eternal burden: to separate Sky from Earth by bearing its weight without ever resting. Heracles came to him during his labours, in the garden of the Hesperides in the far west, and for a time the Titan entrusted him with his load. Tradition also remembers him as the father of the Pleiades, the Hyades and the Hesperides, and as the first great knower of the stars and of the celestial revolutions. In the Greek imagination Atlas embodies endurance, patient forbearance, and the bond between the earth and the starry sky.",
+    "dom": [
+      "Endurance and forbearance",
+      "Astronomy and knowledge of the stars",
+      "The axis and the vault of heaven"
+    ],
+    "sim": [
+      "The vault of heaven upon the shoulders",
+      "Starry sphere",
+      "The pillars of the sky",
+      "The mountain"
+    ],
+    "off": [
+      "Incense",
+      "Olive oil",
+      "A libation of wine",
+      "A votive stone or pillar"
+    ],
+    "allora": "Condemned after the Titanomachy, he holds up forever the vault of heaven at the western bounds of the world, where the garden of the Hesperides also lies. He was moreover held to be the first astronomer and the father of the Pleiades and the Hyades, the constellations that marked the seasons for sailors and farmers. His figure was associated with the mountains that seemed to touch the sky.",
+    "adesso": "Invoke him to find strength and constancy in carrying life’s burdens, offering him incense at a pillar or a stone chosen as his symbol. He suits those who seek resilience in difficulty, as well as those who study the stars and the motions of the sky.",
+    "src": "https://www.theoi.com/Titan/TitanAtlas.html"
+  },
+  {
+    "id": "leto",
+    "n": "Leto",
+    "gk": "Λητώ",
+    "ep": "Mother of Apollo and Artemis",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Leto is the mild Titaness who bore to Zeus the two splendid divine twins, Apollo and Artemis. Loved by the king of the gods, she incurred for this the jealous anger of Hera, who denied her any firm land on which to give birth and set the serpent Python upon her. She wandered long, turned away everywhere, until the small barren island of Delos, then floating and without roots, agreed to give her refuge: there, clinging to a palm, she brought forth first Artemis and then Apollo, and the island was from that time sacred and made fast. Leto always defended her children fiercely, as when the children of proud Niobe, who had insulted her, were punished. In the Greek imagination she is the image of dignified motherhood, of mildness and devotion, almost always portrayed together with the twins.",
+    "dom": [
+      "Motherhood and the care of children",
+      "Modesty and mildness",
+      "Protection of the young"
+    ],
+    "sim": [
+      "Dark veil",
+      "The palm of Delos",
+      "The divine twins Apollo and Artemis",
+      "Quail"
+    ],
+    "off": [
+      "Flowers",
+      "Incense",
+      "Wheat cakes",
+      "A libation of pure water"
+    ],
+    "allora": "Persecuted by jealous Hera, she wandered long without finding refuge until Delos offered her a land on which to bear the twins Apollo and Artemis. She was venerated above all at Delos, the heart of her cult, and in Lycia, often portrayed beside her two powerful children and honoured as a divine mother. Her sanctuary on Delos was among the most sacred of the whole Greek world.",
+    "adesso": "Honour her as protectress of mothers and children, offering her flowers and pure water and invoking her for the serenity and harmony of the family. Her figure inspires dignity, patience and strength of spirit in facing adversity without losing one’s gentleness.",
+    "src": "https://www.theoi.com/Titan/TitanisLeto.html"
+  },
+  {
+    "id": "chaos",
+    "n": "Chaos",
+    "gk": "Χάος",
+    "ep": "The original Void",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Chaos is the beginning of everything, the first reality that existed before anything at all existed. It is not disorder, as we would understand the word today, but \"chasm\", open and formless space, the yawning abyss from which the cosmos took its origin. In Hesiod’s Theogony it is the first to arise, before Gaia herself; from it came to light Erebos, the deep darkness, and Nyx, the Night, and from these in turn Aether and Day. Chaos has neither face nor myth, and knew no figured cult and no statues: it is too ancient and too formless to be portrayed. It is rather the empty womb of being, the silent premise of every birth. To contemplate it is to lean out over the origin, where there was as yet nothing and already everything was possible.",
+    "dom": [
+      "The primeval abyss",
+      "The chasm from which the cosmos arose",
+      "Open and formless space",
+      "Root of Erebos and Nyx"
+    ],
+    "sim": [
+      "The chasm",
+      "Formless darkness",
+      "The air",
+      "The bottomless void"
+    ],
+    "off": [
+      "Incense that dissolves into the air",
+      "Libations of water",
+      "Contemplative silence"
+    ],
+    "allora": "According to Hesiod’s Theogony, Chaos was the first reality to exist, before Gaia; from it were born Erebos and Nyx, and from them Aether and Day. It denoted the \"chasm\" or the original open space, and it never had a figured cult or temples. It remained rather a cosmogonic concept, evoked in speculations about the origin of the world.",
+    "adesso": "Contemplate it as the principle from which everything derives, dedicating to it a moment of silence or of conscious breathing at the beginning of a rite. A little incense left to rise and dissolve into the air recalls its formless, elusive nature. To honour it is above all an act of recollection, a respectful leaning out over the abyss we come from.",
+    "src": "https://www.theoi.com/Protogenos/Khaos.html"
+  },
+  {
+    "id": "gaia",
+    "n": "Gaia",
+    "gk": "Γαῖα",
+    "ep": "Mother Earth",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Gaia is the Earth herself made divinity, the firm foundation on which everything rests and the womb from which life arose. Emerging immediately after Chaos, she brought forth of herself, without a husband, Ouranos the starry sky, the Mountains, and Pontos the sea: from her, the first root, descend all the divine lineages. Joining then with Ouranos she gave life to the Titans, the Cyclopes and the Hundred-Handed, and when her heavenly husband imprisoned her children it was she who plotted vengeance with Kronos. Universal mother, nurse of gods and mortals, she was invoked as a witness in the most solemn oaths, for nothing escapes her who upholds all things. Her veneration was ancient and deep: she was honoured by pouring libations upon her very surface and by laying the first fruits of the harvest on the ground. In her one still recognises the sacred face of living nature.",
+    "dom": [
+      "The Earth as divinity and foundation",
+      "Mother and nurse of the gods",
+      "Begetter of mortals and of living things",
+      "Guarantor of solemn oaths"
+    ],
+    "sim": [
+      "The earth and the soil",
+      "The cornucopia",
+      "Fruits and crops",
+      "The serpent"
+    ],
+    "off": [
+      "First fruits of fruit and grain laid upon the ground",
+      "Libations of milk, honey and wine poured onto the earth",
+      "Grain and flowers"
+    ],
+    "allora": "Emerging after Chaos, Gaia brought forth of herself Ouranos, the Mountains and Pontos, becoming the root of all the divine lineages and mother of the Titans. Venerated as universal Mother, she was invoked as a witness in solemn oaths and received first fruits and libations poured directly upon her surface. Ancient oracles, such as that of Delphi, were attributed to her even before Apollo.",
+    "adesso": "Honour her with offerings of fruit, grain and libations of milk and honey poured on the bare earth, out of doors. Recognise her as the foundation of everything, often joining her cult to a concrete commitment to respect and care for nature. A simple gesture, such as laying the first fruits of a harvest on the ground, renews the ancient bond with the Mother of all.",
+    "src": "https://www.theoi.com/Protogenos/Gaia.html"
+  },
+  {
+    "id": "urano",
+    "n": "Ouranos",
+    "gk": "Οὐρανός",
+    "ep": "The primordial Sky",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Ouranos is the starry sky made person, the immense vault that wraps and covers the earth. Brought forth by Gaia so that he might surround her on every side and be the eternal dwelling of the blessed gods, he then joined with his mother and with her gave origin to the Titans, the Cyclopes and the mighty Hundred-Handed. But Ouranos feared his own children and thrust them back into Gaia’s womb as soon as they were born, until the Earth, oppressed and suffering, armed the youngest, Kronos, who castrated his father with a sickle. From that blood fallen upon the earth were born the Erinyes and the Giants, while from the seed scattered in the sea arose Aphrodite. With that mutilation the sky was parted forever from the earth, and the order of the cosmos could begin. Ouranos remains the vault that embraces all things, the heavenly and remote principle of everything.",
+    "dom": [
+      "The starry vault of heaven",
+      "Father of the Titans",
+      "Husband of Gaia",
+      "The heavenly principle of the cosmos"
+    ],
+    "sim": [
+      "The starry sky",
+      "The vault of heaven",
+      "The stars",
+      "The mantle of night"
+    ],
+    "off": [
+      "Incense raised towards the sky",
+      "Libations offered with lifted hands",
+      "Prayer beneath the stars"
+    ],
+    "allora": "Brought forth by Gaia, Ouranos covered her, becoming the vault of heaven and father of the Titans. He was castrated by his son Kronos with an adamantine sickle; from his blood fallen upon the earth were born the Erinyes and the Giants, and from his seed scattered in the sea arose Aphrodite. As a primordial cosmic power he had no true temples, but his name recurred in cosmogonies and in oaths addressed to the sky.",
+    "adesso": "Honour him by raising your gaze and your hands to the night sky, offering incense and recognising in him the vault that embraces everything. He is venerated as the heavenly principle of the cosmos, often by watching the stars in silence. A prayer in the open air, beneath the starry vault, is the most natural way to address the primordial Sky.",
+    "src": "https://www.theoi.com/Protogenos/Ouranos.html"
+  },
+  {
+    "id": "nyx",
+    "n": "Nyx",
+    "gk": "Νύξ",
+    "ep": "Primordial Night",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Nyx is Night made goddess, a most ancient and venerable power, born from the very origins of the world. She had her beginning from Chaos, and from her issued many of the fundamental forces of the cosmos: joined with Erebos she bore Aether and Day, and alone she brought forth Hypnos and Thanatos, the Moirai and other powers of destiny and shadow. Wrapped in a starry mantle, she crosses the sky on her chariot bringing rest and mystery with her. So great is her majesty that in the Iliad even Zeus gives up an action for fear of offending her: before Night even the king of the gods holds back. She is not threatening darkness, but a deep womb from which sleep, dreams and the powers of fate are born. In her, darkness is venerated as a fertile origin, mother of quiet and of secrets.",
+    "dom": [
+      "Night as a cosmic power",
+      "Begetter of sleep, death and destiny",
+      "Mother of primordial forces",
+      "Lady of mystery and darkness"
+    ],
+    "sim": [
+      "The dark starry mantle",
+      "The black wings",
+      "The nocturnal torch",
+      "The veil of shadow"
+    ],
+    "off": [
+      "Night libations of dark wine or water",
+      "Candles lit in the dark",
+      "Poppies and dark flowers"
+    ],
+    "allora": "Born from Chaos, Nyx brought forth many fundamental powers, such as Aether and Hemera, and alone Hypnos, Thanatos and the Moirai. Homer shows her so venerable that even Zeus fears to offend her, holding back out of respect. A figure of Orphic cult, she was invoked in the cosmogonies as one of the first roots of the world.",
+    "adesso": "Honour her after sunset, lighting a candle in the darkness and pouring a night libation of dark wine or water. She is venerated as the ancient mother of mystery, asking her for quiet, protection in the dark and inspiration in dreams. A moment of recollection at night, with poppies or dark flowers on the altar, calls up her solemn presence.",
+    "src": "https://www.theoi.com/Protogenos/Nyx.html"
+  },
+  {
+    "id": "tartaro",
+    "n": "Tartaros",
+    "gk": "Τάρταρος",
+    "ep": "The deep Abyss",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Tartaros is at once a place and a divinity: the deepest chasm of the universe, as far below the earth as the earth is below the sky. He arose among the very first beings, with Chaos and Gaia, at the dawn of creation, and he stands for the utmost limit of the cosmos, the bottom beyond which there is nothing more. It is there, behind bronze gates and an impassable wall, that Zeus shut away the defeated Titans, guarded by the Hundred-Handed, so that their ancient strength might no longer threaten the order of the world. Even the gods tremble at the thought of that dizzying abyss, where the winds are lost and time seems suspended. He is not a dwelling of punishment like the hell of other traditions, but the containment of primordial chaos. His name is spoken with caution and respect, as one names what is too deep to be understood.",
+    "dom": [
+      "The deepest chasm of the cosmos",
+      "Prison of the Titans",
+      "The utmost limit of the universe",
+      "Containment of primordial chaos"
+    ],
+    "sim": [
+      "The bottomless abyss",
+      "The bronze gates",
+      "The deep darkness",
+      "The storm"
+    ],
+    "off": [
+      "Libations poured into a deep pit",
+      "Nocturnal and sober rites",
+      "Offerings laid on the ground and never tasted"
+    ],
+    "allora": "Among the first beings to arise with Chaos and Gaia, Tartaros is place and divinity at once: the abyss set below the earth as far as the earth is set below the sky. There the defeated Titans were shut away, behind bronze gates and under the guard of the Hundred-Handed. He had no cult of his own, but was evoked with fear in the cosmogonies and in the most dreadful oaths, such as the oath by the Styx.",
+    "adesso": "Recognise him as the utmost limit of the cosmos and the force that contains chaos, honouring him with brief libations poured into a pit dug in the ground. He is mentioned with respect and caution in chthonic rites, without tasting the offerings laid down for him. His cult is sober and measured, suited to those who wish to pay homage to the dark depths of being.",
+    "src": "https://www.theoi.com/Protogenos/Tartaros.html"
+  },
+  {
+    "id": "eros-primordiale-phanes",
+    "n": "Primordial Eros (Phanes)",
+    "gk": "Ἔρως / Φάνης",
+    "ep": "The Love that begets the cosmos",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Eros, in his most ancient form, is not the winged boy son of Aphrodite, but a cosmic power of the beginnings, the force that drives all things to join and to beget. In Hesiod’s Theogony he appears among the very first beings, beside Chaos and Gaia: the most beautiful of the immortals, the one who loosens the limbs and overcomes the reason of gods and mortals, moving them to union. In the Orphic tradition he takes the name of Phanes, the \"Shining One\", the golden and luminous god born from the cosmic egg that Nyx had laid: first begetter, bringer of light, origin of all life and of every form. Endowed with golden wings, he holds within himself both male and female, the principle of all fecundity. He is the creating impulse of the universe, love understood not as feeling but as a cosmic law that holds the world together.",
+    "dom": [
+      "The generative force of cosmic love",
+      "The impulse to union and procreation",
+      "First begetter (in the Orphic tradition)",
+      "Bringer of light and of life"
+    ],
+    "sim": [
+      "The golden wings",
+      "The cosmic egg",
+      "The torch",
+      "The flower"
+    ],
+    "off": [
+      "Scented flowers and honey",
+      "Libations of sweet wine",
+      "Incense and fruit"
+    ],
+    "allora": "In Hesiod’s Theogony, Eros is among the very first beings, a power that moves gods and mortals to union, quite distinct from the later son of Aphrodite. In the Orphic tradition he is Phanes, the shining god born from the cosmic egg laid by Nyx, first begetter and origin of everything. As such he received veneration above all in Orphic circles, which set him at the beginning of the cosmogony.",
+    "adesso": "Honour him as the vital and creative force of the universe, with scented flowers, honey and incense arranged on a bright altar. He is invoked for love, inspiration and harmony, recognised as the impulse that joins and gives life. Lighting a torch or a candle in his name recalls the shining light of Phanes, the principle of all fecundity.",
+    "src": "https://www.theoi.com/Protogenos/Eros.html"
+  },
+  {
+    "id": "pan",
+    "n": "Pan",
+    "gk": "Πάν",
+    "ep": "God of shepherds and flocks",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "Pan is the ancient Arcadian god of the pastures, with the horns and legs of a goat, wild spirit of the mountains and of the flocks. Son according to myth of Hermes, he was born with the goatish appearance that made the gods of Olympus laugh. He roams the lonely heights of Arcadia watching over shepherds and herds, dancing with the Nymphs and resting at the noon hour, when woe betide anyone who disturbs his sleep. In love with the Nymph Syrinx, who to escape him was changed into reeds, he wove her stalks together and made the shepherd’s pipe that bears his name. It is he who strikes that sudden, irrational terror the ancients called \"panic\". In the Greek imagination Pan is the embodiment of wild and fertile nature, companion of Dionysus and the musical voice of the woods.",
+    "dom": [
+      "Pastures, wild woods and flocks",
+      "Animal fertility",
+      "Hunting and country music"
+    ],
+    "sim": [
+      "Goat horns and legs",
+      "Syrinx (the pipes of Pan)",
+      "Shepherd’s crook",
+      "The pine"
+    ],
+    "off": [
+      "Milk and honey",
+      "First fruits of the fields",
+      "Libations poured in a cave"
+    ],
+    "allora": "An Arcadian divinity with a goat’s body, he roamed the mountains playing the syrinx and struck \"panic\" into travellers, companion of the Nymphs and of the festive train of Dionysus. He was honoured in rustic caves of Arcadia, his native land, with offerings of milk, honey and sacrifices of goats. After the battle of Marathon his cult spread to Athens as well.",
+    "adesso": "Honour him with walks in nature, leaving honey and milk by trees or rocks and listening to or playing music in the open air. He is the patron of those who seek a genuine connection with the earth, with animals, and with their own instinctive, joyful spontaneity.",
+    "src": "https://www.theoi.com/Georgikos/Pan.html"
+  },
+  {
+    "id": "ninfe",
+    "n": "The Nymphs",
+    "gk": "Νύμφαι",
+    "ep": "Spirits of nature",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "The Nymphs are the lesser goddesses who animate every corner of the natural world: young and beautiful, they people woods, springs, rivers, mountains and meadows, embodying their secret and fertile life. Divided according to the setting over which they preside — Naiads of the waters, Dryads of the trees, Oreads of the mountains, Nereids of the sea — they are daughters of river divinities or of Zeus himself, and live very long lives without being wholly immortal. Companions of Artemis in the hunt, of Pan and of the dances, of the train of Dionysus, they are nurses of wild life and sometimes mothers of heroes. Whoever met them at a spring might receive gifts from them or be carried off by them. In the Greek imagination the Nymphs are the divine and living presence of nature itself, venerable and to be respected.",
+    "dom": [
+      "Woods, meadows and mountains",
+      "Springs, rivers and waters",
+      "The nourishing and care of wild life"
+    ],
+    "sim": [
+      "Water pitchers",
+      "Garlands of flowers",
+      "Branches and foliage",
+      "Caves and springs"
+    ],
+    "off": [
+      "Milk and oil",
+      "Honey",
+      "Crowns of flowers",
+      "Spring water (never wine)"
+    ],
+    "allora": "Youthful spirits of nature, they were distinguished according to the setting they inhabited and appeared as companions of Artemis, Pan and Dionysus. They were venerated at springs, caves and sacred groves with offerings of milk and oil, but never with wine, according to an ancient ritual prescription. Many caves throughout Greece, called nymphaia, were consecrated to them.",
+    "adesso": "Honour them by taking care of natural places, leaving flowers or clean water at springs and trees and treating these spaces with sacred respect. They are the patrons of care for the earth, of fertility, and of the deep bond with the places we live in and that feed us.",
+    "src": "https://www.theoi.com/Nymphe/Nymphai.html"
+  },
+  {
+    "id": "satiri",
+    "n": "The Satyrs",
+    "gk": "Σάτυροι",
+    "ep": "Spirits of wild fertility",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "The Satyrs are the rustic daimons of teeming nature, creatures with animal features — horse’s ears and tail, sometimes small horns — who embody the instinctive exuberance of life. Unrestrained lovers of wine, music and dance, they chase the Nymphs through the woods and form, together with them, the festive and noisy train of Dionysus, the thiasos. They are always imagined in motion, amid the sound of the aulos, brimming cups and unruly dancing, led by old and wise Silenus, the eldest among them. They were the protagonists of the satyr play, which closed the Athenian tragic trilogies in jest with their unbridled comedy. In the Greek imagination the Satyrs celebrate the generative force of nature, the pleasure of the body, and joyful release from every restraint.",
+    "dom": [
+      "Teeming nature and wild fertility",
+      "Wine, intoxication and vitality",
+      "Dance and music"
+    ],
+    "sim": [
+      "Horse’s ears and tail",
+      "Thyrsus and cup",
+      "Aulos",
+      "Wineskin"
+    ],
+    "off": [
+      "Wine",
+      "Grapes and fruit",
+      "Music and dance"
+    ],
+    "allora": "Rustic spirits with animal features, lovers of wine, music and the Nymphs, they formed the festive train of Dionysus, led by old Silenus. They were celebrated in the satyr plays, which cheered the Athenian audience after the tragedies, and in the boisterous Dionysian festivals in which the restraints of ordinary living were loosened.",
+    "adesso": "Honour them in joy, in celebration and in release from inhibition, with wine, music and dance shared in good company. They remind us of the worth of pleasure, of the body and of vitality, and of the importance of giving way now and then to laughter and gladness without remorse.",
+    "src": "https://www.theoi.com/Georgikos/Satyroi.html"
+  },
+  {
+    "id": "priapo",
+    "n": "Priapus",
+    "gk": "Πρίαπος",
+    "ep": "God of gardens and fertility",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "Priapus is the rustic god of fertility, protector of vegetable gardens, vineyards, flocks and beehives. Son according to tradition of Dionysus and Aphrodite, he was born in the region of Lampsakos, on the Hellespont, where he had his oldest and most heartfelt cult. A divinity of abundance and of the prosperity of the fields, he watched over the crops, guaranteeing their fruitfulness and driving off thieves, birds and harmful influences. His roughly carved images, often painted red, were set among the plants as sacred scarecrows, watchful guardians of the harvest. To him the farmers offered the first fruits of whatever gardens and vines produced, in thanks for their abundance. In the Greek imagination Priapus is the jovial and plain-spoken guarantee of household prosperity and of the fertility of cultivated land.",
+    "dom": [
+      "Gardens, vineyards and orchards",
+      "Flocks and beehives",
+      "Fertility and protection from thieves"
+    ],
+    "sim": [
+      "Basket of fruit",
+      "Phrygian cap",
+      "Garden sickle"
+    ],
+    "off": [
+      "First fruits of gardens and vines",
+      "Milk and honey",
+      "Cakes"
+    ],
+    "allora": "A rustic god originally from Asia Minor, particularly from Lampsakos, he was the protector of vegetable gardens and orchards. His statues were placed among the crops as sacred scarecrows and guardians of the harvest, and to him were offered the first fruits of gardens, vines and fields in thanks for the abundance obtained.",
+    "adesso": "Honour him in the care of your garden and vegetable plot, leaving the first fruits of your harvest and setting a small protecting image of him among the plants. He is the patron of fertility, abundance and household prosperity, jovial guardian of everything you grow with your own hands.",
+    "src": "https://www.theoi.com/Georgikos/Priapos.html"
+  },
+  {
+    "id": "aristeo",
+    "n": "Aristaeus",
+    "gk": "Ἀρισταῖος",
+    "ep": "God of beekeeping and herding",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "Aristaeus is the benefactor god who taught humankind the arts of the countryside, son of Apollo and the Nymph Cyrene. Raised by the Nymphs and by the wise centaur Cheiron, he learned the secrets of beekeeping, of cheese-making and of the cultivation of the olive, which he then gave to humankind, earning thereby his ascent among the divinities. His most famous myth binds him to the death of Eurydice, who in fleeing from him was bitten by the serpent: as a punishment all his bees died, and only by performing a particular sacrifice — the bougonia — did he see them miraculously reborn from the carcasses of oxen. He travelled the Mediterranean world spreading his knowledge, from Thessaly to Sardinia. In the Greek imagination Aristaeus is the mild bringer of civilisation, patron of shepherds, beekeepers, and all who draw their nourishment from the earth and from animals.",
+    "dom": [
+      "Beekeeping and the care of bees",
+      "Stock-raising and herding",
+      "Cheese-making and the cultivation of the olive"
+    ],
+    "sim": [
+      "Hives and bees",
+      "Jar of honey",
+      "Olive branch",
+      "Shepherd’s staff"
+    ],
+    "off": [
+      "Honey",
+      "Cheese and milk",
+      "Olive oil",
+      "First fruits of the flock"
+    ],
+    "allora": "Son of Apollo and the Nymph Cyrene, he taught mortals beekeeping, cheese-making and the cultivation of the olive, ascending through these benefits to divine dignity. He was venerated in many lands — Thessaly, Arcadia, Keos, Sicily and Sardinia — above all as a protector against the summer heat and as guarantor of the prosperity of flocks and hives.",
+    "adesso": "Honour him by dedicating to him the care of bees, of the garden and of the crafts of the land, offering him honey and oil in thanks. He is the ideal patron of beekeepers, farmers and food craftspeople, and of anyone who wishes to work the land in harmony with its rhythms.",
+    "src": "https://www.theoi.com/Georgikos/Aristaios.html"
+  },
+  {
+    "id": "driadi",
+    "n": "The Dryads",
+    "gk": "Δρυάδες",
+    "ep": "Nymphs of the trees",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "The Dryads are the Nymphs of the trees, the living souls of the oaks, pines, poplars and fruit trees that people the forests. Their name derives from the oak, the drys, the tree dearest to them. Among them the Hamadryads have a still closer and more moving bond with their own plant: they are born with it and die with it, so that whoever fells a sacred tree risks killing the spirit that dwells within and drawing divine punishment upon himself. Kindly and gentle divinities, they guard the woods and dance in them, associated with the cult of Dionysus and with the teeming life of vegetation. Those who respected and honoured the trees might receive protection and favour from them. In the Greek imagination the Dryads are the sacred, sentient soul of the forest, which asks for respect and care.",
+    "dom": [
+      "Oaks, pines and poplars",
+      "Fruit trees",
+      "Forests and sacred groves"
+    ],
+    "sim": [
+      "Oaks and foliage",
+      "Garlands of leaves",
+      "Flowering branches",
+      "Fruit trees"
+    ],
+    "off": [
+      "Water and milk",
+      "Crowns of leaves",
+      "Honey",
+      "Care of the trees"
+    ],
+    "allora": "They were venerated as Nymphs of the trees, and the Hamadryads in particular were born and died together with their own plant, so that to cut down a sacred tree was held a punishable sacrilege. Kindly divinities of nature, they were associated with sacred groves and with Dionysian cult, and honoured at the trees that housed them.",
+    "adesso": "Honour them by planting and protecting trees, leaving offerings at their feet and recognising the wood as a living and sacred space. They are the patrons of forest care and of respect for the plant world, teaching us to regard every tree as a presence worthy of regard.",
+    "src": "https://www.theoi.com/Nymphe/Dryades.html"
+  },
+  {
+    "id": "naiadi",
+    "n": "The Naiads",
+    "gk": "Ναϊάδες",
+    "ep": "Nymphs of fresh water",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "The Naiads are the Nymphs of fresh water, spirits who preside over springs, fountains, rivers, lakes and streams. Daughters of river divinities, they embody the quickening freshness of the water that quenches the earth and feeds all life. Lovable and kindly, they were held to be nurses of the young, companions of Artemis, and sometimes lovers of gods and mortals; but they could also carry off those who came too near their waters, as they did with beautiful Hylas, taken from the companions of Heracles. Some sacred springs consecrated to them, such as that of Helicon or that of Delphi, were believed able to grant poetic and prophetic inspiration to whoever drank from them. In the Greek imagination the Naiads are the sacred, beneficent voice of living waters, presences to be honoured at every spring that quenches and heals.",
+    "dom": [
+      "Springs and fountains",
+      "Rivers and lakes",
+      "Nourishment and inspiration"
+    ],
+    "sim": [
+      "Pouring pitcher",
+      "Reeds and rushes",
+      "Springs",
+      "Freshwater shells"
+    ],
+    "off": [
+      "Spring water",
+      "Milk and oil",
+      "Crowns of flowers",
+      "First fruits"
+    ],
+    "allora": "They presided over springs, fountains, rivers and lakes, and were venerated as nurses of the young alongside Artemis. Some of their springs, such as those of Helicon and Delphi, granted poetic and prophetic inspiration to those who drank from them, and springs held especially sacred had sanctuaries and cults of their own, frequented by the faithful.",
+    "adesso": "Honour them at rivers, lakes and fountains, keeping their waters clean and leaving flowers or clear water as a sign of respect. They are the patrons of healing, of inspiration and of the protection of waters, and they remind us how sacred and precious is every spring that quenches our thirst.",
+    "src": "https://www.theoi.com/Nymphe/Naiades.html"
+  },
+  {
+    "id": "muse",
+    "n": "The Muses",
+    "gk": "Μοῦσαι",
+    "ep": "Goddesses of inspiration and the arts",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Daughters of Zeus and Mnemosyne, Memory, the nine Muses were born in Pieria, at the foot of Olympus, after nine nights of love, and ever since they have been the living spring of all song. Each presides over an art or a science — Calliope over epic poetry, Clio over history, Erato over love lyric, Euterpe over music, Melpomene over tragedy, Polyhymnia over sacred hymns, Terpsichore over dance, Thalia over comedy, Urania over astronomy — and together they form the choir that gladdens the tables of the gods. It is to them that Homer and Hesiod ask to sing, for without their voice the poet is mute: it is the Muses who \"remember\" what a mortal could not know. They danced on Helicon and Parnassus, by the springs of Hippocrene and Castalia, where water sprung from the hoof of Pegasus granted poetic inspiration. Stern keepers of the true and the beautiful, they could punish anyone who dared challenge them, like Thamyris of Thrace, blinded for his presumption. In Greek culture they embodied the very idea that human creation is a divine gift, not a mere skill.",
+    "dom": [
+      "Music, song and dance",
+      "Poetry, eloquence and letters",
+      "Astronomy and science",
+      "Inspiration and memory"
+    ],
+    "sim": [
+      "Lyre and flute",
+      "Scrolls and stylus",
+      "Laurel crown",
+      "Celestial globe"
+    ],
+    "off": [
+      "Libations of water, milk and honey",
+      "Hymns and songs",
+      "Creative works dedicated to them"
+    ],
+    "allora": "Originally from Pieria, the Muses were venerated above all on Helicon in Boeotia, where their sacred grove stood with its holy springs, and on Parnassus near Delphi. Poets opened their works with an invocation to the Muses, and in the sanctuaries bloodless libations of water, milk and honey were offered to them. Around their cult flourished the Mouseia, festivals with poetic and musical contests; it is no accident that the \"museum\" was born as a place consecrated to them.",
+    "adesso": "Invoke them at the start of any creative work, of a course of study or of a piece of research, asking for clarity and inspiration. Dedicate to them the works you bring to completion — a written page, a melody, a project — as a token of gratitude. A small altar with laurel, a notebook and a candle can accompany the moment you sit down to create. They are the ideal patrons of writers, artists, musicians and scholars.",
+    "src": "https://www.theoi.com/Ouranios/Mousai.html"
+  },
+  {
+    "id": "cariti-grazie",
+    "n": "The Charites (Graces)",
+    "gk": "Χάριτες",
+    "ep": "Goddesses of grace and joy",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "The three Charites — Aglaia, Splendour, Euphrosyne, Gladness, and Thalia, festive Abundance — are the goddesses who give life its luminous charm. Daughters of Zeus and the Oceanid Eurynome, they embody everything that makes existence sweet: beauty, gratitude, the pleasure of company, the charm of kindly gestures. They dance in a ring, holding hands, the perfect image of the reciprocity of gift and favour that circulates among those who care for one another. Companions and handmaids of Aphrodite, whose body and robe they adorn, and close also to Apollo and the Muses, they lend grace to every art and every feast. The Greek word charis that gives them their name means grace, favour and gratitude all at once: without the Charites no gift would be welcome and no work of art complete. They were the breath of joy that accompanied banquets, weddings and celebrations.",
+    "dom": [
+      "Grace and beauty",
+      "Joy, festivity and dance",
+      "Adornment and the pleasure of company",
+      "Gratitude and courtesy"
+    ],
+    "sim": [
+      "Roses and myrtle",
+      "The ring dance",
+      "Youthful nakedness"
+    ],
+    "off": [
+      "Flowers and roses",
+      "Perfumes",
+      "Banquets and wine",
+      "Music and dance"
+    ],
+    "allora": "Their oldest cult had its seat in Boeotia, at Orchomenos, where they were venerated in the form of sacred stones fallen from the sky and the Charisia festivals were celebrated in their honour, with night dances and musical contests. They were honoured also at Sparta, at Athens and in many sanctuaries as companions of other divinities, since no rite was complete without their grace. Tradition always associated them with choral dance and festive company.",
+    "adesso": "Honour them by cultivating beauty, gratitude and generosity in your relationships: a flower given, a gesture of hospitality, a sincere thank-you are already offerings they welcome. Make your home inviting and lay the table with care when you receive someone, remembering that shared pleasure is sacred. Cultivate reciprocity: to receive with grace and to give back with joy is their teaching. They are patrons of elegance, conviviality and courtesy.",
+    "src": "https://www.theoi.com/Ouranios/Kharites.html"
+  },
+  {
+    "id": "ore",
+    "n": "The Horai",
+    "gk": "Ὧραι",
+    "ep": "Goddesses of the seasons and of order",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "The Horai are the keepers of the time that ripens and returns: daughters of Zeus and Themis, Law, they preside over the cycle of the seasons and over the order that governs nature and human life alike. In their most famous form they are three — Eunomia, Good Order, Dike, Justice, and Eirene, Peace — showing how the good governance of time and that of society are one and the same. They fling open and close the gates of Olympus, gathering or dispersing the clouds, and they accompany the flowering and fruiting of the earth. It was they who led the divinities of the natural cycles and marked the passage from sowing to harvest. The Greeks felt them near whenever nature kept to its right rhythm: the spring that returns, the crop that ripens, the peace that follows order. They guarded the idea that time is not chaos, but measure and harmony.",
+    "dom": [
+      "The seasons and the cycle of time",
+      "Natural and cosmic order",
+      "Justice and good governance",
+      "Peace and social harmony"
+    ],
+    "sim": [
+      "Seasonal flowers and fruits",
+      "The gates of Olympus",
+      "Cornucopia",
+      "Garlands"
+    ],
+    "off": [
+      "Seasonal first fruits",
+      "Flowers",
+      "Libations",
+      "Crowns"
+    ],
+    "allora": "They guarded the gates of Olympus and regulated the seasons and the cosmic order, and for this they were dear above all to farmers, who depended on them for the harvest. They received cult at Athens, where their names were linked to good civic government, and in places such as Olympia and Argos. To them were offered the first fruits of every season, flowers and crowns, in thanks for the fertile rhythm of the year.",
+    "adesso": "Honour them by living in tune with the rhythms of the seasons: celebrate the solstices and the equinoxes, eat the fruits of the right season, respect the phases of your life without forcing them. Every act of justice, punctuality and harmony is homage to their order. Devote a moment to putting your day and your commitments in order, recognising that time well spent is sacred too. They are patrons of balance and measure.",
+    "src": "https://www.theoi.com/Ouranios/Horai.html"
+  },
+  {
+    "id": "moire-parche",
+    "n": "The Moirai (Fates)",
+    "gk": "Μοῖραι",
+    "ep": "Goddesses of destiny",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "The Moirai are the three sisters who hold the life of every being in their hands, the gods included: Klotho, the Spinner, who spins the thread of existence; Lachesis, who measures its length and allots the lot; and Atropos, the Inflexible, who cuts it with her shears when the hour has come. Born according to some from Night, according to others from Zeus and Themis, they embody the deepest law of the cosmos, that \"portion\" (moira) which falls to each and which no one may overstep. Even the gods bow to their decree, and Zeus himself is called Moiragetes, \"he who leads the Moirai\", not \"he who commands them\". Present at the birth of every child, they sing out its destiny and fix it forever. They are not cruel, but impartial: they distribute good and evil, life and death, with inflexible justice. The Greeks feared and respected them as the very voice of necessity.",
+    "dom": [
+      "The destiny and lot of each person",
+      "Birth and death",
+      "The measure of a lifetime",
+      "Cosmic necessity"
+    ],
+    "sim": [
+      "Spindle and distaff",
+      "The thread of life",
+      "Scales",
+      "Shears"
+    ],
+    "off": [
+      "Libations of honey and water",
+      "Flowers",
+      "Cakes",
+      "Offerings at births"
+    ],
+    "allora": "Honoured as the dispensers of fate from birth to death, they had sanctuaries and altars at Corinth, Sparta, Olympia, Thebes and Delphi, often beside Zeus Moiragetes. Bloodless libations of honey and water, flowers and cakes were offered to them, especially at births, when a favourable lot was invoked for the newborn. They were invoked also at the solemn moments of marriage and death, the great passages over which they presided.",
+    "adesso": "Honour them at life’s great passages — a birth, a bereavement, a decisive turn — recognising what is in your hands and what is not. Cultivate the serenity to accept the inevitable, distinguishing it from the courage to act where you can still choose. Light a candle and honour your ancestors, remembering that you are part of a thread that comes from far away. They are patrons of awareness of time and of the weight of choices.",
+    "src": "https://www.theoi.com/Daimon/Moirai.html"
+  },
+  {
+    "id": "nike",
+    "n": "Nike",
+    "gk": "Νίκη",
+    "ep": "Goddess of victory",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Nike is the winged goddess who descends to crown the one who triumphs, swift as a beat of wings and bright as glory itself. Daughter of the Titan Pallas and of the marsh Styx, together with her siblings Zelos, Kratos and Bia she took Zeus’s side in the war against the Titans, and for this the king of the gods kept her forever beside him. Tradition remembers her as the charioteer of his chariot and his inseparable companion, so that she often appears in the very hand of Zeus or of Athena, a small figure holding out the crown to the victor. She flies over battlefields and stadiums, poised an instant before alighting on the head of one who has earned the triumph, in war as in athletic games and poetic contests. She is not the strength that wins, but the shining and fleeting moment of victory consecrated. The Greeks felt her near in every effort crowned with success, and admired her light grace.",
+    "dom": [
+      "Victory in war",
+      "Triumph in athletic games",
+      "Success in artistic contests",
+      "Glory and recognition"
+    ],
+    "sim": [
+      "Wings",
+      "Laurel crown and fillet",
+      "Palm branch",
+      "Lyre"
+    ],
+    "off": [
+      "Crowns and fillets",
+      "Dedicated trophies",
+      "Libations of victory",
+      "Songs of celebration"
+    ],
+    "allora": "Winged goddess of victory and companion of Athena, Nike crowned the victors of wars and games. Her most famous sanctuary is the temple of Athena Nike on the Acropolis of Athens, where she was venerated in her \"wingless\" form (Aptera), so that victory might never leave the city. Trophies, crowns and songs of triumph were dedicated to her, and her image adorned monuments raised in memory of battles won.",
+    "adesso": "Invoke her before an important challenge — an exam, a race, an interview, a goal long pursued — asking her for the clarity and the drive to give your best. When you win something, dedicate it to her with gratitude rather than arrogance, remembering how precious and fleeting victory is. A small laurel or a token of your achievement laid on the altar honours her. She is the patron of sport, of determination and of goals attained.",
+    "src": "https://www.theoi.com/Daimon/Nike.html"
+  },
+  {
+    "id": "tyche",
+    "n": "Tyche",
+    "gk": "Τύχη",
+    "ep": "Goddess of fortune",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Tyche is the unstable and powerful goddess who holds the rudder of chance, able to raise a person to wealth or overturn them into misery with a single turn of her wheel. Held to be daughter of Ocean or of Zeus, she presides over fortune understood as what happens without merit or fault, the pure unforeseen of luck. In one hand she holds the cornucopia brimming with goods, in the other the rudder with which she steers human affairs, and beneath her foot sometimes the sphere or the wheel, the image of her changeable and never settled nature. She dispenses Eutychia, good luck, but misfortune too, for fortune knows no loyalty. In the Hellenistic age her cult grew enormously: every city wanted its own protecting Tyche, crowned with walls, guarantor of its prosperity. The Greeks felt her wherever destiny showed itself capricious, and knew she was to be treated with respect and without presumption.",
+    "dom": [
+      "Fortune and chance",
+      "Prosperity and wealth",
+      "Changeable luck",
+      "Protection of cities"
+    ],
+    "sim": [
+      "Rudder",
+      "Cornucopia",
+      "Wheel or sphere",
+      "Mural crown"
+    ],
+    "off": [
+      "Libations",
+      "First fruits and coins",
+      "Incense",
+      "Cakes"
+    ],
+    "allora": "Venerated as the giver of fortune and prosperity, Tyche had cult at Pharai, Smyrna, Sikyon, Athens and Olympia, and as the Tyche of a city she became protectress of whole cities, with the mural crown upon her head. She was often paired with Nemesis, who balanced her gifts and prevented excessive fortune from turning into presumption. Libations, first fruits, coins and incense were offered to her, in thanks and in request for her favour.",
+    "adesso": "Honour her by meeting the changes of fortune with balance, neither exulting in good luck nor despairing in bad. In fortunate moments, offer a small gesture of gratitude — a coin given away, a symbolic offering — recognising that not everything depends on you. Cultivate hope and flexibility in the face of the unforeseen, remembering that the wheel always turns. She is the patron of accepting chance and of trust in the future.",
+    "src": "https://www.theoi.com/Daimon/Tykhe.html"
+  },
+  {
+    "id": "nemesi",
+    "n": "Nemesis",
+    "gk": "Νέμεσις",
+    "ep": "Goddess of just retribution",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Nemesis is the goddess who watches over the balance of the world and tolerates no excess: her name derives from the verb meaning \"to distribute what is due\", for it falls to her to give each back their rightful share. Daughter of Night, she embodies divine indignation against presumption, hybris, that boundless pride with which mortals forget their limits and challenge the gods. When someone’s fortune grows beyond measure, or when someone enjoys an undeserved good, it is Nemesis who lowers the scales and brings things back to their order. Winged, with bridle and whip in hand, she pursues whoever runs too high and calls them back to measure. Myth also binds her to the birth of Helen, brought forth from an egg after Zeus pursued her by changing into a swan. The Greeks feared her as the voice that reminds every fortunate person: nothing in excess.",
+    "dom": [
+      "Divine retribution",
+      "Punishment of presumption (hybris)",
+      "Balance and right measure",
+      "Moral indignation"
+    ],
+    "sim": [
+      "Wings",
+      "Bridle and whip",
+      "Scales",
+      "Apple branch"
+    ],
+    "off": [
+      "Libations",
+      "Branches",
+      "Incense",
+      "Acts of measure and humility"
+    ],
+    "allora": "Her most famous sanctuary stood at Rhamnous in Attica, where the statue carved by Agorakritos, a pupil of Phidias, was venerated — made according to tradition from the marble the Persians had brought to raise a monument to the victory they expected, a victory their own hybris turned into defeat. The Nemesia were celebrated there and libations, branches and incense were offered to her. She was often invoked beside Tyche, to temper the excesses of fortune.",
+    "adesso": "Honour her by cultivating measure, humility and a sense of justice, recognising your limits and resisting the temptation of arrogance. When life smiles on you, remember not to grow proud; when you suffer a wrong, trust to the restoring of balance rather than to blind revenge. A moment of sobriety and measured gratitude is already homage to her. She is the patron of inner balance and of respect for limits.",
+    "src": "https://www.theoi.com/Daimon/Nemesis.html"
+  },
+  {
+    "id": "eros",
+    "n": "Eros",
+    "gk": "Ἔρως",
+    "ep": "God of love and desire",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Eros is the force that kindles passion and moves all things towards union: in the oldest cosmogonies he is one of the first powers born from Chaos, a primordial principle that drives beings to love and to beget. The more widespread tradition, however, makes him the beautiful son of Aphrodite, a winged youth with laughing eyes, armed with a bow and golden arrows with which he pierces the hearts of gods and mortals, and with the torch with which he sets their desire alight. No one is safe from his shafts, and even Zeus must yield to his power; capricious and irresistible, he plays with the fortunes of lovers. His most famous myth binds him to Psyche, the mortal soul he loved in secret and who, after trials and sorrows, was made immortal and his wife forever — a tale of the love that unites desire and soul. The Greeks venerated him as the power that holds the world together and makes life worth living.",
+    "dom": [
+      "Love and desire",
+      "The passion of hearts",
+      "Attraction and union",
+      "Bonds of affection"
+    ],
+    "sim": [
+      "Bow and arrows",
+      "Golden wings",
+      "Flaming torch",
+      "Roses"
+    ],
+    "off": [
+      "Flowers and roses",
+      "Libations",
+      "Gifts of love",
+      "Incense"
+    ],
+    "allora": "The oldest centre of his cult was Thespiai in Boeotia, where Eros was venerated in the form of an unworked stone and the Erotidia were celebrated every four years, festivals with athletic and musical contests in his honour. He was honoured also at Athens, near the Academy, and in the wrestling schools, as a power that inspired both love and valour. Flowers, roses, libations and incense were offered to him, and lovers turned to him.",
+    "adesso": "Invoke him in relationships of love and whenever you wish to cultivate passion, tenderness and a deep connection with another person. Honour him with flowers, with sincere gestures of affection and with care for your bonds, remembering that love must be nourished and not only desired. A small altar with roses and a candle can accompany your thoughts of the one you love. He is the patron of love, of desire and of the bonds of the heart.",
+    "src": "https://www.theoi.com/Ouranios/Eros.html"
+  },
+  {
+    "id": "iris",
+    "n": "Iris",
+    "gk": "Ἶρις",
+    "ep": "Goddess of the rainbow and messenger",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Iris is the goddess who joins sky and earth, appearing as the rainbow that stretches out bright after the rain. Daughter of the Titan Thaumas and the Oceanid Elektra, and sister of the Harpies, she has golden wings and an iridescent robe, and descends swift as light to carry the messages of the Olympian gods to mortals and to the other divinities. She is above all the faithful handmaid of Hera, whose commands she carries out, but she serves all Olympus, crossing in an instant seas, mountains and even the depths of Hades, where she draws the water of the Styx by which the gods pronounce their solemn oaths. Always in motion, she has almost no myths of her own: her essence is transit, the bridge, the bond. Like the rainbow that marks the end of the storm, she brings with her a sense of hope and of reconciliation between the divine and the human. The Greeks saw her every time the sky opened in colour after the rain.",
+    "dom": [
+      "The rainbow",
+      "Messenger of the gods",
+      "The bond between sky and earth",
+      "Communication and reconciliation"
+    ],
+    "sim": [
+      "Golden wings",
+      "Caduceus",
+      "Water pitcher",
+      "Rainbow"
+    ],
+    "off": [
+      "Wheat and honey cakes",
+      "Dried figs",
+      "Libations of water",
+      "Crowns"
+    ],
+    "allora": "Messenger of the gods and handmaid of Hera, Iris did not have as widespread a cult as other divinities, but she was honoured in particular at Delos, where the inhabitants offered her wheat cakes kneaded with honey and dried figs. Her figure recurred in poetry and art as a link between the worlds, swift and tireless. The rainbow itself, which bore her name, was felt to be a favourable sign from her.",
+    "adesso": "Honour her as the carrier of messages and connections: when you have to communicate something difficult, seek reconciliation after a quarrel or bring good news, invoke her to guide your words. She is the goddess of the hope that returns after the storm, so turn to her at times of recovery and of new beginnings. A glass of clear water offered to the light can be her simple homage. She is the patron of messengers, journeys and new beginnings.",
+    "src": "https://www.theoi.com/Pontios/Iris.html"
+  },
+  {
+    "id": "agathos-daimon",
+    "n": "Agathos Daimon",
+    "gk": "Ἀγαθὸς Δαίμων",
+    "ep": "Good Spirit of the house",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Agathos Daimon, the \"Good Spirit\", is the kindly power that watches over the prosperity of the house and the good fortune of the family. Portrayed as a serpent, the animal that in Greek tradition guards places and the wealth beneath the earth, he is the household spirit above all others, guarantor of abundance and of the protection of the hearth. He has no elaborate myth: his presence is felt in daily life, in the well-being that makes a household serene. He was invoked with affection and familiarity, as a close and discreet protector. To him, at the end of the meal, the first cup of unmixed wine was poured, in a gesture of gratitude for the gifts received. He embodied the idea that every home was watched over by a good spirit, to be honoured so that fortune should not leave the threshold.",
+    "dom": [
+      "Fortune of the house",
+      "Household protection",
+      "Abundance"
+    ],
+    "sim": [
+      "Serpent",
+      "Cup of wine"
+    ],
+    "off": [
+      "A libation of unmixed wine after the meal"
+    ],
+    "allora": "The \"good spirit\" of the house was honoured on the second day of every month, dedicated to him, with a libation of pure wine, unmixed with water, poured after the meal. It was customary, once the meal was over, to offer him the first cup in token of thanks and to win good fortune for the family. His serpent image was sometimes painted in houses, in protection of the storeroom and the hearth.",
+    "adesso": "Honour him with a simple toast of gratitude for your home and for good fortune: the first cup poured or dedicated to him, at the end of a meal, renews the ancient gesture. It is a concrete way of recognising and cultivating the well-being of the place you live in and of the people who share it. A grateful thought before sitting down at table, or at the end of dinner, is enough to make it a daily rite. He is the discreet patron of household prosperity.",
+    "src": "https://www.theoi.com/Daimon/AgathosDaimon.html"
+  },
+  {
+    "id": "eracle",
+    "n": "Heracles",
+    "gk": "Ἡρακλῆς",
+    "ep": "Hero of strength, warder-off of evils",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Heracles is the greatest of the Greek heroes, son of Zeus and the mortal Alkmene, whose whole existence was marked by Hera’s hatred and by the labour of atoning for and overcoming trials. In a fit of madness sent by the goddess he killed his own children, and to purify himself he submitted to the service of King Eurystheus, performing the famous Twelve Labours: he killed the Nemean lion and the Hydra of Lerna, captured the Cerynean hind and the Erymanthian boar, cleaned the stables of Augeas, tamed the bull of Crete and the mares of Diomedes, won the belt of the Amazon and the cattle of Geryon, gathered the apples of the Hesperides and dragged Cerberus out of Hades. His strength was immense, but greater still was his capacity to endure and persevere. He died in flames, poisoned by the robe of the centaur Nessus, but the fire burned away only the mortal part and Zeus received him among the gods. For this he was venerated with a double nature, hero and divinity at once.",
+    "dom": [
+      "Physical and moral strength",
+      "Courage under trial",
+      "Perseverance and resilience",
+      "Protection from evils (alexikakos)"
+    ],
+    "sim": [
+      "Club",
+      "The skin of the Nemean lion",
+      "Bow",
+      "Wine kantharos"
+    ],
+    "off": [
+      "Double sacrifices: part as to a god, part as to a hero",
+      "White poplar wood burned",
+      "Libations of wine and cakes",
+      "Roasted meats at the sacred banquet"
+    ],
+    "allora": "Alone among the heroes, Heracles received a cult of double nature: in some places heroic and chthonic sacrifices were offered to him, poured onto the ground for the dead beneath, in others divine honours as to an Olympian god. The oldest centre of the cult was Thebes, his native city, but sanctuaries, altars and games dedicated to him rose all over Greece. As Alexikakos, \"he who wards off evils\", he was invoked in defence of houses and cities against misfortune.",
+    "adesso": "Invoke him as patron of strength, resilience and perseverance in the face of the \"labours\" of daily life, those trials that seem never to end. When you face a difficulty that demands tenacity, ask him for the courage to go on one step at a time. An altar with the club or the lion skin and a libation of wine suits the request for inner strength. He is the patron of those who do not give up.",
+    "src": "https://www.theoi.com/Cult/HeraklesCult.html"
+  },
+  {
+    "id": "teseo",
+    "n": "Theseus",
+    "gk": "Θησεύς",
+    "ep": "National hero of Athens",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Theseus is the hero Athens chose as its champion and symbol, son of King Aegeus (or of the god Poseidon) and of Aithra. Raised far from his father, as soon as he was strong enough to lift the rock under which his father’s sword and sandals lay hidden, he set out for Athens by the dangerous land route, ridding the isthmus of brigands and monsters such as Procrustes and Periphetes, whose club he took. But his most famous exploit was the descent into the Labyrinth of Crete, where he killed the Minotaur and came out again thanks to the thread Ariadne had given him. Returning to Athens, he forgot to raise the white sails, and his father Aegeus, believing him dead, threw himself into the sea. Having become king, Theseus united Attica into a single state by the synoecism and was remembered as the founder of the city and the first guarantor of its institutions. His figure embodied civic courage and the defence of the weak.",
+    "dom": [
+      "Protection of Athens",
+      "Civic courage",
+      "Defence of the young and the oppressed",
+      "Refuge for those seeking asylum"
+    ],
+    "sim": [
+      "His father’s sword and sandals",
+      "The club of Periphetes",
+      "Ariadne’s thread",
+      "The black ship"
+    ],
+    "off": [
+      "Sacrifices on the 8th of every month (a number sacred to him, as to Poseidon)",
+      "Chthonic offerings poured onto the ground",
+      "Heroic libations and cakes"
+    ],
+    "allora": "After his death Theseus was honoured as the protecting hero of Athens; the general Kimon, following an oracle, brought back from the island of Skyros what were believed to be his bones and raised him the Theseion, which became a sacred asylum for slaves and the oppressed seeking refuge. The Theseia were celebrated in his honour, with sacrifices and games, and heroic rites were offered to him on the eighth day of every month, a number sacred to him and to Poseidon. He was felt to be the very patron of Athenian identity.",
+    "adesso": "Honour him as patron of justice, of civic courage and of the defence of the weakest, and invoke him when you must take a stand for what is right. He is also the ideal guide in inner \"labyrinths\": ask him for the thread that helps you find your bearings in difficult choices and find the way out. A concrete act of solidarity towards someone in difficulty is the most genuine way of honouring him. He gives you the strength to face trials with a sense of community.",
+    "src": "https://www.theoi.com/greek-mythology/heroes.html"
+  },
+  {
+    "id": "perseo",
+    "n": "Perseus",
+    "gk": "Περσεύς",
+    "ep": "Vanquisher of the Gorgon",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Perseus is the hero who defeated the impossible and faced the gaze that turns to stone, son of Zeus and of Danaë, the princess the god reached in the form of a shower of gold. Shut as a newborn into a chest cast into the sea together with his mother, he was saved and grew up on the island of Seriphos, until King Polydektes, to be rid of him, sent him on an errand that seemed certain death: to bring back the head of Medusa, the Gorgon whose gaze turned every living being to stone. Helped by Athena and Hermes, he obtained the winged sandals, the helm of invisibility of Hades and the adamantine sickle, and managed to behead Medusa by looking only at her reflection on his polished shield. On the way back, with the head that still petrified, he freed Andromeda, chained to a rock as prey for a sea monster, and took her as his wife. The Gorgon’s head, given to Athena, became the apotropaic emblem above all others. His story taught how to defeat fear with cunning and courage.",
+    "dom": [
+      "Courage in the face of fear",
+      "Protection against evil and the evil eye",
+      "Victory over the impossible",
+      "Cunning and ingenuity"
+    ],
+    "sim": [
+      "The Gorgon’s head",
+      "Adamantine sickle (harpe)",
+      "Helm of invisibility",
+      "Winged sandals"
+    ],
+    "off": [
+      "Heroic sacrifices and libations",
+      "Chthonic offerings poured onto the ground",
+      "Votive gifts in the heroa"
+    ],
+    "allora": "Perseus was venerated as a hero at Seriphos, at Mycenae — the city tradition credited him with founding — at Argos and at Athens, where heroa were dedicated to him. The Gorgon’s head, the Gorgoneion, became a most powerful apotropaic symbol, carved on doors, shields, walls and coins to drive off evil and the evil eye. Sacrifices and votive gifts were offered to him in the heroa, according to the rites due to a hero.",
+    "adesso": "Honour him as patron of courage and protection: you may keep an image of the Gorgoneion as an amulet against negative energies and fears. Invoke him above all when you face a fear that paralyses you, remembering that he did not look the monster in the face, but knew how to confront it by cunning, in reflection. Ask him for the clarity not to let yourself be turned to stone by fear, but to find the way past it. He is the patron of those who defeat what seems unbeatable.",
+    "src": "https://www.theoi.com/Heros/Perseus.html"
+  },
+  {
+    "id": "asclepio",
+    "n": "Asklepios",
+    "gk": "Ἀσκληπιός",
+    "ep": "God-hero of healing",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Asklepios is the great healer, son of Apollo and the mortal Koronis, whose medical art was so perfect that it crossed the very bounds of life. Snatched still in the womb from his dying mother upon the pyre, he was entrusted to the wise centaur Cheiron, who taught him the secrets of herbs and of medicine. Becoming a physician without equal, he even learned to raise the dead — thanks, it is said, to the Gorgon’s blood given him by Athena — and this disturbed the order of the cosmos: Zeus, fearing that mortals might escape death, struck him with the thunderbolt. But afterwards, to make amends or to acknowledge his merits, he raised him among the stars and among the gods, making him the power of medicine. His staff with the serpent coiled about it is still today the symbol of the medical art. Father of daughters such as Hygieia (Health) and Panakeia, he was the hope of every sick person in the ancient world.",
+    "dom": [
+      "Health and healing",
+      "Care of body and mind",
+      "Healing dreams (incubation)",
+      "Medicine"
+    ],
+    "sim": [
+      "Staff with the serpent",
+      "Sacred serpent",
+      "Dog",
+      "Laurel crown"
+    ],
+    "off": [
+      "Sacrifice of a cockerel",
+      "Incubation: sleeping in the temple for a healing dream",
+      "Votive offerings of healed body parts",
+      "Honey cakes and libations"
+    ],
+    "allora": "The cult of Asklepios had its most famous centre at Epidauros, and from there spread to the Asklepieia of Kos, Pergamon, Athens and the whole Greek world. Its most characteristic rite was incubation: the sick slept within the sacred precinct hoping the god would appear to them in a dream to indicate the cure or to heal them directly. Those who were healed offered votive images of the mended parts of the body and sacrificed a cockerel, as even Socrates recalls in his last words.",
+    "adesso": "He is the patron of health above all others: invoke him before an operation, during an illness, or for the healing of someone dear to you. You may dedicate a small offering to him before falling asleep, asking for dreams that show you the way to healing, of body or of spirit. An act of care towards yourself or towards someone ill is already a way of honouring him. He stands for the hope of healing and the art of those who care.",
+    "src": "https://www.theoi.com/Cult/AsklepiosCult.html"
+  },
+  {
+    "id": "dioscuri",
+    "n": "The Dioskouroi",
+    "gk": "Διόσκουροι",
+    "ep": "Twin saviours of travellers",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "The Dioskouroi, Kastor and Polydeukes, are the shining twins who rush to save those in danger, at sea and in battle. Sons of Leda, they were born of a singular circumstance: Polydeukes, begotten by Zeus, was immortal, while Kastor, son of the mortal Tyndareos, was destined to die. Raised together, Kastor excelled at breaking horses and Polydeukes at boxing, and they took part in great enterprises, such as the hunt of the Calydonian boar and the expedition of the Argonauts. When Kastor fell in a feud, Polydeukes, in despair, would not enjoy immortality alone and begged Zeus to share his own lot with his brother: so the two twins alternate their existence, one day among the gods of Olympus, one day in the darkness of Hades. Changed at last into the constellation of the Twins, they appear to sailors as St Elmo’s fire, twin lights that announce salvation. They are the purest image of brotherly love and faithfulness.",
+    "dom": [
+      "Protection at sea and on journeys",
+      "Rescue in battle",
+      "Patrons of horsemen and athletes",
+      "Hospitality and brotherly love"
+    ],
+    "sim": [
+      "Two stars or caps (pileoi)",
+      "White horses",
+      "Spears",
+      "St Elmo’s fire"
+    ],
+    "off": [
+      "Theoxenia: a banquet with a table laid to receive them as guests",
+      "Sacrifices in harbours and hippodromes",
+      "Libations for a safe return"
+    ],
+    "allora": "Their cult was born at Sparta, where they were venerated as protectors of the city and symbolised by the dokana, two beams of wood joined together, and it spread afterwards through the whole Greek and Roman world. They were honoured with the Theoxenia, sacred banquets at which a table was laid to receive them as divine guests. They appeared to sailors in storms as twin lights of salvation and to horsemen in battle on white horses, and received sacrifices in harbours and hippodromes.",
+    "adesso": "They are the ideal patrons of travellers: invoke them before setting out, for safety by air, by road or by sea, and for those you love who are far from home. You may light two twin lights and offer a symbolic meal, in the spirit of the ancient Theoxenia, as a sign of hospitality and a request for protection. Turn to them also to strengthen brotherly bonds and faithful friendships. They watch over wayfarers and over those who support one another.",
+    "src": "https://www.theoi.com/Cult/DioskouroiCult.html"
+  },
+  {
+    "id": "achille",
+    "n": "Achilles",
+    "gk": "Ἀχιλλεύς",
+    "ep": "The greatest hero of Troy",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Achilles is the warrior without equal of the Trojan War, son of the mortal Peleus and of the sea goddess Thetis, who tried to make him invulnerable by dipping him in the waters of the Styx, holding him by the heel that thus remained his only weak point. He knew, by prophecy, that he had to choose between a long and obscure life and a short but glorious one, and he chose glory. The Iliad is born of his wrath: insulted by King Agamemnon, who took from him the captive Briseis, he withdrew from the battle, and only the death of his beloved companion Patroklos, killed by Hektor, brought him back raging to the field. He avenged his friend by killing Hektor and dragged his body around the walls, until old King Priam came to beg him to give back his son’s corpse, in one of the most moving scenes of the poem. Achilles himself fell soon after, struck in the heel by an arrow of Paris guided by Apollo. He embodied absolute valour and the tragic awareness of mortality.",
+    "dom": [
+      "Valour in battle",
+      "Warrior strength",
+      "Loyalty to friends",
+      "Protection of those who sail the Black Sea"
+    ],
+    "sim": [
+      "Ash spear from Mount Pelion",
+      "Shield forged by Hephaestus",
+      "Plumed helmet",
+      "The heel"
+    ],
+    "off": [
+      "Night sacrifices at the burial mound",
+      "Libations of wine, honey and milk poured onto the ground",
+      "Victims wholly burned (heroic holocaust)"
+    ],
+    "allora": "A half-divine hero, Achilles was venerated at the mound of Sigeion, near Troy, where sailors stopped to pay him honour, and above all as lord of the White Island, Leuke, in the Black Sea, where tradition held he had been carried after death to live a second heroic existence. He received night sacrifices and holocausts, victims wholly burned according to the chthonic rite, and funeral games in his honour. The sailors of the Euxine invoked him as protector of their routes.",
+    "adesso": "Honour him as patron of valour and of excellence, the arete the Greeks admired above all things, and invoke him when you face a challenge that demands absolute courage and total dedication. A libation at sunset, poured onto the ground, can accompany the request for inner strength and for faithfulness to friends, virtues dear to him until death. Remember his tragic lesson too: glory has a price, and faithfulness to those we love counts for more than victory. He is the patron of those who give all of themselves.",
+    "src": "https://www.theoi.com/greek-mythology/heroes.html"
+  },
+  {
+    "id": "orfeo",
+    "n": "Orpheus",
+    "gk": "Ὀρφεύς",
+    "ep": "Divine singer and master of the mysteries",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Orpheus is the singer whose music had power over the whole world, son of the Muse Kalliope and of a Thracian king, or of Apollo himself. When he took up the lyre and sang, wild beasts grew tame, trees bent down, stones moved and even rivers stopped to listen. He took part in the expedition of the Argonauts, and with his song overcame the deadly call of the Sirens. But the myth that made him immortal is that of Eurydice, his beloved wife dead of a serpent’s bite: Orpheus went down alive into Hades and with his music moved even Hades and Persephone, who granted him to bring her back to the light, provided he did not turn to look at her before going out. At the last step, overcome by the anxiety of love, he turned, and lost her forever. Torn with grief, he died dismembered by the Maenads, but his head went on singing and prophesying. He became the legendary founder of the Orphic mysteries, master of a path of purification of the soul.",
+    "dom": [
+      "Music and poetry",
+      "Initiation into the mysteries",
+      "Knowledge of the beyond",
+      "Purification of the soul"
+    ],
+    "sim": [
+      "Lyre",
+      "Crown of flowers",
+      "Animals tamed by song",
+      "The scroll of sacred verses"
+    ],
+    "off": [
+      "Orphic rites with bloodless libations",
+      "Honey, milk and water (refusal of blood sacrifice)",
+      "Sung hymns and purifications"
+    ],
+    "allora": "A Thracian singer, Orpheus was held to be the founder of the Orphic mysteries, a religious current that taught a doctrine of the soul, of its fall into the body and of its purification through rites and a life of abstinence. His head, according to legend, floated as far as Lesbos, where it went on prophesying from an oracle. The Orphics followed purifications, refused blood sacrifice and offered bloodless libations of honey, milk and water, accompanied by sung hymns.",
+    "adesso": "He is the patron of musicians, poets and of anyone seeking an inner, spiritual path. Honour him with music, with the singing of hymns and with meditation, asking him for inspiration and guidance in the growth of the soul. Turn to him also in bereavement, for he knew the most painful loss and made song of it: his story teaches how to turn grief into beauty. A moment of recollection with the music you love is already homage to him.",
+    "src": "https://www.theoi.com/greek-mythology/heroes.html"
+  },
+  {
+    "id": "bellerofonte",
+    "n": "Bellerophon",
+    "gk": "Βελλεροφῶν",
+    "ep": "Tamer of Pegasus",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Bellerophon is the hero who tamed the winged horse and faced an unbeatable monster, a prince of Corinth, son of Glaukos (or of the god Poseidon). His most famous exploit was taming Pegasus, the winged horse born from the blood of Medusa, which he achieved thanks to the golden bridle given him by the goddess Athena, who appeared to him in a dream. Mounted on Pegasus he faced the Chimaera, the fire-vomiting monster with the body of a lion, the tail of a serpent and the head of a goat, and killed it from above by driving into its throat a spear tipped with lead, which the beast’s own fire melted and so choked it. He performed other victorious deeds for the king of Lycia, who had laid those deadly traps for him, and in the end married his daughter. But good fortune made him proud: he wished to rise into the sky with Pegasus as far as the dwelling of the gods, and Zeus, to punish his presumption, made the horse rear. Bellerophon fell and ended his days blind and alone, wandering in disgrace. His story is at once a triumph and a warning.",
+    "dom": [
+      "Taming untameable forces",
+      "Courage in impossible undertakings",
+      "Protection from monsters",
+      "Ambition and its limit"
+    ],
+    "sim": [
+      "Pegasus, the winged horse",
+      "Lead-tipped spear",
+      "Athena’s golden bridle",
+      "The Chimaera"
+    ],
+    "off": [
+      "Sacrifices and libations in the temenos at Corinth",
+      "Chthonic offerings poured onto the ground",
+      "Votive gifts to Athena Chalinitis"
+    ],
+    "allora": "Bellerophon was venerated as a hero at Corinth, his homeland, where a sacred precinct was dedicated to him in the grove of Kraneion, and honoured also in Lycia, the scene of his exploits. At Corinth Athena Chalinitis, \"of the bridle\", was venerated in memory of the golden bridle with which the hero had tamed Pegasus, and votive gifts were offered to her. Heroic sacrifices and libations were rendered to him, according to the rites due to heroes.",
+    "adesso": "Honour him as patron of ambitious courage and of mastery over your own powers, invoking him before an undertaking that seems beyond you. His story teaches that, with the right help and determination, even the most frightening \"chimaeras\" can be defeated. But always remember the warning of his fall: do not let success turn into boundless pride. He gives you the drive to dare, and the wisdom to know your limits.",
+    "src": "https://www.theoi.com/Heros/Bellerophontes.html"
+  },
+  {
+    "id": "atalanta",
+    "n": "Atalanta",
+    "gk": "Ἀταλάντη",
+    "ep": "Huntress and runner",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Atalanta is the untameable heroine who chose the freedom of the woods, abandoned at birth by a father who wanted a son and suckled by a she-bear sent by Artemis. Raised wild among hunters, she became swift and strong as no man was, vowed to virginity after the example of the goddess. When the giant Calydonian boar was laying waste the countryside, she joined the greatest heroes in the hunt and it was she who first wounded the beast, drawing its first blood and earning the trophy, which her admirer Meleager granted her. In running she was unbeatable, and to escape marriage she imposed a deadly contest on her suitors: whoever beat her would marry her, whoever lost would die. No one outran her, until Hippomenes (or Melanion), with Aphrodite’s help, let three golden apples fall along the course: Atalanta stopped to gather them and lost the race, and with it her freedom. Her story celebrates female strength and self-determination.",
+    "dom": [
+      "Hunting and athletics",
+      "Running and physical strength",
+      "Female independence",
+      "Self-determination"
+    ],
+    "sim": [
+      "Bow and arrows",
+      "Hunting spear",
+      "The three golden apples",
+      "Wild animal skin"
+    ],
+    "off": [
+      "Votive offerings from the hunt (often with Artemis)",
+      "Libations and gifts at sacred places",
+      "First fruits of the hunt"
+    ],
+    "allora": "Atalanta’s figure was closely bound to the cult of Artemis, the virgin goddess of the hunt whose wild and free spirit she embodied. Remembered for the Calydonian hunt and for her running contests, she was honoured in places of Arcadia and Boeotia, which disputed her origin, with votive offerings from the hunt and first fruits. Her image recurred in art as a model of female athletic strength and courage.",
+    "adesso": "She is the patron of women athletes, of hunters, and of anyone who defends their independence and their own nature. Invoke her for physical strength, for fair competition and for the courage not to betray who you are, even when the world would have you otherwise. Her story is a reminder of how precious it is to stay faithful to your freedom and not to be distracted by \"golden apples\" that make us lose the race. She gives you determination and pride.",
+    "src": "https://www.theoi.com/Heroine/Atalanta.html"
+  },
+  {
+    "id": "giasone",
+    "n": "Jason",
+    "gk": "Ἰάσων",
+    "ep": "Leader of the Argonauts",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Jason is the hero who managed to gather the greatest champions of Greece into a single undertaking, a Thessalian prince deprived of the throne of Iolkos by his usurping uncle Pelias. Raised in secret by the centaur Cheiron, he returned to claim the kingdom, and along the way, having lost a sandal while helping an old woman — the goddess Hera in disguise — he presented himself wearing only one, fulfilling an oracle Pelias feared. His uncle, to be rid of him, imposed on him the apparently impossible mission of bringing back the Golden Fleece from far-off Colchis. Jason had the ship Argo built and gathered a crew of legendary heroes — the Argonauts, among them Heracles, Orpheus, the Dioskouroi and Atalanta — facing a thousand dangers with them: the Symplegades, the Harpies, hostile peoples. In Colchis he won the Fleece thanks to the help of the sorceress Medea, the king’s daughter, who fell in love with him and saved him from deadly trials. His name remains bound to the courage of the collective undertaking and to the voyage that opened up the world.",
+    "dom": [
+      "Collective undertakings",
+      "Sea voyages",
+      "Leading a group",
+      "Pursuing a shared goal"
+    ],
+    "sim": [
+      "The Golden Fleece",
+      "The ship Argo",
+      "A single sandal",
+      "Spear"
+    ],
+    "off": [
+      "Libations and heroic sacrifices for a favourable voyage",
+      "Offerings to the sea divinities before departure",
+      "Votive gifts along the routes"
+    ],
+    "allora": "The legend of Jason and the Argonauts was among the oldest and best loved in Greece, and it traced in imagination the routes of Greek navigation and settlement in the Mediterranean and the Black Sea. Many cities and places along the coasts preserved memories and cults connected with the passage of the ship Argo and its heroes. Libations and heroic sacrifices were rendered to him, and before departures by sea the sea divinities were honoured, as sailors did in memory of that first great expedition.",
+    "adesso": "Honour him as patron of shared projects, of journeys and of teamwork, invoking him when you must begin an undertaking no one could accomplish alone. His story teaches that the success of a great project depends on knowing how to gather the right people and lead them through the trials. Ask him for the ability to inspire and coordinate those at your side towards a common goal. He is the patron of those who set sail together.",
+    "src": "https://www.theoi.com/greek-mythology/heroes.html ---"
+  }
+]

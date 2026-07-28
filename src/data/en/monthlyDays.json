@@ -1,0 +1,61 @@
+[
+  {
+    "day": 1,
+    "gods": [
+      "selene",
+      "apollo",
+      "estia"
+    ],
+    "note": "Noumenia — the new moon opens the month. The household gods are honoured, along with Selene and Apollo Noumenios."
+  },
+  {
+    "day": 2,
+    "gods": [
+      "agathos-daimon"
+    ],
+    "note": "Day of Agathos Daimon, the good spirit of the house."
+  },
+  {
+    "day": 3,
+    "gods": [
+      "atena"
+    ],
+    "note": "Day sacred to Athena."
+  },
+  {
+    "day": 4,
+    "gods": [
+      "afrodite",
+      "ermes"
+    ],
+    "note": "Day of Aphrodite and Hermes (also of Eros and Heracles)."
+  },
+  {
+    "day": 6,
+    "gods": [
+      "artemide"
+    ],
+    "note": "Day sacred to Artemis."
+  },
+  {
+    "day": 7,
+    "gods": [
+      "apollo"
+    ],
+    "note": "Day sacred to Apollo."
+  },
+  {
+    "day": 8,
+    "gods": [
+      "poseidone"
+    ],
+    "note": "Day of Poseidon (and of the hero Theseus)."
+  },
+  {
+    "day": "ultimo",
+    "gods": [
+      "ecate"
+    ],
+    "note": "Deipnon — the last day of the month (dark moon). Hekate’s Supper at the crossroads and the cleaning of the house close the lunar cycle."
+  }
+]

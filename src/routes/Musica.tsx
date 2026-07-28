@@ -2,10 +2,12 @@ import { useNavigate } from 'react-router-dom';
 import { Card, Label } from '../components/ui';
 import { MUSIC } from '../data/content';
 import { useT } from '../i18n';
+import { useSettings } from '../settings';
 
 export function Musica() {
   const nav = useNavigate();
   const t = useT();
+  const { settings } = useSettings();
   return (
     <main className="screen">
       <header className="appbar app-chrome">
@@ -29,7 +31,7 @@ export function Musica() {
               style={{ textDecoration: 'none', color: 'inherit' }}
             >
               <span className="row-item__grow">
-                <span className="t-card" style={{ display: 'block' }}>{m.t}</span>
+                <span className="t-card" style={{ display: 'block' }}>{settings.lang === 'en' ? m.tEn : m.t}</span>
                 <span className="t-second">{m.service}</span>
               </span>
               <span className="row-item__chevron">↗</span>
