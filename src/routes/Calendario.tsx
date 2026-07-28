@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Card, Label, OrbItem, Greca } from '../components/ui';
+import { Card, Label, OrbItem } from '../components/ui';
 import { BottomSheet } from '../components/BottomSheet';
 import { hellenicDate, gregorianOfDay, MONTH_NAME, YEAR_LABEL } from '../lib/calendar/stub';
 import { sacredDay, festivalOn, nameOf } from '../data/content';
@@ -68,8 +68,6 @@ export function Calendario() {
               );
             })}
           </div>
-
-          <Greca />
 
           <div className="cal-legend">
             <span><i className="dot dot--olive" /> rito o dedica</span>
