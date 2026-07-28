@@ -1,12 +1,14 @@
 import type { AppNotification } from '../types';
 import { festivalsOfMonth, MONTHLY_DAYS, nameOf } from '../data/content';
-import { hellenicDate } from './calendar/stub';
+import { dataEllenica, shiftMonth, type HellenicMonth } from './calendar';
 
 /**
  * Centro notifiche — SPEC.md §6.
  * La lista è CALCOLATA a ogni apertura, mai programmata.
  * Scala di preavviso: 1 mese → 1 settimana → 2 giorni → oggi.
  */
+
+const ORIZZONTE = 31;   // giorni
 
 export function relativeDay(n: number): string {
   if (n === 0) return 'oggi';
@@ -18,54 +20,53 @@ export function relativeDay(n: number): string {
 const names = (ids: string[]) => ids.map(nameOf).join(', ');
 
 export function upcoming(myGods: string[], now: Date = new Date()): AppNotification[] {
-  const today = hellenicDate(now);
+  const oggi = dataEllenica(now);
   const out: AppNotification[] = [];
 
-  for (const f of festivalsOfMonth(today.monthName)) {
-    const away = f.d - today.day;
-    if (away < 0 || away > 30) continue;
-    out.push({
-      id: `festival-${today.monthName}-${f.d}`,
-      type: 'festival',
-      title: f.n,
-      subtitle: `${relativeDay(away)} · ${names(f.gods)}`,
-      daysAway: away,
-    });
-  }
+  /** Raccoglie gli eventi di un mese, misurando la distanza dal giorno corrente. */
+  const scan = (m: HellenicMonth) => {
+    const offset = m.start - oggi.civil;      // giorni fra oggi e la Noumenía del mese
 
-  for (const d of MONTHLY_DAYS) {
-    if (d.day === 'ultimo') continue;
-    const away = (d.day as number) - today.day;
-    if (away < 0 || away > 30) continue;
-    const mine = d.gods.some((g) => myGods.includes(g));
-    out.push({
-      id: `monthly-${today.monthName}-${d.day}`,
-      type: mine ? 'myGod' : 'monthlyDay',
-      title: names(d.gods),
-      subtitle: mine
-        ? `${relativeDay(away)} · è il giorno di uno dei tuoi dèi`
-        : `${relativeDay(away)} · giorno sacro`,
-      daysAway: away,
-    });
-  }
+    for (const f of festivalsOfMonth(m.name)) {
+      const away = offset + f.d - 1;
+      if (away < 0 || away > ORIZZONTE) continue;
+      out.push({
+        id: `festival-${m.start}-${f.d}`,
+        type: 'festival',
+        title: f.n,
+        subtitle: `${relativeDay(away)} · ${names(f.gods)}`,
+        daysAway: away,
+      });
+    }
 
-  const toDeipnon = today.monthLength - today.day;
-  if (toDeipnon >= 0) {
-    out.push({
-      id: `deipnon-${today.monthName}`,
-      type: 'deipnon',
-      title: 'Deîpnon',
-      subtitle: `${relativeDay(toDeipnon)} · la Cena di Ecate chiude il mese`,
-      daysAway: toDeipnon,
-    });
-    out.push({
-      id: `noumenia-${today.monthName}`,
-      type: 'noumenia',
-      title: 'Noumenía',
-      subtitle: `${relativeDay(toDeipnon + 1)} · il mese si apre con Selene, Apollo ed Estia`,
-      daysAway: toDeipnon + 1,
-    });
-  }
+    for (const d of MONTHLY_DAYS) {
+      const giorno = d.day === 'ultimo' ? m.length : (d.day as number);
+      const away = offset + giorno - 1;
+      if (away < 0 || away > ORIZZONTE) continue;
+
+      const mine = d.gods.some((g) => myGods.includes(g));
+      const isDeipnon = d.day === 'ultimo';
+      const isNoumenia = giorno === 1;
+
+      out.push({
+        id: `sacro-${m.start}-${d.day}`,
+        type: isDeipnon ? 'deipnon' : isNoumenia ? 'noumenia' : mine ? 'myGod' : 'monthlyDay',
+        title: isDeipnon ? 'Deîpnon' : isNoumenia ? 'Noumenía' : names(d.gods),
+        subtitle: isDeipnon
+          ? `${relativeDay(away)} · la Cena di Ecate chiude il mese`
+          : isNoumenia
+            ? `${relativeDay(away)} · il mese si apre con ${names(d.gods)}`
+            : mine
+              ? `${relativeDay(away)} · è il giorno di uno dei tuoi dèi`
+              : `${relativeDay(away)} · giorno sacro`,
+        daysAway: away,
+      });
+    }
+  };
+
+  // Mese corrente e successivo: a fine mese ciò che conta sta già oltre il Deîpnon.
+  scan(oggi.month);
+  scan(shiftMonth(oggi.month, +1));
 
   return out.sort((a, b) => a.daysAway - b.daysAway);
 }

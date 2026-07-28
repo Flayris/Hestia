@@ -2,14 +2,10 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card, Label, OrbItem, Button } from '../components/ui';
 import { MoonWidget, phaseName } from '../components/MoonWidget';
-import { hellenicDate, moonPhase } from '../lib/calendar/stub';
+import { dataEllenica, moonPhase, gregorianoEsteso, etichettaAnno } from '../lib/calendar';
 import { upcoming } from '../lib/notifications';
 import { sacredDay, festivalOn, nameOf } from '../data/content';
 import { useMyGods, useDismissed } from '../store';
-
-const GIORNI = ['domenica', 'lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì', 'sabato'];
-const MESI = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno',
-  'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'];
 
 function useNow(intervalMs = 1000) {
   const [now, setNow] = useState(() => new Date());
@@ -26,14 +22,14 @@ export function Oggi() {
   const { ids: myGods } = useMyGods();
   const { ids: dismissed, dismiss } = useDismissed();
 
-  const today = hellenicDate(now);
+  const today = dataEllenica(now);
   const phase = moonPhase(now);
-  const sacred = sacredDay(today.day, today.monthLength);
-  const festival = festivalOn(today.monthName, today.day);
+  const sacred = sacredDay(today.day, today.month.length);
+  const festival = festivalOn(today.month.name, today.day);
   const notifications = upcoming(myGods, now).filter((n) => !dismissed.includes(n.id));
 
   const clock = now.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' });
-  const gregorian = `${GIORNI[now.getDay()]} ${now.getDate()} ${MESI[now.getMonth()]} ${now.getFullYear()}`;
+  const gregorian = gregorianoEsteso(today.civil);
 
   const dedicati = sacred?.gods ?? festival?.gods ?? [];
 
@@ -50,9 +46,9 @@ export function Oggi() {
       <div className="stack">
         {/* --- data ellenica --- */}
         <Card>
-          <p className="t-date">{today.monthName} {today.day}</p>
+          <p className="t-date">{today.month.name} {today.day}</p>
           <p className="t-second" style={{ marginTop: 2 }}>{gregorian}</p>
-          <p className="t-second" style={{ color: 'var(--dim)' }}>{today.yearLabel}</p>
+          <p className="t-second" style={{ color: 'var(--dim)' }}>{etichettaAnno(today.month)}</p>
         </Card>
 
         {/* --- fase lunare --- */}
@@ -63,7 +59,7 @@ export function Oggi() {
               <Label>Fase lunare</Label>
               <p className="t-card" style={{ marginTop: 2 }}>{phaseName(phase)}</p>
               <p className="t-second">
-                giorno {today.day} di {today.monthLength} del mese lunare
+                giorno {today.day} di {today.month.length} del mese lunare
               </p>
             </div>
           </div>

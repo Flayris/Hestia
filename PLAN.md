@@ -128,6 +128,11 @@ riusabile tale e quale in caso di migrazione a Expo.
 
 ## 5. Milestone
 
+**Stato al 28 luglio 2026:** M0 ✅ (online su GitHub Pages) · M1 ✅ (motore + 17 test)
+· M2 ✅ · M3 ✅ · M4 ✅ · M5 ✅ (67 dèi, 24 feste, 5 riti, 4 concetti).
+Restano M6 (diario su IndexedDB e backup), M7 (`.ics`, opzionale), M8 (musica), M9.
+
+
 ### M0 — Fondamenta e deploy *(mezza giornata)*
 Sostituzione dello scaffold con Vite + React + TS; `vite-plugin-pwa`; manifest e icone PNG
 (iOS ignora le icone SVG del manifest: servono PNG 192 e 512 più `apple-touch-icon`);

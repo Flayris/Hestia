@@ -1,23 +1,23 @@
 import { useState } from 'react';
 import { Card, Label, Button } from '../components/ui';
-import { hellenicDate } from '../lib/calendar/stub';
+import { dataEllenica, dayToDate } from '../lib/calendar';
 import { useDiary } from '../store';
 
 const MOODS = ['🙏', '🌿', '☀️', '🌙', '🔥', '💧'];
 
 export function Diario() {
-  const today = hellenicDate();
+  const today = dataEllenica();
   const { entries, add, remove } = useDiary();
   const [text, setText] = useState('');
   const [mood, setMood] = useState<number | null>(null);
 
-  const hellenicLabel = `${today.monthName} ${today.day}`;
+  const hellenicLabel = `${today.month.name} ${today.day}`;
 
   const save = () => {
     if (!text.trim()) return;
     add({
       hellenicDate: hellenicLabel,
-      gregorian: today.gregorian.toISOString().slice(0, 10),
+      gregorian: dayToDate(today.civil).toISOString().slice(0, 10),
       text: text.trim(),
       mood,
     });
