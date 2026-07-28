@@ -2,8 +2,12 @@ import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Card, Label, Orb, SegmentedControl } from '../components/ui';
 import { BottomSheet } from '../components/BottomSheet';
-import { CATEGORIES, DEITIES, RITES, CONCEPTS, FESTIVALS_THIS_MONTH, byId, categoryOf } from '../data/content';
-import type { CategoryKey } from '../types';
+import { Block, TextBlock, ListBlock, Invocation, Source } from '../components/Sections';
+import {
+  CATEGORIES, RITES, CONCEPTS, FESTIVALS, MONTHS,
+  byId, nameOf, categoryOf, deitiesOf,
+} from '../data/content';
+import type { CategoryKey, Festival, Rite, Concept } from '../types';
 import { useMyGods } from '../store';
 
 type Tab = 'dei' | 'riti' | 'feste' | 'altro';
@@ -18,7 +22,9 @@ const TABS = [
 export function Grimorio() {
   const [tab, setTab] = useState<Tab>('dei');
   const [cat, setCat] = useState<CategoryKey | null>(null);
-  const [openId, setOpenId] = useState<string | null>(null);
+  const [deityId, setDeityId] = useState<string | null>(null);
+  const [rite, setRite] = useState<Rite | Concept | null>(null);
+  const [fest, setFest] = useState<{ month: string; f: Festival } | null>(null);
   const [params, setParams] = useSearchParams();
 
   // Arrivo da un Orb della Home o del Calendario: apre direttamente la scheda.
@@ -26,7 +32,7 @@ export function Grimorio() {
     const dio = params.get('dio');
     if (dio && byId(dio)) {
       setTab('dei');
-      setOpenId(dio);
+      setDeityId(dio);
       params.delete('dio');
       setParams(params, { replace: true });
     }
@@ -41,36 +47,23 @@ export function Grimorio() {
       <div className="stack">
         <SegmentedControl options={TABS} value={tab} onChange={(v) => { setTab(v); setCat(null); }} />
 
-        {tab === 'dei' && (cat ? <DeityList cat={cat} onBack={() => setCat(null)} onOpen={setOpenId} />
-                                : <CategoryGrid onPick={setCat} />)}
+        {tab === 'dei' && (cat
+          ? <DeityList cat={cat} onBack={() => setCat(null)} onOpen={setDeityId} />
+          : <CategoryGrid onPick={setCat} />)}
 
-        {tab === 'riti' && <SimpleList items={RITES} />}
-
-        {tab === 'feste' && (
-          <Card>
-            <Label>Mese in corso · Hekatombaiṓn</Label>
-            <div style={{ height: 'var(--s2)' }} />
-            {FESTIVALS_THIS_MONTH.map((f) => (
-              <div key={f.n} className="row-item">
-                <div className="row-item__grow">
-                  <p className="t-card">{f.n}</p>
-                  <p className="t-second">giorno {f.d} · {f.gods.map((g) => byId(g)?.n ?? g).join(', ')}</p>
-                </div>
-              </div>
-            ))}
-            <p className="t-second" style={{ marginTop: 'var(--s4)', color: 'var(--dim)' }}>
-              Le 24 feste degli altri mesi arrivano con la conversione dei contenuti (M5).
-            </p>
-          </Card>
-        )}
-
-        {tab === 'altro' && <SimpleList items={CONCEPTS} />}
+        {tab === 'riti' && <RiteList items={RITES} onOpen={setRite} />}
+        {tab === 'altro' && <RiteList items={CONCEPTS} onOpen={setRite} />}
+        {tab === 'feste' && <FestivalList onOpen={(month, f) => setFest({ month, f })} />}
       </div>
 
-      <DeitySheet id={openId} onClose={() => setOpenId(null)} />
+      <DeitySheet id={deityId} onClose={() => setDeityId(null)} />
+      <RiteSheet item={rite} onClose={() => setRite(null)} />
+      <FestivalSheet data={fest} onClose={() => setFest(null)} onDeity={setDeityId} />
     </main>
   );
 }
+
+/* --------------------------------- dèi --------------------------------- */
 
 function CategoryGrid({ onPick }: { onPick: (k: CategoryKey) => void }) {
   return (
@@ -88,19 +81,16 @@ function CategoryGrid({ onPick }: { onPick: (k: CategoryKey) => void }) {
 }
 
 function DeityList({ cat, onBack, onOpen }: {
-  cat: CategoryKey;
-  onBack: () => void;
-  onOpen: (id: string) => void;
+  cat: CategoryKey; onBack: () => void; onOpen: (id: string) => void;
 }) {
   const c = categoryOf(cat);
-  const list = DEITIES.filter((d) => d.cats.includes(cat));
   return (
     <>
       <button className="chip" onClick={onBack} style={{ alignSelf: 'flex-start' }}>← categorie</button>
       <Card>
         <Label>{c.label}</Label>
         <div style={{ height: 'var(--s2)' }} />
-        {list.map((d) => (
+        {deitiesOf(cat).map((d) => (
           <button key={d.id} className="row-item" onClick={() => onOpen(d.id)}>
             <Orb name={d.n} size="sm" />
             <span className="row-item__grow">
@@ -122,15 +112,14 @@ function DeitySheet({ id, onClose }: { id: string | null; onClose: () => void })
   const d = id ? byId(id) : undefined;
 
   return (
-    <BottomSheet open={!!d} onClose={onClose}>
+    <BottomSheet open={!!d} onClose={onClose} title={d?.n}>
       {d && (
         <div className="stack">
-          <div className="row--between">
+          <div className="sheet-head" style={{ marginTop: -8 }}>
             <div className="row">
               <Orb name={d.n} />
               <div>
-                <h2 className="t-section">{d.n}</h2>
-                <p className="t-greek" lang="grc" style={{ fontSize: 18 }}>{d.gk}</p>
+                <p className="t-greek" lang="grc" style={{ fontSize: 20 }}>{d.gk}</p>
                 <p className="t-label">{d.ep}</p>
               </div>
             </div>
@@ -144,38 +133,120 @@ function DeitySheet({ id, onClose }: { id: string | null; onClose: () => void })
             </button>
           </div>
 
-          <div className="wrap">
-            {d.cats.map((k) => <span key={k} className="chip">{categoryOf(k).label}</span>)}
-          </div>
+          <p className="t-prose">{d.intro}</p>
+
+          <ListBlock title="Domini" items={d.dom} />
+          <ListBlock title="Simboli e attributi" items={d.sim} />
+          <ListBlock title="Offerte" items={d.off} />
 
           <hr className="divider" />
 
-          <p className="t-second" style={{ color: 'var(--dim)' }}>
-            Introduzione narrativa, Domini, Simboli, Offerte, Allora, Oggi puoi, Invocazione
-            e link alla fonte sono già scritti in
-            <code style={{ fontSize: 13 }}> _input/Hestia - Grimorio completo_1.md</code> e
-            compaiono qui con la conversione dei contenuti (M5).
-          </p>
+          <TextBlock title="Nell'antichità" text={d.allora} />
+          <TextBlock title="Oggi puoi" text={d.adesso} />
+          <Invocation text={d.inno} />
+
+          <div className="wrap" style={{ marginTop: 'var(--s2)' }}>
+            {d.cats.map((k) => <span key={k} className="chip">{categoryOf(k).label}</span>)}
+          </div>
+          <Source url={d.src} />
         </div>
       )}
     </BottomSheet>
   );
 }
 
-function SimpleList({ items }: { items: { n: string; sub: string }[] }) {
+/* --------------------------- riti e concetti --------------------------- */
+
+function RiteList({ items, onOpen }: {
+  items: (Rite | Concept)[]; onOpen: (r: Rite | Concept) => void;
+}) {
   return (
     <Card>
       {items.map((r) => (
-        <div key={r.n} className="row-item">
-          <div className="row-item__grow">
-            <p className="t-card">{r.n}</p>
-            <p className="t-second">{r.sub}</p>
-          </div>
-        </div>
+        <button key={r.id} className="row-item" onClick={() => onOpen(r)}>
+          <span className="row-item__grow">
+            <span className="t-card" style={{ display: 'block' }}>{r.n}</span>
+            <span className="t-second">{r.sub}</span>
+          </span>
+          <span className="row-item__chevron">›</span>
+        </button>
       ))}
-      <p className="t-second" style={{ marginTop: 'var(--s4)', color: 'var(--dim)' }}>
-        Testi completi Allora / Oggi puoi in arrivo con M5.
-      </p>
     </Card>
+  );
+}
+
+function RiteSheet({ item, onClose }: { item: Rite | Concept | null; onClose: () => void }) {
+  const inno = item && 'inno' in item ? item.inno : undefined;
+  return (
+    <BottomSheet open={!!item} onClose={onClose} title={item?.n}>
+      {item && (
+        <div className="stack">
+          <p className="t-label" style={{ marginTop: -8 }}>{item.sub}</p>
+          <p className="t-prose">{item.cos}</p>
+          <hr className="divider" />
+          <TextBlock title="Nell'antichità" text={item.allora} />
+          <TextBlock title="Oggi puoi" text={item.adesso} />
+          <Invocation text={inno} title="Formula da pronunciare" />
+        </div>
+      )}
+    </BottomSheet>
+  );
+}
+
+/* --------------------------------- feste -------------------------------- */
+
+function FestivalList({ onOpen }: { onOpen: (month: string, f: Festival) => void }) {
+  return (
+    <div className="stack">
+      {MONTHS.map((month, i) => (
+        <Card key={month}>
+          <div className="month-title">
+            <span className="month-title__n">{month}</span>
+            <span className="month-title__i">mese {i + 1}</span>
+          </div>
+          {(FESTIVALS[month] ?? []).map((f) => (
+            <button key={f.n} className="row-item" onClick={() => onOpen(month, f)}>
+              <span className="day-badge">{f.d}</span>
+              <span className="row-item__grow">
+                <span className="t-card" style={{ display: 'block' }}>{f.n}</span>
+                <span className="t-second">{f.gods.map(nameOf).join(', ')}</span>
+              </span>
+              <span className="row-item__chevron">›</span>
+            </button>
+          ))}
+        </Card>
+      ))}
+    </div>
+  );
+}
+
+function FestivalSheet({ data, onClose, onDeity }: {
+  data: { month: string; f: Festival } | null;
+  onClose: () => void;
+  onDeity: (id: string) => void;
+}) {
+  return (
+    <BottomSheet open={!!data} onClose={onClose} title={data?.f.n}>
+      {data && (
+        <div className="stack">
+          <p className="t-label" style={{ marginTop: -8 }}>{data.month} {data.f.d}</p>
+          <p className="t-prose">{data.f.cos}</p>
+          <hr className="divider" />
+          <TextBlock title="Nell'antichità" text={data.f.allora} />
+          <TextBlock title="Oggi puoi" text={data.f.adesso} />
+          {data.f.gods.length > 0 && (
+            <Block title="Dèi onorati">
+              <div className="wrap" style={{ marginTop: 'var(--s2)' }}>
+                {data.f.gods.map((id) => (
+                  <button key={id} className="chip" onClick={() => { onClose(); onDeity(id); }}>
+                    {nameOf(id)} ›
+                  </button>
+                ))}
+              </div>
+            </Block>
+          )}
+        </div>
+      )}
+    </BottomSheet>
   );
 }

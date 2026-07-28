@@ -1,5 +1,5 @@
 import type { AppNotification } from '../types';
-import { FESTIVALS_THIS_MONTH, MONTHLY_DAYS, byId } from '../data/content';
+import { festivalsOfMonth, MONTHLY_DAYS, nameOf } from '../data/content';
 import { hellenicDate } from './calendar/stub';
 
 /**
@@ -15,13 +15,13 @@ export function relativeDay(n: number): string {
   return `fra ${n} giorni`;
 }
 
-const names = (ids: string[]) => ids.map((id) => byId(id)?.n ?? id).join(', ');
+const names = (ids: string[]) => ids.map(nameOf).join(', ');
 
 export function upcoming(myGods: string[], now: Date = new Date()): AppNotification[] {
   const today = hellenicDate(now);
   const out: AppNotification[] = [];
 
-  for (const f of FESTIVALS_THIS_MONTH) {
+  for (const f of festivalsOfMonth(today.monthName)) {
     const away = f.d - today.day;
     if (away < 0 || away > 30) continue;
     out.push({

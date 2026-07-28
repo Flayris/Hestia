@@ -1,0 +1,2035 @@
+[
+  {
+    "id": "estia",
+    "n": "Estia",
+    "gk": "Ἑστία",
+    "ep": "del Focolare",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Estia è la più mite e la più venerata fra gli dèi dell'Olimpo, la prima nata da Crono e Rea e perciò, per una simmetria del mito, anche l'ultima a essere restituita alla luce. Vergine per scelta, rifiutò le nozze di Poseidone e di Apollo e chiese a Zeus il privilegio di restare intatta e di sedere al centro della casa, custode della fiamma. Non compie imprese, non attraversa avventure: la sua grandezza è la stabilità, il fuoco che non si spegne e che tiene unita la famiglia e la città. Ogni focolare domestico e ogni pubblico Pritaneo erano il suo tempio vivente, e da quel fuoco si accendevano le colonie lontane come rami di uno stesso ceppo. Per questo riceveva la prima e l'ultima libagione di ogni rito: prima di lei nessun dio, dopo di lei nessuna preghiera.",
+    "dom": [
+      "Focolare e fuoco sacro",
+      "Casa e famiglia",
+      "Comunità e vita civica"
+    ],
+    "sim": [
+      "Focolare",
+      "Fiamma",
+      "Cerchio"
+    ],
+    "off": [
+      "Prima e ultima libagione di ogni rito",
+      "Olio",
+      "Vino dolce",
+      "Incenso"
+    ],
+    "allora": "Estia riceveva la prima e l'ultima parte di ogni sacrificio, secondo la formula \"da Estia si comincia\". Nel Pritaneo di ogni città ardeva un fuoco pubblico mai spento, cuore della comunità: quando si fondava una colonia, se ne portava una brace, così che la nuova città restasse legata alla madre patria dal medesimo focolare.",
+    "adesso": "Accendi una candela dedicata all'inizio di ogni pratica e salutala alla fine, riconoscendole il primo e l'ultimo posto. Tieni curato e pulito il tuo angolo sacro: quello è il suo focolare, e il suo ordine è già una forma di devozione.",
+    "inno": "Estia, che custodisci il focolare sacro degli dèi e degli uomini, a te la prima e l'ultima offerta.",
+    "src": "https://www.theoi.com/Ouranios/Hestia.html"
+  },
+  {
+    "id": "zeus",
+    "n": "Zeus",
+    "gk": "Ζεύς",
+    "ep": "Re degli dèi",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Zeus è il signore del cielo e il garante dell'ordine cosmico, ultimo figlio di Crono, sottratto da Rea alla fame del padre e nascosto a Creta finché non fu abbastanza forte da liberare i fratelli e rovesciare i Titani. Da quella vittoria ereditò il fulmine, forgiato dai Ciclopi, e la sovranità sul mondo divino e umano. Non è però soltanto potenza: è il dio della giustizia (Dike siede accanto a lui), dei giuramenti, dell'ospitalità e della protezione della casa. Sotto i suoi molti epiteti — Xenios che veglia sullo straniero, Herkeios che custodisce il recinto, Ktesios che colma la dispensa — il Greco lo sentiva presente in ogni soglia e in ogni patto. Temuto per il tuono, era invocato soprattutto come colui che tiene insieme le leggi non scritte del vivere comune.",
+    "dom": [
+      "Cielo, tuono e ordine",
+      "Giustizia e giuramenti",
+      "Ospitalità e protezione della casa"
+    ],
+    "sim": [
+      "Fulmine",
+      "Aquila",
+      "Quercia",
+      "Scettro"
+    ],
+    "off": [
+      "Incenso",
+      "Vino",
+      "Focacce d'orzo",
+      "Per Zeus Ktesios: un vaso con acqua, olio e frutti"
+    ],
+    "allora": "Come Ktesios proteggeva la dispensa, custodita in un vaso sacro (la kadiskos) colmo di acqua, olio e frutti; come Herkeios presidiava il recinto e il cortile di casa, con un altare al centro; come Xenios vegliava sull'ospite e sullo straniero, rendendo l'accoglienza un dovere sacro la cui violazione lo offendeva direttamente.",
+    "adesso": "Colloca un piccolo vaso nella dispensa in onore di Zeus Ktesios, rinnovandolo di tanto in tanto, come segno e richiesta di prosperità per la casa. Invocalo per la giustizia, per la protezione e nei momenti delle grandi decisioni, quando serve fermezza e misura.",
+    "inno": "Zeus altissimo e glorioso, signore del cielo e custode della casa, veglia su di noi.",
+    "src": "https://www.theoi.com/Olympios/Zeus.html"
+  },
+  {
+    "id": "era",
+    "n": "Era",
+    "gk": "Ἥρα",
+    "ep": "Regina",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Era è la regina dell'Olimpo, sorella e sposa di Zeus, dea del matrimonio e sovrana accanto al sovrano. La sua maestà è quella del vincolo coniugale e della dignità femminile: presiede alle nozze, alla fedeltà e alle stagioni della vita di una donna, dalla fanciullezza alla maternità. Il mito la ritrae spesso gelosa e implacabile verso le amanti di Zeus e la loro discendenza — da Eracle a Io — ma quella gelosia è il rovescio della sua funzione più alta: la custodia dell'ordine coniugale e del legittimo. Ogni anno, secondo il racconto, tornava vergine bagnandosi alla fonte di Canato, rinnovando le proprie nozze. Argo, Samo e Micene la veneravano come loro grande protettrice, con templi tra i più antichi della Grecia.",
+    "dom": [
+      "Matrimonio e fedeltà",
+      "Donne e famiglia",
+      "Sovranità"
+    ],
+    "sim": [
+      "Pavone",
+      "Diadema",
+      "Melograno",
+      "Giglio"
+    ],
+    "off": [
+      "Melograno",
+      "Gigli",
+      "Incenso",
+      "Vino"
+    ],
+    "allora": "Era era protettrice del matrimonio e delle fasi della vita femminile, invocata con epiteti distinti per la fanciulla (Parthenos), la sposa (Teleia) e la vedova (Chera). Le Theogamia, o Hieros Gamos, celebravano le sue nozze sacre con Zeus, mentre nei grandi santuari come l'Heraion di Argo e di Samo si tenevano feste e processioni in suo onore.",
+    "adesso": "Invocala per le unioni e gli impegni, per i patti che chiedono lealtà, per la dignità e l'autostima, e per la protezione della famiglia. Offrile fiori freschi — gigli soprattutto — come segno di rispetto verso la sua maestà.",
+    "inno": "Era dal trono d'oro, regina degli dèi, benedici i legami e la casa.",
+    "src": "https://www.theoi.com/Olympios/Hera.html"
+  },
+  {
+    "id": "poseidone",
+    "n": "Poseidone",
+    "gk": "Ποσειδῶν",
+    "ep": "Signore del mare",
+    "cats": [
+      "olimpi",
+      "marini"
+    ],
+    "intro": "Poseidone è il possente signore del mare, fratello di Zeus e di Ade, a cui toccarono in sorte le acque quando i tre si spartirono il mondo. Impugna il tridente con cui solleva le tempeste, spacca le rocce e scuote la terra: per questo è detto Enosichthon, \"colui che scuote la terra\", causa dei terremoti oltre che delle onde. È dio di temperamento impetuoso, capace di lunghe collere — come quella contro Odisseo — ma anche donatore del cavallo e patrono dei cavalieri. Contese ad Atena il possesso di Atene facendo scaturire una sorgente dalla roccia dell'Acropoli. Marinai e naviganti lo placavano prima di ogni traversata, sapendo che dalla sua volontà dipendevano la calma e il naufragio.",
+    "dom": [
+      "Mare e acque",
+      "Terremoti e tempeste",
+      "Cavalli"
+    ],
+    "sim": [
+      "Tridente",
+      "Cavallo",
+      "Delfino",
+      "Toro"
+    ],
+    "off": [
+      "Acqua di mare",
+      "Vino",
+      "Orzo",
+      "Focacce"
+    ],
+    "allora": "Poseidone veniva placato con offerte e libagioni prima di ogni viaggio per mare, gettando doni tra le onde per assicurarsi un passaggio tranquillo. Le Poseidea lo onoravano nel mese a lui dedicato, e l'ottavo giorno di ogni mese gli era sacro; grandi giochi in suo onore si tenevano all'Istmo di Corinto.",
+    "adesso": "Offrigli qualcosa prima di un viaggio, specie per mare, o quando le \"acque\" della tua vita si fanno agitate e imprevedibili. Versa acqua o vino chiedendo stabilità e un passaggio sicuro attraverso le tempeste, interiori o esterne che siano.",
+    "inno": "Poseidone che scuoti la terra, signore delle acque, concedi calma e passaggio sicuro.",
+    "src": "https://www.theoi.com/Olympios/Poseidon.html"
+  },
+  {
+    "id": "ade",
+    "n": "Ade",
+    "gk": "Ἅιδης",
+    "ep": "Signore degli Inferi",
+    "cats": [
+      "olimpi",
+      "ctonii"
+    ],
+    "intro": "Ade è il signore silenzioso del regno dei morti, fratello maggiore di Zeus a cui toccò in sorte il mondo sotterraneo. Il suo nome significa \"l'Invisibile\", e possiede infatti un elmo che rende invisibile chi lo indossa; ma i Greci preferivano chiamarlo Plutone, \"il Ricco\", perché dalla terra provengono i metalli, le messi e ogni ricchezza. Non è un dio malvagio: è giusto e inflessibile, custode di un ordine da cui nessuno può sottrarsi. Il mito lo lega per sempre a Persefone, che rapì e rese sua regina, dando origine con il suo ritorno stagionale al ciclo delle stagioni. Temuto e onorato con cautela, era il dio a cui si guardava per il lutto, la memoria e le trasformazioni profonde.",
+    "dom": [
+      "Oltretomba e morti",
+      "Antenati e memoria",
+      "Ricchezza sotterranea e trasformazione"
+    ],
+    "sim": [
+      "Elmo dell'invisibilità",
+      "Cornucopia",
+      "Cipresso",
+      "Narciso"
+    ],
+    "off": [
+      "Libagioni versate a terra (miele, acqua, vino)",
+      "Narciso",
+      "Cipresso",
+      "Offerte che non si assaggiano"
+    ],
+    "allora": "Ade era onorato con riti ctonii, distinti da quelli olimpici: le offerte si rivolgevano verso il basso, versate a terra o in fosse, spesso di notte, e le vittime erano di colore scuro. Il suo nome si pronunciava con cautela, e lo si chiamava per lo più con nomi propiziatori come Plutone, \"il Ricco\", per non attirarne l'attenzione.",
+    "adesso": "Onoralo nei momenti del lutto, nella memoria degli antenati e di chi non c'è più, e nei grandi passaggi che chiedono di lasciare andare qualcosa. Versa una libagione a terra — miele, acqua o vino — con rispetto e senza assaggiarla, poiché è interamente sua.",
+    "inno": "Ade, che accogli ogni vita al suo tempo, sii mite con chi ricordiamo.",
+    "src": "https://www.theoi.com/Khthonios/Haides.html"
+  },
+  {
+    "id": "apollo",
+    "n": "Apollo",
+    "gk": "Ἀπόλλων",
+    "ep": "Phoibos, il Luminoso",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Apollo è il dio splendente della luce, della musica e della profezia, figlio di Zeus e di Leto e fratello gemello di Artemide, nato sull'isola galleggiante di Delo. È il più greco degli dèi: incarna la misura, l'armonia e la conoscenza del futuro. A Delfi, dopo aver ucciso il serpente Pitone, fondò il suo oracolo, il più autorevole del mondo antico, dove la Pizia pronunciava i suoi responsi. Con la lira dona la musica, con l'arco d'argento colpisce da lontano portando la peste o la guarigione, perché è insieme dio che manda e dio che risana. Luminoso e imprevedibile, presiede alla profezia, alla purificazione, alla gioventù e all'ispirazione poetica: il suo \"conosci te stesso\", inciso a Delfi, riassume l'ideale greco della chiarezza.",
+    "dom": [
+      "Luce, musica e profezia",
+      "Guarigione e purificazione",
+      "Gioventù e ispirazione"
+    ],
+    "sim": [
+      "Lira",
+      "Arco",
+      "Alloro",
+      "Cigno"
+    ],
+    "off": [
+      "Alloro",
+      "Incenso",
+      "Miele",
+      "Focacce",
+      "Olio"
+    ],
+    "allora": "Come Agyieús proteggeva porte e strade, rappresentato da una colonna conica posta davanti alle case. Si diceva nato il settimo giorno di Thargelion, e il settimo di ogni mese gli era sacro; a Delfi e a Delo grandi feste, oracoli e canti corali celebravano la sua presenza luminosa.",
+    "adesso": "Invocalo per l'ispirazione, la guarigione del corpo e dell'animo, e per la chiarezza nelle scelte difficili. Poni una foglia d'alloro all'ingresso di casa e offrigli la musica — suonata o ascoltata con attenzione — come dono a lui gradito.",
+    "inno": "Apollo dall'arco d'argento, luce che guarisce e ispira, illumina il mio cammino.",
+    "src": "https://www.theoi.com/Olympios/Apollon.html"
+  },
+  {
+    "id": "artemide",
+    "n": "Artemide",
+    "gk": "Ἄρτεμις",
+    "ep": "Signora selvaggia",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Artemide è la vergine cacciatrice, signora delle terre selvagge, degli animali e della luna, figlia di Zeus e Leto e sorella gemella di Apollo. Nata per prima, secondo il racconto aiutò la madre a partorire il fratello, divenendo così protettrice delle partorienti pur restando essa stessa intatta e libera. Percorre i boschi con l'arco e il suo seguito di ninfe, difendendo la purezza dei luoghi incontaminati: guai a chi la offende, come Atteone, mutato in cervo e sbranato dai suoi stessi cani per averla vista al bagno. È dea ambivalente e potente, che veglia sui cuccioli e sui giovani ma sa anche colpire con frecce improvvise. A lei si affidavano le fanciulle prima delle nozze e le donne al momento del parto, nei passaggi più delicati della vita.",
+    "dom": [
+      "Caccia e natura selvaggia",
+      "Luna e animali",
+      "Protezione di fanciulle e partorienti"
+    ],
+    "sim": [
+      "Arco",
+      "Cerva",
+      "Luna crescente",
+      "Cipresso"
+    ],
+    "off": [
+      "Dolci a forma di luna (amphiphôntes)",
+      "Frutta",
+      "Erbe selvatiche",
+      "Incenso"
+    ],
+    "allora": "Artemide era protettrice dei passaggi femminili e della crescita dei giovani: a Brauron le bambine, \"orse\" di Artemide, la servivano prima di entrare nell'età adulta. Si diceva nata il sesto giorno di Thargelion, e il sesto di ogni mese le era sacro; a Efeso il suo grande tempio era una delle meraviglie del mondo.",
+    "adesso": "Invocala per l'indipendenza, la forza interiore e il legame con la natura selvaggia. Dedicale una camminata tra gli alberi o al chiaro di luna, e offrile frutta o erbe raccolte, riconoscendo la sua signoria sui luoghi incontaminati.",
+    "inno": "Artemide cacciatrice, signora della luna e dei boschi, custodisci chi cammina da solo.",
+    "src": "https://www.theoi.com/Olympios/Artemis.html"
+  },
+  {
+    "id": "dioniso",
+    "n": "Dioniso",
+    "gk": "Διόνυσος",
+    "ep": "Lyaios, il Liberatore",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Dioniso è il dio del vino, dell'estasi e della trasformazione, figlio di Zeus e della mortale Semele, l'unico olimpico nato da madre umana. Strappato dal grembo della madre fulminata e cucito nella coscia di Zeus finché non fu maturo, porta nel mito il segno della doppia nascita e della rinascita. È il dio che scioglie — Lyaios, il Liberatore — che con il vino allenta le catene della ragione e apre le porte dell'estasi, ma anche del terrore per chi lo rifiuta, come mostra la fine di Penteo. Il suo corteo di Menadi e satiri percorre i monti nell'ebbrezza sacra; la sua è l'energia della vite che muore in inverno e rinasce in primavera. Dio del teatro e della comunità festosa, insegna che la gioia condivisa è anch'essa una via sacra.",
+    "dom": [
+      "Vino ed estasi",
+      "Teatro e liberazione",
+      "Rinascita e vegetazione"
+    ],
+    "sim": [
+      "Vite",
+      "Edera",
+      "Tirso",
+      "Pantera",
+      "Maschera"
+    ],
+    "off": [
+      "Vino",
+      "Uva",
+      "Edera",
+      "Fichi"
+    ],
+    "allora": "Le Anthesteria celebravano l'apertura del vino nuovo e il ritorno delle anime, le Lenaia e le grandi Dionisie univano processioni, vino e rappresentazioni teatrali, poiché dalla lirica corale in suo onore nacque il teatro tragico e comico. Era il dio che muore e rinasce come la vite, e le sue feste rinnovavano il legame della comunità con i cicli della vita.",
+    "adesso": "Invocalo per la gioia, la liberazione dalle rigidità e l'espressione artistica. Condividi con qualcuno un calice di vino — o di succo d'uva — ricordando che la prima libagione è sua, e lascia che la sua energia sciolga qualche nodo che ti stringe.",
+    "inno": "Dioniso che sciogli ogni nodo, dono della gioia e della rinascita, sii con noi.",
+    "src": "https://www.theoi.com/Olympios/Dionysos.html"
+  },
+  {
+    "id": "ermes",
+    "n": "Ermes",
+    "gk": "Ἑρμῆς",
+    "ep": "Messaggero",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Ermes è il messaggero degli dèi e il più versatile degli Olimpi, figlio di Zeus e della ninfa Maia, nato in una grotta dell'Arcadia. Già nel primo giorno di vita, secondo l'inno omerico, inventò la lira da un guscio di tartaruga e rubò le mandrie di Apollo, mostrando fin da subito la sua natura astuta, ingegnosa e amante dei confini varcati. Con i sandali alati e il caduceo attraversa ogni soglia: tra gli dèi e gli uomini, tra la veglia e il sogno, tra i vivi e i morti, che accompagna nell'aldilà come Psychopompos. È patrono dei viaggiatori, dei mercanti, degli oratori e anche dei ladri, dio della fortuna improvvisa e della parola efficace. Là dove ci sono strade, scambi e incontri, lì è la sua presenza.",
+    "dom": [
+      "Viaggi, confini e comunicazione",
+      "Commercio e fortuna",
+      "Guida delle anime"
+    ],
+    "sim": [
+      "Caduceo",
+      "Sandali alati",
+      "Gallo",
+      "Tartaruga"
+    ],
+    "off": [
+      "Incenso",
+      "Miele",
+      "Focacce",
+      "Monete per la fortuna"
+    ],
+    "allora": "Le erme, pilastri di pietra sormontati dal volto del dio, segnavano porte, strade e crocevia come segno della sua presenza protettrice, e un ritrovamento fortuito lungo il cammino era chiamato hermaion, \"dono di Ermes\". Il quarto giorno di ogni mese gli era sacro, e come dio dei mercati vegliava sull'onestà degli scambi.",
+    "adesso": "Invocalo prima di un viaggio, di un colloquio o dell'invio di un messaggio importante, quando servono parola giusta e strade aperte. Offrigli un poco di miele o lascia una moneta come segno, chiedendo buona sorte negli incontri e nelle transizioni.",
+    "inno": "Ermes dai piedi veloci, guida dei viandanti e delle parole, aprimi le strade.",
+    "src": "https://www.theoi.com/Olympios/Hermes.html"
+  },
+  {
+    "id": "demetra",
+    "n": "Demetra",
+    "gk": "Δημήτηρ",
+    "ep": "Madre del grano",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Demetra è la grande Madre del grano e dell'agricoltura, colei che insegnò agli uomini a coltivare la terra e a nutrirsi del pane. Sorella di Zeus, il suo mito più celebre è il dolore per la figlia Persefone, rapita da Ade negli Inferi: nella disperata ricerca abbandonò i suoi doni, e la terra divenne sterile finché non le fu concesso il ritorno della figlia. Ma poiché Persefone aveva gustato i chicchi del melograno, dovette trascorrere una parte dell'anno sottoterra — e così nacquero le stagioni, l'inverno del lutto e la primavera del ritorno. Nel suo cammino Demetra sostò a Eleusi, dove istituì i Misteri che promettevano ai fedeli una speranza oltre la morte. È dea del nutrimento e dei cicli, che insegna come da ciò che sembra perduto possa rinascere la vita.",
+    "dom": [
+      "Grano, agricoltura e raccolto",
+      "Maternità e cicli di vita",
+      "Misteri"
+    ],
+    "sim": [
+      "Spighe",
+      "Papavero",
+      "Torcia",
+      "Maiale"
+    ],
+    "off": [
+      "Grano",
+      "Orzo",
+      "Pane",
+      "Frutta",
+      "Miele"
+    ],
+    "allora": "I Misteri Eleusini, i più celebri e segreti dell'antica Grecia, legavano il suo mito con Persefone alla speranza di una sorte migliore dopo la morte, e chi vi era iniziato ne serbava il silenzio per tutta la vita. Le Thesmophoria, feste riservate alle donne, celebravano la fertilità della terra e il ciclo delle stagioni.",
+    "adesso": "Invocala per il nutrimento, i cicli naturali della vita, e nei momenti di lutto e di rinascita, quando qualcosa finisce per tornare in altra forma. Offrile pane e semi, e onora con consapevolezza tanto ciò che si conclude quanto ciò che promette di ritornare.",
+    "inno": "Demetra che nutri la terra e il cuore, benedici il raccolto e chi attende il ritorno.",
+    "src": "https://www.theoi.com/Olympios/Demeter.html"
+  },
+  {
+    "id": "atena",
+    "n": "Atena",
+    "gk": "Ἀθηνᾶ",
+    "ep": "Signora della saggezza",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Atena è la dea della saggezza, della strategia e dell'arte, nata in modo prodigioso dalla testa di Zeus, già adulta e armata, dopo che il padre aveva inghiottito la madre Meti. Vergine come Artemide, incarna però un'altra forma di potenza: quella dell'intelligenza applicata, della guerra combattuta con misura e giustizia — a differenza della furia cieca di Ares — e dell'ingegno che crea. Donò agli uomini l'olivo, vincendo così la contesa con Poseidone per il patronato di Atene, la città che porta il suo nome. Protegge gli artigiani, i tessitori e gli eroi assennati come Odisseo, che guida con consiglio più che con la forza. Con la civetta, l'olivo e l'egida, è insieme la mente lucida della strategia e la mano abile del telaio.",
+    "dom": [
+      "Saggezza e strategia",
+      "Artigianato e tessitura",
+      "Giustizia e difesa"
+    ],
+    "sim": [
+      "Civetta",
+      "Olivo",
+      "Egida",
+      "Elmo",
+      "Lancia"
+    ],
+    "off": [
+      "Olio d'oliva",
+      "Dolci",
+      "Incenso",
+      "Lana e filati"
+    ],
+    "allora": "Atena era la patrona di Atene, celebrata alle grandi Panathenaia, quando alla sua antica statua veniva offerto un peplo tessuto e ricamato dalle donne della città e portato in solenne processione sull'Acropoli, fino al Partenone. Il terzo giorno di ogni mese le era sacro, e con Efesto era onorata come protettrice degli artigiani.",
+    "adesso": "Invocala per lo studio, il lavoro, le decisioni sagge e i progetti creativi che chiedono metodo e ingegno. Versa un filo di olio d'oliva sull'altare, o dedicale il primo gesto di un'opera fatta con le mani e con la mente.",
+    "inno": "Atena dagli occhi lucenti, dammi saggezza nell'agire e misura nel giudicare.",
+    "src": "https://www.theoi.com/Olympios/Athena.html"
+  },
+  {
+    "id": "ares",
+    "n": "Ares",
+    "gk": "Ἄρης",
+    "ep": "Signore della guerra",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Ares è il dio della guerra nella sua forma più cruda e impetuosa, figlio di Zeus ed Era, incarnazione del furore della battaglia e del coraggio che non conosce esitazione. Là dove Atena rappresenta la strategia e la guerra giusta, Ares è l'ardore stesso del combattimento, la forza grezza, il tumulto del sangue e del ferro. I Greci lo guardavano con timore e ambivalenza: necessario per difendere la città e i confini, ma pericoloso quando la sua furia si scatena senza misura. Il mito lo lega ad Afrodite in un celebre amore, quasi a suggerire che passione e conflitto siano forze imparentate. Onorato più apertamente in terre come la Tracia e a Sparta, restava comunque il dio a cui si chiedeva ardimento nel momento del pericolo.",
+    "dom": [
+      "Coraggio e forza",
+      "Difesa e disciplina",
+      "Confini"
+    ],
+    "sim": [
+      "Lancia",
+      "Elmo",
+      "Cane",
+      "Cinghiale"
+    ],
+    "off": [
+      "Incenso",
+      "Vino"
+    ],
+    "allora": "Ares era temuto e insieme invocato per la vittoria e la difesa dei confini, specie presso i popoli guerrieri come i Traci e gli Sparta, che ne facevano un patrono del valore militare. La sua era una forza grezza da incanalare con la disciplina, e a lui ci si rivolgeva prima dello scontro per ottenere ardimento e fermezza.",
+    "adesso": "Invocalo per il coraggio, per difendere i tuoi confini personali e per affrontare ciò che ti spaventa senza cedere. Chiedigli la disciplina che trasforma l'impeto in forza utile, restando saldo di fronte alle prove.",
+    "inno": "Ares dal cuore saldo, donami coraggio e fermezza nel difendere ciò che è giusto.",
+    "src": "https://www.theoi.com/Olympios/Ares.html"
+  },
+  {
+    "id": "afrodite",
+    "n": "Afrodite",
+    "gk": "Ἀφροδίτη",
+    "ep": "Signora dell'amore",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Afrodite è la dea dell'amore, della bellezza e del desiderio, nata secondo il racconto più antico dalla spuma del mare presso Cipro, sorta già splendente dalle onde. È forza cosmica prima ancora che divinità personale: il potere che attrae e unisce, che spinge gli esseri l'uno verso l'altro e mantiene in armonia il mondo. Nessuno, mortale o immortale, sfugge al suo incanto, e chi la trascura — come Ippolito — ne paga il prezzo. Il suo cinto magico infonde desiderio irresistibile, la sua bellezza scatenò la guerra di Troia. Ma Afrodite non è solo passione: come Urania presiede all'amore più alto e spirituale, come Pandemos all'affetto che tiene unita la comunità. Rose, mirto e colombe le sono care, e con esse la grazia che rende amabile la vita.",
+    "dom": [
+      "Amore e bellezza",
+      "Desiderio e piacere",
+      "Armonia e mare"
+    ],
+    "sim": [
+      "Colomba",
+      "Rosa",
+      "Mirto",
+      "Conchiglia",
+      "Mela"
+    ],
+    "off": [
+      "Rose",
+      "Mirto",
+      "Miele",
+      "Incenso",
+      "Acqua profumata"
+    ],
+    "allora": "Afrodite era onorata sotto aspetti diversi: come Urania rappresentava l'amore celeste ed elevato, come Pandemos la concordia e l'affetto che uniscono la comunità cittadina. Il quarto giorno di ogni mese le era caro, e i suoi santuari più celebri sorgevano a Cipro, a Citera e a Corinto.",
+    "adesso": "Invocala per l'amore, l'autostima, le relazioni e la bellezza in ogni sua forma. Offrile fiori freschi, un profumo o dell'acqua profumata, e accompagna il rito con un gesto concreto di cura verso te stessa, perché anche questa è devozione.",
+    "inno": "Afrodite dal dolce sorriso, portami amore, armonia e grazia.",
+    "src": "https://www.theoi.com/Olympios/Aphrodite.html"
+  },
+  {
+    "id": "efesto",
+    "n": "Efesto",
+    "gk": "Ἥφαιστος",
+    "ep": "Fabbro divino",
+    "cats": [
+      "olimpi"
+    ],
+    "intro": "Efesto è il dio del fuoco e della fucina, l'artefice divino che forgia le opere più mirabili dell'Olimpo. Figlio di Era — che secondo alcuni lo generò da sola — nacque zoppo, e per questo fu scagliato giù dal cielo; ma proprio la sua imperfezione lo rende, tra gli dèi splendenti, il più umano e il più laborioso. Dalla sua incudine escono i fulmini di Zeus, le armi di Achille, i troni e i palazzi degli dèi, e persino automi d'oro che lo assistono nel lavoro. Sposo di Afrodite, unisce simbolicamente l'arte alla bellezza. È il dio che trasforma la materia grezza con la pazienza del fuoco e la fatica delle mani, patrono di tutti coloro che creano e riparano, e che dalla difficoltà traggono opere durature.",
+    "dom": [
+      "Fuoco e fucina",
+      "Metallurgia e artigianato",
+      "Invenzione e tenacia"
+    ],
+    "sim": [
+      "Incudine",
+      "Martello",
+      "Tenaglie",
+      "Fuoco"
+    ],
+    "off": [
+      "Incenso",
+      "Olio",
+      "Vino"
+    ],
+    "allora": "Efesto era il dio del fuoco creativo e del lavoro manuale, particolarmente venerato ad Atene e a Lemno, l'isola dove si diceva fosse caduto. Insieme ad Atena era patrono degli artigiani e dei fabbri, celebrato alle Chalkeia, la festa dei lavoratori del metallo, e alle Hephaisteia con corse delle fiaccole.",
+    "adesso": "Invocalo per la creatività manuale, per i progetti da costruire e le cose da riparare, e per ogni impresa che richiede pazienza e perizia. Chiedigli la tenacia che trasforma i limiti e le difficoltà in opere solide e ben fatte.",
+    "inno": "Efesto instancabile, maestro del fuoco e dell'ingegno, benedici il lavoro delle mie mani.",
+    "src": "https://www.theoi.com/Olympios/Hephaistos.html"
+  },
+  {
+    "id": "persefone",
+    "n": "Persefone",
+    "gk": "Περσεφόνη",
+    "ep": "Regina degli Inferi",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "Persefone è la fanciulla che divenne regina, la dea in cui convivono la dolcezza della primavera e la maestà cupa del regno dei morti. Figlia di Demetra, mentre coglieva fiori in un prato fu rapita da Ade, che spalancò la terra e la trascinò nel suo regno d'ombra. Il dolore della madre spense il mondo, finché Zeus non impose un patto: ma la fanciulla aveva già gustato i chicchi del melograno, e chi mangia il cibo dei morti vi resta legato. Così Persefone divide il suo tempo tra la luce e l'oscurità, e nel suo andare e tornare respira il ciclo stesso delle stagioni. Come Kore, la Fanciulla, era il cuore luminoso dei Misteri Eleusini, che ai loro iniziati promettevano una sorte più serena nell'aldilà. Terribile e materna insieme, regna sulle anime senza mai perdere il profumo dei prati da cui fu strappata.",
+    "dom": [
+      "Signora e regina dei morti",
+      "Dea del grano che germoglia e rinasce",
+      "Custode del ciclo delle stagioni",
+      "Mediatrice tra il mondo sotterraneo e la primavera"
+    ],
+    "sim": [
+      "La spiga di grano",
+      "La torcia",
+      "Il melograno",
+      "Il narciso"
+    ],
+    "off": [
+      "Chicchi di melograno e spighe di grano",
+      "Libagioni di miele e latte versate a terra",
+      "Fiori di primavera e torce accese nei riti notturni"
+    ],
+    "allora": "Figlia di Demetra, fu rapita da Ade e, avendo mangiato i semi del melograno, dovette trascorrere ogni anno una parte del tempo negli Inferi, scandendo così l'alternarsi delle stagioni. Come Kore era al centro dei Misteri Eleusini, celebrati ogni autunno presso Eleusi, che agli iniziati promettevano speranza oltre la morte. Il suo nome veniva pronunciato con timore reverenziale, e a lei come agli altri numi ctonii si versavano libagioni direttamente sul suolo.",
+    "adesso": "Onorala nel passaggio tra le stagioni, offrendo melograno e grano e accendendo una torcia in suo nome. La si venera come guida dei defunti e dea del rinnovamento, con libagioni di miele e latte versate sulla terra al tramonto. Un piccolo altare con una spiga e un frutto di melograno può accompagnare la memoria dei cari perduti e il proposito di rinascita interiore.",
+    "src": "https://www.theoi.com/Khthonios/Persephone.html"
+  },
+  {
+    "id": "ecate",
+    "n": "Ecate",
+    "gk": "Ἑκάτη",
+    "ep": "Signora dei crocicchi e della magia",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "Ecate è la dea che sta sulle soglie, là dove le strade si dividono e il visibile confina con l'invisibile. Titanide di antico lignaggio, fu onorata da Zeus con un privilegio raro: potere su cielo, terra e mare insieme. Cammina nella notte reggendo due torce, aprendo con le sue chiavi le porte tra i mondi, seguita dai suoi cani neri. È lei che, sola, udì il grido di Persefone rapita e accompagnò Demetra con la fiamma nella ricerca, divenendo poi compagna della regina degli Inferi. Signora della stregoneria, dei fantasmi e dei passaggi, non è dea da temere ciecamente, ma potenza che protegge chi rispetta i confini e le scelte. Alla luna nuova, agli incroci silenziosi, il suo nome si sussurra ancora.",
+    "dom": [
+      "Stregoneria e magia notturna",
+      "Fantasmi e anime erranti",
+      "Crocevia e soglie",
+      "Passaggi e scelte"
+    ],
+    "sim": [
+      "Le torce gemelle",
+      "Le chiavi",
+      "I pugnali",
+      "I cani neri"
+    ],
+    "off": [
+      "I \"Deîpna di Ecate\": cibo lasciato ai crocicchi alla luna nuova",
+      "Uova, pesce e pane",
+      "Aglio; offerte lasciate e non riportate in casa"
+    ],
+    "allora": "Titanide onorata da Zeus con dominio su cielo, terra e mare, guidava con le torce e presiedeva a magia, fantasmi e passaggi. Ogni luna nuova le si deponevano i \"deîpna\", pasti lasciati ai trivii per placare lei e le anime vaganti, offerte che non si dovevano mai riportare a casa. La si venerava sulle soglie delle abitazioni, dove le sue immagini triplici custodivano l'ingresso.",
+    "adesso": "Onorala alla luna nuova lasciando un piatto di cibo a un incrocio o sulla soglia, senza voltarti né riprenderlo. Accendi due candele e chiedile protezione nei passaggi e nelle scelte difficili. Una chiave posata sull'altare può richiamare il suo dono di aprire strade nei momenti di incertezza.",
+    "src": "https://www.theoi.com/Khthonios/Hekate.html"
+  },
+  {
+    "id": "thanatos",
+    "n": "Thanatos",
+    "gk": "Θάνατος",
+    "ep": "La Morte serena",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "Thanatos è il volto gentile della morte, il daimon dalle ali silenziose che viene a spegnere la vita quando è giunta la sua ora. Figlio della Notte e gemello del Sonno, non incarna la violenza né la crudeltà: a lui spetta la fine dolce e naturale, distinta dalla morte cruenta che appartiene alle Chere insanguinate. Eppure anche lui può essere ingannato, come quando l'astuto Sisifo lo incatenò e nessun mortale poté più morire, finché gli dèi non lo liberarono. Con il fratello Hypnos apparve sul campo di Troia per sollevare con delicatezza il corpo di Sarpedone e portarlo alla sua terra. La tradizione lo immagina come un giovane alato dalle vesti scure, che regge una torcia rovesciata: la fiamma della vita che dolcemente si china. È compagno inevitabile, ma non ostile, del trapasso.",
+    "dom": [
+      "Daimon della morte dolce e naturale",
+      "Guida delle anime alla fine della vita",
+      "Opposto alla morte violenta delle Chere",
+      "Gemello del Sonno"
+    ],
+    "sim": [
+      "Le ali",
+      "La spada",
+      "La torcia rovesciata",
+      "Le vesti scure"
+    ],
+    "off": [
+      "Libagioni versate a terra",
+      "Fiori recisi",
+      "Riti silenziosi in memoria dei defunti"
+    ],
+    "allora": "Figlio di Nyx e gemello di Hypnos, rappresentava la morte dolce e ineluttabile, contrapposta alla morte violenta delle Chere. Fu incatenato dall'astuto Sisifo, che per un tempo impedì agli uomini di morire, e con il fratello apparve a Troia per portare via il corpo di Sarpedone. Raramente ebbe templi propri, ma la sua figura ricorreva nell'arte funeraria come immagine consolatrice del riposo estremo.",
+    "adesso": "Ricordalo nei momenti di lutto, accendendo una candela e versando una libagione a terra per accettare con serenità la fine naturale della vita. Lo si onora come compagno gentile del trapasso, deponendo fiori recisi in memoria di chi ci ha lasciati. Un momento di silenzio in sua presenza aiuta a riconciliarsi con l'idea della morte come parte dell'ordine delle cose.",
+    "src": "https://www.theoi.com/Daimon/Thanatos.html"
+  },
+  {
+    "id": "hypnos",
+    "n": "Hypnos",
+    "gk": "Ὕπνος",
+    "ep": "Il Sonno",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "Hypnos è il dio che ogni sera scende sul mondo per posare il suo tocco sugli stanchi. Figlio della Notte e gemello di Thanatos, dona il riposo a mortali e immortali senza distinzione, ed è così potente che persino Zeus, il re degli dèi, può cadere sotto il suo velo. Fu Era a cercarlo per persuaderlo ad assopire lo sposo divino, e Hypnos esitò, memore della collera che una volta lo aveva quasi perduto. La tradizione lo dipinge come un giovane alato che abita una caverna silenziosa, priva di sole e attraversata dalle acque dell'oblio, dove sfiora gli affaticati con un ramo o versa su di loro il liquido di Lete. Placido dove il fratello è ineluttabile, è il più mite dei numi notturni, amico degli uomini e balsamo delle loro pene.",
+    "dom": [
+      "Daimon del sonno e del riposo",
+      "Dispensatore di quiete a mortali e immortali",
+      "Signore del dormiveglia e dell'oblio",
+      "Gemello della Morte serena"
+    ],
+    "sim": [
+      "Le ali",
+      "Il papavero",
+      "Il corno del sonno",
+      "Il ramo di Lete"
+    ],
+    "off": [
+      "Papaveri ed erbe soporifere",
+      "Libagioni d'acqua o latte prima del riposo",
+      "Preghiere serali per un sonno tranquillo"
+    ],
+    "allora": "Figlio di Nyx e gemello di Thanatos, poteva addormentare persino Zeus, come quando Era lo convinse ad assopire il re degli dèi durante la guerra di Troia. Era immaginato come un giovane alato che tocca gli stanchi col ramo o versa su di loro il liquido dell'oblio. Lo si invocava con preghiere serali, e la sua figura serena adornava talvolta i luoghi del riposo.",
+    "adesso": "Invocalo la sera con una breve preghiera e una libagione d'acqua o latte, chiedendo riposo e sogni sereni. Semi di papavero posti presso il letto ne richiamano la presenza benevola. Un rito semplice prima di dormire, nel silenzio e nella penombra, lo rende compagno gentile delle tue notti.",
+    "src": "https://www.theoi.com/Daimon/Hypnos.html"
+  },
+  {
+    "id": "erinni",
+    "n": "Le Erinni",
+    "gk": "Ἐρινύες",
+    "ep": "Dee della vendetta",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "Le Erinni sono le antiche custodi della giustizia di sangue, nate dalle gocce che caddero sulla terra quando Urano fu mutilato: dal torto più arcaico sorsero le vendicatrici del torto. Aletto, Tisifone e Megera perseguitano senza tregua chi versa il sangue dei propri congiunti e chi tradisce il vincolo del giuramento, inseguendo il colpevole con le fruste e le torce, i serpenti intrecciati tra i capelli. Fu Oreste, uccisore della madre, a conoscere la loro caccia implacabile, finché ad Atene un tribunale divino non le placò. Da quel giorno furono venerate come Eumenidi, le \"Benevole\", potenze non più solo di terrore ma di equilibrio e di ordine ritrovato. Terribili eppure necessarie, incarnano la legge profonda per cui nessuna colpa resta senza risposta.",
+    "dom": [
+      "Punizione dello spergiuro",
+      "Vendetta dei delitti di sangue",
+      "Custodia dei vincoli familiari",
+      "Potenze ctonie dell'equilibrio"
+    ],
+    "sim": [
+      "I serpenti tra i capelli",
+      "Le fruste",
+      "Le torce",
+      "Le ali nere"
+    ],
+    "off": [
+      "Libagioni di acqua, miele e latte (senza vino)",
+      "Narcisi e fiori sacri",
+      "Riti notturni per placarle come \"Eumenidi\""
+    ],
+    "allora": "Nate dal sangue di Urano, Aletto, Tisifone e Megera perseguitavano gli assassini e chi violava i legami di sangue, come accadde a Oreste dopo il matricidio. Ad Atene, al termine del suo processo, furono placate e venerate come Eumenidi, le \"Benevole\", con un santuario ai piedi dell'Areopago. A loro si offrivano libagioni senza vino, secondo il rito riservato alle potenze ctonie.",
+    "adesso": "Onorale come Eumenidi, custodi della giustizia e dei giuramenti, con libagioni di miele, latte e acqua versate a terra, senza vino. Le riconosci come forza che ristabilisce l'equilibrio, chiedendo integrità e coerenza più che vendetta. Un mazzo di narcisi sull'altare le invita nella loro forma benevola, propizia a chi cerca rettitudine.",
+    "src": "https://www.theoi.com/Khthonios/Erinyes.html"
+  },
+  {
+    "id": "caronte",
+    "n": "Caronte",
+    "gk": "Χάρων",
+    "ep": "Traghettatore dei morti",
+    "cats": [
+      "ctonii"
+    ],
+    "intro": "Caronte è il vecchio nocchiero dall'aspetto arcigno che attende ogni anima sulla riva dei fiumi infernali. Con il suo mantello scuro e il remo saldo, sospinge la barca attraverso l'Acheronte, conducendo le ombre verso l'oltretomba. Ma non traghetta chiunque: soltanto chi ha ricevuto degna sepoltura può salire, mentre le anime insepolte vagano cent'anni sulla sponda, respinte e senza pace. Per questo i vivi ponevano una moneta, l'obolo, sotto la lingua del defunto, pedaggio dovuto al severo barcaiolo. Figura silenziosa e inflessibile, Caronte non è crudele ma implacabile nel suo ufficio: è il garante di un passaggio che a nessuno è dato eludere. La sua immagine, cupa e solenne, attraversa tutta l'immaginazione greca della morte.",
+    "dom": [
+      "Daimon traghettatore delle anime",
+      "Custode dei fiumi infernali",
+      "Garante del giusto passaggio",
+      "Esattore del pedaggio dei morti"
+    ],
+    "sim": [
+      "La barca",
+      "Il remo",
+      "Il mantello scuro",
+      "L'obolo"
+    ],
+    "off": [
+      "L'obolo (una moneta) per i defunti",
+      "Libagioni versate a terra",
+      "Candele accese in memoria dei morti"
+    ],
+    "allora": "Vecchio nocchiero dall'aspetto arcigno, traghettava le ombre attraverso l'Acheronte, ma accoglieva soltanto chi avesse ricevuto degna sepoltura, respingendo gli insepolti. Per pagare il pedaggio si poneva l'obolo sotto la lingua del morto durante i riti funebri. La sua figura, temuta e rispettata, divenne emblema del confine invalicabile tra i vivi e i morti.",
+    "adesso": "Ricordalo nei riti funebri e commemorativi, deponendo simbolicamente una moneta per i defunti e accendendo un lume sulla loro memoria. Lo si onora come garante del giusto passaggio, con una libagione versata a terra. Il gesto dell'obolo, anche solo simbolico, è modo antico e dignitoso di accompagnare chi se n'è andato.",
+    "src": "https://www.theoi.com/Khthonios/Kharon.html"
+  },
+  {
+    "id": "anfitrite",
+    "n": "Anfitrite",
+    "gk": "Ἀμφιτρίτη",
+    "ep": "Regina del mare",
+    "cats": [
+      "marini"
+    ],
+    "intro": "Anfitrite è la regina delle acque, la sposa di Poseidone che divide con lui il trono degli abissi. Nereide di nascita, figlia del vecchio Nereo, danzava un tempo tra le sue sorelle sui flutti, finché il dio del mare non si innamorò di lei. Fuggita per ritrosia fino ai confini dell'Oceano, fu ritrovata da un delfino che con dolcezza la persuase alle nozze: per gratitudine, Poseidone pose quel delfino tra le stelle. Divenuta regina, Anfitrite è la voce sonora dell'onda, la potenza che agita e placa il mare aperto e ne governa le creature. Da lei e da Poseidone nacque Tritone, l'araldo dai piedi di pesce. La si raffigura incoronata di chele di granchio, con una rete tra i capelli, trasportata da delfini e ippocampi. Nei templi del suo sposo, il suo nome risuonava accanto al suo.",
+    "dom": [
+      "Il mare aperto",
+      "Le creature marine",
+      "La regalità delle acque",
+      "Sposa e regina accanto a Poseidone"
+    ],
+    "sim": [
+      "Chele di granchio sul capo",
+      "Rete tra i capelli",
+      "Delfini",
+      "Ippocampi"
+    ],
+    "off": [
+      "Acqua di mare",
+      "Sale marino",
+      "Conchiglie",
+      "Libagione di vino sull'onda"
+    ],
+    "allora": "Nereide divenuta regina del mare quando un delfino la persuase a sposare Poseidone, è la voce sonora dell'onda e madre di Tritone. Onorata insieme allo sposo nei suoi templi, ne condivideva la maestà come signora delle acque. La sua immagine ornava spesso mosaici e opere marine, incoronata e circondata dal corteo del mare.",
+    "adesso": "Onorala sulla riva versando acqua di mare o offrendo conchiglie, invocandola come signora delle acque insieme al suo sposo Poseidone. È propizia per la protezione di chi affronta il mare e per l'armonia della vita coniugale. Un pizzico di sale marino e una libagione di vino donata all'onda rinnovano il suo antico omaggio.",
+    "src": "https://www.theoi.com/Pontios/Amphitrite.html"
+  },
+  {
+    "id": "nereo",
+    "n": "Nereo",
+    "gk": "Νηρεύς",
+    "ep": "Il Vecchio del Mare",
+    "cats": [
+      "marini"
+    ],
+    "intro": "Nereo è il più antico e il più saggio degli dèi marini, il \"Vecchio del Mare\" che incarna la calma delle acque pescose e la verità che non conosce inganno. Figlio di Ponto e Gaia, precede Poseidone nel dominio del mare, ed è celebre tra gli dèi per la sua sincerità: non mente mai, e conosce il futuro. Con l'oceanina Doride generò le cinquanta Nereidi, le splendide ninfe che popolano i flutti. Come altri numi marini possiede il dono di mutare forma, sfuggendo a chi vorrebbe costringerlo: così tentò di fare con Eracle, che però lo tenne saldo attraverso ogni trasformazione finché il vecchio dio non rivelò la via verso il giardino delle Esperidi. Barba grondante e coda di pesce, scettro in pugno, Nereo è l'immagine venerabile della saggezza del mare, benevolo verso chi lo cerca con rispetto.",
+    "dom": [
+      "Il mare pescoso e calmo",
+      "La profezia",
+      "La verità e la sincerità",
+      "Padre delle Nereidi"
+    ],
+    "sim": [
+      "Coda di pesce",
+      "Scettro",
+      "Barba grondante",
+      "Mutamento di forma"
+    ],
+    "off": [
+      "Acqua di mare",
+      "Primizie della pesca",
+      "Sale",
+      "Libagione di vino"
+    ],
+    "allora": "Antico dio marino figlio di Ponto e Gaia, rinomato per la sua veridicità e il dono profetico, generò con Doride le cinquanta Nereidi. Eracle lo costrinse, tenendolo saldo attraverso ogni metamorfosi, a rivelare la via verso il giardino delle Esperidi. Come divinità primordiale del mare precedeva Poseidone ed era venerato come saggio e benevolo.",
+    "adesso": "Invocalo per verità e saggezza offrendo acqua di mare e le primizie della pesca sulla riva. È nume ideale per chi cerca risposte oneste o una guida sicura nei momenti di dubbio. Una libagione di vino versata sull'onda, con un pizzico di sale, accompagna la richiesta della sua limpida saggezza.",
+    "src": "https://www.theoi.com/Pontios/Nereus.html"
+  },
+  {
+    "id": "tritone",
+    "n": "Tritone",
+    "gk": "Τρίτων",
+    "ep": "Araldo del mare",
+    "cats": [
+      "marini"
+    ],
+    "intro": "Tritone è l'araldo dei flutti, il figlio di Poseidone e Anfitrite che annuncia con la sua conchiglia la volontà del mare. Metà uomo e metà pesce, abita con i genitori un palazzo d'oro negli abissi, e quando porta alle labbra la sua tromba di conchiglia le onde obbediscono: il suo suono può gonfiare la tempesta o placarla in bonaccia. È lui che soccorse gli Argonauti smarriti sulle secche della Libia, mostrando loro la via verso il mare aperto e offrendo una zolla di terra come pegno. Vigoroso e possente, impugna talvolta il tridente del padre, e la sua figura muscolosa dalla coda squamosa popola l'immaginazione greca delle acque. Attorno a lui, nelle raffigurazioni, si affollano schiere di piccoli tritoni. È la voce sonora e potente del mare che parla agli uomini.",
+    "dom": [
+      "Le onde e i flutti",
+      "Le maree",
+      "Il segnale e l'annuncio delle acque",
+      "Araldo di Poseidone"
+    ],
+    "sim": [
+      "Conchiglia-tromba",
+      "Coda di pesce",
+      "Tridente",
+      "Corpo di tritone"
+    ],
+    "off": [
+      "Acqua di mare",
+      "Conchiglie",
+      "Libagione di vino sull'onda",
+      "Sale marino"
+    ],
+    "allora": "Figlio di Poseidone e Anfitrite, abitava un palazzo d'oro negli abissi e con il suono della sua conchiglia calmava o agitava i flutti. Aiutò gli Argonauti indicando loro la rotta verso il mare aperto, dopo che si erano arenati sulle coste della Libia. La sua figura ibrida divenne emblema del corteo marino e ornò fontane e opere legate all'acqua.",
+    "adesso": "Onoralo sulla costa soffiando in una conchiglia per annunciare la preghiera e offrendo acqua di mare. È invocato per placare le acque agitate e per ottenere un buon viaggio per mare. Una libagione di vino donata all'onda, accompagnata dal richiamo della conchiglia, ne desta la presenza benevola.",
+    "src": "https://www.theoi.com/Pontios/Triton.html"
+  },
+  {
+    "id": "nereidi",
+    "n": "Le Nereidi",
+    "gk": "Νηρηΐδες",
+    "ep": "Le cinquanta ninfe del mare",
+    "cats": [
+      "marini"
+    ],
+    "intro": "Le Nereidi sono le cinquanta figlie del saggio Nereo e dell'oceanina Doride, spiriti gentili e luminosi delle acque marine benevole. Danzano sui flutti al chiaro di luna, cavalcando delfini e ippocampi, coronate di alghe e perle, e la loro bellezza è quella stessa del mare quando splende sereno. Tra loro spiccano Teti, che divenne regina, e Tetide, madre dell'eroe Achille, e ancora Galatea, amata dal ciclope Polifemo. Non sono potenze temibili ma soccorritrici: accorrono in aiuto dei marinai in pericolo, calmano le acque, guidano le navi smarrite verso la salvezza. Lungo le coste sorgevano per loro piccoli santuari, dove chi si affidava al mare lasciava offerte prima di partire. Amiche degli uomini e sorelle del mare, incarnano la sua grazia più mite e generosa.",
+    "dom": [
+      "Le acque marine benevole",
+      "Il soccorso ai naviganti",
+      "La bellezza e la grazia del mare",
+      "Le ninfe del corteo di Poseidone"
+    ],
+    "sim": [
+      "Ippocampi",
+      "Delfini",
+      "Corone di alghe e perle",
+      "Conchiglie"
+    ],
+    "off": [
+      "Acqua di mare",
+      "Conchiglie e perle",
+      "Fiori gettati tra le onde",
+      "Olio profumato"
+    ],
+    "allora": "Le cinquanta figlie di Nereo e Doride, tra cui Teti, Tetide e Galatea, danzavano sui flutti e soccorrevano i marinai in pericolo. Erano onorate lungo le coste con piccoli santuari e ricevevano offerte da chi si accingeva ad affrontare il mare. La loro immagine ornava vasi e opere marine, come corteo grazioso delle acque.",
+    "adesso": "Onorale sulla riva gettando fiori tra le onde e offrendo conchiglie, chiedendo protezione per chi naviga e per chi ami. Sono numi propizi alla bellezza, alla gentilezza e alla sicurezza in mare. Un poco di olio profumato versato sull'acqua, con parole di gratitudine, richiama la loro presenza benevola.",
+    "src": "https://www.theoi.com/Pontios/Nereides.html"
+  },
+  {
+    "id": "teti",
+    "n": "Teti",
+    "gk": "Τηθύς",
+    "ep": "Madre delle acque",
+    "cats": [
+      "marini"
+    ],
+    "intro": "Teti è la Titanide da cui scaturiscono tutte le acque dolci del mondo, la madre che alimenta i fiumi e le sorgenti. Sposa del suo fratello Oceano, la corrente immensa che circonda la terra, generò con lui i tremila fiumi e le tremila Oceanine, le ninfe delle fonti e dei corsi d'acqua: da lei discende ogni vena che nutre il suolo. Potenza cosmica delle origini, presiede all'alimentazione delle acque, al loro fluire perenne dal profondo verso la superficie. La tradizione le attribuisce anche un ruolo materno tra gli dèi: fu lei ad allevare Era nella sua casa, ai confini del mondo, quando Zeus combatteva contro i Titani. Venerabile e antica, Teti è la sorgente prima, il grembo umido da cui sgorga la vita che disseta la terra. In lei si onora l'acqua dolce come dono e come origine.",
+    "dom": [
+      "Sorgenti dolci e fonti",
+      "Fiumi e corsi d'acqua",
+      "Alimentazione perenne delle acque",
+      "Madre delle Oceanine"
+    ],
+    "sim": [
+      "Ali sulla fronte",
+      "Coda di pesce",
+      "Scettro delle acque",
+      "Sorgente"
+    ],
+    "off": [
+      "Acqua di sorgente",
+      "Latte",
+      "Libagione presso una fonte"
+    ],
+    "allora": "Titanide sposa di Oceano, generò i fiumi del mondo e le tremila Oceanine, presiedendo all'alimentazione di tutte le acque. Secondo il mito allevò Era durante la Titanomachia e restò una potenza cosmica primordiale. Pur senza un culto diffuso, la sua figura ricorreva nelle cosmogonie e nei mosaici marini accanto a Oceano.",
+    "adesso": "Onorala presso fiumi e sorgenti offrendo acqua pura e latte, riconoscendola come origine di ogni corso d'acqua. È adatta ai riti di purificazione e ai gesti di gratitudine verso l'acqua dolce che disseta e feconda. Una libagione versata alla fonte, con parole di riconoscenza, rinnova l'omaggio alla Madre delle acque.",
+    "src": "https://www.theoi.com/Titan/TitanisTethys.html"
+  },
+  {
+    "id": "tetide",
+    "n": "Tetide",
+    "gk": "Θέτις",
+    "ep": "Nereide madre di Achille",
+    "cats": [
+      "marini"
+    ],
+    "intro": "Tetide è la più illustre delle Nereidi, la ninfa marina dai piedi d'argento il cui destino si intreccia con quello degli eroi e degli dèi. Benevola e potente, offrì rifugio nelle profondità del mare a Efesto precipitato dall'Olimpo e a Dioniso perseguitato; e fu lei a salvare Zeus stesso, quando gli altri dèi volevano incatenarlo, chiamando in aiuto il centimane Briareo. Il suo era un destino grande: si diceva che avrebbe generato un figlio più forte del padre, e per questo gli dèi la diedero in sposa al mortale Peleo. Da quelle nozze, celebrate da tutto l'Olimpo, nacque Achille, il più grande degli eroi, che ella cercò invano di rendere invulnerabile. Come il padre Nereo possiede il dono di mutare forma e di prevedere il futuro. Madre dolente e protettrice appassionata, Tetide unisce la grazia del mare all'amore inestinguibile per il figlio.",
+    "dom": [
+      "Il mare protettivo",
+      "La metamorfosi",
+      "La profezia",
+      "La protezione materna"
+    ],
+    "sim": [
+      "Piedi d'argento",
+      "Onde",
+      "Mutamento di forma",
+      "Delfini"
+    ],
+    "off": [
+      "Acqua di mare",
+      "Sale marino",
+      "Olio profumato",
+      "Libagione di vino"
+    ],
+    "allora": "Guida delle Nereidi, diede rifugio a Efesto e Dioniso e salvò Zeus chiamando in aiuto Briareo; sposa del mortale Peleo, generò Achille. Ricevette culto a Sparta e in Messenia, dove era venerata con particolare devozione. La sua figura attraversa l'epica e la tragedia come madre eroica e potenza benevola del mare.",
+    "adesso": "Onorala come protettrice materna e signora del mare, con acqua marina e olio profumato offerti sulla riva. È invocata per proteggere le persone care e per trovare la forza di adattarsi ai mutamenti della vita. Una libagione di vino versata sull'onda accompagna la richiesta del suo amore vigile e protettivo.",
+    "src": "https://www.theoi.com/Pontios/NereisThetis.html"
+  },
+  {
+    "id": "crono",
+    "n": "Crono",
+    "gk": "Κρόνος",
+    "ep": "Re dei Titani, signore del tempo",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Crono è il più giovane e ardito dei Titani, figlio primogenito di Urano, il Cielo, e Gaia, la Terra. Su istigazione della madre, oppressa dai figli che il padre teneva imprigionati, brandì la falce adamantina ed evirò Urano, strappandogli il dominio del cosmo. Regnò così sull'età dell'oro, un tempo felice in cui gli uomini vivevano senza fatica né vecchiaia e la terra donava spontaneamente i suoi frutti. Ma su di lui pesava una profezia: un figlio l'avrebbe detronizzato come lui aveva fatto col padre, e per questo divorava i propri nati appena venuti al mondo. Fu Rea a ingannarlo, salvando Zeus, che infine lo spodestò e lo confinò. Nell'immaginario greco Crono resta figura ambigua e possente: signore del tempo che tutto genera e tutto consuma, ma anche re nostalgico di un'epoca di innocenza perduta.",
+    "dom": [
+      "Età dell'oro e prosperità primordiale",
+      "Il tempo ciclico e il suo scorrere",
+      "Agricoltura, semina e raccolto"
+    ],
+    "sim": [
+      "Falce (harpe)",
+      "Spighe di grano",
+      "Serpente",
+      "Clessidra"
+    ],
+    "off": [
+      "Focacce di grano e orzo",
+      "Miele",
+      "Vino dolce",
+      "Frutti del raccolto"
+    ],
+    "allora": "Figlio di Urano e Gaia, evirò il padre e regnò nell'età dell'oro, per poi divorare i figli finché non fu spodestato da Zeus. Ad Atene era celebrato con i Kronia, gioiosa festa del raccolto in cui, a ricordo dell'antica età dell'oro, padroni e schiavi banchettavano insieme abolendo per un giorno ogni gerarchia. Il suo nome era spesso legato ai riti della mietitura e alla fine dei cicli agricoli.",
+    "adesso": "Onora Crono al termine del raccolto o nei momenti di grande transizione, offrendo pane e frutti come ringraziamento per i cicli del tempo che tutto rinnovano. Un piccolo altare con una falce e alcune spighe può aiutarti a meditare sull'accettazione dello scorrere degli anni e sul lasciar andare ciò che si è compiuto.",
+    "src": "https://www.theoi.com/Titan/TitanKronos.html"
+  },
+  {
+    "id": "rea",
+    "n": "Rea",
+    "gk": "Ῥέα",
+    "ep": "Madre degli dèi",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Rea è la grande Titanide, sposa e sorella di Crono, madre delle prime divinità olimpiche: Estia, Demetra, Era, Ade, Poseidone e Zeus. Vide con dolore i suoi figli divorati uno a uno dal marito, tormentato dal timore della profezia. Quando fu prossima a dare alla luce Zeus, si rivolse ai genitori Urano e Gaia e fuggì di nascosto a Creta, dove partorì il piccolo in una grotta del monte Ida; a Crono porse invece una pietra avvolta in fasce, che egli inghiottì credendola il neonato. Così Rea preservò il futuro re degli dèi e permise il rovesciamento dell'ordine dei Titani. Nell'immaginario greco è la Grande Madre per eccellenza, incarnazione della fertilità della terra e del flusso incessante della vita, il cui culto si intrecciò strettamente con quello della frigia Cibele.",
+    "dom": [
+      "Maternità e generazione",
+      "Fertilità della terra",
+      "Il flusso e il rinnovarsi della vita"
+    ],
+    "sim": [
+      "Tamburo (tympanon)",
+      "Leoni",
+      "Corona turrita",
+      "Carro trainato dai leoni"
+    ],
+    "off": [
+      "Latte",
+      "Miele",
+      "Incenso",
+      "Focacce di grano"
+    ],
+    "allora": "Sposa di Crono, salvò Zeus neonato nascondendolo a Creta e porgendo al marito una pietra fasciata al posto del figlio. Venerata come Grande Madre, il suo culto si fuse con quello di Cibele, celebrato con tamburi, cembali e danze estatiche condotte dai suoi sacerdoti fra le montagne. Le sue feste risuonavano di musica selvaggia, eco della potenza generatrice della terra.",
+    "adesso": "Invocala come protettrice delle madri e della vita nascente, offrendole latte e miele in segno di nutrimento. Battere ritmicamente un tamburo o una percussione durante la preghiera aiuta a richiamare la sua energia materna e a sentirsi radicati nel respiro profondo della terra.",
+    "src": "https://www.theoi.com/Titan/TitanisRhea.html"
+  },
+  {
+    "id": "helios",
+    "n": "Helios",
+    "gk": "Ἥλιος",
+    "ep": "Il Sole tutto-vedente",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Helios è il Titano che ogni giorno guida il carro del Sole attraverso la volta celeste, sorgendo a oriente dalle acque dell'Oceano e tramontando a occidente. Coronato di raggi splendenti, avvolto in una veste purpurea, tiene le redini di quattro cavalli fiammeggianti che percorrono instancabili il cielo. Dall'alto vede e ode ogni cosa che accade fra gli dèi e i mortali: per questo era invocato come testimone infallibile dei giuramenti e fu lui a rivelare a Demetra il rapimento di Persefone e a Efesto il tradimento di Afrodite. Suo figlio fu l'infelice Fetonte, che perì volendo guidare il carro paterno. Nell'immaginario greco Helios è l'occhio luminoso del mondo, garante di verità e giustizia, e il suo culto splendette soprattutto a Rodi, l'isola a lui sacra.",
+    "dom": [
+      "Il sole e la luce del giorno",
+      "La vista e la vigilanza",
+      "I giuramenti sacri e la testimonianza"
+    ],
+    "sim": [
+      "Corona radiante",
+      "Carro solare a quattro cavalli",
+      "Veste purpurea",
+      "Cavalli bianchi"
+    ],
+    "off": [
+      "Miele",
+      "Incenso all'alba",
+      "Galli",
+      "Figure votive di cavalli"
+    ],
+    "allora": "Ogni giorno attraversava il cielo sul carro fiammeggiante, vedendo e udendo ogni cosa, e per questo era chiamato a testimone nei giuramenti solenni. Il suo culto fioriva a Rodi, isola a lui consacrata, dove gli fu innalzato il celebre Colosso, una delle sette meraviglie del mondo antico. A lui si dedicavano preghiere all'alba, rivolgendosi verso oriente al suo apparire.",
+    "adesso": "Onoralo al sorgere del sole, rivolgendoti a est con miele, incenso e una parola di gratitudine per la luce che rinnova il mondo. È il testimone ideale davanti al quale pronunciare voti, promesse e impegni importanti, chiamandolo a garante della tua sincerità.",
+    "src": "https://www.theoi.com/Titan/Helios.html"
+  },
+  {
+    "id": "selene",
+    "n": "Selene",
+    "gk": "Σελήνη",
+    "ep": "La Luna splendente",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Selene è la dea che incarna la Luna, sorella di Helios il Sole e di Eos l'Aurora. Ogni notte, dopo che il fratello ha compiuto il suo viaggio, ella si leva e guida il carro lunare attraverso il cielo oscuro, cinta il capo da una mezzaluna e avvolta in un velo notturno. Il mito più celebre la lega al bel pastore Endimione, di cui si innamorò perdutamente: ottenne per lui un sonno eterno e immutabile, così da poterlo contemplare e visitare per sempre nella sua eterna giovinezza. La sua luce dolce scandisce i mesi e regola i cicli del tempo mortale. Nell'immaginario greco Selene è signora della notte, del sonno e dei ritmi nascosti della vita, spesso associata ad Artemide e alla misteriosa Ecate nella triplice figura lunare.",
+    "dom": [
+      "La luna e la sua luce",
+      "I cicli mensili e il calendario",
+      "Il sonno e la notte"
+    ],
+    "sim": [
+      "Mezzaluna sul capo",
+      "Carro trainato da buoi",
+      "Torcia",
+      "Velo notturno"
+    ],
+    "off": [
+      "Latte",
+      "Torce o candele",
+      "Libagioni notturne d'acqua",
+      "Focacce lunari"
+    ],
+    "allora": "Sorella di Helios, guidava il carro lunare nel cielo notturno e amava il pastore Endimione, immerso in un sonno eterno per suo volere. Era onorata come dea della luna con libagioni e riti compiuti sotto la sua luce, e il suo corso scandiva ogni mese del calendario greco, legando la sua figura al ritmo stesso del tempo umano.",
+    "adesso": "Celebrala al plenilunio e al novilunio, accendendo candele e offrendo latte sotto il chiarore lunare. È dea propizia per i riti di riposo e per la cura dei sogni, e la sua luce può aiutarti a scandire e osservare i tuoi cicli personali, interiori e corporei.",
+    "src": "https://www.theoi.com/Titan/Selene.html"
+  },
+  {
+    "id": "eos",
+    "n": "Eos",
+    "gk": "Ἠώς",
+    "ep": "L'Aurora dalle dita di rosa",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Eos è la dea dell'Aurora, sorella di Helios e Selene, che ogni mattina precede il Sole aprendo le porte del cielo. Levandosi dalle correnti dell'Oceano con le sue dita rosate, disperde le tenebre e sparge la rugiada sulla terra, annunciando ai mortali il nuovo giorno. Alata e luminosa, è dea ardente e appassionata: numerosi furono i suoi amori con giovani mortali, fra cui il più celebre Titono, principe troiano. Per lui chiese a Zeus il dono dell'immortalità, ma dimenticò di domandare l'eterna giovinezza, così che l'amato invecchiò senza fine finché si ridusse a mera voce, mutato secondo alcuni in cicala. Nell'immaginario greco Eos è la soglia luminosa tra la notte e il giorno, immagine perpetua del rinnovarsi e del ricominciare.",
+    "dom": [
+      "L'alba e la prima luce",
+      "Il rinnovamento quotidiano",
+      "L'inizio e i nuovi cominciamenti"
+    ],
+    "sim": [
+      "Dita rosate",
+      "Ali",
+      "Brocca di rugiada",
+      "Carro dell'alba"
+    ],
+    "off": [
+      "Acqua fresca all'alba",
+      "Rugiada",
+      "Fiori appena colti",
+      "Incenso mattutino"
+    ],
+    "allora": "Ogni mattino Eos si levava dall'Oceano per aprire le porte del cielo a Helios, portando la luce ai mortali e cospargendo di rugiada la terra. Amò il troiano Titono, per il quale chiese l'immortalità dimenticando però l'eterna giovinezza, così che egli invecchiò senza mai poter morire. I poeti la cantarono con l'immortale epiteto omerico di \"dalle dita di rosa\".",
+    "adesso": "Onorala appena sveglio, salutando la prima luce del mattino con un po' d'acqua fresca e una parola di gratitudine per il nuovo giorno che si apre. È la dea ideale da invocare per i nuovi inizi e i buoni propositi, affidandole ciò che desideri veder nascere e fiorire.",
+    "src": "https://www.theoi.com/Titan/Eos.html"
+  },
+  {
+    "id": "prometeo",
+    "n": "Prometeo",
+    "gk": "Προμηθεύς",
+    "ep": "Il preveggente, benefattore degli uomini",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Prometeo, il cui nome significa \"colui che pensa prima\", è il Titano dall'ingegno più acuto, amico e benefattore del genere umano. Secondo la tradizione plasmò gli uomini dall'argilla e li amò come proprie creature, tanto da ribellarsi agli dèi in loro difesa. A Sicione ingannò Zeus nella spartizione dei sacrifici, e quando il re degli dèi negò agli uomini il fuoco, Prometeo lo rubò nascondendolo in una canna e lo donò all'umanità, insegnandole così le arti e il progresso. Per questa audacia Zeus lo fece incatenare a una rupe del Caucaso, dove un'aquila gli divorava ogni giorno il fegato, che di notte ricresceva, in un supplizio senza fine finché Eracle non lo liberò. Nell'immaginario greco Prometeo è il simbolo eterno dell'intelligenza ribelle, della civiltà e della compassione verso i deboli.",
+    "dom": [
+      "Il fuoco e la sua conquista",
+      "L'ingegno e l'astuzia",
+      "L'artigianato e il progresso umano"
+    ],
+    "sim": [
+      "Fiaccola col fuoco rubato",
+      "Argilla del plasmatore",
+      "Aquila",
+      "Catene del Caucaso"
+    ],
+    "off": [
+      "Una fiamma o candela accesa",
+      "Incenso",
+      "Pane",
+      "Vino"
+    ],
+    "allora": "Plasmò l'umanità dall'argilla e rubò il fuoco agli dèi per donarlo agli uomini, subendo per questo l'eterno supplizio dell'aquila sul Caucaso. Ad Atene era onorato insieme a Efesto come patrono degli artigiani e degli operai del fuoco, e in suo onore si correva la lampadedromia, la sacra corsa delle fiaccole in cui i partecipanti si passavano una fiamma accesa senza lasciarla spegnere.",
+    "adesso": "Onoralo accendendo una fiamma o una candela come simbolo del sapere e dell'ingegno umano, dedicandogli il tuo lavoro creativo e intellettuale. È il patrono ideale di chi studia, inventa, insegna o si batte in difesa degli oppressi e dei più deboli.",
+    "src": "https://www.theoi.com/Titan/TitanPrometheus.html"
+  },
+  {
+    "id": "atlante",
+    "n": "Atlante",
+    "gk": "Ἄτλας",
+    "ep": "Colui che regge il cielo",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Atlante è il Titano possente condannato a reggere sulle spalle la volta del cielo ai confini occidentali del mondo. Schieratosi con i Titani nella guerra contro gli dèi olimpici, la Titanomachia, fu punito da Zeus con questo fardello immane ed eterno: separare il Cielo dalla Terra sorreggendone il peso senza mai posa. Presso di lui, nel giardino delle Esperidi all'estremo occidente, giunse Eracle durante le sue fatiche, e per un tempo il Titano gli affidò il proprio carico. La tradizione lo ricorda anche come padre delle Pleiadi, delle Iadi e delle Esperidi, e come primo grande conoscitore degli astri e delle rivoluzioni celesti. Nell'immaginario greco Atlante incarna la resistenza, la sopportazione paziente e il legame tra la terra e il cielo stellato.",
+    "dom": [
+      "Resistenza e sopportazione",
+      "Astronomia e conoscenza degli astri",
+      "L'asse e la volta celeste"
+    ],
+    "sim": [
+      "Volta celeste sulle spalle",
+      "Sfera stellata",
+      "Colonne del cielo",
+      "Il monte"
+    ],
+    "off": [
+      "Incenso",
+      "Olio d'oliva",
+      "Libagione di vino",
+      "Pietra o pilastro votivo"
+    ],
+    "allora": "Condannato dopo la Titanomachia, regge per sempre la volta del cielo ai confini occidentali del mondo, là dove sorge anche il giardino delle Esperidi. Era considerato inoltre il primo astronomo e il padre delle Pleiadi e delle Iadi, le costellazioni che segnavano ai naviganti e ai contadini le stagioni. La sua figura fu associata alle montagne che sembravano toccare il cielo.",
+    "adesso": "Invocalo per trovare forza e costanza nel portare i fardelli della vita, offrendogli incenso presso un pilastro o una pietra scelta come suo simbolo. È adatto a chi cerca resilienza nelle difficoltà, come a chi studia le stelle e i moti del cielo.",
+    "src": "https://www.theoi.com/Titan/TitanAtlas.html"
+  },
+  {
+    "id": "leto",
+    "n": "Leto",
+    "gk": "Λητώ",
+    "ep": "Madre di Apollo e Artemide",
+    "cats": [
+      "titani"
+    ],
+    "intro": "Leto è la mite Titanide che generò a Zeus i due splendidi gemelli divini, Apollo e Artemide. Amata dal re degli dèi, incorse per questo nell'ira gelosa di Era, che le negò ogni terra ferma dove poter partorire e le aizzò contro il serpente Pitone. Errò a lungo, respinta ovunque, finché la piccola e sterile isola di Delo, allora galleggiante e senza radici, accettò di offrirle rifugio: là, aggrappata a una palma, diede alla luce prima Artemide e poi Apollo, e l'isola fu da allora sacra e resa stabile. Leto difese sempre con fierezza i suoi figli, come quando puniti furono i figli della superba Niobe che l'aveva offesa. Nell'immaginario greco è l'immagine della maternità dignitosa, della mitezza e della devozione, quasi sempre raffigurata insieme ai gemelli.",
+    "dom": [
+      "Maternità e cura dei figli",
+      "Modestia e mitezza",
+      "Protezione dei giovani"
+    ],
+    "sim": [
+      "Velo scuro",
+      "Palma di Delo",
+      "I gemelli divini Apollo e Artemide",
+      "Quaglia"
+    ],
+    "off": [
+      "Fiori",
+      "Incenso",
+      "Focacce di grano",
+      "Libagione d'acqua pura"
+    ],
+    "allora": "Perseguitata dalla gelosa Era, errò a lungo senza trovare rifugio finché Delo le offrì una terra dove partorire i gemelli Apollo e Artemide. Era venerata soprattutto a Delo, cuore del suo culto, e in Licia, spesso raffigurata accanto ai due potenti figli e onorata come madre divina. Il suo santuario delio era tra i più sacri di tutto il mondo greco.",
+    "adesso": "Onorala come protettrice delle madri e dei figli, offrendole fiori e acqua pura e invocandola per la serenità e l'armonia della famiglia. La sua figura ispira dignità, pazienza e forza d'animo nell'affrontare le avversità senza perdere la propria mitezza.",
+    "src": "https://www.theoi.com/Titan/TitanisLeto.html"
+  },
+  {
+    "id": "chaos",
+    "n": "Chaos",
+    "gk": "Χάος",
+    "ep": "Il Vuoto originario",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Chaos è il principio di tutto, la prima realtà che esistette prima ancora che esistesse qualcosa. Non è disordine, come intenderemmo oggi la parola, ma \"voragine\", spazio aperto e informe, l'abisso spalancato da cui il cosmo trasse origine. Nella Teogonia di Esiodo è il primo a sorgere, prima della stessa Gaia; da lui vennero alla luce Erebos, l'oscurità profonda, e Nyx, la Notte, e da questi ancora l'Etere e il Giorno. Chaos non ha volto né mito, non conobbe culto figurato né statue: è troppo antico e informe per essere raffigurato. È piuttosto il grembo vuoto dell'essere, la premessa silenziosa di ogni nascita. Contemplarlo significa affacciarsi sull'origine, là dove non c'era ancora nulla e già tutto era possibile.",
+    "dom": [
+      "Abisso primigenio",
+      "Voragine da cui ebbe origine il cosmo",
+      "Spazio aperto e informe",
+      "Radice di Erebos e Nyx"
+    ],
+    "sim": [
+      "La voragine",
+      "L'oscurità informe",
+      "L'aria",
+      "Il vuoto senza fondo"
+    ],
+    "off": [
+      "Incenso che si dissolve nell'aria",
+      "Libagioni d'acqua",
+      "Silenzio contemplativo"
+    ],
+    "allora": "Secondo la Teogonia di Esiodo, Chaos fu la prima realtà a esistere, prima di Gaia; da esso nacquero Erebos e Nyx, e da loro l'Etere e il Giorno. Indicava la \"voragine\" o lo spazio aperto originario, e non ebbe mai un culto figurato né templi. Rimase piuttosto un concetto cosmogonico, evocato nelle speculazioni sull'origine del mondo.",
+    "adesso": "Contemplalo come principio da cui tutto deriva, dedicandogli un momento di silenzio o di respiro consapevole all'inizio di un rito. Un po' d'incenso lasciato salire e dissolvere nell'aria ne richiama la natura informe e sfuggente. Onorarlo è soprattutto un atto di raccoglimento, un affacciarsi rispettoso sull'abisso da cui veniamo.",
+    "src": "https://www.theoi.com/Protogenos/Khaos.html"
+  },
+  {
+    "id": "gaia",
+    "n": "Gaia",
+    "gk": "Γαῖα",
+    "ep": "Madre Terra",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Gaia è la Terra stessa fatta divinità, il saldo fondamento su cui poggia ogni cosa e il grembo da cui sorse la vita. Emersa subito dopo Chaos, generò da sé, senza sposo, Urano il cielo stellato, i Monti e Ponto il mare: da lei, radice prima, discendono tutte le stirpi divine. Unitasi poi a Urano diede vita ai Titani, ai Ciclopi e ai Centimani, e quando lo sposo celeste imprigionò i suoi figli, fu lei a ordire con Crono la vendetta. Madre universale, nutrice degli dèi e dei mortali, era invocata a testimone nei giuramenti più solenni, perché nulla sfugge a colei che tutto sostiene. La sua venerazione era antica e profonda: la si onorava versando libagioni sulla sua stessa superficie e deponendo sul suolo le primizie dei raccolti. In lei si riconosce ancora il volto sacro della natura vivente.",
+    "dom": [
+      "La Terra come divinità e fondamento",
+      "Madre e nutrice degli dèi",
+      "Generatrice dei mortali e dei viventi",
+      "Garante dei giuramenti solenni"
+    ],
+    "sim": [
+      "La terra e il suolo",
+      "La cornucopia",
+      "I frutti e le messi",
+      "Il serpente"
+    ],
+    "off": [
+      "Primizie di frutta e cereali deposte sul terreno",
+      "Libagioni di latte, miele e vino versate a terra",
+      "Grano e fiori"
+    ],
+    "allora": "Emersa dopo Chaos, Gaia generò da sé Urano, i Monti e Ponto, divenendo radice di tutte le stirpi divine e madre dei Titani. Venerata come Madre universale, era invocata come testimone nei giuramenti solenni e riceveva primizie e libagioni versate direttamente sulla sua superficie. Antichi oracoli, come quello di Delfi, le furono attribuiti prima ancora di Apollo.",
+    "adesso": "Onorala con offerte di frutta, grano e libagioni di latte e miele versate sulla terra nuda, all'aperto. La riconosci come fondamento di ogni cosa, unendo spesso il suo culto a un concreto impegno di rispetto e cura per la natura. Un gesto semplice, come deporre le primizie di un raccolto sul suolo, rinnova l'antico legame con la Madre di tutti.",
+    "src": "https://www.theoi.com/Protogenos/Gaia.html"
+  },
+  {
+    "id": "urano",
+    "n": "Urano",
+    "gk": "Οὐρανός",
+    "ep": "Il Cielo primordiale",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Urano è il cielo stellato fatto persona, la volta immensa che avvolge e ricopre la terra. Generato da Gaia perché la circondasse tutt'intorno e fosse dimora eterna degli dèi beati, si unì poi alla madre e con lei diede origine ai Titani, ai Ciclopi e ai possenti Centimani. Ma Urano temeva i suoi stessi figli e li ricacciava nel grembo di Gaia appena nati, finché la Terra, oppressa e sofferente, non armò il più giovane, Crono, che con la falce evirò il padre. Da quel sangue caduto sulla terra nacquero le Erinni e i Giganti, mentre dalla semenza dispersa nel mare sorse Afrodite. Con quella mutilazione il cielo si separò per sempre dalla terra, e l'ordine del cosmo poté cominciare. Urano resta la volta che tutto abbraccia, principio celeste e remoto di ogni cosa.",
+    "dom": [
+      "La volta celeste stellata",
+      "Padre dei Titani",
+      "Sposo di Gaia",
+      "Principio celeste del cosmo"
+    ],
+    "sim": [
+      "Il cielo stellato",
+      "La volta celeste",
+      "Le stelle",
+      "Il manto notturno"
+    ],
+    "off": [
+      "Incenso levato verso il cielo",
+      "Libagioni offerte a mani alzate",
+      "Preghiera sotto le stelle"
+    ],
+    "allora": "Generato da Gaia, Urano la ricoprì divenendo la volta del cielo e padre dei Titani. Fu evirato dal figlio Crono con una falce adamantina; dal suo sangue caduto sulla terra nacquero le Erinni e i Giganti, e dalla sua semenza dispersa nel mare sorse Afrodite. Come potenza cosmica primordiale non ebbe veri templi, ma il suo nome ricorreva nelle cosmogonie e nei giuramenti rivolti al cielo.",
+    "adesso": "Onoralo alzando lo sguardo e le mani al cielo notturno, offrendo incenso e riconoscendo in lui la volta che tutto abbraccia. Lo si venera come principio celeste del cosmo, spesso osservando le stelle in silenzio. Una preghiera all'aperto, sotto la volta stellata, è il modo più naturale di rivolgersi al Cielo primordiale.",
+    "src": "https://www.theoi.com/Protogenos/Ouranos.html"
+  },
+  {
+    "id": "nyx",
+    "n": "Nyx",
+    "gk": "Νύξ",
+    "ep": "La Notte primordiale",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Nyx è la Notte fatta dea, potenza antichissima e veneranda, nata dalle origini stesse del mondo. Da Chaos ebbe principio, e da lei scaturirono molte delle forze fondamentali del cosmo: unita a Erebos generò l'Etere e il Giorno, e da sola diede alla luce Hypnos e Thanatos, le Moire e altre potenze del destino e dell'ombra. Avvolta in un manto stellato, attraversa il cielo sul suo carro portando con sé il riposo e il mistero. Tanto grande è la sua maestà che, nell'Iliade, persino Zeus rinuncia a un'azione per timore di offenderla: davanti alla Notte anche il re degli dèi si trattiene. Non è tenebra minacciosa, ma grembo profondo da cui nascono il sonno, i sogni e le potenze del fato. In lei si venera l'oscurità come origine feconda, madre di quiete e di segreti.",
+    "dom": [
+      "La Notte come potenza cosmica",
+      "Generatrice di sonno, morte e destino",
+      "Madre di forze primordiali",
+      "Signora del mistero e dell'oscurità"
+    ],
+    "sim": [
+      "Il manto stellato scuro",
+      "Le ali nere",
+      "La torcia notturna",
+      "Il velo d'ombra"
+    ],
+    "off": [
+      "Libagioni notturne di vino nero o acqua",
+      "Candele accese al buio",
+      "Papaveri e fiori scuri"
+    ],
+    "allora": "Nata da Chaos, Nyx generò molte potenze fondamentali, come l'Etere e Emera, e da sola Hypnos, Thanatos e le Moire. Omero la mostra tanto veneranda che persino Zeus teme di offenderla, trattenendosi per rispetto verso di lei. Figura del culto orfico, era invocata nelle cosmogonie come una delle radici prime del mondo.",
+    "adesso": "Onorala dopo il tramonto, accendendo una candela nell'oscurità e versando una libagione notturna di vino scuro o acqua. La si venera come madre antica del mistero, chiedendo quiete, protezione nel buio e ispirazione nei sogni. Un momento di raccoglimento nella notte, con papaveri o fiori scuri sull'altare, ne richiama la presenza solenne.",
+    "src": "https://www.theoi.com/Protogenos/Nyx.html"
+  },
+  {
+    "id": "tartaro",
+    "n": "Tartaro",
+    "gk": "Τάρταρος",
+    "ep": "L'Abisso profondo",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Tartaro è insieme luogo e divinità: la voragine più profonda dell'universo, tanto lontana sotto la terra quanto la terra è lontana sotto il cielo. Sorse tra i primissimi esseri, con Chaos e Gaia, all'alba della creazione, e rappresenta il limite estremo del cosmo, il fondo oltre il quale non c'è più nulla. È lì, dietro porte di bronzo e un muro invalicabile, che Zeus rinchiuse i Titani sconfitti, sorvegliati dai Centimani, perché la loro forza antica non minacciasse più l'ordine del mondo. Perfino gli dèi tremano al pensiero di quell'abisso vertiginoso, dove i venti si perdono e il tempo sembra sospeso. Non è dimora di castigo come l'inferno di altre tradizioni, ma contenimento del caos primordiale. Lo si nomina con cautela e rispetto, come si nomina ciò che è troppo profondo per essere compreso.",
+    "dom": [
+      "La voragine più profonda del cosmo",
+      "Prigione dei Titani",
+      "Limite estremo dell'universo",
+      "Contenimento del caos primordiale"
+    ],
+    "sim": [
+      "L'abisso senza fondo",
+      "Le porte di bronzo",
+      "L'oscurità profonda",
+      "La tempesta"
+    ],
+    "off": [
+      "Libagioni versate in una fossa profonda",
+      "Riti notturni e sobri",
+      "Offerte deposte a terra senza assaggiarle"
+    ],
+    "allora": "Tra i primi esseri sorti con Chaos e Gaia, Tartaro è luogo e divinità insieme: l'abisso posto sotto la terra tanto quanto la terra è posta sotto il cielo. Vi furono rinchiusi i Titani sconfitti, dietro porte di bronzo e sotto la guardia dei Centimani. Non ebbe culto proprio, ma era evocato con timore nelle cosmogonie e nei giuramenti più tremendi, come quello sullo Stige.",
+    "adesso": "Riconoscilo come limite estremo del cosmo e forza che contiene il caos, onorandolo con brevi libagioni versate in una fossa scavata nel terreno. Lo si menziona con rispetto e cautela nei riti ctonii, senza assaggiare le offerte a lui deposte. Il suo culto è sobrio e misurato, adatto a chi vuole rendere omaggio alle profondità oscure dell'essere.",
+    "src": "https://www.theoi.com/Protogenos/Tartaros.html"
+  },
+  {
+    "id": "eros-primordiale-phanes",
+    "n": "Eros primordiale (Phanes)",
+    "gk": "Ἔρως / Φάνης",
+    "ep": "L'Amore che genera il cosmo",
+    "cats": [
+      "primordiali"
+    ],
+    "intro": "Eros, nella sua forma più antica, non è il fanciullo alato figlio di Afrodite, ma una potenza cosmica delle origini, la forza che spinge ogni cosa a unirsi e a generare. Nella Teogonia di Esiodo compare tra i primissimi esseri, accanto a Chaos e Gaia: il più bello tra gli immortali, colui che scioglie le membra e vince la ragione di dèi e uomini, muovendoli all'unione. Nella tradizione orfica assume il nome di Phanes, lo \"Splendente\", il dio dorato e luminoso nato dall'uovo cosmico che Nyx aveva deposto: primo generatore, portatore della luce, origine di ogni vita e di ogni forma. Dotato di ali d'oro, racchiude in sé maschile e femminile, principio di ogni fecondità. È l'impulso creatore dell'universo, l'amore inteso non come sentimento ma come legge cosmica che tiene insieme il mondo.",
+    "dom": [
+      "Forza generatrice dell'amore cosmico",
+      "Impulso all'unione e alla procreazione",
+      "Primo generatore (nella tradizione orfica)",
+      "Portatore di luce e di vita"
+    ],
+    "sim": [
+      "Le ali dorate",
+      "L'uovo cosmico",
+      "La fiaccola",
+      "Il fiore"
+    ],
+    "off": [
+      "Fiori profumati e miele",
+      "Libagioni di vino dolce",
+      "Incenso e frutti"
+    ],
+    "allora": "Nella Teogonia di Esiodo, Eros è tra i primissimi esseri, potenza che muove dèi e uomini all'unione, ben distinto dal più tardo figlio di Afrodite. Nella tradizione orfica è Phanes, il dio splendente nato dall'uovo cosmico deposto da Nyx, primo generatore e origine di ogni cosa. Come tale ricevette venerazione soprattutto nei circoli orfici, che lo ponevano al principio della cosmogonia.",
+    "adesso": "Onoralo come forza vitale e creativa dell'universo, con fiori profumati, miele e incenso disposti su un altare luminoso. Lo si invoca per amore, ispirazione e armonia, riconoscendolo come impulso che unisce e dà vita. Accendere una fiaccola o una candela in suo nome richiama la luce splendente di Phanes, principio di ogni fecondità.",
+    "src": "https://www.theoi.com/Protogenos/Eros.html"
+  },
+  {
+    "id": "pan",
+    "n": "Pan",
+    "gk": "Πάν",
+    "ep": "Dio dei pastori e delle greggi",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "Pan è l'antico dio arcade dei pascoli, dalle corna e dalle zampe di capra, spirito selvaggio dei monti e delle greggi. Figlio secondo il mito di Hermes, nacque con l'aspetto caprino che fece ridere gli dèi dell'Olimpo. Vaga per le alture solitarie dell'Arcadia sorvegliando pastori e armenti, danzando con le Ninfe e riposando nell'ora meridiana, quando guai a chi turbi il suo sonno. Innamorato della Ninfa Siringa, che per sfuggirgli fu mutata in canne, ne intrecciò i fusti creando il flauto pastorale che porta il suo nome. È lui a incutere quel terrore improvviso e irrazionale che dagli antichi fu detto \"panico\". Nell'immaginario greco Pan è l'incarnazione della natura selvaggia e feconda, compagno di Dioniso e voce musicale dei boschi.",
+    "dom": [
+      "Pascoli, boschi selvaggi e greggi",
+      "Fecondità animale",
+      "Caccia e musica agreste"
+    ],
+    "sim": [
+      "Corna e zampe caprine",
+      "Siringa (flauto di Pan)",
+      "Bastone da pastore",
+      "Il pino"
+    ],
+    "off": [
+      "Latte e miele",
+      "Primizie dei campi",
+      "Libagioni versate in grotta"
+    ],
+    "allora": "Divinità arcade dal corpo caprino, vagava per i monti suonando la siringa e incuteva nei viandanti il \"panico\", compagno delle Ninfe e del corteo festante di Dioniso. Era onorato in grotte rustiche e agresti dell'Arcadia, sua terra d'origine, con offerte di latte, miele e sacrifici di capre. Dopo la battaglia di Maratona il suo culto si diffuse anche ad Atene.",
+    "adesso": "Onoralo con passeggiate nella natura, lasciando miele e latte presso alberi o rocce e ascoltando o suonando musica all'aria aperta. È il patrono di chi cerca una connessione autentica con la terra, con gli animali e con la propria spontaneità istintiva e gioiosa.",
+    "src": "https://www.theoi.com/Georgikos/Pan.html"
+  },
+  {
+    "id": "ninfe",
+    "n": "Le Ninfe",
+    "gk": "Νύμφαι",
+    "ep": "Spiriti della natura",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "Le Ninfe sono le dee minori che animano ogni angolo del mondo naturale: giovani e bellissime, popolano boschi, sorgenti, fiumi, monti e prati, incarnandone la vita segreta e feconda. Divise secondo l'ambiente che presiedono - Naiadi delle acque, Driadi degli alberi, Oreadi dei monti, Nereidi del mare - sono figlie di divinità fluviali o dello stesso Zeus, e vivono lunghissime esistenze pur non essendo del tutto immortali. Compagne di Artemide nella caccia, di Pan e delle danze, del corteo di Dioniso, sono nutrici della vita selvatica e talvolta madri di eroi. Chi le incontrava presso una fonte poteva riceverne doni o esserne rapito. Nell'immaginario greco le Ninfe sono la presenza divina e vivente della natura stessa, veneranda e da rispettare.",
+    "dom": [
+      "Boschi, prati e monti",
+      "Sorgenti, fiumi e acque",
+      "Nutrimento e cura della vita selvatica"
+    ],
+    "sim": [
+      "Brocche d'acqua",
+      "Ghirlande di fiori",
+      "Rami e fronde",
+      "Grotte e sorgenti"
+    ],
+    "off": [
+      "Latte e olio",
+      "Miele",
+      "Corone di fiori",
+      "Acqua di fonte (mai vino)"
+    ],
+    "allora": "Spiriti giovanili della natura, erano distinte secondo l'ambiente che abitavano e figuravano come compagne di Artemide, Pan e Dioniso. Venivano venerate presso sorgenti, grotte e boschi sacri con offerte di latte e olio, ma mai con vino, secondo un'antica prescrizione rituale. Molte grotte in tutta la Grecia, dette ninfei, erano loro consacrate.",
+    "adesso": "Onorale prendendoti cura dei luoghi naturali, lasciando fiori o acqua pulita presso fonti e alberi e trattando questi spazi con rispetto sacro. Sono le patrone della cura della terra, della fertilità e del legame profondo con i luoghi in cui viviamo e che ci nutrono.",
+    "src": "https://www.theoi.com/Nymphe/Nymphai.html"
+  },
+  {
+    "id": "satiri",
+    "n": "I Satiri",
+    "gk": "Σάτυροι",
+    "ep": "Spiriti della fecondità selvaggia",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "I Satiri sono i demoni rustici della natura rigogliosa, creature dai tratti animaleschi - orecchie e coda equine, talvolta piccole corna - che incarnano l'esuberanza istintiva della vita. Amanti sfrenati del vino, della musica e della danza, inseguono le Ninfe per i boschi e formano, insieme a esse, il corteo festante e chiassoso di Dioniso, il tiaso. Li si immagina sempre in movimento, tra suoni di aulos, coppe traboccanti e balli scomposti, guidati dal vecchio e saggio Sileno, il più anziano fra loro. Erano protagonisti del dramma satiresco, che chiudeva scherzosamente le trilogie tragiche ateniesi con la loro comicità sfrenata. Nell'immaginario greco i Satiri celebrano la forza generatrice della natura, il piacere del corpo e la liberazione gioiosa da ogni freno.",
+    "dom": [
+      "Natura rigogliosa e fecondità selvaggia",
+      "Vino, ebbrezza e vitalità",
+      "Danza e musica"
+    ],
+    "sim": [
+      "Orecchie e coda equine",
+      "Tirso e coppa",
+      "Aulos",
+      "Otre di vino"
+    ],
+    "off": [
+      "Vino",
+      "Uva e frutta",
+      "Musica e danza"
+    ],
+    "allora": "Spiriti rustici dalle fattezze animalesche, amanti del vino, della musica e delle Ninfe, formavano il corteo festante di Dioniso guidati dal vecchio Sileno. Erano celebrati nei drammi satireschi, che rallegravano il pubblico ateniese dopo le tragedie, e nelle chiassose feste dionisiache in cui si scioglievano i freni del vivere ordinario.",
+    "adesso": "Onorali nella gioia, nella festa e nella liberazione dalle inibizioni, con vino, musica e danza condivisi in buona compagnia. Ci ricordano il valore del piacere, del corpo e della vitalità, e l'importanza di lasciarsi andare ogni tanto al riso e all'allegria senza rimorsi.",
+    "src": "https://www.theoi.com/Georgikos/Satyroi.html"
+  },
+  {
+    "id": "priapo",
+    "n": "Priapo",
+    "gk": "Πρίαπος",
+    "ep": "Dio degli orti e della fertilità",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "Priapo è il dio rustico della fertilità, protettore degli orti, dei vigneti, delle greggi e delle arnie. Figlio secondo la tradizione di Dioniso e Afrodite, nacque nella regione di Lampsaco, sull'Ellesponto, dove ebbe il suo culto più antico e sentito. Divinità dell'abbondanza e della prosperità dei campi, vegliava sulle coltivazioni garantendone la fecondità e allontanando ladri, uccelli e influssi malefici. Le sue immagini rozzamente scolpite, spesso dipinte di rosso, venivano poste tra le piante come spaventapasseri sacri, custodi vigili del raccolto. A lui i contadini offrivano le primizie di ciò che orti e vigne producevano, in ringraziamento per l'abbondanza. Nell'immaginario greco Priapo è la garanzia gioviale e schietta della prosperità domestica e della fertilità della terra coltivata.",
+    "dom": [
+      "Orti, vigneti e giardini",
+      "Greggi e arnie",
+      "Fertilità e protezione dai ladri"
+    ],
+    "sim": [
+      "Cesto di frutti",
+      "Berretto frigio",
+      "Falce da giardino"
+    ],
+    "off": [
+      "Primizie di orti e vigne",
+      "Latte e miele",
+      "Focacce"
+    ],
+    "allora": "Dio rustico originario dell'Asia Minore, in particolare di Lampsaco, era il protettore degli orti e dei giardini. Le sue statue venivano collocate fra le coltivazioni come spaventapasseri sacri e custodi del raccolto, e a lui si offrivano le primizie di orti, vigne e campi in segno di ringraziamento per l'abbondanza ottenuta.",
+    "adesso": "Onoralo nella cura dell'orto e del giardino, lasciando le primizie del tuo raccolto e ponendo una sua piccola immagine protettrice fra le piante. È il patrono della fertilità, dell'abbondanza e della prosperità domestica, custode gioviale di tutto ciò che coltivi con le tue mani.",
+    "src": "https://www.theoi.com/Georgikos/Priapos.html"
+  },
+  {
+    "id": "aristeo",
+    "n": "Aristeo",
+    "gk": "Ἀρισταῖος",
+    "ep": "Dio dell'apicoltura e della pastorizia",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "Aristeo è il dio benefattore che insegnò agli uomini le arti della campagna, figlio di Apollo e della Ninfa Cirene. Cresciuto dalle Ninfe e dal saggio centauro Chirone, apprese i segreti dell'apicoltura, della caseificazione e della coltura dell'olivo, che poi donò all'umanità meritando l'ascesa fra le divinità. Il mito più celebre lo lega alla morte di Euridice, che fuggendo da lui fu morsa dal serpente: come punizione le sue api morirono tutte, e solo compiendo un particolare sacrificio - la bugonia - le vide rinascere miracolosamente dalle carcasse dei buoi. Girò il mondo mediterraneo diffondendo il suo sapere, dalla Tessaglia alla Sardegna. Nell'immaginario greco Aristeo è il civilizzatore mite, patrono di pastori, apicoltori e di quanti traggono nutrimento dalla terra e dagli animali.",
+    "dom": [
+      "Apicoltura e cura delle api",
+      "Allevamento e pastorizia",
+      "Caseificazione e coltivazione dell'olivo"
+    ],
+    "sim": [
+      "Arnie e api",
+      "Vaso di miele",
+      "Ramo d'olivo",
+      "Bastone del pastore"
+    ],
+    "off": [
+      "Miele",
+      "Formaggio e latte",
+      "Olio d'oliva",
+      "Primizie del gregge"
+    ],
+    "allora": "Figlio di Apollo e della Ninfa Cirene, insegnò agli uomini l'apicoltura, la caseificazione e la coltura dell'olivo, ascendendo per questi benefici alla dignità divina. Era venerato in molte terre - Tessaglia, Arcadia, Ceo, Sicilia e Sardegna - soprattutto come protettore contro la calura estiva e come garante della prosperità di greggi e alveari.",
+    "adesso": "Onoralo dedicandogli la cura delle api, del giardino e dei mestieri della terra, offrendogli miele e olio in ringraziamento. È il patrono ideale di apicoltori, agricoltori e artigiani del cibo, e di chiunque desideri lavorare la terra in armonia con i suoi ritmi.",
+    "src": "https://www.theoi.com/Georgikos/Aristaios.html"
+  },
+  {
+    "id": "driadi",
+    "n": "Le Driadi",
+    "gk": "Δρυάδες",
+    "ep": "Ninfe degli alberi",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "Le Driadi sono le Ninfe degli alberi, anime viventi delle querce, dei pini, dei pioppi e degli alberi da frutto che popolano le foreste. Il loro nome deriva dalla quercia, la drys, l'albero a loro più caro. Fra di esse le Amadriadi hanno un legame ancora più stretto e commovente con la propria pianta: nascono con essa e con essa muoiono, cosicché chi abbatte un albero sacro rischia di uccidere lo spirito che vi dimora e di attirarsi il castigo divino. Divinità benefiche e gentili, custodiscono i boschi e vi danzano, associate al culto di Dioniso e alla vita rigogliosa della vegetazione. Chi rispettava e onorava gli alberi poteva riceverne protezione e favore. Nell'immaginario greco le Driadi sono l'anima sacra e senziente della foresta, che chiede rispetto e cura.",
+    "dom": [
+      "Querce, pini e pioppi",
+      "Alberi da frutto",
+      "Le foreste e i boschi sacri"
+    ],
+    "sim": [
+      "Querce e fronde",
+      "Ghirlande di foglie",
+      "Rami fioriti",
+      "Alberi da frutto"
+    ],
+    "off": [
+      "Acqua e latte",
+      "Corone di foglie",
+      "Miele",
+      "Cura degli alberi"
+    ],
+    "allora": "Erano venerate come Ninfe degli alberi, e in particolare le Amadriadi nascevano e morivano insieme alla propria pianta, tanto che recidere un albero sacro era considerato un sacrilegio punibile. Divinità benefiche della natura, erano associate ai boschi sacri e al culto dionisiaco, e onorate presso gli alberi che le ospitavano.",
+    "adesso": "Onorale piantando e proteggendo gli alberi, lasciando offerte ai loro piedi e riconoscendo il bosco come uno spazio vivente e sacro. Sono le patrone della cura delle foreste e del rispetto per il mondo vegetale, che ci insegnano a considerare ogni albero come una presenza degna di riguardo.",
+    "src": "https://www.theoi.com/Nymphe/Dryades.html"
+  },
+  {
+    "id": "naiadi",
+    "n": "Le Naiadi",
+    "gk": "Ναϊάδες",
+    "ep": "Ninfe delle acque dolci",
+    "cats": [
+      "rustici"
+    ],
+    "intro": "Le Naiadi sono le Ninfe delle acque dolci, spiriti che presiedono a sorgenti, fontane, fiumi, laghi e ruscelli. Figlie delle divinità fluviali, incarnano la freschezza vivificante dell'acqua che disseta la terra e nutre ogni vita. Amabili e benevole, erano ritenute nutrici dei giovani, compagne di Artemide, e talvolta amanti di dèi e mortali; ma potevano anche rapire chi si accostava troppo alle loro acque, come il bel Ila, sottratto ai compagni di Eracle. Alcune fonti sacre a loro consacrate, come quella d'Elicona o quella di Delfi, erano ritenute capaci di donare l'ispirazione poetica e profetica a chi ne bevesse. Nell'immaginario greco le Naiadi sono la voce sacra e benefica delle acque vive, presenze da onorare presso ogni sorgente che disseta e guarisce.",
+    "dom": [
+      "Sorgenti e fontane",
+      "Fiumi e laghi",
+      "Nutrimento e ispirazione"
+    ],
+    "sim": [
+      "Brocca versante",
+      "Canne e giunchi",
+      "Sorgenti",
+      "Conchiglie d'acqua dolce"
+    ],
+    "off": [
+      "Acqua di fonte",
+      "Latte e olio",
+      "Corone di fiori",
+      "Primizie"
+    ],
+    "allora": "Presiedevano a sorgenti, fontane, fiumi e laghi, ed erano venerate come nutrici dei giovani accanto ad Artemide. Alcune loro fonti, come quelle dell'Elicona e di Delfi, donavano ispirazione poetica e profetica a chi ne beveva, e le sorgenti ritenute particolarmente sacre avevano propri santuari e culti frequentati dai fedeli.",
+    "adesso": "Onorale presso fiumi, laghi e fontane, mantenendo pulite le loro acque e lasciando fiori o acqua limpida in segno di rispetto. Sono le patrone della guarigione, dell'ispirazione e della protezione delle acque, e ci ricordano quanto sia sacra e preziosa ogni sorgente che ci disseta.",
+    "src": "https://www.theoi.com/Nymphe/Naiades.html"
+  },
+  {
+    "id": "muse",
+    "n": "Le Muse",
+    "gk": "Μοῦσαι",
+    "ep": "Dee dell'ispirazione e delle arti",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Figlie di Zeus e di Mnemosine, la Memoria, le nove Muse nacquero in Pieria, ai piedi dell'Olimpo, dopo nove notti d'amore, e da allora sono la sorgente viva di ogni canto. Ciascuna presiede a un'arte o a una scienza — Calliope alla poesia epica, Clio alla storia, Erato alla lirica amorosa, Euterpe alla musica, Melpomene alla tragedia, Polimnia agli inni sacri, Tersicore alla danza, Talia alla commedia, Urania all'astronomia — e insieme formano il coro che allieta le mense degli dèi. È a loro che Omero ed Esiodo chiedono di cantare, perché senza la loro voce il poeta è muto: sono le Muse a \"ricordare\" ciò che l'uomo non potrebbe sapere. Danzavano sull'Elicona e sul Parnaso, presso le fonti Ippocrene e Castalia, dove l'acqua sgorgata dallo zoccolo di Pegaso donava l'estro poetico. Severe custodi del vero e del bello, potevano punire chi osava sfidarle, come il tracio Tamiri, accecato per la sua tracotanza. Nella cultura greca incarnavano l'idea stessa che la creazione umana è un dono divino, non una semplice abilità.",
+    "dom": [
+      "Musica, canto e danza",
+      "Poesia, eloquenza e lettere",
+      "Astronomia e scienza",
+      "Ispirazione e memoria"
+    ],
+    "sim": [
+      "Lira e flauto",
+      "Rotoli e stilo",
+      "Corona d'alloro",
+      "Globo celeste"
+    ],
+    "off": [
+      "Libagioni di acqua, latte e miele",
+      "Inni e canti",
+      "Opere creative dedicate"
+    ],
+    "allora": "Originarie della Pieria, le Muse erano venerate soprattutto sull'Elicona in Beozia, dove sorgeva il loro bosco sacro con le fonti sacre, e a Parnaso presso Delfi. I poeti aprivano le loro opere con un'invocazione alle Muse, e nei santuari si offrivano loro libagioni incruente di acqua, latte e miele. Attorno al loro culto fiorirono le Museia, feste con gare poetiche e musicali; non a caso il \"museo\" nacque come luogo a esse consacrato.",
+    "adesso": "Invocale all'inizio di ogni lavoro creativo, di uno studio o di una ricerca, chiedendo chiarezza e ispirazione. Dedica loro le opere che porti a termine — una pagina scritta, una melodia, un progetto — come segno di gratitudine. Un piccolo altare con alloro, un quaderno e una candela può accompagnare il momento in cui ti siedi a creare. Sono le patrone ideali di scrittori, artisti, musicisti e studiosi.",
+    "src": "https://www.theoi.com/Ouranios/Mousai.html"
+  },
+  {
+    "id": "cariti-grazie",
+    "n": "Le Cariti (Grazie)",
+    "gk": "Χάριτες",
+    "ep": "Dee della grazia e della gioia",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Le tre Cariti — Aglaia, lo Splendore, Eufrosine, la Letizia, e Talia, l'Abbondanza festosa — sono le dee che donano alla vita il suo incanto luminoso. Figlie di Zeus e dell'oceanina Eurinome, incarnano tutto ciò che rende dolce l'esistenza: la bellezza, la gratitudine, il piacere del convivio, il fascino dei gesti gentili. Danzano in cerchio, tenendosi per mano, immagine perfetta della reciprocità del dono e del favore che circola tra chi si vuol bene. Compagne e ancelle di Afrodite, di cui adornano il corpo e la veste, e vicine anche ad Apollo e alle Muse, prestano grazia a ogni arte e a ogni festa. La parola greca *charis* che dà loro il nome significa insieme grazia, favore e gratitudine: senza le Cariti nessun dono sarebbe gradito e nessuna opera d'arte compiuta. Erano il respiro di gioia che accompagnava banchetti, nozze e celebrazioni.",
+    "dom": [
+      "Grazia e bellezza",
+      "Gioia, festa e danza",
+      "Ornamento e piacere conviviale",
+      "Gratitudine e cortesia"
+    ],
+    "sim": [
+      "Rose e mirto",
+      "Danza in cerchio",
+      "Nudità giovanile"
+    ],
+    "off": [
+      "Fiori e rose",
+      "Profumi",
+      "Banchetti e vino",
+      "Musica e danza"
+    ],
+    "allora": "Il loro culto più antico aveva sede in Beozia, a Orcomeno, dove erano venerate sotto forma di pietre sacre cadute dal cielo e si celebravano in loro onore le feste Charisia, con danze notturne e gare musicali. Erano onorate anche a Sparta, ad Atene e in molti santuari come compagne di altre divinità, poiché nessun rito era compiuto senza la loro grazia. La tradizione le associava sempre alla danza corale e alla convivialità festosa.",
+    "adesso": "Onorale coltivando la bellezza, la gratitudine e la generosità nelle tue relazioni: un fiore donato, un gesto di ospitalità, un ringraziamento sincero sono già offerte a loro gradite. Rendi accogliente la tua casa e apparecchia con cura quando ricevi qualcuno, ricordando che il piacere condiviso è sacro. Coltiva la reciprocità: ricevere con grazia e ricambiare con gioia è il loro insegnamento. Sono patrone dell'eleganza, della convivialità e della cortesia.",
+    "src": "https://www.theoi.com/Ouranios/Kharites.html"
+  },
+  {
+    "id": "ore",
+    "n": "Le Ore",
+    "gk": "Ὧραι",
+    "ep": "Dee delle stagioni e dell'ordine",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Le Ore sono le custodi del tempo che matura e ritorna: figlie di Zeus e di Temi, la Legge, presiedono al ciclo delle stagioni e all'ordine che regge tanto la natura quanto la vita degli uomini. Nella loro forma più celebre sono tre — Eunomia, il Buon Ordine, Dike, la Giustizia, ed Eirene, la Pace — a mostrare come il buon governo del tempo e quello della società siano una cosa sola. Spalancano e chiudono le porte dell'Olimpo, addensando o diradando le nubi, e accompagnano il fiorire e il fruttificare della terra. Erano loro a condurre le divinità dei cicli naturali e a scandire il passaggio dalla semina al raccolto. I Greci le sentivano vicine ogni volta che la natura rispettava il suo ritmo giusto: la primavera che torna, la messe che matura, la pace che segue l'ordine. Custodivano l'idea che il tempo non è caos, ma misura e armonia.",
+    "dom": [
+      "Stagioni e ciclo del tempo",
+      "Ordine naturale e cosmico",
+      "Giustizia e buon governo",
+      "Pace e armonia sociale"
+    ],
+    "sim": [
+      "Fiori e frutti di stagione",
+      "Porte dell'Olimpo",
+      "Cornucopia",
+      "Ghirlande"
+    ],
+    "off": [
+      "Primizie stagionali",
+      "Fiori",
+      "Libagioni",
+      "Corone"
+    ],
+    "allora": "Custodivano le porte dell'Olimpo e regolavano le stagioni e l'ordine cosmico, e per questo erano care soprattutto ai contadini, che ne dipendevano per il raccolto. Ricevevano culto ad Atene, dove i loro nomi si legavano al buon governo civico, e in luoghi come Olimpia e Argo. Si offrivano loro le primizie di ogni stagione, fiori e corone, in segno di riconoscenza per il ritmo fecondo dell'anno.",
+    "adesso": "Onorale vivendo in sintonia con i ritmi delle stagioni: celebra i solstizi e gli equinozi, mangia i frutti del tempo giusto, rispetta le fasi della tua vita senza forzarle. Ogni gesto di giustizia, puntualità e armonia è un omaggio al loro ordine. Dedica un momento a mettere ordine nella tua giornata e nei tuoi impegni, riconoscendo che anche il tempo ben speso è sacro. Sono patrone dell'equilibrio e della misura.",
+    "src": "https://www.theoi.com/Ouranios/Horai.html"
+  },
+  {
+    "id": "moire-parche",
+    "n": "Le Moire (Parche)",
+    "gk": "Μοῖραι",
+    "ep": "Dee del destino",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Le Moire sono le tre sorelle che tengono in mano la vita di ogni essere, dèi compresi: Cloto, la Filatrice, che fila il filo dell'esistenza; Lachesi, che ne misura la lunghezza e assegna la sorte; e Atropo, l'Inflessibile, che con le forbici lo recide quando è giunta l'ora. Nate secondo alcuni dalla Notte, secondo altri da Zeus e Temi, incarnano la legge più profonda del cosmo, quella \"parte\" (*moira*) che tocca a ciascuno e che nessuno può oltrepassare. Persino gli dèi si inchinano al loro decreto, e Zeus stesso è detto Moiragete, \"colui che guida le Moire\", non \"colui che le comanda\". Presenti alla nascita di ogni bambino, ne cantano il destino e lo fissano per sempre. Non sono crudeli, ma imparziali: distribuiscono con giustizia inflessibile il bene e il male, la vita e la morte. I Greci le temevano e le rispettavano come la voce stessa della necessità.",
+    "dom": [
+      "Destino e sorte di ognuno",
+      "Nascita e morte",
+      "Misura del tempo della vita",
+      "Necessità cosmica"
+    ],
+    "sim": [
+      "Fuso e conocchia",
+      "Filo della vita",
+      "Bilancia",
+      "Forbici"
+    ],
+    "off": [
+      "Libagioni di miele e acqua",
+      "Fiori",
+      "Focacce",
+      "Offerte alle nascite"
+    ],
+    "allora": "Onorate come dispensatrici della sorte dalla nascita alla morte, avevano santuari e altari a Corinto, Sparta, Olimpia, Tebe e Delfi, spesso accanto a Zeus Moiragete. Si offrivano loro libagioni incruente di miele e acqua, fiori e focacce, soprattutto in occasione delle nascite, quando si invocava per il neonato una sorte propizia. Erano invocate anche nei momenti solenni del matrimonio e della morte, i grandi passaggi che esse presiedevano.",
+    "adesso": "Onorale nei grandi passaggi della vita — una nascita, un lutto, una svolta decisiva — riconoscendo ciò che è nelle tue mani e ciò che non lo è. Coltiva la serenità di accettare l'inevitabile, distinguendola dal coraggio di agire dove puoi ancora scegliere. Accendi una candela e onora gli antenati, ricordando che sei parte di un filo che viene da lontano. Sono patrone della consapevolezza del tempo e del peso delle scelte.",
+    "src": "https://www.theoi.com/Daimon/Moirai.html"
+  },
+  {
+    "id": "nike",
+    "n": "Nike",
+    "gk": "Νίκη",
+    "ep": "Dea della vittoria",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Nike è la dea alata che scende a incoronare chi trionfa, veloce come un batter d'ali e luminosa come la gloria. Figlia del Titano Pallante e della palude Stige, insieme ai fratelli Zelo, Cratos e Bia si schierò accanto a Zeus nella guerra contro i Titani, e per questo il re degli dèi la volle per sempre al suo fianco. La tradizione la ricorda come auriga del suo carro e compagna inseparabile, tanto che spesso appare nella mano stessa di Zeus o di Atena, piccola figura che porge la corona al vincitore. Vola sui campi di battaglia e sugli stadi, sospesa un istante prima di posarsi sul capo di chi ha meritato il trionfo, in guerra come nelle gare atletiche e nelle competizioni poetiche. Non è la forza che vince, ma il momento fulgente e fuggevole della vittoria consacrata. I Greci la sentivano vicina in ogni sforzo coronato dal successo, e ne ammiravano la grazia leggera.",
+    "dom": [
+      "Vittoria in guerra",
+      "Trionfo nelle gare atletiche",
+      "Successo nelle competizioni artistiche",
+      "Gloria e riconoscimento"
+    ],
+    "sim": [
+      "Ali",
+      "Corona d'alloro e benda",
+      "Ramo di palma",
+      "Lira"
+    ],
+    "off": [
+      "Corone e bende",
+      "Trofei dedicati",
+      "Libagioni di vittoria",
+      "Inni celebrativi"
+    ],
+    "allora": "Dea alata della vittoria e compagna di Atena, Nike incoronava i vincitori di guerre e di giochi. Il suo santuario più celebre è il tempio di Athena Nike sull'Acropoli di Atene, dove era venerata nella sua forma \"senza ali\" (Aptera), perché la vittoria non abbandonasse mai la città. A lei si dedicavano trofei, corone e inni di trionfo, e la sua immagine ornava monumenti eretti a ricordo di battaglie vinte.",
+    "adesso": "Invocala prima di una sfida importante — un esame, una gara, un colloquio, un traguardo a lungo inseguito — chiedendole la lucidità e lo slancio per dare il meglio. Quando ottieni un successo, dedicaglielo con gratitudine anziché con arroganza, ricordando quanto la vittoria sia preziosa e fugace. Un piccolo alloro o un simbolo del tuo traguardo posto sull'altare la onora. È patrona dello sport, della determinazione e dei traguardi raggiunti.",
+    "src": "https://www.theoi.com/Daimon/Nike.html"
+  },
+  {
+    "id": "tyche",
+    "n": "Tyche",
+    "gk": "Τύχη",
+    "ep": "Dea della fortuna",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Tyche è la dea instabile e potente che regge il timone del caso, capace di sollevare un uomo alla ricchezza o di rovesciarlo nella miseria con un solo giro della sua ruota. Considerata figlia di Oceano o di Zeus, presiede alla fortuna intesa come ciò che accade senza merito né colpa, il puro imprevisto della sorte. Con una mano tiene la cornucopia colma di beni, con l'altra il timone con cui dirige le vicende umane, e sotto il piede talvolta la sfera o la ruota, immagine della sua natura mutevole e mai ferma. Dispensa Eutychia, la buona sorte, ma anche la sventura, perché la fortuna non conosce fedeltà. Nell'età ellenistica il suo culto crebbe enormemente: ogni città volle la propria Tyche protettrice, incoronata di mura, garante della sua prosperità. I Greci la sentivano ovunque il destino si mostrasse capriccioso, e sapevano che andava trattata con rispetto e senza presunzione.",
+    "dom": [
+      "Fortuna e caso",
+      "Prosperità e ricchezza",
+      "Sorte mutevole",
+      "Protezione delle città"
+    ],
+    "sim": [
+      "Timone",
+      "Cornucopia",
+      "Ruota o sfera",
+      "Corona murale"
+    ],
+    "off": [
+      "Libagioni",
+      "Primizie e monete",
+      "Incenso",
+      "Focacce"
+    ],
+    "allora": "Venerata come dispensatrice di fortuna e prosperità, Tyche ebbe culto a Fare, Smirne, Sicione, Atene e Olimpia, e come Tyche cittadina divenne protettrice di intere città, con la corona murale sul capo. Si accompagnava spesso a Nemesi, che ne bilanciava i doni impedendo che la fortuna eccessiva sfociasse in tracotanza. Le si offrivano libagioni, primizie, monete e incenso, in segno di gratitudine e di richiesta di benevolenza.",
+    "adesso": "Onorala accogliendo con equilibrio i mutamenti della sorte, senza esaltarti nella buona fortuna né disperarti nell'avversa. Nei momenti fortunati, offri un piccolo gesto di gratitudine — una moneta donata, un'offerta simbolica — riconoscendo che non tutto dipende da te. Coltiva la speranza e la flessibilità di fronte all'imprevisto, ricordando che la ruota gira sempre. È patrona dell'accettazione del caso e della fiducia nel futuro.",
+    "src": "https://www.theoi.com/Daimon/Tykhe.html"
+  },
+  {
+    "id": "nemesi",
+    "n": "Nemesi",
+    "gk": "Νέμεσις",
+    "ep": "Dea della giusta retribuzione",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Nemesi è la dea che veglia sull'equilibrio del mondo e non tollera l'eccesso: il suo nome deriva dal verbo che significa \"distribuire ciò che è dovuto\", perché a lei spetta ridare a ciascuno la sua giusta parte. Figlia della Notte, incarna lo sdegno divino contro la tracotanza, la *hybris*, quell'orgoglio smisurato con cui i mortali dimenticano i propri limiti e sfidano gli dèi. Quando la fortuna di un uomo cresce oltre misura, o quando qualcuno gode di un bene immeritato, è Nemesi ad abbassare la bilancia e a riportare le cose al loro ordine. Alata, con la briglia e la frusta in mano, insegue chi corre troppo in alto e lo richiama alla misura. Il mito la lega anche alla nascita di Elena, generata da un uovo dopo che Zeus la inseguì mutandosi in cigno. I Greci la temevano come la voce che ricorda a ogni fortunato: nulla di troppo.",
+    "dom": [
+      "Retribuzione divina",
+      "Punizione della tracotanza (hybris)",
+      "Equilibrio e giusta misura",
+      "Sdegno morale"
+    ],
+    "sim": [
+      "Ali",
+      "Briglia e frusta",
+      "Bilancia",
+      "Ramo di melo"
+    ],
+    "off": [
+      "Libagioni",
+      "Rami",
+      "Incenso",
+      "Atti di misura e umiltà"
+    ],
+    "allora": "Il suo santuario più celebre sorgeva a Ramnunte, in Attica, dove si venerava la statua scolpita da Agoracrito, allievo di Fidia, ricavata secondo la tradizione dal marmo che i Persiani avevano portato per erigere un monumento alla loro attesa vittoria — vittoria che la loro stessa hybris trasformò in sconfitta. Vi si celebravano le Nemesia e le si offrivano libagioni, rami e incenso. Spesso era invocata accanto a Tyche, per temperare gli eccessi della fortuna.",
+    "adesso": "Onorala coltivando la misura, l'umiltà e il senso di giustizia, riconoscendo i tuoi limiti e resistendo alla tentazione dell'arroganza. Quando la vita ti sorride, ricordati di non montare in superbia; quando subisci un torto, affidati al riequilibrio piuttosto che alla vendetta cieca. Un momento di sobrietà e di gratitudine misurata è già un omaggio a lei. È patrona dell'equilibrio interiore e del rispetto dei limiti.",
+    "src": "https://www.theoi.com/Daimon/Nemesis.html"
+  },
+  {
+    "id": "eros",
+    "n": "Eros",
+    "gk": "Ἔρως",
+    "ep": "Dio dell'amore e del desiderio",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Eros è la forza che accende la passione e muove ogni cosa verso l'unione: nelle cosmogonie più antiche è una delle prime potenze nate dal Caos, principio primordiale che spinge gli esseri ad amarsi e a generare. La tradizione più diffusa lo vuole invece bellissimo figlio di Afrodite, giovane alato dagli occhi ridenti, armato di arco e di frecce d'oro con cui trafigge i cuori di dèi e mortali, e della torcia con cui ne infiamma il desiderio. Nessuno è al sicuro dai suoi dardi, e persino Zeus deve piegarsi al suo potere; capriccioso e irresistibile, gioca con le sorti degli amanti. Il mito più celebre lo lega a Psiche, l'anima mortale che egli amò in segreto e che, dopo prove e dolori, fu resa immortale e sua sposa per sempre — favola dell'amore che unisce desiderio e anima. I Greci lo veneravano come la potenza che tiene insieme il mondo e che rende la vita degna di essere vissuta.",
+    "dom": [
+      "Amore e desiderio",
+      "Passione dei cuori",
+      "Attrazione e unione",
+      "Legami affettivi"
+    ],
+    "sim": [
+      "Arco e frecce",
+      "Ali dorate",
+      "Torcia fiammeggiante",
+      "Rose"
+    ],
+    "off": [
+      "Fiori e rose",
+      "Libagioni",
+      "Doni d'amore",
+      "Incenso"
+    ],
+    "allora": "Il centro più antico del suo culto era Tespie, in Beozia, dove Eros era venerato in forma di pietra grezza e si celebravano ogni quattro anni gli Erotidia, feste con gare atletiche e musicali in suo onore. Era onorato anche ad Atene, presso l'Accademia, e nelle palestre, come nume che ispirava sia l'amore sia il valore. Gli si offrivano fiori, rose, libagioni e incenso, e a lui si rivolgevano gli innamorati.",
+    "adesso": "Invocalo nelle relazioni d'amore e ogni volta che desideri coltivare la passione, la tenerezza e la connessione profonda con un'altra persona. Onoralo con fiori, con gesti d'affetto sinceri e con la cura dei legami, ricordando che l'amore va nutrito e non solo desiderato. Un piccolo altare con rose e una candela può accompagnare il pensiero rivolto a chi ami. È patrono dell'amore, del desiderio e dei legami del cuore.",
+    "src": "https://www.theoi.com/Ouranios/Eros.html"
+  },
+  {
+    "id": "iris",
+    "n": "Iris",
+    "gk": "Ἶρις",
+    "ep": "Dea dell'arcobaleno e messaggera",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Iris è la dea che unisce il cielo e la terra, apparendo come l'arcobaleno che si tende luminoso dopo la pioggia. Figlia del Titano Taumante e dell'oceanina Elettra, e sorella delle Arpie, ha ali dorate e una veste iridescente, e scende veloce come la luce a portare i messaggi degli dèi olimpici agli uomini e alle altre divinità. È soprattutto l'ancella fedele di Era, di cui esegue i comandi, ma serve tutto l'Olimpo attraversando in un istante mari, monti e persino le profondità dell'Ade, dove attinge l'acqua della Stige con cui gli dèi pronunciano i loro giuramenti solenni. Sempre in movimento, non ha quasi miti propri: la sua essenza è il transito, il ponte, il legame. Come l'arcobaleno che segna la fine della tempesta, porta con sé un senso di speranza e di riconciliazione tra il divino e l'umano. I Greci la vedevano ogni volta che il cielo si apriva colorato dopo la pioggia.",
+    "dom": [
+      "Arcobaleno",
+      "Messaggera degli dèi",
+      "Legame tra cielo e terra",
+      "Comunicazione e riconciliazione"
+    ],
+    "sim": [
+      "Ali dorate",
+      "Caduceo",
+      "Brocca d'acqua",
+      "Arcobaleno"
+    ],
+    "off": [
+      "Focacce di grano e miele",
+      "Fichi secchi",
+      "Libagioni d'acqua",
+      "Corone"
+    ],
+    "allora": "Messaggera degli dèi e ancella di Era, Iris non ebbe un culto diffuso quanto altre divinità, ma era onorata in particolare a Delo, dove gli abitanti le offrivano focacce di grano impastate con miele e fichi secchi. La sua figura ricorreva nella poesia e nell'arte come tramite tra i mondi, veloce e instancabile. L'arcobaleno stesso, che portava il suo nome, era percepito come un suo segno propizio.",
+    "adesso": "Onorala come tramite di messaggi e connessioni: quando devi comunicare qualcosa di difficile, cercare la riconciliazione dopo un conflitto o portare buone notizie, invocala perché guidi le tue parole. È la dea della speranza che torna dopo la tempesta, dunque rivolgiti a lei nei momenti di ripresa e di nuovo inizio. Un bicchiere d'acqua limpida offerto alla luce può essere il suo semplice omaggio. È patrona di messaggeri, viaggi e nuovi inizi.",
+    "src": "https://www.theoi.com/Pontios/Iris.html"
+  },
+  {
+    "id": "agathos-daimon",
+    "n": "Agathòs Daímōn",
+    "gk": "Ἀγαθὸς Δαίμων",
+    "ep": "Buon Spirito della casa",
+    "cats": [
+      "personificati"
+    ],
+    "intro": "Agathòs Daímōn, il \"Buon Spirito\", è la benevola potenza che veglia sulla prosperità della casa e sulla buona sorte della famiglia. Raffigurato come un serpente, l'animale che nella tradizione greca custodisce i luoghi e la ricchezza sotterranea, è lo spirito domestico per eccellenza, garante dell'abbondanza e della protezione del focolare. Non ha un mito elaborato: la sua presenza si avverte nella quotidianità, nel benessere che rende serena la vita di una casa. Era invocato con affetto e familiarità, come un protettore vicino e discreto. A lui, alla fine del pasto, si versava la prima coppa di vino puro, in un gesto di gratitudine per i doni ricevuti. Incarnava l'idea che ogni casa fosse vegliata da uno spirito buono, da onorare perché la fortuna non abbandonasse la soglia.",
+    "dom": [
+      "Fortuna della casa",
+      "Protezione domestica",
+      "Abbondanza"
+    ],
+    "sim": [
+      "Serpente",
+      "Coppa di vino"
+    ],
+    "off": [
+      "Una libagione di vino non miscelato dopo il pasto"
+    ],
+    "allora": "Il \"buon spirito\" della casa era onorato il secondo giorno di ogni mese, a lui dedicato, con una libagione di vino puro, non mescolato ad acqua, versata dopo il pasto. Era consuetudine, terminato il pranzo, offrirgli la prima coppa in segno di riconoscenza e per propiziare la buona sorte della famiglia. La sua immagine di serpente compariva talvolta dipinta nelle case, a protezione della dispensa e del focolare.",
+    "adesso": "Onoralo con un semplice brindisi di gratitudine per la tua casa e per la buona sorte: la prima coppa versata o dedicata a lui, alla fine di un pasto, rinnova l'antico gesto. È un modo concreto di riconoscere e coltivare il benessere del luogo in cui vivi e delle persone che lo abitano. Un pensiero grato prima di sederti a tavola, o alla fine della cena, basta a farne un rito quotidiano. È il patrono discreto della prosperità domestica.",
+    "src": "https://www.theoi.com/Daimon/AgathosDaimon.html"
+  },
+  {
+    "id": "eracle",
+    "n": "Eracle",
+    "gk": "Ἡρακλῆς",
+    "ep": "Eroe della forza, protettore dai mali",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Eracle è il più grande degli eroi greci, figlio di Zeus e della mortale Alcmena, la cui intera esistenza fu segnata dall'odio di Era e dalla fatica di espiare e superare le prove. In un accesso di follia inviatagli dalla dea uccise i propri figli, e per purificarsi si sottopose al servizio del re Euristeo, compiendo le celebri Dodici Fatiche: uccise il leone di Nemea e l'Idra di Lerna, catturò la cerva di Cerinea e il cinghiale di Erimanto, ripulì le stalle di Augia, domò il toro di Creta e le cavalle di Diomede, conquistò la cintura dell'Amazzone e i buoi di Gerione, colse i pomi delle Esperidi e trascinò Cerbero fuori dall'Ade. La sua forza era immensa, ma ancor più lo era la sua capacità di resistere e perseverare. Morì tra le fiamme, avvelenato dalla veste del centauro Nesso, ma il fuoco bruciò solo la parte mortale e Zeus lo accolse tra gli dèi. Per questo fu venerato con una natura doppia, insieme eroe e divinità.",
+    "dom": [
+      "Forza fisica e morale",
+      "Coraggio nelle prove",
+      "Perseveranza e resilienza",
+      "Protezione dai mali (alexikakos)"
+    ],
+    "sim": [
+      "Clava",
+      "Pelle del leone di Nemea",
+      "Arco",
+      "Kantharos del vino"
+    ],
+    "off": [
+      "Sacrifici doppi: parte come a un dio, parte come a un eroe",
+      "Legno di pioppo bianco bruciato",
+      "Libagioni di vino e focacce",
+      "Carni arrostite nel banchetto sacro"
+    ],
+    "allora": "Unico tra gli eroi, Eracle riceveva un culto dalla natura doppia: in alcuni luoghi gli si offrivano sacrifici eroici e ctoni, versati al suolo per il defunto sotterra, in altri onori divini come a un dio olimpico. Il centro più antico del culto era Tebe, sua città natale, ma santuari, altari e giochi a lui dedicati sorgevano in tutta la Grecia. Come Alexikakos, \"colui che allontana i mali\", era invocato a difesa delle case e delle città dalle disgrazie.",
+    "adesso": "Invocalo come patrono della forza, della resilienza e della perseveranza di fronte alle \"fatiche\" della vita quotidiana, quelle prove che sembrano non finire mai. Quando affronti una difficoltà che richiede tenacia, chiedigli il coraggio di andare avanti un passo alla volta. Un altare con la clava o la pelle leonina e una libagione di vino accompagnano bene la richiesta di forza interiore. È il patrono di chi non si arrende.",
+    "src": "https://www.theoi.com/Cult/HeraklesCult.html"
+  },
+  {
+    "id": "teseo",
+    "n": "Teseo",
+    "gk": "Θησεύς",
+    "ep": "Eroe nazionale di Atene",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Teseo è l'eroe che Atene elesse a suo campione e simbolo, figlio del re Egeo (o del dio Poseidone) e di Etra. Cresciuto lontano dal padre, appena divenne abbastanza forte da sollevare la roccia sotto cui erano nascosti la spada e i sandali paterni, si mise in viaggio verso Atene per la pericolosa via di terra, liberando l'istmo dai briganti e dai mostri come Procuste e Perifete, di cui prese la clava. Ma la sua impresa più famosa fu la discesa nel Labirinto di Creta, dove uccise il Minotauro e ne uscì grazie al filo che Arianna gli aveva donato. Tornato ad Atene, dimenticò di issare le vele bianche, e il padre Egeo, credendolo morto, si gettò in mare. Divenuto re, Teseo unificò l'Attica in un solo stato con il sinecismo e fu ricordato come fondatore della città e primo garante delle sue istituzioni. La sua figura incarnava il coraggio civico e la difesa dei deboli.",
+    "dom": [
+      "Protezione di Atene",
+      "Coraggio civico",
+      "Difesa dei giovani e degli oppressi",
+      "Rifugio per chi cerca asilo"
+    ],
+    "sim": [
+      "Spada e sandali paterni",
+      "Clava di Perifete",
+      "Filo di Arianna",
+      "Nave nera"
+    ],
+    "off": [
+      "Sacrifici l'8 di ogni mese (numero a lui sacro, come a Poseidone)",
+      "Offerte ctonie versate al suolo",
+      "Libagioni e focacce eroiche"
+    ],
+    "allora": "Dopo la sua morte Teseo fu onorato come eroe protettore di Atene; il generale Cimone, seguendo un oracolo, riportò dall'isola di Sciro quelle che si credevano le sue ossa e gli eresse il Theseion, che divenne asilo sacro per schiavi e oppressi in cerca di rifugio. In suo onore si celebravano i Theseia, con sacrifici e giochi, e gli si offrivano riti eroici l'ottavo giorno di ogni mese, numero sacro a lui e a Poseidone. Era sentito come il patrono stesso dell'identità ateniese.",
+    "adesso": "Onoralo come patrono della giustizia, del coraggio civile e della difesa dei più deboli, e invocalo quando devi prendere posizione per ciò che è giusto. È anche la guida ideale nei \"labirinti\" interiori: chiedigli il filo che ti aiuti a orientarti nelle scelte difficili e a ritrovare l'uscita. Un gesto concreto di solidarietà verso chi è in difficoltà è il modo più autentico di onorarlo. Ti dona la forza di affrontare le prove con senso di comunità.",
+    "src": "https://www.theoi.com/greek-mythology/heroes.html"
+  },
+  {
+    "id": "perseo",
+    "n": "Perseo",
+    "gk": "Περσεύς",
+    "ep": "Vincitore della Gorgone",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Perseo è l'eroe che sconfisse l'impossibile e affrontò lo sguardo che pietrifica, figlio di Zeus e di Danae, la principessa che il dio raggiunse trasformato in pioggia d'oro. Rinchiuso da neonato in una cassa gettata in mare insieme alla madre, fu salvato e crebbe sull'isola di Serifo, finché il re Polidette, per liberarsi di lui, lo inviò nell'impresa che pareva mortale: portare la testa di Medusa, la Gorgone il cui sguardo trasformava in pietra ogni essere vivente. Aiutato da Atena ed Ermes, ottenne i sandali alati, l'elmo dell'invisibilità di Ade e la falce adamantina, e riuscì a decapitare Medusa guardandone soltanto il riflesso sullo scudo lucido. Al ritorno, con la testa che ancora pietrificava, liberò Andromeda incatenata a uno scoglio in pasto a un mostro marino e la prese in sposa. La testa della Gorgone, dono ad Atena, divenne l'emblema apotropaico per eccellenza. La sua storia insegnava a vincere la paura con l'astuzia e il coraggio.",
+    "dom": [
+      "Coraggio davanti alla paura",
+      "Protezione contro il male e il malocchio",
+      "Vittoria sull'impossibile",
+      "Astuzia e ingegno"
+    ],
+    "sim": [
+      "Testa della Gorgone",
+      "Falce adamantina (harpe)",
+      "Elmo dell'invisibilità",
+      "Sandali alati"
+    ],
+    "off": [
+      "Sacrifici e libagioni eroiche",
+      "Offerte ctonie versate al suolo",
+      "Doni votivi negli heroa"
+    ],
+    "allora": "Perseo era venerato come eroe a Serifo, a Micene — la città che la tradizione gli attribuiva come fondatore — ad Argo e ad Atene, dove sorgevano heroa a lui dedicati. La testa della Gorgone, il Gorgoneion, divenne un potentissimo simbolo apotropaico, scolpito su porte, scudi, mura e monete per allontanare il male e il malocchio. A lui si offrivano sacrifici e doni votivi negli eroi, secondo i riti dovuti a un eroe.",
+    "adesso": "Onoralo come patrono del coraggio e della protezione: puoi tenere un'immagine del Gorgoneion come amuleto contro le energie negative e le paure. Invocalo soprattutto quando affronti un timore che ti paralizza, ricordando che egli non guardò il mostro in faccia, ma seppe affrontarlo con astuzia, di riflesso. Chiedigli la lucidità di non lasciarti pietrificare dalla paura, ma di trovare la via per superarla. È il patrono di chi vince ciò che sembra invincibile.",
+    "src": "https://www.theoi.com/Heros/Perseus.html"
+  },
+  {
+    "id": "asclepio",
+    "n": "Asclepio",
+    "gk": "Ἀσκληπιός",
+    "ep": "Dio-eroe della guarigione",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Asclepio è il grande guaritore, figlio di Apollo e della mortale Coronide, la cui arte medica fu così perfetta da varcare i confini stessi della vita. Strappato ancora in grembo alla madre morente sulla pira, fu affidato al saggio centauro Chirone, che gli insegnò i segreti delle erbe e della medicina. Divenuto medico senza pari, imparò persino a resuscitare i morti — si dice grazie al sangue della Gorgone donatogli da Atena — e questo turbò l'ordine del cosmo: Zeus, temendo che gli uomini sfuggissero alla morte, lo fulminò. Ma poi, per compensarne l'ingiustizia o per riconoscerne i meriti, lo elevò tra gli astri e tra gli dèi, facendone il nume della medicina. Il suo bastone attorno a cui si avvolge il serpente è ancora oggi il simbolo dell'arte medica. Padre di figlie come Igea (la Salute) e Panacea, era la speranza di ogni malato del mondo antico.",
+    "dom": [
+      "Salute e guarigione",
+      "Cura del corpo e della mente",
+      "Sogni curativi (incubazione)",
+      "Medicina"
+    ],
+    "sim": [
+      "Bastone col serpente",
+      "Serpente sacro",
+      "Cane",
+      "Corona d'alloro"
+    ],
+    "off": [
+      "Sacrificio del gallo",
+      "Incubazione: dormire nel tempio per un sogno curativo",
+      "Offerte votive di parti guarite",
+      "Focacce di miele e libagioni"
+    ],
+    "allora": "Il culto di Asclepio ebbe il suo centro più celebre a Epidauro, e da lì si diffuse negli Asklepieia di Cos, Pergamo, Atene e di tutto il mondo greco. Il rito più caratteristico era l'incubazione: i malati dormivano nel recinto sacro sperando che il dio apparisse loro in sogno per indicare la cura o guarirli direttamente. I guariti offrivano immagini votive delle parti del corpo risanate e sacrificavano il gallo, come ricorda persino Socrate nelle sue ultime parole.",
+    "adesso": "È il patrono per eccellenza della salute: invocalo prima di un intervento, durante una malattia, o per la guarigione di una persona cara. Puoi dedicargli una piccola offerta prima di addormentarti, chiedendo sogni che ti indichino la via della cura, del corpo o dell'animo. Un gesto di cura verso te stesso o verso un malato è già un modo di onorarlo. Rappresenta la speranza della guarigione e l'arte di chi cura.",
+    "src": "https://www.theoi.com/Cult/AsklepiosCult.html"
+  },
+  {
+    "id": "dioscuri",
+    "n": "I Dioscuri",
+    "gk": "Διόσκουροι",
+    "ep": "Gemelli salvatori dei viaggiatori",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "I Dioscuri, Castore e Polluce, sono i gemelli splendenti che accorrono a salvare chi è in pericolo, in mare e in battaglia. Figli di Leda, nacquero da una vicenda singolare: Polluce, generato da Zeus, era immortale, mentre Castore, figlio del mortale Tindaro, era destinato a morire. Cresciuti insieme, Castore eccelleva nel domare i cavalli e Polluce nel pugilato, e presero parte a grandi imprese, come la caccia al cinghiale di Calidone e la spedizione degli Argonauti. Quando Castore cadde in una faida, Polluce, disperato, non volle godersi da solo l'immortalità e supplicò Zeus di condividere la propria sorte con il fratello: così i due gemelli alternano la loro esistenza, un giorno tra gli dèi dell'Olimpo, un giorno nell'oscurità dell'Ade. Trasformati infine nella costellazione dei Gemelli, appaiono ai marinai come il fuoco di Sant'Elmo, luci gemelle che annunciano la salvezza. Sono l'immagine più pura dell'amore fraterno e della fedeltà.",
+    "dom": [
+      "Protezione in mare e nei viaggi",
+      "Soccorso in battaglia",
+      "Patroni di cavalieri e atleti",
+      "Ospitalità e amore fraterno"
+    ],
+    "sim": [
+      "Due stelle o berretti (pilei)",
+      "Cavalli bianchi",
+      "Lance",
+      "Fuoco di Sant'Elmo"
+    ],
+    "off": [
+      "Theoxenia: banchetto con tavola imbandita per accoglierli come ospiti",
+      "Sacrifici nei porti e negli ippodromi",
+      "Libagioni per un ritorno sicuro"
+    ],
+    "allora": "Il loro culto nacque a Sparta, dove erano venerati come protettori della città e simboleggiati dal *dokana*, due travi di legno unite, e si diffuse poi in tutto il mondo greco e romano. Erano onorati con le Theoxenia, banchetti sacri in cui una tavola veniva imbandita per accoglierli come ospiti divini. Apparivano ai marinai in tempesta come luci gemelle di salvezza e ai cavalieri in battaglia su cavalli bianchi, e ricevevano sacrifici nei porti e negli ippodromi.",
+    "adesso": "Sono i patroni ideali di chi viaggia: invocali prima di partire, per la sicurezza in aereo, in auto o per mare, e per i tuoi cari lontani da casa. Puoi accendere due luci gemelle e offrire un pasto simbolico, nello spirito delle antiche Theoxenia, come segno di ospitalità e di richiesta di protezione. Rivolgiti a loro anche per rafforzare i legami fraterni e le amicizie fedeli. Vegliano sui viandanti e su chi si sostiene reciprocamente.",
+    "src": "https://www.theoi.com/Cult/DioskouroiCult.html"
+  },
+  {
+    "id": "achille",
+    "n": "Achille",
+    "gk": "Ἀχιλλεύς",
+    "ep": "Il più grande eroe di Troia",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Achille è il guerriero senza pari della guerra di Troia, figlio del mortale Peleo e della dea marina Teti, che tentò di renderlo invulnerabile immergendolo nelle acque dello Stige, tenendolo per il tallone rimasto così l'unico suo punto debole. Sapeva, per profezia, di dover scegliere tra una vita lunga e oscura e una breve ma gloriosa, e scelse la gloria. L'*Iliade* nasce dalla sua ira: offeso dal re Agamennone che gli sottrasse la schiava Briseide, si ritirò dalla battaglia, e solo la morte dell'amatissimo compagno Patroclo, ucciso da Ettore, lo riportò furente sul campo. Vendicò l'amico uccidendo Ettore e ne trascinò il corpo attorno alle mura, finché il vecchio re Priamo non venne a supplicarlo di restituire la salma del figlio, in una delle scene più commoventi del poema. Achille stesso cadde poco dopo, colpito al tallone da una freccia di Paride guidata da Apollo. Incarnava il valore assoluto e la coscienza tragica della mortalità.",
+    "dom": [
+      "Valore in battaglia",
+      "Forza guerriera",
+      "Lealtà agli amici",
+      "Protezione di chi naviga il Mar Nero"
+    ],
+    "sim": [
+      "Lancia di frassino del Pelio",
+      "Scudo forgiato da Efesto",
+      "Elmo piumato",
+      "Il tallone"
+    ],
+    "off": [
+      "Sacrifici notturni presso il tumulo",
+      "Libagioni di vino, miele e latte versate al suolo",
+      "Vittime bruciate interamente (olocausto eroico)"
+    ],
+    "allora": "Eroe semidivino, Achille era venerato al tumulo di Sigeo, presso Troia, dove i naviganti si fermavano a rendergli onore, e soprattutto come signore dell'Isola Bianca, Leuke, nel Mar Nero, dove la tradizione lo voleva trasferito dopo la morte a vivere una seconda esistenza eroica. Riceveva sacrifici notturni e olocausti, vittime bruciate interamente secondo il rito ctonio, e giochi funebri in suo onore. I marinai del Ponto Eusino lo invocavano come protettore delle loro rotte.",
+    "adesso": "Onoralo come patrono del valore e dell'eccellenza, l'*aretē* che i Greci ammiravano sopra ogni cosa, e invocalo quando affronti una sfida che richiede coraggio assoluto e dedizione totale. Una libagione al tramonto, versata al suolo, può accompagnare la richiesta di forza interiore e di fedeltà agli amici, virtù che gli furono care fino alla morte. Ricorda anche la sua lezione tragica: la gloria ha un prezzo, e la fedeltà agli affetti conta più della vittoria. È il patrono di chi dà tutto se stesso.",
+    "src": "https://www.theoi.com/greek-mythology/heroes.html"
+  },
+  {
+    "id": "orfeo",
+    "n": "Orfeo",
+    "gk": "Ὀρφεύς",
+    "ep": "Cantore divino e maestro dei misteri",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Orfeo è il cantore la cui musica aveva potere sul mondo intero, figlio della Musa Calliope e di un re tracio, o dello stesso Apollo. Quando prendeva la lira e cantava, le belve feroci si ammansivano, gli alberi si chinavano, le pietre si muovevano e persino i fiumi si fermavano ad ascoltare. Partecipò alla spedizione degli Argonauti, e con il suo canto vinse il richiamo mortale delle Sirene. Ma il mito che lo rese immortale è quello di Euridice, la sposa amata morta per il morso di un serpente: Orfeo discese vivo nell'Ade e con la sua musica commosse persino Ade e Persefone, che gli concessero di riportarla alla luce, a patto che non si voltasse a guardarla prima di uscire. All'ultimo passo, vinto dall'ansia dell'amore, si voltò, e la perse per sempre. Straziato, morì fatto a pezzi dalle Menadi, ma il suo capo continuò a cantare e a profetare. Divenne il fondatore leggendario dei misteri orfici, maestro di una via di purificazione dell'anima.",
+    "dom": [
+      "Musica e poesia",
+      "Iniziazione ai misteri",
+      "Conoscenza dell'aldilà",
+      "Purificazione dell'anima"
+    ],
+    "sim": [
+      "Lira",
+      "Corona di fiori",
+      "Animali ammansiti dal canto",
+      "Rotolo dei versi sacri"
+    ],
+    "off": [
+      "Riti orfici con libagioni incruente",
+      "Miele, latte e acqua (rifiuto del sacrificio cruento)",
+      "Inni cantati e purificazioni"
+    ],
+    "allora": "Cantore tracio, Orfeo era considerato il fondatore dei misteri orfici, una corrente religiosa che insegnava una dottrina sull'anima, sulla sua caduta nel corpo e sulla sua purificazione attraverso riti e una vita di astinenza. Il suo capo, secondo la leggenda, giunse fluttuando fino a Lesbo, dove continuava a profetare da un oracolo. Gli Orfici seguivano purificazioni, rifiutavano il sacrificio cruento e offrivano libagioni incruente di miele, latte e acqua, accompagnate da inni cantati.",
+    "adesso": "È il patrono di musicisti, poeti e di chiunque cerchi un cammino interiore e spirituale. Onoralo con la musica, con il canto di inni e con la meditazione, chiedendogli ispirazione e guida nella crescita dell'anima. Rivolgiti a lui anche nel lutto, poiché conobbe la perdita più dolorosa e ne fece canto: la sua storia insegna a trasformare il dolore in bellezza. Un momento di raccoglimento con la musica che ami è già un suo omaggio.",
+    "src": "https://www.theoi.com/greek-mythology/heroes.html"
+  },
+  {
+    "id": "bellerofonte",
+    "n": "Bellerofonte",
+    "gk": "Βελλεροφῶν",
+    "ep": "Domatore di Pegaso",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Bellerofonte è l'eroe che domò il cavallo alato e affrontò un mostro invincibile, principe di Corinto figlio di Glauco (o del dio Poseidone). La sua impresa più celebre fu domare Pegaso, il cavallo alato nato dal sangue di Medusa, riuscendovi grazie alla briglia d'oro donatagli dalla dea Atena, che gli apparve in sogno. In groppa a Pegaso affrontò la Chimera, il mostro che vomitava fuoco, dal corpo di leone, coda di serpente e testa di capra, e la uccise dall'alto conficcandole nella gola una lancia con la punta di piombo, che il fuoco stesso della bestia fece fondere soffocandola. Compì altre imprese vittoriose per il re di Licia, che gli aveva teso quelle trappole mortali, e ne sposò infine la figlia. Ma la fortuna lo rese superbo: volle salire in cielo con Pegaso fino alla dimora degli dèi, e Zeus, per punirne la tracotanza, fece imbizzarrire il cavallo. Bellerofonte precipitò e finì i suoi giorni cieco e solo, vagando in disgrazia. La sua storia è insieme un trionfo e un monito.",
+    "dom": [
+      "Domare le forze indomabili",
+      "Coraggio nelle imprese impossibili",
+      "Protezione dai mostri",
+      "Ambizione e suo limite"
+    ],
+    "sim": [
+      "Pegaso, il cavallo alato",
+      "Lancia con punta di piombo",
+      "Briglia d'oro di Atena",
+      "La Chimera"
+    ],
+    "off": [
+      "Sacrifici e libagioni nel temenos di Corinto",
+      "Offerte ctonie versate al suolo",
+      "Doni votivi ad Atena Chalinitis"
+    ],
+    "allora": "Bellerofonte era venerato come eroe a Corinto, sua patria, dove gli era dedicato un recinto sacro nel bosco di Craneion, e onorato anche in Licia, teatro delle sue imprese. A Corinto si venerava Atena Chalinitis, \"dei freni\", in ricordo della briglia d'oro con cui l'eroe aveva domato Pegaso, e le si offrivano doni votivi. Gli si tributavano sacrifici e libagioni eroiche, secondo i riti dovuti agli eroi.",
+    "adesso": "Onoralo come patrono del coraggio ambizioso e della padronanza delle proprie forze, invocandolo prima di un'impresa che sembra al di là delle tue possibilità. La sua storia insegna che, con l'aiuto giusto e la determinazione, anche le \"chimere\" più spaventose possono essere sconfitte. Ma ricorda sempre il monito della sua caduta: non lasciare che il successo si trasformi in orgoglio smisurato. Ti dona lo slancio per osare, e la saggezza di conoscere i tuoi limiti.",
+    "src": "https://www.theoi.com/Heros/Bellerophontes.html"
+  },
+  {
+    "id": "atalanta",
+    "n": "Atalanta",
+    "gk": "Ἀταλάντη",
+    "ep": "Eroina cacciatrice e corridrice",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Atalanta è l'eroina indomabile che scelse la libertà dei boschi, abbandonata alla nascita dal padre che desiderava un figlio maschio e allattata da un'orsa inviata da Artemide. Cresciuta selvaggia tra i cacciatori, divenne veloce e forte come nessun uomo, votata alla verginità sull'esempio della dea. Quando il gigantesco cinghiale di Calidone devastava le campagne, si unì ai più grandi eroi nella caccia e fu proprio lei a ferire per prima la belva, versandone il primo sangue e meritando il trofeo, che il suo ammiratore Meleagro le concesse. Nella corsa era invincibile, e per sfuggire al matrimonio impose ai pretendenti una gara mortale: chi la batteva l'avrebbe sposata, chi perdeva sarebbe morto. Nessuno la superò, finché Ippomene (o Melanione), con l'aiuto di Afrodite, lasciò cadere lungo il percorso tre mele d'oro: Atalanta si fermò a raccoglierle e perse la corsa, e con essa la sua libertà. La sua storia celebra la forza e l'autodeterminazione femminile.",
+    "dom": [
+      "Caccia e atletica",
+      "Corsa e forza fisica",
+      "Indipendenza femminile",
+      "Autodeterminazione"
+    ],
+    "sim": [
+      "Arco e frecce",
+      "Lancia da caccia",
+      "Le tre mele d'oro",
+      "Pelle di animale selvatico"
+    ],
+    "off": [
+      "Offerte votive di caccia (spesso con Artemide)",
+      "Libagioni e doni nei luoghi sacri",
+      "Primizie della caccia"
+    ],
+    "allora": "La figura di Atalanta era strettamente legata al culto di Artemide, la dea vergine della caccia di cui ella incarnava lo spirito selvatico e libero. Ricordata nella caccia calidonia e nelle gare di corsa, era onorata in luoghi dell'Arcadia e della Beozia, che se ne contendevano l'origine, con offerte votive di caccia e primizie. La sua immagine ricorreva nell'arte come modello di forza atletica femminile e di coraggio.",
+    "adesso": "È la patrona di atlete, cacciatrici e di chiunque difenda la propria indipendenza e la propria natura. Invocala per la forza fisica, per la competizione leale e per il coraggio di non tradire chi sei, anche quando il mondo ti vorrebbe diversa. La sua storia ricorda quanto sia prezioso restare fedeli alla propria libertà e non lasciarsi distrarre da \"mele d'oro\" che ci fanno perdere la corsa. Ti dona determinazione e fierezza.",
+    "src": "https://www.theoi.com/Heroine/Atalanta.html"
+  },
+  {
+    "id": "giasone",
+    "n": "Giasone",
+    "gk": "Ἰάσων",
+    "ep": "Condottiero degli Argonauti",
+    "cats": [
+      "eroi"
+    ],
+    "intro": "Giasone è l'eroe che seppe riunire i più grandi campioni della Grecia in una sola impresa, principe tessalo privato del trono di Iolco dallo zio usurpatore Pelia. Cresciuto in segreto dal centauro Chirone, tornò a reclamare il regno, e lungo la strada, avendo perso un sandalo nell'aiutare una vecchia — la dea Era travestita — si presentò calzato di uno solo, adempiendo un oracolo che Pelia temeva. Lo zio, per liberarsene, gli impose la missione apparentemente impossibile di riportare il Vello d'Oro dalla lontana Colchide. Giasone fece costruire la nave Argo e radunò un equipaggio di eroi leggendari — gli Argonauti, tra cui Eracle, Orfeo, i Dioscuri e Atalanta — affrontando con loro mille pericoli: le Simplegadi, le Arpie, i popoli ostili. Nella Colchide conquistò il Vello grazie all'aiuto della maga Medea, figlia del re, che se ne innamorò e lo salvò dalle prove mortali. Il suo nome resta legato al coraggio dell'impresa collettiva e al viaggio che aprì il mondo.",
+    "dom": [
+      "Imprese collettive",
+      "Viaggi per mare",
+      "Guida di un gruppo",
+      "Perseguire una meta comune"
+    ],
+    "sim": [
+      "Il Vello d'Oro",
+      "La nave Argo",
+      "Un solo sandalo",
+      "Lancia"
+    ],
+    "off": [
+      "Libagioni e sacrifici eroici per un viaggio propizio",
+      "Offerte alle divinità marine prima della partenza",
+      "Doni votivi lungo le rotte"
+    ],
+    "allora": "La leggenda di Giasone e degli Argonauti era tra le più antiche e amate della Grecia, e tracciò idealmente le rotte della navigazione e delle fondazioni greche nel Mediterraneo e nel Mar Nero. Molte città e luoghi lungo le coste conservavano memorie e culti legati al passaggio della nave Argo e ai suoi eroi. Gli si tributavano libagioni e sacrifici eroici, e prima delle partenze per mare si onoravano le divinità marine, come i naviganti facevano nel ricordo di quella prima grande spedizione.",
+    "adesso": "Onoralo come patrono dei progetti condivisi, dei viaggi e del lavoro di squadra, invocandolo quando devi dare inizio a un'impresa che nessuno potrebbe compiere da solo. La sua storia insegna che il successo di un grande progetto dipende dal saper riunire le persone giuste e guidarle attraverso le prove. Chiedigli la capacità di ispirare e coordinare chi è al tuo fianco verso una meta comune. È il patrono di chi salpa insieme agli altri.",
+    "src": "https://www.theoi.com/greek-mythology/heroes.html ---"
+  }
+]

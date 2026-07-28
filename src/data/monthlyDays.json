@@ -1,0 +1,61 @@
+[
+  {
+    "day": 1,
+    "gods": [
+      "selene",
+      "apollo",
+      "estia"
+    ],
+    "note": "Noumenía — la luna nuova apre il mese. Si onorano gli dèi domestici, Selene e Apollo Noumenios."
+  },
+  {
+    "day": 2,
+    "gods": [
+      "agathos-daimon"
+    ],
+    "note": "Giorno di Agathòs Daímōn, il buon spirito della casa."
+  },
+  {
+    "day": 3,
+    "gods": [
+      "atena"
+    ],
+    "note": "Giorno sacro ad Atena."
+  },
+  {
+    "day": 4,
+    "gods": [
+      "afrodite",
+      "ermes"
+    ],
+    "note": "Giorno di Afrodite ed Ermes (anche Eros ed Eracle)."
+  },
+  {
+    "day": 6,
+    "gods": [
+      "artemide"
+    ],
+    "note": "Giorno sacro ad Artemide."
+  },
+  {
+    "day": 7,
+    "gods": [
+      "apollo"
+    ],
+    "note": "Giorno sacro ad Apollo."
+  },
+  {
+    "day": 8,
+    "gods": [
+      "poseidone"
+    ],
+    "note": "Giorno di Poseidone (e dell'eroe Teseo)."
+  },
+  {
+    "day": "ultimo",
+    "gods": [
+      "ecate"
+    ],
+    "note": "Deîpnon — l'ultimo giorno del mese (luna scura). La Cena di Ecate agli incroci e la pulizia della casa chiudono il ciclo lunare."
+  }
+]

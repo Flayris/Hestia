@@ -4,7 +4,7 @@ import { Card, Label, OrbItem, Button } from '../components/ui';
 import { MoonWidget, phaseName } from '../components/MoonWidget';
 import { hellenicDate, moonPhase } from '../lib/calendar/stub';
 import { upcoming } from '../lib/notifications';
-import { sacredDay, festivalOn, byId } from '../data/content';
+import { sacredDay, festivalOn, nameOf } from '../data/content';
 import { useMyGods, useDismissed } from '../store';
 
 const GIORNI = ['domenica', 'lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì', 'sabato'];
@@ -29,7 +29,7 @@ export function Oggi() {
   const today = hellenicDate(now);
   const phase = moonPhase(now);
   const sacred = sacredDay(today.day, today.monthLength);
-  const festival = festivalOn(today.day);
+  const festival = festivalOn(today.monthName, today.day);
   const notifications = upcoming(myGods, now).filter((n) => !dismissed.includes(n.id));
 
   const clock = now.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' });
@@ -79,7 +79,7 @@ export function Oggi() {
                 {dedicati.map((id) => (
                   <OrbItem
                     key={id}
-                    name={byId(id)?.n ?? id}
+                    name={nameOf(id)}
                     onClick={() => nav(`/grimorio?dio=${id}`)}
                   />
                 ))}

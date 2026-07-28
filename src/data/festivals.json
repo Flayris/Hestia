@@ -1,0 +1,272 @@
+{
+  "Hekatombaiṓn": [
+    {
+      "d": 12,
+      "n": "Krónia",
+      "gods": [
+        "crono",
+        "zeus"
+      ],
+      "cos": "Festa del raccolto in onore di Crono e dell'età dell'oro. Serviva a ringraziare per l'abbondanza sospendendo per un giorno le gerarchie sociali, in un clima di gioia condivisa.",
+      "allora": "Festa di Crono e del raccolto: padroni e servi banchettavano insieme, sospendendo le gerarchie.",
+      "adesso": "Un pasto di ringraziamento per l'abbondanza, condiviso in semplicità e uguaglianza."
+    },
+    {
+      "d": 28,
+      "n": "Panathḗnaia",
+      "gods": [
+        "atena"
+      ],
+      "cos": "La più importante festa civica di Atene, in onore di Atena patrona della città. Serviva a rinsaldare l'identità e l'unità della comunità con processione, giochi e l'offerta del peplo.",
+      "allora": "La grande festa di Atena, patrona della città: processione, giochi e l'offerta del peplo tessuto.",
+      "adesso": "Dedica ad Atena un lavoro fatto con cura, olio d'oliva e un momento di studio o creatività."
+    }
+  ],
+  "Metageitniṓn": [
+    {
+      "d": 7,
+      "n": "Metageítnia",
+      "gods": [
+        "apollo"
+      ],
+      "cos": "Festa di Apollo legata al 'cambio di vicinato' e ai legami tra comunità. Serviva a rinnovare i rapporti di buon vicinato e l'appartenenza al gruppo.",
+      "allora": "Festa del 'cambio di vicinato', legata ad Apollo e ai legami tra comunità.",
+      "adesso": "Un gesto di buon vicinato o riconciliazione, offerto ad Apollo."
+    }
+  ],
+  "Boēdromiṓn": [
+    {
+      "d": 15,
+      "n": "Misteri Eleusini",
+      "gods": [
+        "demetra",
+        "persefone"
+      ],
+      "cos": "I più celebri misteri iniziatici della Grecia, per Demetra e Persefone. Servivano a offrire agli iniziati speranza e serenità di fronte alla morte, attraverso un'esperienza segreta e trasformativa.",
+      "allora": "I grandi Misteri di Demetra e Persefone (circa 15–21): iniziazione e speranza di rinascita oltre la morte.",
+      "adesso": "Un tempo di raccoglimento sui cicli di perdita e ritorno; offri grano e una candela."
+    },
+    {
+      "d": 27,
+      "n": "Boēdrómia",
+      "gods": [
+        "apollo"
+      ],
+      "cos": "Festa di Apollo 'che accorre in aiuto' (Boedromios). Serviva a invocarne il soccorso, in origine in battaglia, e a ringraziarlo per la protezione.",
+      "allora": "Festa di Apollo Boedromios, 'che accorre in aiuto'.",
+      "adesso": "Invoca Apollo come aiuto nei momenti difficili."
+    }
+  ],
+  "Pyanepsiṓn": [
+    {
+      "d": 7,
+      "n": "Pyanópsia",
+      "gods": [
+        "apollo"
+      ],
+      "cos": "Festa autunnale di Apollo con offerta di legumi bolliti e del ramo ornato dell'eiresiōnē. Serviva a ringraziare per il raccolto e a propiziare prosperità per l'anno.",
+      "allora": "Offerta di legumi bolliti e dell'eiresiōnē (ramo d'olivo ornato) ad Apollo.",
+      "adesso": "Cucina un piatto di legumi come offerta di gratitudine; appendi un ramoscello all'ingresso."
+    },
+    {
+      "d": 11,
+      "n": "Thesmophória",
+      "gods": [
+        "demetra"
+      ],
+      "cos": "Festa riservata alle donne in onore di Demetra Thesmophoros. Serviva a propiziare la fertilità della terra e della comunità attraverso riti femminili segreti.",
+      "allora": "Festa delle donne per Demetra Thesmophoros (11–13): fertilità e legge sacra.",
+      "adesso": "Onora i cicli della vita e la comunità; offri semi e frutti."
+    }
+  ],
+  "Maimaktēriṓn": [
+    {
+      "d": 20,
+      "n": "Pompaía",
+      "gods": [
+        "zeus"
+      ],
+      "cos": "Rito di purificazione a Zeus Meilichios, 'il Mite', alle soglie dell'inverno. Serviva a scacciare il male e a placare le tempeste della stagione fredda in arrivo.",
+      "allora": "Rito di purificazione a Zeus Meilichios, 'il Mite', contro le tempeste dell'inverno.",
+      "adesso": "Un rito di pulizia e pace interiore prima della stagione buia."
+    }
+  ],
+  "Poseideṓn": [
+    {
+      "d": 8,
+      "n": "Poseídea",
+      "gods": [
+        "poseidone"
+      ],
+      "cos": "Festa di Poseidone nel cuore dell'inverno. Serviva a onorarlo come signore del mare, delle acque e della terra, chiedendone la benevolenza.",
+      "allora": "Festa di Poseidone nel cuore dell'inverno, per il mare e la terra.",
+      "adesso": "Offri acqua e orzo a Poseidone chiedendo stabilità."
+    },
+    {
+      "d": 26,
+      "n": "Halôa",
+      "gods": [
+        "demetra",
+        "dioniso"
+      ],
+      "cos": "Festa di Demetra e Dioniso legata alla vite e ai frutti dell'inverno. Serviva a celebrare la fecondità e i doni della terra anche nella stagione fredda.",
+      "allora": "Festa di Demetra e Dioniso legata alla vite e ai frutti dell'inverno.",
+      "adesso": "Condividi vino e frutta in gratitudine per ciò che nutre."
+    }
+  ],
+  "Gamēliṓn": [
+    {
+      "d": 12,
+      "n": "Lḗnaia",
+      "gods": [
+        "dioniso"
+      ],
+      "cos": "Festa invernale di Dioniso con vino e rappresentazioni teatrali. Serviva a celebrare il dio dell'estasi e le arti sceniche nel cuore dell'inverno.",
+      "allora": "Festa invernale di Dioniso con teatro e vino.",
+      "adesso": "Una serata di arte, racconto o musica dedicata a Dioniso."
+    },
+    {
+      "d": 27,
+      "n": "Theogámia",
+      "gods": [
+        "era",
+        "zeus"
+      ],
+      "cos": "Celebrazione delle nozze sacre (Hieros Gamos) di Zeus ed Era. Serviva a onorare il matrimonio, i legami familiari e la loro protezione divina.",
+      "allora": "Le nozze sacre di Zeus ed Era, protettrici del matrimonio.",
+      "adesso": "Onora i legami d'amore e d'impegno; offri fiori a Era."
+    }
+  ],
+  "Anthestēriṓn": [
+    {
+      "d": 11,
+      "n": "Anthestḗria",
+      "gods": [
+        "dioniso"
+      ],
+      "cos": "Festa di tre giorni del vino nuovo e, insieme, della memoria dei morti. Serviva a celebrare l'arrivo della primavera aprendo le giare e a fare posto, per un tempo, alle anime dei defunti.",
+      "allora": "Festa del vino nuovo (11–13): si aprivano le giare, tra gioia e memoria dei morti.",
+      "adesso": "Assaggia qualcosa di 'nuovo', brinda a Dioniso e ricorda chi non c'è più."
+    },
+    {
+      "d": 23,
+      "n": "Diásia",
+      "gods": [
+        "zeus"
+      ],
+      "cos": "La più grande festa attica di Zeus Meilichios. Serviva alla purificazione e alla riconciliazione dell'intera comunità, con offerte propiziatorie.",
+      "allora": "La più grande festa attica di Zeus Meilichios: offerte e riconciliazione.",
+      "adesso": "Un rito di pace: sciogli un rancore, offri incenso a Zeus il Mite."
+    }
+  ],
+  "Elaphēboliṓn": [
+    {
+      "d": 6,
+      "n": "Elaphēbólia",
+      "gods": [
+        "artemide"
+      ],
+      "cos": "Festa di Artemide, in cui si offrivano dolci a forma di cervo. Serviva a onorare la dea della caccia e della natura selvaggia.",
+      "allora": "Festa di Artemide con dolci a forma di cervo.",
+      "adesso": "Offri ad Artemide un dolce e un pensiero per la natura selvaggia."
+    },
+    {
+      "d": 10,
+      "n": "Grandi Dionísie",
+      "gods": [
+        "dioniso"
+      ],
+      "cos": "Il grande festival cittadino del teatro, in onore di Dioniso (Dionisie Cittadine). Serviva a celebrare il dio mettendo in scena le tragedie e le commedie che nacquero dal suo culto.",
+      "allora": "Le Dionisie cittadine (10–16): il grande festival del teatro.",
+      "adesso": "Guarda o crea qualcosa di teatrale/artistico in onore di Dioniso."
+    }
+  ],
+  "Mounichiṓn": [
+    {
+      "d": 6,
+      "n": "Delphínia",
+      "gods": [
+        "apollo",
+        "artemide"
+      ],
+      "cos": "Rito ad Apollo e Artemide per un viaggio sereno per mare (Delphinia). Serviva a propiziare la sicurezza dei naviganti.",
+      "allora": "Rito ad Apollo e Artemide per un viaggio sereno per mare.",
+      "adesso": "Chiedi ad Apollo e Artemide protezione per i tuoi viaggi."
+    },
+    {
+      "d": 16,
+      "n": "Mounychía",
+      "gods": [
+        "artemide"
+      ],
+      "cos": "Festa di Artemide Munichia, con dolci-luna (amphiphôntes) illuminati da piccole fiamme. Serviva a onorare la dea nella sua veste lunare.",
+      "allora": "Festa di Artemide Munichia con dolci-luna illuminati.",
+      "adesso": "Accendi un piccolo dolce o candela alla luna per Artemide."
+    }
+  ],
+  "Thargēliṓn": [
+    {
+      "d": 6,
+      "n": "Thargḗlia (Artemide)",
+      "gods": [
+        "artemide"
+      ],
+      "cos": "Primo giorno delle Thargelia: nascita di Artemide e purificazione della città. Serviva a liberare la comunità dai mali e ad aprire in purezza la stagione.",
+      "allora": "Primo giorno delle Thargelia: nascita di Artemide, purificazione della città.",
+      "adesso": "Un rito di purificazione personale e gratitudine ad Artemide."
+    },
+    {
+      "d": 7,
+      "n": "Thargḗlia (Apollo)",
+      "gods": [
+        "apollo"
+      ],
+      "cos": "Secondo giorno delle Thargelia: nascita di Apollo, con l'offerta delle primizie (thargēlos). Serviva a ringraziare e purificare all'inizio della stagione dei raccolti.",
+      "allora": "Nascita di Apollo: offerta delle primizie e purificazione.",
+      "adesso": "Offri le prime primizie della stagione ad Apollo; pulisci l'altare."
+    },
+    {
+      "d": 25,
+      "n": "Plyntḗria",
+      "gods": [
+        "atena"
+      ],
+      "cos": "Festa in cui si lavava e si rivestiva l'antica statua di Atena (Plynteria). Serviva a rinnovare e ripurificare il sacro, in un momento di raccoglimento.",
+      "allora": "Si lavava e rivestiva la statua di Atena: rinnovamento del sacro.",
+      "adesso": "Pulisci e riordina il tuo spazio sacro come rinnovamento dedicato ad Atena."
+    }
+  ],
+  "Skirophoriṓn": [
+    {
+      "d": 3,
+      "n": "Arrhēphória",
+      "gods": [
+        "atena"
+      ],
+      "cos": "Rito notturno e segreto delle fanciulle al servizio di Atena (Arrhephoria). Serviva alla protezione e alla fecondità della città.",
+      "allora": "Rito notturno delle fanciulle al servizio di Atena.",
+      "adesso": "Un piccolo servizio segreto e disinteressato dedicato ad Atena."
+    },
+    {
+      "d": 12,
+      "n": "Skíra",
+      "gods": [
+        "atena",
+        "demetra"
+      ],
+      "cos": "Festa di fine anno, celebrata sotto un grande ombrello sacro, per Atena e Demetra. Serviva a chiudere l'anno ellenico e a propiziarne il ritorno prima del nuovo Hekatombaion.",
+      "allora": "Festa di fine anno sotto un grande ombrello sacro.",
+      "adesso": "Chiudi l'anno ellenico con gratitudine, prima del nuovo Hekatombaion."
+    },
+    {
+      "d": 14,
+      "n": "Dipoliéia",
+      "gods": [
+        "zeus"
+      ],
+      "cos": "Antico e solenne rito a Zeus Polieus sull'Acropoli (con la Bouphonia). Serviva a onorare Zeus come custode della città e della sua comunità.",
+      "allora": "Rito arcaico a Zeus Polieus sull'Acropoli.",
+      "adesso": "Offri incenso a Zeus custode della comunità. ---"
+    }
+  ]
+}

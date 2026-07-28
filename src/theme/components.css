@@ -437,3 +437,57 @@
   resize: vertical;
 }
 .field:focus { outline: 2px solid var(--gold-soft); outline-offset: 0; }
+
+/* ============================ schede di dettaglio ======================== */
+
+.invocation {
+  margin: 0;
+  padding: var(--s3) var(--s4);
+  border-left: 2px solid var(--gold-soft);
+  border-radius: 0 var(--r-chip) var(--r-chip) 0;
+  background: rgba(178, 138, 43, 0.07);
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.source-link {
+  display: inline-block;
+  margin-top: var(--s2);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--gold-ink);
+  text-decoration: none;
+}
+.source-link:hover { text-decoration: underline; }
+
+.sheet-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--s3);
+}
+
+.month-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s3);
+  margin-bottom: var(--s2);
+}
+.month-title__n { font-family: var(--font-serif); font-size: 20px; font-weight: 600; }
+.month-title__i { font-size: 12px; color: var(--dim); }
+
+.day-badge {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  background: rgba(178, 138, 43, 0.14);
+  font-family: var(--font-serif);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--gold-ink);
+}

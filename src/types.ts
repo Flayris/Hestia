@@ -32,6 +32,7 @@ export interface Festival {
   d: number;
   n: string;
   gods: string[];
+  cos: string;      // "Cos'è e a cosa serve"
   allora: string;
   adesso: string;
 }
@@ -41,6 +42,19 @@ export interface MonthlySacredDay {
   gods: string[];
   note: string;
 }
+
+/** Riti (parte 2) e concetti (parte 4) condividono la stessa forma. */
+export interface Rite {
+  id: string;
+  n: string;
+  sub: string;
+  cos: string;
+  allora: string;
+  adesso: string;
+  inno?: string;    // "Formula da pronunciare"
+}
+
+export type Concept = Omit<Rite, 'inno'>;
 
 /** Un giorno del calendario ateniese. Prodotto dal motore (M1), oggi dallo stub. */
 export interface HellenicDate {

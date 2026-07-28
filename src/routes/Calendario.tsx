@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Card, Label, OrbItem, Greca } from '../components/ui';
 import { BottomSheet } from '../components/BottomSheet';
 import { hellenicDate, gregorianOfDay, MONTH_NAME, YEAR_LABEL } from '../lib/calendar/stub';
-import { sacredDay, festivalOn, byId } from '../data/content';
+import { sacredDay, festivalOn, nameOf } from '../data/content';
 import { useMyGods } from '../store';
 
 const WEEKDAYS = ['L', 'M', 'M', 'G', 'V', 'S', 'D'];
@@ -22,7 +22,7 @@ export function Calendario() {
 
   const sel = selected != null ? selected : null;
   const selSacred = sel != null ? sacredDay(sel, length) : undefined;
-  const selFestival = sel != null ? festivalOn(sel) : undefined;
+  const selFestival = sel != null ? festivalOn(MONTH_NAME, sel) : undefined;
   const selGods = selSacred?.gods ?? selFestival?.gods ?? [];
 
   return (
@@ -47,7 +47,7 @@ export function Calendario() {
             {days.map((d) => {
               const g = gregorianOfDay(d);
               const sacred = sacredDay(d, length);
-              const fest = festivalOn(d);
+              const fest = festivalOn(MONTH_NAME, d);
               const mine = (sacred?.gods ?? fest?.gods ?? []).some((id) => myGods.includes(id));
               const isToday = d === today.day;
 
@@ -106,6 +106,7 @@ export function Calendario() {
               <div>
                 <Label>Festa</Label>
                 <h3 className="t-section" style={{ marginTop: 4 }}>{selFestival.n}</h3>
+                <p className="t-prose" style={{ marginTop: 'var(--s2)' }}>{selFestival.cos}</p>
                 <p className="t-label" style={{ marginTop: 'var(--s3)' }}>Allora</p>
                 <p className="t-body">{selFestival.allora}</p>
                 <p className="t-label" style={{ marginTop: 'var(--s3)' }}>Oggi puoi</p>
@@ -118,7 +119,7 @@ export function Calendario() {
                 <Label>Dèi del giorno</Label>
                 <div className="wrap" style={{ marginTop: 'var(--s3)' }}>
                   {selGods.map((id) => (
-                    <OrbItem key={id} name={byId(id)?.n ?? id} onClick={() => nav(`/grimorio?dio=${id}`)} />
+                    <OrbItem key={id} name={nameOf(id)} onClick={() => nav(`/grimorio?dio=${id}`)} />
                   ))}
                 </div>
               </div>

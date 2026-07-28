@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Card, Label, Orb } from '../components/ui';
-import { CATEGORIES, DEITIES } from '../data/content';
+import { CATEGORIES, deitiesOf } from '../data/content';
 import { useMyGods } from '../store';
 
 export function TuoiDei() {
@@ -23,7 +23,7 @@ export function TuoiDei() {
 
       <div className="stack">
         {CATEGORIES.map((c) => {
-          const list = DEITIES.filter((d) => d.cats.includes(c.key));
+          const list = deitiesOf(c.key);
           return (
             <Card key={c.key}>
               <Label>{c.sym} {c.label}</Label>

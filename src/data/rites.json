@@ -1,0 +1,47 @@
+[
+  {
+    "id": "khernips",
+    "n": "Khérnips",
+    "sub": "Purificarsi prima del rito",
+    "cos": "È il rito di purificazione con cui ci si prepara ad avvicinarsi al sacro. Serve a separare lo spazio e il tempo ordinari da quelli rituali, lavando via il *miasma* (l'impurità rituale) prima di pregare o offrire: è quasi sempre il primo gesto di ogni cerimonia.",
+    "allora": "Ci si purificava le mani e il volto con acqua in cui era stata immersa una fiamma o un tizzone spento, per separare il sacro dal quotidiano.",
+    "adesso": "Riempi una ciotola d'acqua pulita. Accendi un fiammifero o una foglia d'alloro e spegnila nell'acqua. Bagnati mani e viso: ora sei in stato rituale.",
+    "inno": "Che io sia puro e pura, per stare davanti agli dèi."
+  },
+  {
+    "id": "sponde",
+    "n": "Spondḗ",
+    "sub": "Offrire vino o liquidi",
+    "cos": "È l'offerta di un liquido versato in onore di una divinità, il gesto rituale più comune e quotidiano. Serve a condividere con il dio ciò che si beve, esprimendo rispetto e reciprocità (*kháris*); può essere un rito completo in sé o accompagnare qualsiasi altra offerta.",
+    "allora": "Si versava una porzione di vino (o miele, acqua, latte) dalla coppa, in onore del dio, prima di bere.",
+    "adesso": "Versa un poco di vino o acqua in una coppa o a terra, pronunciando il nome del dio. La prima è sempre di Estia, l'ultima anche.",
+    "inno": "A te, [nome del dio], questa libagione, con gratitudine."
+  },
+  {
+    "id": "offerta-quotidiana",
+    "n": "Offerta quotidiana",
+    "sub": "La pratica di ogni giorno",
+    "cos": "È la pratica devozionale di ogni giorno, al mattino e alla sera. Serve a mantenere vivo e costante il rapporto con gli dèi domestici nel ritmo ordinario della vita, senza bisogno di grandi cerimonie: bastano pochi gesti sinceri.",
+    "allora": "Ogni casa aveva altari domestici; si offrivano incenso, focacce e libagioni al mattino e alla sera.",
+    "adesso": "Al mattino saluta Estia e Helios che sorge; alla sera chiudi con Estia. Incenso, una candela, poche parole sincere bastano.",
+    "inno": "Dèi della mia casa, siate onorati oggi e sempre."
+  },
+  {
+    "id": "la-triade-lunare",
+    "n": "La triade lunare",
+    "sub": "Deîpnon · Noumenía · Agathòs Daímōn",
+    "cos": "Sono i tre giorni-cardine che segnano il passaggio da un mese lunare all'altro. Servono a chiudere il vecchio ciclo, aprire il nuovo e ringraziare, dando alla pratica una struttura mensile chiara e riconoscibile.",
+    "allora": "Il passaggio del mese: al Deîpnon (luna scura) la cena di Ecate e la pulizia; alla Noumenia (luna nuova) il saluto agli dèi domestici; il giorno dopo, Agathòs Daímōn.",
+    "adesso": "Tre giorni-cardine di ogni mese lunare: chiudi (Ecate), apri (Noumenia), ringrazia (Buon Spirito).",
+    "inno": "Il vecchio mese si chiude, il nuovo si apre: che sia benedetto."
+  },
+  {
+    "id": "estia-prima-e-ultima",
+    "n": "Estia prima e ultima",
+    "sub": "Il principio del focolare",
+    "cos": "È il principio che regola l'ordine di ogni rito: Estia riceve sempre la primissima e l'ultimissima offerta. Serve a 'incorniciare' ogni atto sacro nel focolare, cuore della casa e della pratica, così che tutto cominci e finisca da lei.",
+    "allora": "In ogni rito Estia riceveva la primissima e l'ultimissima offerta, come cuore e cornice del sacro.",
+    "adesso": "Comincia e concludi sempre da Estia: accendi la sua fiamma all'inizio, salutala alla fine.",
+    "inno": "Estia, principio e fine di ogni offerta. ---"
+  }
+]
