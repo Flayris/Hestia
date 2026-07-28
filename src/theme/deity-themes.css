@@ -1,368 +1,958 @@
 /* Temi divini — generato da scripts/build-deity-themes.mjs. Non modificare a mano.
-   Un accento per ciascuno dei 14 Dèi Olimpi, in versione chiara e scura.
-   Ogni colore è stato cercato fino a soddisfare il contrasto richiesto:
-   testo ≥ 4.5:1, decori ≥ 3:1. */
+   Tavolozza COMPLETA per ciascuno dei 14 Dèi Olimpi, chiara e scura:
+   sfondi, card, testo, pulsanti, barre. Tutto discende dalla coppia
+   principale · accento del dio.
+   Contrasti verificati: testo principale ≥ 7:1, testo corrente
+   ≥ 4.5:1, testo terziario ≥ 3.2:1, decori ≥ 3:1. */
 
-/* Estia · focolare e fiamma — chiaro */
-:root[data-deity='estia'] {
-  --gold: #c6752f;
-  --gold-ink: #9d5d25;
-  --gold-soft: #d6b699;
-  --terra: #aa523c;
-  --olive: #9e8447;
-  --grad-gold: linear-gradient(180deg, #a96428, #804c1e);
-  --chip-bg: #c6752f22;
-  --quote-bg: #c6752f14;
-  --glow: #f4c49ab3;
-}
-
-/* Estia · focolare e fiamma — scuro */
-:root[data-deity='estia'][data-theme='dark'] {
-  --gold: #9d5d25;
-  --gold-ink: #c2732e;
-  --gold-soft: #7c5431;
-  --terra: #c56e59;
-  --olive: #86703c;
-  --grad-gold: linear-gradient(180deg, #eecfb5, #e2af83);
-  --chip-bg: #9d5d2522;
-  --quote-bg: #9d5d2514;
-  --glow: #be702d2e;
-}
-
-/* Zeus · cielo e fulmine — chiaro */
-:root[data-deity='zeus'] {
-  --gold: #588aca;
-  --gold-ink: #386db2;
-  --gold-soft: #9eb4d1;
-  --terra: #7e6725;
-  --olive: #6c9550;
-  --grad-gold: linear-gradient(180deg, #3c74be, #305d97);
-  --chip-bg: #588aca22;
-  --quote-bg: #588aca14;
-  --glow: #a0c2eeb3;
-}
-
-/* Zeus · cielo e fulmine — scuro */
-:root[data-deity='zeus'][data-theme='dark'] {
-  --gold: #376bae;
-  --gold-ink: #5487c9;
-  --gold-soft: #375376;
-  --terra: #a2832f;
-  --olive: #5b7e44;
-  --grad-gold: linear-gradient(180deg, #b9cee9, #8badda);
-  --chip-bg: #376bae22;
-  --quote-bg: #376bae14;
-  --glow: #386db22e;
-}
-
-/* Era · pavone e melograno — chiaro */
-:root[data-deity='era'] {
-  --gold: #3c969a;
-  --gold-ink: #2f7579;
-  --gold-soft: #a1ccce;
-  --terra: #b64359;
-  --olive: #9c8640;
-  --grad-gold: linear-gradient(180deg, #338084, #255d5f);
-  --chip-bg: #3c969a22;
-  --quote-bg: #3c969a14;
-  --glow: #a4e6eab3;
-}
-
-/* Era · pavone e melograno — scuro */
-:root[data-deity='era'][data-theme='dark'] {
-  --gold: #36878c;
-  --gold-ink: #3b9297;
-  --gold-soft: #3c6f72;
-  --terra: #c76678;
-  --olive: #8a7738;
-  --grad-gold: linear-gradient(180deg, #bde3e5, #91d1d4);
-  --chip-bg: #36878c22;
-  --quote-bg: #36878c14;
-  --glow: #42a4a92e;
-}
-
-/* Poseidone · mare e tridente — chiaro */
+/* poseidone — blu mare + turchese — chiaro */
 :root[data-deity='poseidone'] {
-  --gold: #3c90c8;
-  --gold-ink: #2d719f;
-  --gold-soft: #9cbdd3;
-  --terra: #2e7673;
-  --olive: #4a967f;
-  --grad-gold: linear-gradient(180deg, #307aab, #255e83);
-  --chip-bg: #3c90c822;
-  --quote-bg: #3c90c814;
-  --glow: #9dcff0b3;
+  --sky: #d3dfe4;
+  --marble1: #f3f6f6;
+  --marble2: #e1e8ea;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fcfdfd;
+  --line: rgba(53, 95, 111, 0.2);
+  --ink: #385661;
+  --ink2: #4f7482;
+  --dim: #688e9c;
+  --gold: #2998c1;
+  --gold-ink: #207797;
+  --gold-soft: #a2c9d7;
+  --terra: #2a7983;
+  --olive: #459aa5;
+  --grad-gold: linear-gradient(180deg, #227da0, #185972);
+  --on-gold: #fcfdfd;
+  --ivory: #fcfdfd;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(246, 248, 249, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(78, 132, 152, 0.22);
+  --grip: rgba(69, 117, 135, 0.3);
+  --chip-bg: rgba(45, 165, 210, 0.14);
+  --quote-bg: rgba(45, 165, 210, 0.08);
+  --backdrop: rgba(35, 58, 68, 0.32);
+  --moon-shadow: #88a8b4;
+  --glow: #57BCC980;
+  --colonnade: rgba(55, 105, 124, 0.55);
+  --colonnade-2: rgba(49, 88, 93, 0.5);
+  --colonnade-op: 0.12;
 }
 
-/* Poseidone · mare e tridente — scuro */
+/* poseidone — blu mare + turchese — scuro */
 :root[data-deity='poseidone'][data-theme='dark'] {
-  --gold: #2c6f9b;
-  --gold-ink: #378bc3;
-  --gold-soft: #355d79;
-  --terra: #399390;
-  --olive: #40826e;
-  --grad-gold: linear-gradient(180deg, #b7d6eb, #88bbdd);
-  --chip-bg: #2c6f9b22;
-  --quote-bg: #2c6f9b14;
-  --glow: #3482b72e;
+  --sky: #1a282d;
+  --marble1: #171f21;
+  --marble2: #0e1416;
+  --card: rgba(54, 72, 78, 0.55);
+  --card-solid: #222c30;
+  --line: rgba(183, 206, 215, 0.18);
+  --ink: #8aafbc;
+  --ink2: #5e8b9c;
+  --dim: #53727e;
+  --gold: #2484a8;
+  --gold-ink: #2891b9;
+  --gold-soft: #355f6f;
+  --terra: #33929e;
+  --olive: #3c8690;
+  --grad-gold: linear-gradient(180deg, #bce2f1, #86cbe5);
+  --on-gold: #141c1f;
+  --ivory: #141c1f;
+  --surface-soft: rgba(58, 78, 85, 0.6);
+  --tabbar-bg: rgba(18, 25, 28, 0.9);
+  --field-bg: rgba(37, 50, 55, 0.85);
+  --track: rgba(154, 190, 203, 0.22);
+  --grip: rgba(171, 201, 212, 0.3);
+  --chip-bg: rgba(95, 187, 221, 0.18);
+  --quote-bg: rgba(95, 187, 221, 0.1);
+  --backdrop: rgba(7, 12, 13, 0.6);
+  --moon-shadow: #334951;
+  --glow: #57BCC92b;
+  --colonnade: rgba(184, 213, 224, 0.55);
+  --colonnade-2: rgba(208, 228, 230, 0.5);
+  --colonnade-op: 0.07;
 }
 
-/* Ade · invisibilità e cipresso — chiaro */
-:root[data-deity='ade'] {
-  --gold: #a078ba;
-  --gold-ink: #8857a8;
-  --gold-soft: #bba8c7;
-  --terra: #7f672f;
-  --olive: #5d927a;
-  --grad-gold: linear-gradient(180deg, #8f61ae, #754b91);
-  --chip-bg: #a078ba22;
-  --quote-bg: #a078ba14;
-  --glow: #cdabe3b3;
-}
-
-/* Ade · invisibilità e cipresso — scuro */
-:root[data-deity='ade'][data-theme='dark'] {
-  --gold: #8555a5;
-  --gold-ink: #9d75b8;
-  --gold-soft: #5b446a;
-  --terra: #a0823b;
-  --olive: #4c7662;
-  --grad-gold: linear-gradient(180deg, #d4c2e0, #b79acb);
-  --chip-bg: #8555a522;
-  --quote-bg: #8555a514;
-  --glow: #7d509b2e;
-}
-
-/* Apollo · sole e alloro — chiaro */
-:root[data-deity='apollo'] {
-  --gold: #a78520;
-  --gold-ink: #816718;
-  --gold-soft: #dac995;
-  --terra: #36719b;
-  --olive: #709348;
-  --grad-gold: linear-gradient(180deg, #8d711b, #634f13);
-  --chip-bg: #a7852022;
-  --quote-bg: #a7852014;
-  --glow: #f7df97b3;
-}
-
-/* Apollo · sole e alloro — scuro */
-:root[data-deity='apollo'][data-theme='dark'] {
-  --gold: #a3821f;
-  --gold-ink: #a3821f;
-  --gold-soft: #806c2d;
-  --terra: #428abd;
-  --olive: #638240;
-  --grad-gold: linear-gradient(180deg, #f0e1b2, #e7cd7e);
-  --chip-bg: #a3821f22;
-  --quote-bg: #a3821f14;
-  --glow: #c59d262e;
-}
-
-/* Artemide · luna e cerva — chiaro */
-:root[data-deity='artemide'] {
-  --gold: #7289ac;
-  --gold-ink: #556d91;
-  --gold-soft: #abb5c4;
-  --terra: #407754;
-  --olive: #a8825d;
-  --grad-gold: linear-gradient(180deg, #5c769d, #4a5e7d);
-  --chip-bg: #7289ac22;
-  --quote-bg: #7289ac14;
-  --glow: #aec2e0b3;
-}
-
-/* Artemide · luna e cerva — scuro */
-:root[data-deity='artemide'][data-theme='dark'] {
-  --gold: #536a8d;
-  --gold-ink: #6e86aa;
-  --gold-soft: #475466;
-  --terra: #4f9267;
-  --olive: #816346;
-  --grad-gold: linear-gradient(180deg, #c5cfdd, #9fafc6);
-  --chip-bg: #536a8d22;
-  --quote-bg: #536a8d14;
-  --glow: #576f942e;
-}
-
-/* Dioniso · vite ed edera — chiaro */
+/* dioniso — bordeaux + viola d’uva — chiaro */
 :root[data-deity='dioniso'] {
-  --gold: #ae72c0;
-  --gold-ink: #964dac;
-  --gold-soft: #c2a4cb;
-  --terra: #b44663;
-  --olive: #599759;
-  --grad-gold: linear-gradient(180deg, #9d56b3, #814294);
-  --chip-bg: #ae72c022;
-  --quote-bg: #ae72c014;
-  --glow: #d8a7e6b3;
+  --sky: #e3d4da;
+  --marble1: #f6f3f5;
+  --marble2: #eae1e5;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fdfcfc;
+  --line: rgba(107, 56, 76, 0.2);
+  --ink: #714657;
+  --ink2: #946075;
+  --dim: #a37b8a;
+  --gold: #d2608d;
+  --gold-ink: #c73870;
+  --gold-soft: #d4a6b8;
+  --terra: #8c5ca8;
+  --olive: #9f80b2;
+  --grad-gold: linear-gradient(180deg, #c94076, #a32e5c);
+  --on-gold: #fdfcfc;
+  --ivory: #fdfcfc;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(248, 246, 247, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(147, 83, 108, 0.22);
+  --grip: rgba(131, 73, 96, 0.3);
+  --chip-bg: rgba(199, 56, 112, 0.14);
+  --quote-bg: rgba(199, 56, 112, 0.08);
+  --backdrop: rgba(65, 37, 48, 0.32);
+  --moon-shadow: #b18b9a;
+  --glow: #8455A080;
+  --colonnade: rgba(119, 59, 83, 0.55);
+  --colonnade-2: rgba(75, 58, 85, 0.5);
+  --colonnade-op: 0.12;
 }
 
-/* Dioniso · vite ed edera — scuro */
+/* dioniso — bordeaux + viola d’uva — scuro */
 :root[data-deity='dioniso'][data-theme='dark'] {
-  --gold: #934ca9;
-  --gold-ink: #ac6fbe;
-  --gold-soft: #633f6e;
-  --terra: #c46881;
-  --olive: #487a48;
-  --grad-gold: linear-gradient(180deg, #dac0e3, #c295d0);
-  --chip-bg: #934ca922;
-  --quote-bg: #934ca914;
-  --glow: #8d49a22e;
+  --sky: #2c1b22;
+  --marble1: #21171b;
+  --marble2: #150e11;
+  --card: rgba(77, 56, 64, 0.55);
+  --card-solid: #2f2328;
+  --line: rgba(213, 185, 196, 0.18);
+  --ink: #c19aa9;
+  --ink2: #a57487;
+  --dim: #875e6e;
+  --gold: #b73467;
+  --gold-ink: #d05887;
+  --gold-soft: #6b384c;
+  --terra: #9c73b5;
+  --olive: #7d5992;
+  --grad-gold: linear-gradient(180deg, #edbfd1, #de8bac);
+  --on-gold: #1f1418;
+  --ivory: #1f1418;
+  --surface-soft: rgba(83, 59, 69, 0.6);
+  --tabbar-bg: rgba(27, 19, 22, 0.9);
+  --field-bg: rgba(54, 38, 44, 0.85);
+  --track: rgba(200, 157, 174, 0.22);
+  --grip: rgba(209, 173, 187, 0.3);
+  --chip-bg: rgba(212, 104, 146, 0.18);
+  --quote-bg: rgba(212, 104, 146, 0.1);
+  --backdrop: rgba(13, 7, 10, 0.6);
+  --moon-shadow: #4f3540;
+  --glow: #8455A02b;
+  --colonnade: rgba(221, 187, 200, 0.55);
+  --colonnade-2: rgba(221, 213, 226, 0.5);
+  --colonnade-op: 0.07;
 }
 
-/* Ermes · caduceo e strade — chiaro */
-:root[data-deity='ermes'] {
-  --gold: #5e8fa1;
-  --gold-ink: #4b7281;
-  --gold-soft: #abbec4;
-  --terra: #88662b;
-  --olive: #599184;
-  --grad-gold: linear-gradient(180deg, #517b8a, #3e5e6a);
-  --chip-bg: #5e8fa122;
-  --quote-bg: #5e8fa114;
-  --glow: #aed2e0b3;
+/* apollo — oro solare + azzurro — chiaro */
+:root[data-deity='apollo'] {
+  --sky: #e5ded2;
+  --marble1: #f6f5f3;
+  --marble2: #ebe7e0;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fdfdfc;
+  --line: rgba(112, 91, 51, 0.2);
+  --ink: #5f5035;
+  --ink2: #816e4b;
+  --dim: #988562;
+  --gold: #b98422;
+  --gold-ink: #92691b;
+  --gold-soft: #d9c5a0;
+  --terra: #2574ac;
+  --olive: #4d94c6;
+  --grad-gold: linear-gradient(180deg, #966c1c, #674a13);
+  --on-gold: #fdfdfc;
+  --ivory: #fdfdfc;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(249, 248, 246, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(154, 127, 75, 0.22);
+  --grip: rgba(137, 113, 67, 0.3);
+  --chip-bg: rgba(215, 154, 40, 0.14);
+  --quote-bg: rgba(215, 154, 40, 0.08);
+  --backdrop: rgba(69, 56, 34, 0.32);
+  --moon-shadow: #b5a587;
+  --glow: #6FB1E080;
+  --colonnade: rgba(126, 100, 53, 0.55);
+  --colonnade-2: rgba(44, 76, 99, 0.5);
+  --colonnade-op: 0.12;
 }
 
-/* Ermes · caduceo e strade — scuro */
-:root[data-deity='ermes'][data-theme='dark'] {
-  --gold: #486d7a;
-  --gold-ink: #5c8c9d;
-  --gold-soft: #475e66;
-  --terra: #a77d35;
-  --olive: #4a786d;
-  --grad-gold: linear-gradient(180deg, #c5d7dd, #9fbcc6);
-  --chip-bg: #486d7a22;
-  --quote-bg: #486d7a14;
-  --glow: #5784942e;
+/* apollo — oro solare + azzurro — scuro */
+:root[data-deity='apollo'][data-theme='dark'] {
+  --sky: #2e2719;
+  --marble1: #221e16;
+  --marble2: #16130e;
+  --card: rgba(79, 70, 54, 0.55);
+  --card-solid: #302b22;
+  --line: rgba(216, 204, 182, 0.18);
+  --ink: #baa782;
+  --ink2: #9a845a;
+  --dim: #7c6d50;
+  --gold: #ac7b20;
+  --gold-ink: #b07e21;
+  --gold-soft: #705b33;
+  --terra: #2d8dd2;
+  --olive: #316f9b;
+  --grad-gold: linear-gradient(180deg, #f2dfba, #e8c482);
+  --on-gold: #201b13;
+  --ivory: #201b13;
+  --surface-soft: rgba(86, 76, 57, 0.6);
+  --tabbar-bg: rgba(28, 25, 18, 0.9);
+  --field-bg: rgba(55, 49, 36, 0.85);
+  --track: rgba(205, 186, 152, 0.22);
+  --grip: rgba(213, 198, 169, 0.3);
+  --chip-bg: rgba(225, 178, 92, 0.18);
+  --quote-bg: rgba(225, 178, 92, 0.1);
+  --backdrop: rgba(14, 11, 7, 0.6);
+  --moon-shadow: #524732;
+  --glow: #6FB1E02b;
+  --colonnade: rgba(225, 210, 183, 0.55);
+  --colonnade-2: rgba(205, 222, 233, 0.5);
+  --colonnade-op: 0.07;
 }
 
-/* Demetra · spighe e papavero — chiaro */
-:root[data-deity='demetra'] {
-  --gold: #ae8129;
-  --gold-ink: #886620;
-  --gold-soft: #d6c299;
-  --terra: #b74534;
-  --olive: #699348;
-  --grad-gold: linear-gradient(180deg, #956f23, #6b5019);
-  --chip-bg: #ae812922;
-  --quote-bg: #ae812914;
-  --glow: #f4d69ab3;
-}
-
-/* Demetra · spighe e papavero — scuro */
-:root[data-deity='demetra'][data-theme='dark'] {
-  --gold: #9d7525;
-  --gold-ink: #a97e28;
-  --gold-soft: #7c6331;
-  --terra: #cf6454;
-  --olive: #5d8240;
-  --grad-gold: linear-gradient(180deg, #eedbb5, #e2c283);
-  --chip-bg: #9d752522;
-  --quote-bg: #9d752514;
-  --glow: #be8e2d2e;
-}
-
-/* Atena · civetta e olivo — chiaro */
+/* atena — grigio-blu + oliva — chiaro */
 :root[data-deity='atena'] {
-  --gold: #748baa;
-  --gold-ink: #556d8b;
-  --gold-soft: #abb6c4;
-  --terra: #5e7138;
-  --olive: #5e8fa1;
-  --grad-gold: linear-gradient(180deg, #5d7698, #4a5e78);
-  --chip-bg: #748baa22;
-  --quote-bg: #748baa14;
-  --glow: #afc4deb3;
+  --sky: #d9dcde;
+  --marble1: #f4f5f5;
+  --marble2: #e4e6e7;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fcfcfd;
+  --line: rgba(73, 82, 90, 0.2);
+  --ink: #4b5258;
+  --ink2: #687178;
+  --dim: #828a91;
+  --gold: #7991a4;
+  --gold-ink: #5b7286;
+  --gold-soft: #b5bdc5;
+  --terra: #6b7444;
+  --olive: #88915f;
+  --grad-gold: linear-gradient(180deg, #5f778c, #485b6b);
+  --on-gold: #fcfcfd;
+  --ivory: #fcfcfd;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(247, 247, 248, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(104, 116, 126, 0.22);
+  --grip: rgba(92, 103, 112, 0.3);
+  --chip-bg: rgba(103, 130, 152, 0.14);
+  --quote-bg: rgba(103, 130, 152, 0.08);
+  --backdrop: rgba(46, 51, 56, 0.32);
+  --moon-shadow: #989fa5;
+  --glow: #7C864F80;
+  --colonnade: rgba(79, 90, 100, 0.55);
+  --colonnade-2: rgba(78, 82, 60, 0.5);
+  --colonnade-op: 0.12;
 }
 
-/* Atena · civetta e olivo — scuro */
+/* atena — grigio-blu + oliva — scuro */
 :root[data-deity='atena'][data-theme='dark'] {
-  --gold: #536a88;
-  --gold-ink: #6e86a6;
-  --gold-soft: #485565;
-  --terra: #779047;
-  --olive: #486d7a;
-  --grad-gold: linear-gradient(180deg, #c6d0dc, #a0b0c5);
-  --chip-bg: #536a8822;
-  --quote-bg: #536a8814;
-  --glow: #5972912e;
+  --sky: #212427;
+  --marble1: #1a1c1e;
+  --marble2: #111213;
+  --card: rgba(63, 67, 70, 0.55);
+  --card-solid: #27292b;
+  --line: rgba(194, 199, 204, 0.18);
+  --ink: #a1a9af;
+  --ink2: #7c858e;
+  --dim: #676e74;
+  --gold: #546a7d;
+  --gold-ink: #6d879c;
+  --gold-soft: #49525a;
+  --terra: #808a51;
+  --olive: #737b51;
+  --grad-gold: linear-gradient(180deg, #ced7de, #a7b6c3);
+  --on-gold: #181a1b;
+  --ivory: #181a1b;
+  --surface-soft: rgba(67, 72, 76, 0.6);
+  --tabbar-bg: rgba(21, 23, 24, 0.9);
+  --field-bg: rgba(43, 46, 49, 0.85);
+  --track: rgba(171, 179, 186, 0.22);
+  --grip: rgba(185, 192, 197, 0.3);
+  --chip-bg: rgba(139, 160, 177, 0.18);
+  --quote-bg: rgba(139, 160, 177, 0.1);
+  --backdrop: rgba(9, 10, 11, 0.6);
+  --moon-shadow: #3e4347;
+  --glow: #7C864F2b;
+  --colonnade: rgba(198, 205, 210, 0.55);
+  --colonnade-2: rgba(223, 225, 214, 0.5);
+  --colonnade-op: 0.07;
 }
 
-/* Ares · lancia e ferro — chiaro */
-:root[data-deity='ares'] {
-  --gold: #cf6b68;
-  --gold-ink: #be403c;
-  --gold-soft: #d1a09e;
-  --terra: #606b80;
-  --olive: #b37d65;
-  --grad-gold: linear-gradient(180deg, #c54d49, #a73835);
-  --chip-bg: #cf6b6822;
-  --quote-bg: #cf6b6814;
-  --glow: #eea2a0b3;
-}
-
-/* Ares · lancia e ferro — scuro */
-:root[data-deity='ares'][data-theme='dark'] {
-  --gold: #b63e3a;
-  --gold-ink: #ce6764;
-  --gold-soft: #763a37;
-  --terra: #7c879c;
-  --olive: #905d47;
-  --grad-gold: linear-gradient(180deg, #e9bbb9, #da8d8b);
-  --chip-bg: #b63e3a22;
-  --quote-bg: #b63e3a14;
-  --glow: #b23c382e;
-}
-
-/* Afrodite · rosa e mirto — chiaro */
-:root[data-deity='afrodite'] {
-  --gold: #c86a89;
-  --gold-ink: #b6436a;
-  --gold-soft: #cea1b0;
-  --terra: #3d7668;
-  --olive: #b77a57;
-  --grad-gold: linear-gradient(180deg, #bd4c72, #9c3a5b);
-  --chip-bg: #c86a8922;
-  --quote-bg: #c86a8914;
-  --glow: #eba3bbb3;
-}
-
-/* Afrodite · rosa e mirto — scuro */
-:root[data-deity='afrodite'][data-theme='dark'] {
-  --gold: #af4165;
-  --gold-ink: #c76686;
-  --gold-soft: #723b4d;
-  --terra: #4b9180;
-  --olive: #925d3f;
-  --grad-gold: linear-gradient(180deg, #e6bcca, #d68fa7);
-  --chip-bg: #af416522;
-  --quote-bg: #af416514;
-  --glow: #ab3f632e;
-}
-
-/* Efesto · incudine e fuoco — chiaro */
+/* efesto — brace + ferro — chiaro */
 :root[data-deity='efesto'] {
-  --gold: #cf6f3f;
-  --gold-ink: #a7542a;
-  --gold-soft: #d6ae9a;
-  --terra: #5c6e84;
-  --olive: #ab803f;
-  --grad-gold: linear-gradient(180deg, #b45a2d, #8b4523);
-  --chip-bg: #cf6f3f22;
-  --quote-bg: #cf6f3f14;
-  --glow: #f3b89bb3;
+  --sky: #e5d7d2;
+  --marble1: #f6f4f3;
+  --marble2: #ebe3e0;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fdfcfc;
+  --line: rgba(112, 68, 51, 0.2);
+  --ink: #6c493c;
+  --ink2: #906555;
+  --dim: #a37e70;
+  --gold: #db6d42;
+  --gold-ink: #b84c23;
+  --gold-soft: #d9b0a1;
+  --terra: #6e6f78;
+  --olive: #8b8c93;
+  --grad-gold: linear-gradient(180deg, #c15025, #923c1c);
+  --on-gold: #fdfcfc;
+  --ivory: #fdfcfc;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(249, 247, 246, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(154, 97, 76, 0.22);
+  --grip: rgba(137, 86, 67, 0.3);
+  --chip-bg: rgba(214, 89, 41, 0.14);
+  --quote-bg: rgba(214, 89, 41, 0.08);
+  --backdrop: rgba(68, 43, 34, 0.32);
+  --moon-shadow: #b59487;
+  --glow: #4A4B5180;
+  --colonnade: rgba(126, 73, 53, 0.55);
+  --colonnade-2: rgba(69, 70, 73, 0.5);
+  --colonnade-op: 0.12;
 }
 
-/* Efesto · incudine e fuoco — scuro */
+/* efesto — brace + ferro — scuro */
 :root[data-deity='efesto'][data-theme='dark'] {
-  --gold: #a35229;
-  --gold-ink: #cd6937;
-  --gold-soft: #7b4b32;
-  --terra: #75879f;
-  --olive: #8d6a34;
-  --grad-gold: linear-gradient(180deg, #edc8b6, #e0a385);
-  --chip-bg: #a3522922;
-  --quote-bg: #a3522914;
-  --glow: #bc5e2f2e;
+  --sky: #2e1f19;
+  --marble1: #221916;
+  --marble2: #16100e;
+  --card: rgba(79, 61, 54, 0.55);
+  --card-solid: #302622;
+  --line: rgba(216, 191, 182, 0.18);
+  --ink: #c3a093;
+  --ink2: #a67968;
+  --dim: #866356;
+  --gold: #b04921;
+  --gold-ink: #d85f31;
+  --gold-soft: #704433;
+  --terra: #82838d;
+  --olive: #65666c;
+  --grad-gold: linear-gradient(180deg, #f2caba, #e79e82);
+  --on-gold: #201713;
+  --ivory: #201713;
+  --surface-soft: rgba(86, 65, 57, 0.6);
+  --tabbar-bg: rgba(28, 21, 18, 0.9);
+  --field-bg: rgba(55, 42, 37, 0.85);
+  --track: rgba(205, 167, 152, 0.22);
+  --grip: rgba(213, 182, 170, 0.3);
+  --chip-bg: rgba(224, 129, 92, 0.18);
+  --quote-bg: rgba(224, 129, 92, 0.1);
+  --backdrop: rgba(14, 9, 7, 0.6);
+  --moon-shadow: #523b33;
+  --glow: #4A4B512b;
+  --colonnade: rgba(225, 195, 183, 0.55);
+  --colonnade-2: rgba(218, 219, 220, 0.5);
+  --colonnade-op: 0.07;
+}
+
+/* demetra — oro grano + rosso papavero — chiaro */
+:root[data-deity='demetra'] {
+  --sky: #e4dfd2;
+  --marble1: #f6f5f3;
+  --marble2: #ebe7e0;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fdfdfc;
+  --line: rgba(111, 93, 52, 0.2);
+  --ink: #5e5236;
+  --ink2: #7c6d4b;
+  --dim: #978763;
+  --gold: #b18625;
+  --gold-ink: #8b691d;
+  --gold-soft: #d8c7a2;
+  --terra: #c74133;
+  --olive: #c97269;
+  --grad-gold: linear-gradient(180deg, #906d1e, #624a14);
+  --on-gold: #fdfdfc;
+  --ivory: #fdfdfc;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(249, 248, 246, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(152, 129, 77, 0.22);
+  --grip: rgba(135, 115, 69, 0.3);
+  --chip-bg: rgba(211, 160, 44, 0.14);
+  --quote-bg: rgba(211, 160, 44, 0.08);
+  --backdrop: rgba(68, 57, 34, 0.32);
+  --moon-shadow: #b4a788;
+  --glow: #B23A2E80;
+  --colonnade: rgba(124, 103, 54, 0.55);
+  --colonnade-2: rgba(97, 51, 46, 0.5);
+  --colonnade-op: 0.12;
+}
+
+/* demetra — oro grano + rosso papavero — scuro */
+:root[data-deity='demetra'][data-theme='dark'] {
+  --sky: #2e271a;
+  --marble1: #221e17;
+  --marble2: #16130e;
+  --card: rgba(78, 71, 54, 0.55);
+  --card-solid: #302b22;
+  --line: rgba(215, 205, 182, 0.18);
+  --ink: #b9a883;
+  --ink2: #99865c;
+  --dim: #7b6e51;
+  --gold: #a98023;
+  --gold-ink: #a98023;
+  --gold-soft: #6f5d34;
+  --terra: #d46459;
+  --olive: #b04a3f;
+  --grad-gold: linear-gradient(180deg, #f1e0bb, #e5c884);
+  --on-gold: #1f1c14;
+  --ivory: #1f1c14;
+  --surface-soft: rgba(85, 77, 57, 0.6);
+  --tabbar-bg: rgba(28, 25, 18, 0.9);
+  --field-bg: rgba(55, 49, 37, 0.85);
+  --track: rgba(204, 188, 153, 0.22);
+  --grip: rgba(212, 199, 170, 0.3);
+  --chip-bg: rgba(222, 183, 95, 0.18);
+  --quote-bg: rgba(222, 183, 95, 0.1);
+  --backdrop: rgba(14, 11, 7, 0.6);
+  --moon-shadow: #524833;
+  --glow: #B23A2E2b;
+  --colonnade: rgba(224, 212, 184, 0.55);
+  --colonnade-2: rgba(232, 209, 207, 0.5);
+  --colonnade-op: 0.07;
+}
+
+/* ares — rosso sangue + ferro — chiaro */
+:root[data-deity='ares'] {
+  --sky: #e2d4d4;
+  --marble1: #f6f4f4;
+  --marble2: #eae1e1;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fdfcfc;
+  --line: rgba(105, 58, 58, 0.2);
+  --ink: #704747;
+  --ink2: #936262;
+  --dim: #a47f7f;
+  --gold: #cf6363;
+  --gold-ink: #c44040;
+  --gold-soft: #d2a7a7;
+  --terra: #6e7078;
+  --olive: #8b8c93;
+  --grad-gold: linear-gradient(180deg, #c74848, #a43232);
+  --on-gold: #fdfcfc;
+  --ivory: #fdfcfc;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(248, 246, 246, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(145, 84, 84, 0.22);
+  --grip: rgba(129, 75, 75, 0.3);
+  --chip-bg: rgba(195, 60, 60, 0.14);
+  --quote-bg: rgba(195, 60, 60, 0.08);
+  --backdrop: rgba(65, 37, 37, 0.32);
+  --moon-shadow: #b08c8c;
+  --glow: #45464B80;
+  --colonnade: rgba(118, 61, 61, 0.55);
+  --colonnade-2: rgba(70, 70, 73, 0.5);
+  --colonnade-op: 0.12;
+}
+
+/* ares — rosso sangue + ferro — scuro */
+:root[data-deity='ares'][data-theme='dark'] {
+  --sky: #2c1c1c;
+  --marble1: #211818;
+  --marble2: #150f0f;
+  --card: rgba(76, 56, 56, 0.55);
+  --card-solid: #2e2323;
+  --line: rgba(212, 186, 186, 0.18);
+  --ink: #c29e9e;
+  --ink2: #a57878;
+  --dim: #896161;
+  --gold: #b73838;
+  --gold-ink: #cf6363;
+  --gold-soft: #693a3a;
+  --terra: #82848c;
+  --olive: #65666c;
+  --grad-gold: linear-gradient(180deg, #ecc1c1, #dc8e8e);
+  --on-gold: #1e1515;
+  --ivory: #1e1515;
+  --surface-soft: rgba(83, 60, 60, 0.6);
+  --tabbar-bg: rgba(27, 19, 19, 0.9);
+  --field-bg: rgba(53, 39, 39, 0.85);
+  --track: rgba(199, 158, 158, 0.22);
+  --grip: rgba(208, 174, 174, 0.3);
+  --chip-bg: rgba(209, 107, 107, 0.18);
+  --quote-bg: rgba(209, 107, 107, 0.1);
+  --backdrop: rgba(13, 7, 7, 0.6);
+  --moon-shadow: #4f3636;
+  --glow: #45464B2b;
+  --colonnade: rgba(220, 188, 188, 0.55);
+  --colonnade-2: rgba(218, 219, 220, 0.5);
+  --colonnade-op: 0.07;
+}
+
+/* ade — viola scuro + oro — chiaro */
+:root[data-deity='ade'] {
+  --sky: #dcd8df;
+  --marble1: #f5f4f5;
+  --marble2: #e6e4e7;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fcfcfd;
+  --line: rgba(83, 70, 93, 0.2);
+  --ink: #584e60;
+  --ink2: #776a80;
+  --dim: #8e8395;
+  --gold: #9d7fb3;
+  --gold-ink: #84609f;
+  --gold-soft: #beb2c7;
+  --terra: #846b1a;
+  --olive: #a58931;
+  --grad-gold: linear-gradient(180deg, #8966a3, #6c4e83);
+  --on-gold: #fcfcfd;
+  --ivory: #fcfcfd;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(247, 247, 248, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(117, 100, 129, 0.22);
+  --grip: rgba(104, 89, 115, 0.3);
+  --chip-bg: rgba(132, 96, 159, 0.14);
+  --quote-bg: rgba(132, 96, 159, 0.08);
+  --backdrop: rgba(52, 45, 57, 0.32);
+  --moon-shadow: #9f96a7;
+  --glow: #C9A22780;
+  --colonnade: rgba(91, 76, 103, 0.55);
+  --colonnade-2: rgba(100, 86, 42, 0.5);
+  --colonnade-op: 0.12;
+}
+
+/* ade — viola scuro + oro — scuro */
+:root[data-deity='ade'][data-theme='dark'] {
+  --sky: #242027;
+  --marble1: #1c1a1e;
+  --marble2: #121013;
+  --card: rgba(67, 62, 71, 0.55);
+  --card-solid: #29262b;
+  --line: rgba(200, 193, 205, 0.18);
+  --ink: #aca2b4;
+  --ink2: #8b7f95;
+  --dim: #716779;
+  --gold: #7c5a96;
+  --gold-ink: #9576ad;
+  --gold-soft: #53465d;
+  --terra: #ab8a21;
+  --olive: #9d832f;
+  --grad-gold: linear-gradient(180deg, #d8cce0, #b7a2c7);
+  --on-gold: #1a171c;
+  --ivory: #1a171c;
+  --surface-soft: rgba(72, 66, 77, 0.6);
+  --tabbar-bg: rgba(23, 21, 25, 0.9);
+  --field-bg: rgba(46, 42, 49, 0.85);
+  --track: rgba(180, 169, 188, 0.22);
+  --grip: rgba(192, 183, 199, 0.3);
+  --chip-bg: rgba(162, 134, 182, 0.18);
+  --quote-bg: rgba(162, 134, 182, 0.1);
+  --backdrop: rgba(10, 9, 11, 0.6);
+  --moon-shadow: #433c48;
+  --glow: #C9A2272b;
+  --colonnade: rgba(205, 196, 212, 0.55);
+  --colonnade-2: rgba(234, 227, 205, 0.5);
+  --colonnade-op: 0.07;
+}
+
+/* estia — brace del focolare + fiamma — chiaro */
+:root[data-deity='estia'] {
+  --sky: #e3d9d3;
+  --marble1: #f6f4f3;
+  --marble2: #eae4e1;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fdfcfc;
+  --line: rgba(108, 75, 55, 0.2);
+  --ink: #664d3e;
+  --ink2: #866855;
+  --dim: #9e8271;
+  --gold: #cd7741;
+  --gold-ink: #a65a2b;
+  --gold-soft: #d5b7a5;
+  --terra: #94661a;
+  --olive: #b38332;
+  --grad-gold: linear-gradient(180deg, #ae5f2d, #814622);
+  --on-gold: #fdfcfc;
+  --ivory: #fdfcfc;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(249, 247, 246, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(148, 107, 81, 0.22);
+  --grip: rgba(132, 95, 72, 0.3);
+  --chip-bg: rgba(202, 110, 53, 0.14);
+  --quote-bg: rgba(202, 110, 53, 0.08);
+  --backdrop: rgba(66, 48, 36, 0.32);
+  --moon-shadow: #b2998a;
+  --glow: #E0A94E80;
+  --colonnade: rgba(121, 82, 58, 0.55);
+  --colonnade-2: rgba(101, 79, 41, 0.5);
+  --colonnade-op: 0.12;
+}
+
+/* estia — brace del focolare + fiamma — scuro */
+:root[data-deity='estia'][data-theme='dark'] {
+  --sky: #2c221b;
+  --marble1: #211b17;
+  --marble2: #15110e;
+  --card: rgba(77, 64, 55, 0.55);
+  --card-solid: #2f2723;
+  --line: rgba(214, 195, 184, 0.18);
+  --ink: #bca190;
+  --ink2: #a07e69;
+  --dim: #826959;
+  --gold: #a2582a;
+  --gold-ink: #c66c34;
+  --gold-soft: #6c4b37;
+  --terra: #b27b1f;
+  --olive: #9f742d;
+  --grad-gold: linear-gradient(180deg, #eed1be, #e0ab89);
+  --on-gold: #1f1814;
+  --ivory: #1f1814;
+  --surface-soft: rgba(84, 68, 59, 0.6);
+  --tabbar-bg: rgba(28, 22, 18, 0.9);
+  --field-bg: rgba(54, 44, 38, 0.85);
+  --track: rgba(201, 173, 156, 0.22);
+  --grip: rgba(210, 187, 173, 0.3);
+  --chip-bg: rgba(215, 145, 101, 0.18);
+  --quote-bg: rgba(215, 145, 101, 0.1);
+  --backdrop: rgba(13, 10, 7, 0.6);
+  --moon-shadow: #503f35;
+  --glow: #E0A94E2b;
+  --colonnade: rgba(222, 200, 186, 0.55);
+  --colonnade-2: rgba(234, 223, 204, 0.5);
+  --colonnade-op: 0.07;
+}
+
+/* zeus — cielo profondo + oro del fulmine — chiaro */
+:root[data-deity='zeus'] {
+  --sky: #d5dae2;
+  --marble1: #f4f5f6;
+  --marble2: #e2e5e9;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fcfcfd;
+  --line: rgba(61, 79, 103, 0.2);
+  --ink: #445265;
+  --ink2: #5e7087;
+  --dim: #7b8a9e;
+  --gold: #6590c8;
+  --gold-ink: #4071b0;
+  --gold-soft: #a9bad0;
+  --terra: #846b1a;
+  --olive: #a48a32;
+  --grad-gold: linear-gradient(180deg, #4275b8, #335b8f);
+  --on-gold: #fcfcfd;
+  --ivory: #fcfcfd;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(246, 247, 248, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(88, 111, 142, 0.22);
+  --grip: rgba(78, 99, 126, 0.3);
+  --chip-bg: rgba(68, 120, 187, 0.14);
+  --quote-bg: rgba(68, 120, 187, 0.08);
+  --backdrop: rgba(39, 49, 63, 0.32);
+  --moon-shadow: #8e9cae;
+  --glow: #D8B33A80;
+  --colonnade: rgba(64, 86, 114, 0.55);
+  --colonnade-2: rgba(100, 87, 43, 0.5);
+  --colonnade-op: 0.12;
+}
+
+/* zeus — cielo profondo + oro del fulmine — scuro */
+:root[data-deity='zeus'][data-theme='dark'] {
+  --sky: #1d232b;
+  --marble1: #181c20;
+  --marble2: #0f1115;
+  --card: rgba(58, 65, 75, 0.55);
+  --card-solid: #24282e;
+  --line: rgba(187, 197, 211, 0.18);
+  --ink: #9aa9bb;
+  --ink2: #75879f;
+  --dim: #5f6e81;
+  --gold: #3b69a5;
+  --gold-ink: #5685c2;
+  --gold-soft: #3d4f67;
+  --terra: #aa8a22;
+  --olive: #9d832f;
+  --grad-gold: linear-gradient(180deg, #c3d4e9, #92b0d8);
+  --on-gold: #15191e;
+  --ivory: #15191e;
+  --surface-soft: rgba(61, 70, 81, 0.6);
+  --tabbar-bg: rgba(19, 22, 27, 0.9);
+  --field-bg: rgba(39, 45, 52, 0.85);
+  --track: rgba(161, 176, 196, 0.22);
+  --grip: rgba(176, 189, 206, 0.3);
+  --chip-bg: rgba(113, 152, 204, 0.18);
+  --quote-bg: rgba(113, 152, 204, 0.1);
+  --backdrop: rgba(8, 10, 13, 0.6);
+  --moon-shadow: #37414d;
+  --glow: #D8B33A2b;
+  --colonnade: rgba(190, 202, 218, 0.55);
+  --colonnade-2: rgba(234, 227, 205, 0.5);
+  --colonnade-op: 0.07;
+}
+
+/* era — verde pavone + melograno — chiaro */
+:root[data-deity='era'] {
+  --sky: #d4e3e2;
+  --marble1: #f3f6f6;
+  --marble2: #e1eae9;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fcfdfd;
+  --line: rgba(56, 107, 104, 0.2);
+  --ink: #375857;
+  --ink2: #4c7673;
+  --dim: #64908e;
+  --gold: #2c9b96;
+  --gold-ink: #237b77;
+  --gold-soft: #a6d4d1;
+  --terra: #c83c62;
+  --olive: #c76b84;
+  --grad-gold: linear-gradient(180deg, #247f7b, #185350);
+  --on-gold: #fcfdfd;
+  --ivory: #fcfdfd;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(246, 248, 248, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(83, 147, 144, 0.22);
+  --grip: rgba(73, 131, 128, 0.3);
+  --chip-bg: rgba(56, 199, 192, 0.14);
+  --quote-bg: rgba(56, 199, 192, 0.08);
+  --backdrop: rgba(37, 65, 64, 0.32);
+  --moon-shadow: #8bb1af;
+  --glow: #A32E4E80;
+  --colonnade: rgba(59, 119, 116, 0.55);
+  --colonnade-2: rgba(95, 47, 61, 0.5);
+  --colonnade-op: 0.12;
+}
+
+/* era — verde pavone + melograno — scuro */
+:root[data-deity='era'][data-theme='dark'] {
+  --sky: #1b2c2b;
+  --marble1: #172120;
+  --marble2: #0e1515;
+  --card: rgba(56, 77, 76, 0.55);
+  --card-solid: #232f2e;
+  --line: rgba(185, 213, 212, 0.18);
+  --ink: #84b3b1;
+  --ink2: #5e918f;
+  --dim: #547876;
+  --gold: #2d9f99;
+  --gold-ink: #2d9f99;
+  --gold-soft: #386b68;
+  --terra: #d36482;
+  --olive: #b14462;
+  --grad-gold: linear-gradient(180deg, #bfedeb, #8bdeda);
+  --on-gold: #141f1e;
+  --ivory: #141f1e;
+  --surface-soft: rgba(59, 83, 82, 0.6);
+  --tabbar-bg: rgba(19, 27, 27, 0.9);
+  --field-bg: rgba(38, 54, 53, 0.85);
+  --track: rgba(157, 200, 198, 0.22);
+  --grip: rgba(173, 209, 207, 0.3);
+  --chip-bg: rgba(104, 212, 207, 0.18);
+  --quote-bg: rgba(104, 212, 207, 0.1);
+  --backdrop: rgba(7, 13, 13, 0.6);
+  --moon-shadow: #354f4e;
+  --glow: #A32E4E2b;
+  --colonnade: rgba(187, 221, 219, 0.55);
+  --colonnade-2: rgba(231, 207, 214, 0.5);
+  --colonnade-op: 0.07;
+}
+
+/* artemide — argento lunare + cipresso — chiaro */
+:root[data-deity='artemide'] {
+  --sky: #d8dbde;
+  --marble1: #f4f5f5;
+  --marble2: #e4e5e7;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fcfcfd;
+  --line: rgba(71, 81, 92, 0.2);
+  --ink: #4c535c;
+  --ink2: #666f7a;
+  --dim: #818992;
+  --gold: #788fab;
+  --gold-ink: #58708e;
+  --gold-soft: #b3bcc6;
+  --terra: #5b7662;
+  --olive: #7b9481;
+  --grad-gold: linear-gradient(180deg, #5c7594, #465a71);
+  --on-gold: #fcfcfd;
+  --ivory: #fcfcfd;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(247, 247, 248, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(101, 114, 128, 0.22);
+  --grip: rgba(90, 101, 114, 0.3);
+  --chip-bg: rgba(98, 125, 157, 0.14);
+  --quote-bg: rgba(98, 125, 157, 0.08);
+  --backdrop: rgba(45, 50, 57, 0.32);
+  --moon-shadow: #969da6;
+  --glow: #6E8F7680;
+  --colonnade: rgba(77, 88, 102, 0.55);
+  --colonnade-2: rgba(66, 77, 69, 0.5);
+  --colonnade-op: 0.12;
+}
+
+/* artemide — argento lunare + cipresso — scuro */
+:root[data-deity='artemide'][data-theme='dark'] {
+  --sky: #202327;
+  --marble1: #1a1c1e;
+  --marble2: #101213;
+  --card: rgba(62, 66, 71, 0.55);
+  --card-solid: #26292b;
+  --line: rgba(193, 198, 205, 0.18);
+  --ink: #a0a8b1;
+  --ink2: #7c8692;
+  --dim: #656d76;
+  --gold: #526984;
+  --gold-ink: #6e87a5;
+  --gold-soft: #47515c;
+  --terra: #6d8d75;
+  --olive: #5b7161;
+  --grad-gold: linear-gradient(180deg, #cdd5e0, #a4b4c7);
+  --on-gold: #17191c;
+  --ivory: #17191c;
+  --surface-soft: rgba(66, 71, 76, 0.6);
+  --tabbar-bg: rgba(21, 23, 25, 0.9);
+  --field-bg: rgba(43, 46, 49, 0.85);
+  --track: rgba(170, 178, 187, 0.22);
+  --grip: rgba(184, 191, 199, 0.3);
+  --chip-bg: rgba(135, 156, 181, 0.18);
+  --quote-bg: rgba(135, 156, 181, 0.1);
+  --backdrop: rgba(9, 10, 11, 0.6);
+  --moon-shadow: #3d4248;
+  --glow: #6E8F762b;
+  --colonnade: rgba(197, 203, 211, 0.55);
+  --colonnade-2: rgba(217, 222, 218, 0.5);
+  --colonnade-op: 0.07;
+}
+
+/* ermes — argento vivo + ocra d’araldo — chiaro */
+:root[data-deity='ermes'] {
+  --sky: #d7dddf;
+  --marble1: #f4f5f5;
+  --marble2: #e3e7e8;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fcfdfd;
+  --line: rgba(69, 88, 94, 0.2);
+  --ink: #465459;
+  --ink2: #5f7177;
+  --dim: #798a90;
+  --gold: #5e94a6;
+  --gold-ink: #497583;
+  --gold-soft: #b1c3c8;
+  --terra: #916922;
+  --olive: #b0863b;
+  --grad-gold: linear-gradient(180deg, #4d7a8a, #395b66);
+  --on-gold: #fcfdfd;
+  --ivory: #fcfdfd;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(247, 248, 248, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(98, 123, 131, 0.22);
+  --grip: rgba(87, 109, 117, 0.3);
+  --chip-bg: rgba(91, 146, 164, 0.14);
+  --quote-bg: rgba(91, 146, 164, 0.08);
+  --backdrop: rgba(44, 55, 58, 0.32);
+  --moon-shadow: #94a3a8;
+  --glow: #C9922F80;
+  --colonnade: rgba(74, 97, 105, 0.55);
+  --colonnade-2: rgba(98, 79, 45, 0.5);
+  --colonnade-op: 0.12;
+}
+
+/* ermes — argento vivo + ocra d’araldo — scuro */
+:root[data-deity='ermes'][data-theme='dark'] {
+  --sky: #1f2628;
+  --marble1: #1a1d1e;
+  --marble2: #101314;
+  --card: rgba(61, 69, 72, 0.55);
+  --card-solid: #262a2c;
+  --line: rgba(192, 203, 206, 0.18);
+  --ink: #9babb0;
+  --ink2: #748990;
+  --dim: #617075;
+  --gold: #497583;
+  --gold-ink: #578c9d;
+  --gold-soft: #45585e;
+  --terra: #ae7e29;
+  --olive: #997433;
+  --grad-gold: linear-gradient(180deg, #cbdce2, #a0c0ca);
+  --on-gold: #171b1c;
+  --ivory: #171b1c;
+  --surface-soft: rgba(65, 74, 78, 0.6);
+  --tabbar-bg: rgba(21, 24, 25, 0.9);
+  --field-bg: rgba(42, 48, 50, 0.85);
+  --track: rgba(168, 184, 189, 0.22);
+  --grip: rgba(182, 196, 200, 0.3);
+  --chip-bg: rgba(130, 172, 186, 0.18);
+  --quote-bg: rgba(130, 172, 186, 0.1);
+  --backdrop: rgba(9, 11, 12, 0.6);
+  --moon-shadow: #3c4649;
+  --glow: #C9922F2b;
+  --colonnade: rgba(195, 208, 213, 0.55);
+  --colonnade-2: rgba(233, 223, 206, 0.5);
+  --colonnade-op: 0.07;
+}
+
+/* afrodite — rosa + mirto — chiaro */
+:root[data-deity='afrodite'] {
+  --sky: #e1d5da;
+  --marble1: #f6f4f5;
+  --marble2: #e9e2e5;
+  --card: rgba(255, 255, 255, 0.62);
+  --card-solid: #fdfcfc;
+  --line: rgba(101, 62, 77, 0.2);
+  --ink: #694956;
+  --ink2: #8b6473;
+  --dim: #9e7f8b;
+  --gold: #c56d8f;
+  --gold-ink: #b64973;
+  --gold-soft: #ceabb9;
+  --terra: #46776c;
+  --olive: #63978b;
+  --grad-gold: linear-gradient(180deg, #b95079, #953c5e);
+  --on-gold: #fdfcfc;
+  --ivory: #fdfcfc;
+  --surface-soft: rgba(255, 255, 255, 0.72);
+  --tabbar-bg: rgba(248, 246, 247, 0.88);
+  --field-bg: rgba(255, 255, 255, 0.8);
+  --track: rgba(139, 90, 109, 0.22);
+  --grip: rgba(124, 80, 97, 0.3);
+  --chip-bg: rgba(182, 73, 115, 0.14);
+  --quote-bg: rgba(182, 73, 115, 0.08);
+  --backdrop: rgba(62, 40, 49, 0.32);
+  --moon-shadow: #ad909b;
+  --glow: #6BA89A80;
+  --colonnade: rgba(112, 66, 84, 0.55);
+  --colonnade-2: rgba(60, 83, 77, 0.5);
+  --colonnade-op: 0.12;
+}
+
+/* afrodite — rosa + mirto — scuro */
+:root[data-deity='afrodite'][data-theme='dark'] {
+  --sky: #2a1d22;
+  --marble1: #20181b;
+  --marble2: #140f11;
+  --card: rgba(74, 58, 64, 0.55);
+  --card-solid: #2d2428;
+  --line: rgba(210, 188, 196, 0.18);
+  --ink: #bc9faa;
+  --ink2: #9f7a88;
+  --dim: #83636f;
+  --gold: #a8436a;
+  --gold-ink: #c26689;
+  --gold-soft: #653e4d;
+  --terra: #538d80;
+  --olive: #517b71;
+  --grad-gold: linear-gradient(180deg, #e8c5d2, #d596ae);
+  --on-gold: #1d1619;
+  --ivory: #1d1619;
+  --surface-soft: rgba(81, 62, 69, 0.6);
+  --tabbar-bg: rgba(26, 20, 22, 0.9);
+  --field-bg: rgba(52, 40, 45, 0.85);
+  --track: rgba(195, 162, 175, 0.22);
+  --grip: rgba(205, 178, 188, 0.3);
+  --chip-bg: rgba(200, 116, 149, 0.18);
+  --quote-bg: rgba(200, 116, 149, 0.1);
+  --backdrop: rgba(12, 8, 10, 0.6);
+  --moon-shadow: #4c3840;
+  --glow: #6BA89A2b;
+  --colonnade: rgba(217, 191, 201, 0.55);
+  --colonnade-2: rgba(214, 225, 222, 0.5);
+  --colonnade-op: 0.07;
 }
