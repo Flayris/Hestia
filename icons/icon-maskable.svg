@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Variante maskable: contenuto dentro la safe zone centrale (80%) -->
+  <rect width="512" height="512" fill="#c2410c"/>
+  <g transform="translate(256 256) scale(0.62) translate(-256 -256)">
+    <path d="M256 128c40 44 60 78 60 108a60 60 0 0 1-120 0c0-14 5-28 14-42-4 30-22 34-22 62a68 68 0 0 0 136 0c0-46-30-92-68-128z" fill="#fed7aa"/>
+    <path d="M256 208c22 26 34 46 34 64a34 34 0 0 1-68 0c0-18 12-38 34-64z" fill="#fff7ed"/>
+    <rect x="152" y="352" width="208" height="24" rx="12" fill="#fed7aa"/>
+  </g>
+</svg>
