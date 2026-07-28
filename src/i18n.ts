@@ -18,10 +18,8 @@ const it = {
   language: 'Lingua', italian: 'Italiano', english: 'Inglese',
   deityTheme: 'Tema divino',
   defaultTheme: 'Oro di casa (predefinito)',
-  deityThemeNote: 'I colori vengono dai simboli di ciascun dio.',
   yourName: 'Il tuo nome',
   namePlaceholder: 'come vuoi essere salutata',
-  contentNote: 'Le schede del Grimorio restano in italiano.',
   close: 'Chiudi',
 
   // home
@@ -119,10 +117,8 @@ const en: Dict = {
   language: 'Language', italian: 'Italian', english: 'English',
   deityTheme: 'Divine theme',
   defaultTheme: 'Household gold (default)',
-  deityThemeNote: 'The colours come from each god’s symbols.',
   yourName: 'Your name',
   namePlaceholder: 'how you’d like to be greeted',
-  contentNote: 'Grimoire entries remain in Italian.',
   close: 'Close',
 
   moonPhase: 'Moon phase',

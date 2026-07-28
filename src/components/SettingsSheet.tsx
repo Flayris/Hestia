@@ -39,9 +39,6 @@ export function SettingsSheet({ open, onClose }: { open: boolean; onClose: () =>
               onChange={(v) => set('lang', v)}
             />
           </div>
-          <p className="t-second" style={{ marginTop: 'var(--s2)', color: 'var(--dim)' }}>
-            {t.contentNote}
-          </p>
         </div>
 
         <div>
@@ -57,9 +54,6 @@ export function SettingsSheet({ open, onClose }: { open: boolean; onClose: () =>
               <option key={d.id} value={d.id}>{d.n}</option>
             ))}
           </select>
-          <p className="t-second" style={{ marginTop: 'var(--s2)', color: 'var(--dim)' }}>
-            {t.deityThemeNote}
-          </p>
         </div>
 
         <div>
