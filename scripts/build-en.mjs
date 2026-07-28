@@ -112,6 +112,26 @@ for (const d of godsEn) {
   }
 }
 
+/**
+ * I TITOLI sono la parte che sfugge più facilmente, perché molti sono
+ * traslitterazioni greche che vanno lasciate stare (Khérnips, Krónia, Kháris).
+ * Qui si cercano solo gli indizi inequivocabilmente italiani: articoli,
+ * preposizioni e parole che in inglese non esisterebbero.
+ */
+const TITOLI_IT = /(^|\s)(il|lo|la|i|gli|le|dei|del|della|delle|dèi|una|un|e|di|a|prima|ultima|tuo|quotidiana|lunare|grandi|misteri)(\s|$)/i;
+const controllaTitolo = (etichetta, testo) => {
+  if (typeof testo === 'string' && TITOLI_IT.test(testo)) {
+    problems.push(`${etichetta}: il titolo "${testo}" sembra ancora in italiano`);
+  }
+};
+
+for (const r of ritesEn) { controllaTitolo(`riti/${r.id}`, r.n); controllaTitolo(`riti/${r.id} (sub)`, r.sub); }
+for (const c of conceptsEn) { controllaTitolo(`concetti/${c.id}`, c.n); controllaTitolo(`concetti/${c.id} (sub)`, c.sub); }
+for (const [month, list] of Object.entries(festivalsEn)) {
+  for (const f of list) controllaTitolo(`feste/${month}:${f.d}`, f.n);
+}
+for (const d of godsEn) { controllaTitolo(`dèi/${d.id}`, d.n); controllaTitolo(`dèi/${d.id} (epiteto)`, d.ep); }
+
 console.log(`\ndèi ${godsEn.length} · feste ${Object.values(festivalsEn).flat().length} · riti ${ritesEn.length} · concetti ${conceptsEn.length} · giorni sacri ${monthlyEn.length}`);
 
 if (problems.length) {

@@ -37,7 +37,7 @@
   "Boēdromiṓn": [
     {
       "d": 15,
-      "n": "Misteri Eleusini",
+      "n": "Eleusinian Mysteries",
       "gods": [
         "demetra",
         "persefone"
@@ -172,7 +172,7 @@
     },
     {
       "d": 10,
-      "n": "Grandi Dionísie",
+      "n": "Great Dionysia",
       "gods": [
         "dioniso"
       ],
@@ -207,7 +207,7 @@
   "Thargēliṓn": [
     {
       "d": 6,
-      "n": "Thargḗlia (Artemide)",
+      "n": "Thargḗlia (Artemis)",
       "gods": [
         "artemide"
       ],

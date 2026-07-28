@@ -17,6 +17,7 @@ export default {
       adesso: 'A gesture of good neighbourliness or reconciliation, offered to Apollo.',
     },
     'Boēdromiṓn:15': {
+      n: 'Eleusinian Mysteries',
       cos: 'The most famous initiatory mysteries of Greece, for Demeter and Persephone. They served to offer the initiates hope and serenity in the face of death, through a secret and transformative experience.',
       allora: 'The great Mysteries of Demeter and Persephone (about the 15th–21st): initiation and the hope of rebirth beyond death.',
       adesso: 'A time of reflection on the cycles of loss and return; offer grain and a candle.',
@@ -77,6 +78,7 @@ export default {
       adesso: 'Offer Artemis a cake and a thought for wild nature.',
     },
     'Elaphēboliṓn:10': {
+      n: 'Great Dionysia',
       cos: 'The great civic festival of the theatre, in honour of Dionysus (the City Dionysia). It served to celebrate the god by staging the tragedies and comedies that were born of his cult.',
       allora: 'The City Dionysia (10th–16th): the great festival of the theatre.',
       adesso: 'Watch or create something theatrical or artistic in honour of Dionysus.',
@@ -92,6 +94,7 @@ export default {
       adesso: 'Light a small cake or candle to the moon for Artemis.',
     },
     'Thargēliṓn:6': {
+      n: 'Thargḗlia (Artemis)',
       cos: 'The first day of the Thargelia: the birth of Artemis and the purification of the city. It served to free the community from evils and to open the season in purity.',
       allora: 'First day of the Thargelia: the birth of Artemis, the purification of the city.',
       adesso: 'A rite of personal purification and gratitude to Artemis.',
@@ -139,6 +142,7 @@ export default {
       inno: 'To you, [name of the god], this libation, with gratitude.',
     },
     'offerta-quotidiana': {
+      n: 'Daily offering',
       sub: 'The everyday practice',
       cos: 'This is the devotional practice of every day, morning and evening. It serves to keep the relationship with the household gods alive and constant in the ordinary rhythm of life, with no need for great ceremonies: a few sincere gestures are enough.',
       allora: 'Every house had domestic altars; incense, cakes and libations were offered morning and evening.',
@@ -146,6 +150,7 @@ export default {
       inno: 'Gods of my house, be honoured today and always.',
     },
     'la-triade-lunare': {
+      n: 'The lunar triad',
       sub: 'Deipnon · Noumenia · Agathos Daimon',
       cos: 'These are the three hinge days that mark the passage from one lunar month to the next. They serve to close the old cycle, open the new one and give thanks, giving the practice a clear and recognisable monthly structure.',
       allora: 'The turning of the month: at the Deipnon (dark moon) Hekate’s supper and the cleaning; at the Noumenia (new moon) the greeting to the household gods; the day after, Agathos Daimon.',
@@ -153,6 +158,7 @@ export default {
       inno: 'The old month closes, the new one opens: may it be blessed.',
     },
     'estia-prima-e-ultima': {
+      n: 'Hestia first and last',
       sub: 'The principle of the hearth',
       cos: 'This is the principle that governs the order of every rite: Hestia always receives the very first and the very last offering. It serves to "frame" every sacred act within the hearth, the heart of the house and of the practice, so that everything begins and ends with her.',
       allora: 'In every rite Hestia received the very first and the very last offering, as the heart and the frame of the sacred.',
@@ -169,18 +175,21 @@ export default {
       adesso: 'Do not pray only to ask: give thanks, offer, cultivate the relationship. Gratitude is already half the rite.',
     },
     'miasma-e-katharsis': {
+      n: 'Míasma and kátharsis',
       sub: 'Ritual purity',
       cos: 'This is the pair of concepts that explains ritual impurity (miasma) and purification (katharsis). It serves to make clear why one purifies oneself before rites: not out of moral guilt, but out of respect for the distance between the sacred and the everyday.',
       allora: 'Certain events (death, birth, blood) brought miasma, a ritual impurity — not a moral one — to be washed away before approaching the sacred.',
       adesso: 'Purify yourself with the khernips before the rite; enter the sacred space with clean hands and a clean mind.',
     },
     'dei-ctonii': {
+      n: 'The chthonic gods',
       sub: 'How to honour Hades, Hekate, the dead',
       cos: 'This is the particular way of honouring the divinities of the world below and the dead, different from the Olympian way. It serves to show how to address Hades, Hekate and the ancestors with the right gestures: downwards, onto the ground, with restraint.',
       allora: 'To the gods below one offered downwards, onto the ground, often at night, without tasting the offering.',
       adesso: 'For ancestors, mourning and transformation: libations poured onto the ground, with respect, at a quiet moment in the evening.',
     },
     'il-tuo-altare-domestico': {
+      n: 'Your household altar',
       sub: 'How to begin',
       cos: 'This is the sacred space of the home, the physical centre of daily practice. It serves as a point of reference for offerings, prayers and the presence of the gods in everyday life: it need not be large, but it must be cared for.',
       allora: 'The household altar was the centre of practice: the hearth, images of the gods, a place for offerings.',
