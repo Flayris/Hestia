@@ -93,8 +93,6 @@ const it = {
 
   // musica
   forPractice: 'Per la pratica',
-  yourLinks: 'I tuoi link',
-  yourLinksSoon: 'Qui potrai salvare le tue playlist.',
   musicNote: 'Solo collegamenti esterni: nessuna musica è contenuta nell’app.',
 
   // i tuoi dèi
@@ -184,8 +182,6 @@ const en: Dict = {
   mood: (n: number) => `Mood ${n}`,
 
   forPractice: 'For practice',
-  yourLinks: 'Your links',
-  yourLinksSoon: 'Here you’ll be able to save your own playlists.',
   musicNote: 'External links only: no music is bundled in the app.',
 
   noneChosen: 'None chosen: the ones you pick are highlighted in the calendar.',

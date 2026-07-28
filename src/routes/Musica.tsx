@@ -39,13 +39,6 @@ export function Musica() {
           ))}
         </Card>
 
-        <Card>
-          <Label>{t.yourLinks}</Label>
-          <p className="empty" style={{ padding: 'var(--s4) 0 0' }}>
-            {t.yourLinksSoon}
-          </p>
-        </Card>
-
         <p className="t-second" style={{ textAlign: 'center', color: 'var(--dim)' }}>
           {t.musicNote}
         </p>
