@@ -7,10 +7,10 @@ import {
   dataEllenica, shiftMonth, weekday, gregorianoBreve, gregorianoEsteso, etichettaAnno,
   type HellenicMonth,
 } from '../lib/calendar';
-import { useContent } from '../data/content';
+import { useContent } from '../data/useContent';
 import { useMyGods } from '../store';
 import { useSettings } from '../settings';
-import { useT } from '../i18n';
+import { useT } from '../useT';
 
 export function Calendario() {
   const nav = useNavigate();

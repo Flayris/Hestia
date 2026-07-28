@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { Label } from './ui';
-import { useT } from '../i18n';
+import { useT } from '../useT';
 
 /* Blocchi ricorrenti delle schede — SPEC.md §3.3 */
 

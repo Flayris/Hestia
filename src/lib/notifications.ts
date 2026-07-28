@@ -2,7 +2,7 @@ import type { AppNotification } from '../types';
 import { content } from '../data/content';
 import { dataEllenica, shiftMonth, type HellenicMonth } from './calendar';
 import { dict } from '../i18n';
-import type { Lang } from '../settings';
+import type { Lang } from '../lang';
 
 /**
  * Centro notifiche — SPEC.md §6.

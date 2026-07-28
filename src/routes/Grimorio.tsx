@@ -3,10 +3,11 @@ import { useSearchParams } from 'react-router-dom';
 import { Card, Label, Orb, SegmentedControl } from '../components/ui';
 import { BottomSheet } from '../components/BottomSheet';
 import { Block, TextBlock, ListBlock, Invocation, Source } from '../components/Sections';
-import { useContent, MONTHS } from '../data/content';
+import { MONTHS } from '../data/content';
+import { useContent } from '../data/useContent';
 import type { CategoryKey, Festival, Rite, Concept } from '../types';
 import { useMyGods } from '../store';
-import { useT } from '../i18n';
+import { useT } from '../useT';
 
 type Tab = 'dei' | 'riti' | 'feste' | 'altro';
 

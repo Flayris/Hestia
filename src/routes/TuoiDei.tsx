@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { Card, Label, Orb } from '../components/ui';
-import { useContent } from '../data/content';
-import { useT } from '../i18n';
+import { useContent } from '../data/useContent';
+import { useT } from '../useT';
 import { useMyGods } from '../store';
 
 export function TuoiDei() {

@@ -1,8 +1,9 @@
 import { BottomSheet } from './BottomSheet';
 import { SegmentedControl, Label } from './ui';
 import { useSettings, type Theme, type Lang } from '../settings';
-import { useT } from '../i18n';
-import { useContent } from '../data/content';
+import { useT } from '../useT';
+import { useContent } from '../data/useContent';
+import { Notifiche } from './Notifiche';
 
 export function SettingsSheet({ open, onClose }: { open: boolean; onClose: () => void }) {
   const { settings, set } = useSettings();
@@ -55,6 +56,8 @@ export function SettingsSheet({ open, onClose }: { open: boolean; onClose: () =>
             ))}
           </select>
         </div>
+
+        <Notifiche />
 
         <div>
           <Label>{t.yourName}</Label>

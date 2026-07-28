@@ -5,10 +5,10 @@ import { MoonWidget, phaseIndex } from '../components/MoonWidget';
 import { SettingsSheet, SettingsButton } from '../components/SettingsSheet';
 import { dataEllenica, moonPhase, gregorianoEsteso, etichettaAnno } from '../lib/calendar';
 import { upcoming } from '../lib/notifications';
-import { useContent } from '../data/content';
+import { useContent } from '../data/useContent';
 import { useMyGods, useDismissed } from '../store';
 import { useSettings } from '../settings';
-import { useT } from '../i18n';
+import { useT } from '../useT';
 
 function useNow(intervalMs = 1000) {
   const [now, setNow] = useState(() => new Date());

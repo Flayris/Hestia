@@ -1,8 +1,9 @@
 import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import type { ReactNode } from 'react';
 
+import type { Lang } from './lang';
+export type { Lang };
 export type Theme = 'light' | 'dark';
-export type Lang = 'it' | 'en';
 
 export interface Settings {
   theme: Theme;

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Card, Label, Button } from '../components/ui';
 import { dataEllenica, dayToDate } from '../lib/calendar';
 import { useDiary } from '../store';
-import { useT } from '../i18n';
+import { useT } from '../useT';
 import { Backup } from '../components/Backup';
 
 const MOODS = ['🙏', '🌿', '☀️', '🌙', '🔥', '💧'];

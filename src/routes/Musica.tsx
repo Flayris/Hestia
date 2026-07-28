@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { Card, Label } from '../components/ui';
 import { MUSIC } from '../data/content';
-import { useT } from '../i18n';
+import { useT } from '../useT';
 import { useSettings } from '../settings';
 
 export function Musica() {

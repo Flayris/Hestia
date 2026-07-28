@@ -1,6 +1,6 @@
 import { locate, today, dayToDate, type Day, type Located, type HellenicMonth } from './athenian';
 import { dict } from '../../i18n';
-import type { Lang } from '../../settings';
+import type { Lang } from '../../lang';
 
 export * from './athenian';
 export { newMoonJD, juneSolsticeJD } from './meeus';

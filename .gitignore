@@ -28,3 +28,7 @@ node_modules/
 dist/
 dev-dist/
 *.tsbuildinfo
+
+# Local Netlify folder
+.netlify
+.netlify/

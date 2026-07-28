@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { Button } from './ui';
 import { esporta, importa } from '../db';
-import { useT } from '../i18n';
+import { useT } from '../useT';
 
 /**
  * Salvataggio e ripristino del diario — SPEC.md §8.

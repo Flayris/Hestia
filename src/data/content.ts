@@ -1,5 +1,5 @@
 import type { Category, CategoryKey, Deity, Festival, MonthlySacredDay, Rite, Concept } from '../types';
-import { useSettings, type Lang } from '../settings';
+import type { Lang } from '../lang';
 
 import godsIt from './it/gods.json';
 import festivalsIt from './it/festivals.json';
@@ -93,9 +93,6 @@ export function content(lang: Lang) {
 
   return { ...b, byId, nameOf, deitiesOf, CATEGORIES: categories, festivalsOfMonth, festivalOn, sacredDay };
 }
-
-/** Hook per i componenti: contenuti nella lingua corrente. */
-export const useContent = () => content(useSettings().settings.lang);
 
 /** Musica — SPEC.md §3.5. Sono link, non cambiano con la lingua. */
 export const MUSIC = [

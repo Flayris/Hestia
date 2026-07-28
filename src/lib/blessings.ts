@@ -1,6 +1,6 @@
 import { content } from '../data/content';
 import { locate, type Day } from './calendar/athenian';
-import type { Lang } from '../settings';
+import type { Lang } from '../lang';
 
 /**
  * Il buongiorno e la buonanotte.

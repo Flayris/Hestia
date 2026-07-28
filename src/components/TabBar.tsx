@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { useT } from '../i18n';
+import { useT } from '../useT';
 
 /* Barra inferiore a 4 voci — SPEC.md §3. Musica e "I tuoi dèi" stanno nella Home. */
 
