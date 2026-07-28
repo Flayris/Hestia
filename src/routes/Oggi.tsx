@@ -45,7 +45,7 @@ export function Oggi() {
 
       <div className="stack">
         {/* --- data ellenica --- */}
-        <Card>
+        <Card style={{ textAlign: 'center' }}>
           <p className="t-date">{today.month.name} {today.day}</p>
           <p className="t-second" style={{ marginTop: 2 }}>{gregorian}</p>
           <p className="t-second" style={{ color: 'var(--dim)' }}>{etichettaAnno(today.month)}</p>
@@ -65,11 +65,11 @@ export function Oggi() {
           </div>
         </Card>
 
-        {/* --- dedica di oggi --- */}
-        <section>
-          <Label>Dedica di oggi</Label>
-          <div style={{ height: 'var(--s2)' }} />
-          {dedicati.length > 0 ? (
+        {/* --- dedica di oggi: solo nei giorni che hanno davvero una dedica --- */}
+        {dedicati.length > 0 && (
+          <section>
+            <Label>Dedica di oggi</Label>
+            <div style={{ height: 'var(--s2)' }} />
             <Card>
               <div className="wrap" style={{ justifyContent: 'center', gap: 'var(--s4)' }}>
                 {dedicati.map((id) => (
@@ -82,15 +82,8 @@ export function Oggi() {
               </div>
               {sacred && <p className="t-second" style={{ marginTop: 'var(--s4)' }}>{sacred.note}</p>}
             </Card>
-          ) : (
-            <Card>
-              <p className="empty" style={{ padding: 0 }}>
-                Nessun giorno sacro oggi: è un giorno ordinario del mese.
-                <br />La pratica quotidiana resta — Estia prima e ultima.
-              </p>
-            </Card>
-          )}
-        </section>
+          </section>
+        )}
 
         {/* --- festa di oggi --- */}
         {festival && (
@@ -101,14 +94,12 @@ export function Oggi() {
           </Card>
         )}
 
-        {/* --- centro notifiche --- */}
+        {/* --- centro notifiche: solo i prossimi 7 giorni, e solo se c'è qualcosa --- */}
+        {notifications.length > 0 && (
         <section>
-          <Label>Prossimamente</Label>
+          <Label>Questa settimana</Label>
           <div style={{ height: 'var(--s2)' }} />
           <div className="stack-s">
-            {notifications.length === 0 && (
-              <Card><p className="empty" style={{ padding: 0 }}>Nulla in arrivo nei prossimi giorni.</p></Card>
-            )}
             {notifications.map((n) => (
               <Card key={n.id}>
                 <div className="row--between">
@@ -128,6 +119,7 @@ export function Oggi() {
             ))}
           </div>
         </section>
+        )}
 
         {/* --- scorciatoie --- */}
         <div className="wrap" style={{ justifyContent: 'center', marginTop: 'var(--s2)' }}>

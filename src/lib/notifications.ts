@@ -8,7 +8,12 @@ import { dataEllenica, shiftMonth, type HellenicMonth } from './calendar';
  * Scala di preavviso: 1 mese → 1 settimana → 2 giorni → oggi.
  */
 
-const ORIZZONTE = 31;   // giorni
+/**
+ * Orizzonte del centro notifiche: una settimana.
+ * Più in là l'elenco si affolla di cose ancora lontane e smette di essere utile.
+ * Il calendario resta il posto dove guardare oltre.
+ */
+const ORIZZONTE = 7;   // giorni
 
 export function relativeDay(n: number): string {
   if (n === 0) return 'oggi';
