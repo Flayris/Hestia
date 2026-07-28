@@ -8,6 +8,8 @@ export interface Settings {
   theme: Theme;
   lang: Lang;
   name: string;
+  /** id di uno dei 14 Dèi Olimpi, oppure '' per l'oro di casa. */
+  deity: string;
 }
 
 const KEY = 'hestia.settings';
@@ -16,7 +18,7 @@ const KEY = 'hestia.settings';
 function initial(): Settings {
   const prefersDark = typeof matchMedia === 'function'
     && matchMedia('(prefers-color-scheme: dark)').matches;
-  const base: Settings = { theme: prefersDark ? 'dark' : 'light', lang: 'it', name: '' };
+  const base: Settings = { theme: prefersDark ? 'dark' : 'light', lang: 'it', name: '', deity: '' };
   try {
     const raw = localStorage.getItem(KEY);
     return raw ? { ...base, ...JSON.parse(raw) } : base;
@@ -37,6 +39,9 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     try { localStorage.setItem(KEY, JSON.stringify(settings)); } catch { /* quota piena */ }
     document.documentElement.dataset.theme = settings.theme;
     document.documentElement.lang = settings.lang;
+    // L'attributo assente riporta ai token d'oro di base.
+    if (settings.deity) document.documentElement.dataset.deity = settings.deity;
+    else delete document.documentElement.dataset.deity;
   }, [settings]);
 
   const value = useMemo(() => ({

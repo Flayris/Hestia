@@ -1,0 +1,368 @@
+/* Temi divini — generato da scripts/build-deity-themes.mjs. Non modificare a mano.
+   Un accento per ciascuno dei 14 Dèi Olimpi, in versione chiara e scura.
+   Ogni colore è stato cercato fino a soddisfare il contrasto richiesto:
+   testo ≥ 4.5:1, decori ≥ 3:1. */
+
+/* Estia · focolare e fiamma — chiaro */
+:root[data-deity='estia'] {
+  --gold: #c6752f;
+  --gold-ink: #9d5d25;
+  --gold-soft: #d6b699;
+  --terra: #aa523c;
+  --olive: #9e8447;
+  --grad-gold: linear-gradient(180deg, #a96428, #804c1e);
+  --chip-bg: #c6752f22;
+  --quote-bg: #c6752f14;
+  --glow: #f4c49ab3;
+}
+
+/* Estia · focolare e fiamma — scuro */
+:root[data-deity='estia'][data-theme='dark'] {
+  --gold: #9d5d25;
+  --gold-ink: #c2732e;
+  --gold-soft: #7c5431;
+  --terra: #c56e59;
+  --olive: #86703c;
+  --grad-gold: linear-gradient(180deg, #eecfb5, #e2af83);
+  --chip-bg: #9d5d2522;
+  --quote-bg: #9d5d2514;
+  --glow: #be702d2e;
+}
+
+/* Zeus · cielo e fulmine — chiaro */
+:root[data-deity='zeus'] {
+  --gold: #588aca;
+  --gold-ink: #386db2;
+  --gold-soft: #9eb4d1;
+  --terra: #7e6725;
+  --olive: #6c9550;
+  --grad-gold: linear-gradient(180deg, #3c74be, #305d97);
+  --chip-bg: #588aca22;
+  --quote-bg: #588aca14;
+  --glow: #a0c2eeb3;
+}
+
+/* Zeus · cielo e fulmine — scuro */
+:root[data-deity='zeus'][data-theme='dark'] {
+  --gold: #376bae;
+  --gold-ink: #5487c9;
+  --gold-soft: #375376;
+  --terra: #a2832f;
+  --olive: #5b7e44;
+  --grad-gold: linear-gradient(180deg, #b9cee9, #8badda);
+  --chip-bg: #376bae22;
+  --quote-bg: #376bae14;
+  --glow: #386db22e;
+}
+
+/* Era · pavone e melograno — chiaro */
+:root[data-deity='era'] {
+  --gold: #3c969a;
+  --gold-ink: #2f7579;
+  --gold-soft: #a1ccce;
+  --terra: #b64359;
+  --olive: #9c8640;
+  --grad-gold: linear-gradient(180deg, #338084, #255d5f);
+  --chip-bg: #3c969a22;
+  --quote-bg: #3c969a14;
+  --glow: #a4e6eab3;
+}
+
+/* Era · pavone e melograno — scuro */
+:root[data-deity='era'][data-theme='dark'] {
+  --gold: #36878c;
+  --gold-ink: #3b9297;
+  --gold-soft: #3c6f72;
+  --terra: #c76678;
+  --olive: #8a7738;
+  --grad-gold: linear-gradient(180deg, #bde3e5, #91d1d4);
+  --chip-bg: #36878c22;
+  --quote-bg: #36878c14;
+  --glow: #42a4a92e;
+}
+
+/* Poseidone · mare e tridente — chiaro */
+:root[data-deity='poseidone'] {
+  --gold: #3c90c8;
+  --gold-ink: #2d719f;
+  --gold-soft: #9cbdd3;
+  --terra: #2e7673;
+  --olive: #4a967f;
+  --grad-gold: linear-gradient(180deg, #307aab, #255e83);
+  --chip-bg: #3c90c822;
+  --quote-bg: #3c90c814;
+  --glow: #9dcff0b3;
+}
+
+/* Poseidone · mare e tridente — scuro */
+:root[data-deity='poseidone'][data-theme='dark'] {
+  --gold: #2c6f9b;
+  --gold-ink: #378bc3;
+  --gold-soft: #355d79;
+  --terra: #399390;
+  --olive: #40826e;
+  --grad-gold: linear-gradient(180deg, #b7d6eb, #88bbdd);
+  --chip-bg: #2c6f9b22;
+  --quote-bg: #2c6f9b14;
+  --glow: #3482b72e;
+}
+
+/* Ade · invisibilità e cipresso — chiaro */
+:root[data-deity='ade'] {
+  --gold: #a078ba;
+  --gold-ink: #8857a8;
+  --gold-soft: #bba8c7;
+  --terra: #7f672f;
+  --olive: #5d927a;
+  --grad-gold: linear-gradient(180deg, #8f61ae, #754b91);
+  --chip-bg: #a078ba22;
+  --quote-bg: #a078ba14;
+  --glow: #cdabe3b3;
+}
+
+/* Ade · invisibilità e cipresso — scuro */
+:root[data-deity='ade'][data-theme='dark'] {
+  --gold: #8555a5;
+  --gold-ink: #9d75b8;
+  --gold-soft: #5b446a;
+  --terra: #a0823b;
+  --olive: #4c7662;
+  --grad-gold: linear-gradient(180deg, #d4c2e0, #b79acb);
+  --chip-bg: #8555a522;
+  --quote-bg: #8555a514;
+  --glow: #7d509b2e;
+}
+
+/* Apollo · sole e alloro — chiaro */
+:root[data-deity='apollo'] {
+  --gold: #a78520;
+  --gold-ink: #816718;
+  --gold-soft: #dac995;
+  --terra: #36719b;
+  --olive: #709348;
+  --grad-gold: linear-gradient(180deg, #8d711b, #634f13);
+  --chip-bg: #a7852022;
+  --quote-bg: #a7852014;
+  --glow: #f7df97b3;
+}
+
+/* Apollo · sole e alloro — scuro */
+:root[data-deity='apollo'][data-theme='dark'] {
+  --gold: #a3821f;
+  --gold-ink: #a3821f;
+  --gold-soft: #806c2d;
+  --terra: #428abd;
+  --olive: #638240;
+  --grad-gold: linear-gradient(180deg, #f0e1b2, #e7cd7e);
+  --chip-bg: #a3821f22;
+  --quote-bg: #a3821f14;
+  --glow: #c59d262e;
+}
+
+/* Artemide · luna e cerva — chiaro */
+:root[data-deity='artemide'] {
+  --gold: #7289ac;
+  --gold-ink: #556d91;
+  --gold-soft: #abb5c4;
+  --terra: #407754;
+  --olive: #a8825d;
+  --grad-gold: linear-gradient(180deg, #5c769d, #4a5e7d);
+  --chip-bg: #7289ac22;
+  --quote-bg: #7289ac14;
+  --glow: #aec2e0b3;
+}
+
+/* Artemide · luna e cerva — scuro */
+:root[data-deity='artemide'][data-theme='dark'] {
+  --gold: #536a8d;
+  --gold-ink: #6e86aa;
+  --gold-soft: #475466;
+  --terra: #4f9267;
+  --olive: #816346;
+  --grad-gold: linear-gradient(180deg, #c5cfdd, #9fafc6);
+  --chip-bg: #536a8d22;
+  --quote-bg: #536a8d14;
+  --glow: #576f942e;
+}
+
+/* Dioniso · vite ed edera — chiaro */
+:root[data-deity='dioniso'] {
+  --gold: #ae72c0;
+  --gold-ink: #964dac;
+  --gold-soft: #c2a4cb;
+  --terra: #b44663;
+  --olive: #599759;
+  --grad-gold: linear-gradient(180deg, #9d56b3, #814294);
+  --chip-bg: #ae72c022;
+  --quote-bg: #ae72c014;
+  --glow: #d8a7e6b3;
+}
+
+/* Dioniso · vite ed edera — scuro */
+:root[data-deity='dioniso'][data-theme='dark'] {
+  --gold: #934ca9;
+  --gold-ink: #ac6fbe;
+  --gold-soft: #633f6e;
+  --terra: #c46881;
+  --olive: #487a48;
+  --grad-gold: linear-gradient(180deg, #dac0e3, #c295d0);
+  --chip-bg: #934ca922;
+  --quote-bg: #934ca914;
+  --glow: #8d49a22e;
+}
+
+/* Ermes · caduceo e strade — chiaro */
+:root[data-deity='ermes'] {
+  --gold: #5e8fa1;
+  --gold-ink: #4b7281;
+  --gold-soft: #abbec4;
+  --terra: #88662b;
+  --olive: #599184;
+  --grad-gold: linear-gradient(180deg, #517b8a, #3e5e6a);
+  --chip-bg: #5e8fa122;
+  --quote-bg: #5e8fa114;
+  --glow: #aed2e0b3;
+}
+
+/* Ermes · caduceo e strade — scuro */
+:root[data-deity='ermes'][data-theme='dark'] {
+  --gold: #486d7a;
+  --gold-ink: #5c8c9d;
+  --gold-soft: #475e66;
+  --terra: #a77d35;
+  --olive: #4a786d;
+  --grad-gold: linear-gradient(180deg, #c5d7dd, #9fbcc6);
+  --chip-bg: #486d7a22;
+  --quote-bg: #486d7a14;
+  --glow: #5784942e;
+}
+
+/* Demetra · spighe e papavero — chiaro */
+:root[data-deity='demetra'] {
+  --gold: #ae8129;
+  --gold-ink: #886620;
+  --gold-soft: #d6c299;
+  --terra: #b74534;
+  --olive: #699348;
+  --grad-gold: linear-gradient(180deg, #956f23, #6b5019);
+  --chip-bg: #ae812922;
+  --quote-bg: #ae812914;
+  --glow: #f4d69ab3;
+}
+
+/* Demetra · spighe e papavero — scuro */
+:root[data-deity='demetra'][data-theme='dark'] {
+  --gold: #9d7525;
+  --gold-ink: #a97e28;
+  --gold-soft: #7c6331;
+  --terra: #cf6454;
+  --olive: #5d8240;
+  --grad-gold: linear-gradient(180deg, #eedbb5, #e2c283);
+  --chip-bg: #9d752522;
+  --quote-bg: #9d752514;
+  --glow: #be8e2d2e;
+}
+
+/* Atena · civetta e olivo — chiaro */
+:root[data-deity='atena'] {
+  --gold: #748baa;
+  --gold-ink: #556d8b;
+  --gold-soft: #abb6c4;
+  --terra: #5e7138;
+  --olive: #5e8fa1;
+  --grad-gold: linear-gradient(180deg, #5d7698, #4a5e78);
+  --chip-bg: #748baa22;
+  --quote-bg: #748baa14;
+  --glow: #afc4deb3;
+}
+
+/* Atena · civetta e olivo — scuro */
+:root[data-deity='atena'][data-theme='dark'] {
+  --gold: #536a88;
+  --gold-ink: #6e86a6;
+  --gold-soft: #485565;
+  --terra: #779047;
+  --olive: #486d7a;
+  --grad-gold: linear-gradient(180deg, #c6d0dc, #a0b0c5);
+  --chip-bg: #536a8822;
+  --quote-bg: #536a8814;
+  --glow: #5972912e;
+}
+
+/* Ares · lancia e ferro — chiaro */
+:root[data-deity='ares'] {
+  --gold: #cf6b68;
+  --gold-ink: #be403c;
+  --gold-soft: #d1a09e;
+  --terra: #606b80;
+  --olive: #b37d65;
+  --grad-gold: linear-gradient(180deg, #c54d49, #a73835);
+  --chip-bg: #cf6b6822;
+  --quote-bg: #cf6b6814;
+  --glow: #eea2a0b3;
+}
+
+/* Ares · lancia e ferro — scuro */
+:root[data-deity='ares'][data-theme='dark'] {
+  --gold: #b63e3a;
+  --gold-ink: #ce6764;
+  --gold-soft: #763a37;
+  --terra: #7c879c;
+  --olive: #905d47;
+  --grad-gold: linear-gradient(180deg, #e9bbb9, #da8d8b);
+  --chip-bg: #b63e3a22;
+  --quote-bg: #b63e3a14;
+  --glow: #b23c382e;
+}
+
+/* Afrodite · rosa e mirto — chiaro */
+:root[data-deity='afrodite'] {
+  --gold: #c86a89;
+  --gold-ink: #b6436a;
+  --gold-soft: #cea1b0;
+  --terra: #3d7668;
+  --olive: #b77a57;
+  --grad-gold: linear-gradient(180deg, #bd4c72, #9c3a5b);
+  --chip-bg: #c86a8922;
+  --quote-bg: #c86a8914;
+  --glow: #eba3bbb3;
+}
+
+/* Afrodite · rosa e mirto — scuro */
+:root[data-deity='afrodite'][data-theme='dark'] {
+  --gold: #af4165;
+  --gold-ink: #c76686;
+  --gold-soft: #723b4d;
+  --terra: #4b9180;
+  --olive: #925d3f;
+  --grad-gold: linear-gradient(180deg, #e6bcca, #d68fa7);
+  --chip-bg: #af416522;
+  --quote-bg: #af416514;
+  --glow: #ab3f632e;
+}
+
+/* Efesto · incudine e fuoco — chiaro */
+:root[data-deity='efesto'] {
+  --gold: #cf6f3f;
+  --gold-ink: #a7542a;
+  --gold-soft: #d6ae9a;
+  --terra: #5c6e84;
+  --olive: #ab803f;
+  --grad-gold: linear-gradient(180deg, #b45a2d, #8b4523);
+  --chip-bg: #cf6f3f22;
+  --quote-bg: #cf6f3f14;
+  --glow: #f3b89bb3;
+}
+
+/* Efesto · incudine e fuoco — scuro */
+:root[data-deity='efesto'][data-theme='dark'] {
+  --gold: #a35229;
+  --gold-ink: #cd6937;
+  --gold-soft: #7b4b32;
+  --terra: #75879f;
+  --olive: #8d6a34;
+  --grad-gold: linear-gradient(180deg, #edc8b6, #e0a385);
+  --chip-bg: #a3522922;
+  --quote-bg: #a3522914;
+  --glow: #bc5e2f2e;
+}

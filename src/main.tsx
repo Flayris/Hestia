@@ -15,6 +15,7 @@ import '@fontsource/inter/600.css';
 import './theme/tokens.css';
 import './theme/base.css';
 import './theme/components.css';
+import './theme/deity-themes.css';
 
 import { App } from './App';
 import { SettingsProvider } from './settings';

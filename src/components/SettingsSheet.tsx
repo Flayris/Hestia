@@ -2,10 +2,13 @@ import { BottomSheet } from './BottomSheet';
 import { SegmentedControl, Label } from './ui';
 import { useSettings, type Theme, type Lang } from '../settings';
 import { useT } from '../i18n';
+import { useContent } from '../data/content';
 
 export function SettingsSheet({ open, onClose }: { open: boolean; onClose: () => void }) {
   const { settings, set } = useSettings();
   const t = useT();
+  // I 14 Dèi Olimpi, presi dal Grimorio nella lingua in uso.
+  const olimpi = useContent().deitiesOf('olimpi');
 
   return (
     <BottomSheet open={open} onClose={onClose} title={t.settings}>
@@ -38,6 +41,24 @@ export function SettingsSheet({ open, onClose }: { open: boolean; onClose: () =>
           </div>
           <p className="t-second" style={{ marginTop: 'var(--s2)', color: 'var(--dim)' }}>
             {t.contentNote}
+          </p>
+        </div>
+
+        <div>
+          <Label>{t.deityTheme}</Label>
+          <select
+            className="field"
+            style={{ marginTop: 'var(--s2)' }}
+            value={settings.deity}
+            onChange={(e) => set('deity', e.target.value)}
+          >
+            <option value="">{t.defaultTheme}</option>
+            {olimpi.map((d) => (
+              <option key={d.id} value={d.id}>{d.n} — {d.ep}</option>
+            ))}
+          </select>
+          <p className="t-second" style={{ marginTop: 'var(--s2)', color: 'var(--dim)' }}>
+            {t.deityThemeNote}
           </p>
         </div>
 
