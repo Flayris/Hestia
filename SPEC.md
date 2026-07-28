@@ -123,11 +123,18 @@ body {
 
 ### 2.4 Tipografia
 
-Due famiglie, **self-hosted** in `public/fonts` (i font di Google via CDN non funzionano
+Due famiglie, **self-hosted** via `@fontsource` (i font di Google via CDN non funzionano
 offline, e l'app deve funzionare offline).
 
-- **Cormorant Garamond** (serif) — titoli, numeri, data ellenica, orologio.
+- **EB Garamond** (serif) — titoli, numeri, data ellenica, orologio, greco.
 - **Inter** (sans) — testo corrente, etichette, UI.
+
+> **Perché non Cormorant Garamond** (indicato nel brief): non contiene **alcun glifo greco**
+> — verificato sui sottoinsiemi del pacchetto, che sono solo latin, latin-ext, cyrillic e
+> vietnamese. In un'app dove ogni scheda porta il nome greco (Ἑστία, Ἀπόλλων) il testo
+> sarebbe ricaduto su un font di sistema, con stacco visibile. Cormorant non copre nemmeno
+> la `ṓ` di *Hekatombaiṓn* nel sottoinsieme base. EB Garamond copre latin, latin-ext, greek
+> e **greek-ext** (politonico): tutto ciò che serve, con la stessa impronta da garamond.
 
 | Ruolo | Font | Dimensione | Peso | Interlinea | Note |
 |---|---|---|---|---|---|
