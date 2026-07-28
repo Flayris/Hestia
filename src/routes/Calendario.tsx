@@ -31,7 +31,7 @@ export function Calendario() {
   return (
     <main className="screen">
       <header className="appbar app-chrome">
-        <div style={{ width: '100%' }}>
+        <div className="cal-header">
           <p className="t-label">Calendario ateniese</p>
 
           <div className="cal-nav">
@@ -54,7 +54,7 @@ export function Calendario() {
           </div>
 
           {!eMeseCorrente && (
-            <button className="chip" onClick={() => setMese(oggi.month)} style={{ marginTop: 'var(--s2)' }}>
+            <button className="chip" onClick={() => setMese(oggi.month)}>
               ↩ torna a oggi
             </button>
           )}

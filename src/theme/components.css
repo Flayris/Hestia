@@ -302,7 +302,11 @@
   justify-content: space-between;
   gap: var(--s2);
 }
-.cal-nav__title { flex: 1; min-width: 0; }
+.cal-nav__title { flex: 1; min-width: 0; text-align: center; }
+
+/* Intestazione del calendario centrata: titolo, anno, etichetta e chip. */
+.cal-header { width: 100%; text-align: center; }
+.cal-header .chip { margin: var(--s2) auto 0; }
 .cal-nav__btn {
   display: grid;
   place-items: center;
