@@ -54,7 +54,7 @@ export function SettingsSheet({ open, onClose }: { open: boolean; onClose: () =>
           >
             <option value="">{t.defaultTheme}</option>
             {olimpi.map((d) => (
-              <option key={d.id} value={d.id}>{d.n} — {d.ep}</option>
+              <option key={d.id} value={d.id}>{d.n}</option>
             ))}
           </select>
           <p className="t-second" style={{ marginTop: 'var(--s2)', color: 'var(--dim)' }}>
