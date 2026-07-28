@@ -1,8 +1,18 @@
-# Hestia
+# Hestía
 
-PWA (Progressive Web App) in sviluppo.
+Grimorio in formato app per la pratica della religione ellenica: calendario ateniese lunare,
+archivio di dèi ed eroi, riti e feste, diario spirituale. PWA, installabile su iPhone.
 
-## Struttura
+## Documenti
+
+| File | Contenuto |
+|---|---|
+| [`SPEC.md`](./SPEC.md) | **Cosa** costruiamo: design system, schermate, modello dati, motore del calendario, fonti |
+| [`PLAN.md`](./PLAN.md) | **In che ordine**: decisioni prese, milestone M0–M9, rischi aperti |
+
+## Struttura attuale
+
+> Scaffold provvisorio: verrà sostituito in M0 da Vite + React + TypeScript.
 
 ```
 Hestia/
